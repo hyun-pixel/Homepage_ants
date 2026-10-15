@@ -1,0 +1,1193 @@
+{
+  "required": [
+    {
+      "file": "user-finder.png",
+      "header": 80,
+      "overflow": false,
+      "photo": {
+        "h": 633.59375,
+        "w": 528
+      },
+      "scroll": [
+        0,
+        0
+      ],
+      "text": [
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "전체 향수",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "나의 향 찾기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "브랜드 이야기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "46.8px",
+          "size": "36px",
+          "text": "좋아하는 기분으로,나의 향 찾기.",
+          "weight": "350"
+        },
+        {
+          "lineHeight": "33.6px",
+          "size": "24px",
+          "text": "어떤 향의 느낌에 가장 끌리나요?",
+          "weight": "450"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "맑고 단정한 향",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "밝고 싱그러운 향",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "은은하고 차분한 향",
+          "weight": "400"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/find-your-scent/",
+      "viewport": [
+        2089,
+        1408
+      ],
+      "pixels": [
+        2089,
+        1408
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "desktop-finder.png",
+      "header": 80,
+      "overflow": false,
+      "photo": {
+        "h": 633.59375,
+        "w": 528
+      },
+      "scroll": [
+        0,
+        0
+      ],
+      "text": [
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "전체 향수",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "나의 향 찾기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "브랜드 이야기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "46.8px",
+          "size": "36px",
+          "text": "좋아하는 기분으로,나의 향 찾기.",
+          "weight": "350"
+        },
+        {
+          "lineHeight": "33.6px",
+          "size": "24px",
+          "text": "어떤 향의 느낌에 가장 끌리나요?",
+          "weight": "450"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "맑고 단정한 향",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "밝고 싱그러운 향",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "은은하고 차분한 향",
+          "weight": "400"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/find-your-scent/",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "desktop-error.png",
+      "header": 80,
+      "overflow": false,
+      "photo": {
+        "h": 633.59375,
+        "w": 528
+      },
+      "scroll": [
+        0,
+        190
+      ],
+      "text": [
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "전체 향수",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "나의 향 찾기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "브랜드 이야기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "46.8px",
+          "size": "36px",
+          "text": "좋아하는 기분으로,나의 향 찾기.",
+          "weight": "350"
+        },
+        {
+          "lineHeight": "33.6px",
+          "size": "24px",
+          "text": "어떤 향의 느낌에 가장 끌리나요?",
+          "weight": "450"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "맑고 단정한 향",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "밝고 싱그러운 향",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "은은하고 차분한 향",
+          "weight": "400"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/find-your-scent/",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "desktop-choice-focus.png",
+      "header": 80,
+      "overflow": false,
+      "photo": {
+        "h": 633.59375,
+        "w": 528
+      },
+      "scroll": [
+        0,
+        86
+      ],
+      "text": [
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "전체 향수",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "나의 향 찾기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "브랜드 이야기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "46.8px",
+          "size": "36px",
+          "text": "좋아하는 기분으로,나의 향 찾기.",
+          "weight": "350"
+        },
+        {
+          "lineHeight": "33.6px",
+          "size": "24px",
+          "text": "어떤 향의 느낌에 가장 끌리나요?",
+          "weight": "450"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "맑고 단정한 향",
+          "weight": "450"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "밝고 싱그러운 향",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "은은하고 차분한 향",
+          "weight": "400"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/find-your-scent/",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "desktop-step2.png",
+      "header": 80,
+      "overflow": false,
+      "photo": {
+        "h": 633.59375,
+        "w": 528
+      },
+      "scroll": [
+        0,
+        164
+      ],
+      "text": [
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "전체 향수",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "나의 향 찾기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "브랜드 이야기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "46.8px",
+          "size": "36px",
+          "text": "좋아하는 기분으로,나의 향 찾기.",
+          "weight": "350"
+        },
+        {
+          "lineHeight": "33.6px",
+          "size": "24px",
+          "text": "어떤 순간에 함께하고 싶나요?",
+          "weight": "450"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "아침을 시작할 때",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "기분 전환이 필요할 때",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "편안하게 쉬고 싶을 때",
+          "weight": "400"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/find-your-scent/",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "desktop-step3.png",
+      "header": 80,
+      "overflow": false,
+      "photo": {
+        "h": 633.59375,
+        "w": 528
+      },
+      "scroll": [
+        0,
+        164
+      ],
+      "text": [
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "전체 향수",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "나의 향 찾기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "브랜드 이야기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "46.8px",
+          "size": "36px",
+          "text": "좋아하는 기분으로,나의 향 찾기.",
+          "weight": "350"
+        },
+        {
+          "lineHeight": "33.6px",
+          "size": "24px",
+          "text": "향에서 어떤 기분이 남았으면 좋겠나요?",
+          "weight": "450"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "밝고 가벼운 산뜻함",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "포근하고 부드러운 여운",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "싱그럽고 차분한 여백",
+          "weight": "400"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/find-your-scent/",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "desktop-result.png",
+      "header": 80,
+      "overflow": false,
+      "photo": {
+        "h": 660,
+        "w": 528
+      },
+      "scroll": [
+        0,
+        0
+      ],
+      "text": [
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "전체 향수",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "나의 향 찾기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "브랜드 이야기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "37.8px",
+          "size": "28px",
+          "text": "당신의 일상과닮은 향을 찾았어요.",
+          "weight": "350"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/find-your-scent/",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "mobile-finder.png",
+      "header": 64,
+      "overflow": false,
+      "photo": {
+        "h": 0,
+        "w": 0
+      },
+      "scroll": [
+        0,
+        0
+      ],
+      "text": [
+        {
+          "lineHeight": "39px",
+          "size": "30px",
+          "text": "좋아하는 기분으로,나의 향 찾기.",
+          "weight": "350"
+        },
+        {
+          "lineHeight": "30.8px",
+          "size": "22px",
+          "text": "어떤 향의 느낌에 가장 끌리나요?",
+          "weight": "450"
+        },
+        {
+          "lineHeight": "22.4px",
+          "size": "16px",
+          "text": "맑고 단정한 향",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "22.4px",
+          "size": "16px",
+          "text": "밝고 싱그러운 향",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "22.4px",
+          "size": "16px",
+          "text": "은은하고 차분한 향",
+          "weight": "400"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/find-your-scent/",
+      "viewport": [
+        390,
+        844
+      ],
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "finder-320.png",
+      "header": 64,
+      "overflow": false,
+      "photo": {
+        "h": 0,
+        "w": 0
+      },
+      "scroll": [
+        0,
+        0
+      ],
+      "text": [
+        {
+          "lineHeight": "39px",
+          "size": "30px",
+          "text": "좋아하는 기분으로,나의 향 찾기.",
+          "weight": "350"
+        },
+        {
+          "lineHeight": "29.4px",
+          "size": "21px",
+          "text": "어떤 향의 느낌에 가장 끌리나요?",
+          "weight": "450"
+        },
+        {
+          "lineHeight": "22.4px",
+          "size": "16px",
+          "text": "맑고 단정한 향",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "22.4px",
+          "size": "16px",
+          "text": "밝고 싱그러운 향",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "22.4px",
+          "size": "16px",
+          "text": "은은하고 차분한 향",
+          "weight": "400"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/find-your-scent/",
+      "viewport": [
+        320,
+        800
+      ],
+      "pixels": [
+        310,
+        775
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "finder-820.png",
+      "header": 64,
+      "overflow": false,
+      "photo": {
+        "h": 0,
+        "w": 0
+      },
+      "scroll": [
+        0,
+        0
+      ],
+      "text": [
+        {
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "text": "좋아하는 기분으로,나의 향 찾기.",
+          "weight": "350"
+        },
+        {
+          "lineHeight": "33.6px",
+          "size": "24px",
+          "text": "어떤 향의 느낌에 가장 끌리나요?",
+          "weight": "450"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "맑고 단정한 향",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "밝고 싱그러운 향",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "23.8px",
+          "size": "17px",
+          "text": "은은하고 차분한 향",
+          "weight": "400"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/find-your-scent/",
+      "viewport": [
+        820,
+        1000
+      ],
+      "pixels": [
+        810,
+        988
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "finder-960.png",
+      "header": 80,
+      "overflow": false,
+      "photo": {
+        "h": 483.59375,
+        "w": 403
+      },
+      "scroll": [
+        0,
+        0
+      ],
+      "text": [
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "전체 향수",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "나의 향 찾기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "브랜드 이야기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "41.6px",
+          "size": "32px",
+          "text": "좋아하는 기분으로,나의 향 찾기.",
+          "weight": "350"
+        },
+        {
+          "lineHeight": "30.8px",
+          "size": "22px",
+          "text": "어떤 향의 느낌에 가장 끌리나요?",
+          "weight": "450"
+        },
+        {
+          "lineHeight": "22.4px",
+          "size": "16px",
+          "text": "맑고 단정한 향",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "22.4px",
+          "size": "16px",
+          "text": "밝고 싱그러운 향",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "22.4px",
+          "size": "16px",
+          "text": "은은하고 차분한 향",
+          "weight": "400"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/find-your-scent/",
+      "viewport": [
+        960,
+        900
+      ],
+      "pixels": [
+        950,
+        891
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "mobile-step2.png",
+      "header": 64,
+      "overflow": false,
+      "photo": {
+        "h": 0,
+        "w": 0
+      },
+      "scroll": [
+        0,
+        128
+      ],
+      "text": [
+        {
+          "lineHeight": "39px",
+          "size": "30px",
+          "text": "좋아하는 기분으로,나의 향 찾기.",
+          "weight": "350"
+        },
+        {
+          "lineHeight": "30.8px",
+          "size": "22px",
+          "text": "어떤 순간에 함께하고 싶나요?",
+          "weight": "450"
+        },
+        {
+          "lineHeight": "22.4px",
+          "size": "16px",
+          "text": "아침을 시작할 때",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "22.4px",
+          "size": "16px",
+          "text": "기분 전환이 필요할 때",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "22.4px",
+          "size": "16px",
+          "text": "편안하게 쉬고 싶을 때",
+          "weight": "400"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/find-your-scent/",
+      "viewport": [
+        390,
+        844
+      ],
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "mobile-step3.png",
+      "header": 64,
+      "overflow": false,
+      "photo": {
+        "h": 0,
+        "w": 0
+      },
+      "scroll": [
+        0,
+        128
+      ],
+      "text": [
+        {
+          "lineHeight": "39px",
+          "size": "30px",
+          "text": "좋아하는 기분으로,나의 향 찾기.",
+          "weight": "350"
+        },
+        {
+          "lineHeight": "30.8px",
+          "size": "22px",
+          "text": "향에서 어떤 기분이 남았으면 좋겠나요?",
+          "weight": "450"
+        },
+        {
+          "lineHeight": "22.4px",
+          "size": "16px",
+          "text": "밝고 가벼운 산뜻함",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "22.4px",
+          "size": "16px",
+          "text": "포근하고 부드러운 여운",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "22.4px",
+          "size": "16px",
+          "text": "싱그럽고 차분한 여백",
+          "weight": "400"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/find-your-scent/",
+      "viewport": [
+        390,
+        844
+      ],
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "mobile-result.png",
+      "header": 64,
+      "overflow": false,
+      "photo": {
+        "h": 300,
+        "w": 240
+      },
+      "scroll": [
+        0,
+        0
+      ],
+      "text": [
+        {
+          "lineHeight": "35.1px",
+          "size": "26px",
+          "text": "당신의 일상과닮은 향을 찾았어요.",
+          "weight": "350"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/find-your-scent/",
+      "viewport": [
+        390,
+        844
+      ],
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "mobile-result-actions.png",
+      "header": 64,
+      "overflow": false,
+      "photo": {
+        "h": 300,
+        "w": 240
+      },
+      "scroll": [
+        0,
+        851
+      ],
+      "text": [
+        {
+          "lineHeight": "35.1px",
+          "size": "26px",
+          "text": "당신의 일상과닮은 향을 찾았어요.",
+          "weight": "350"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/find-your-scent/",
+      "viewport": [
+        390,
+        844
+      ],
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "mobile-product.png",
+      "header": 64,
+      "overflow": false,
+      "photo": null,
+      "scroll": [
+        0,
+        0
+      ],
+      "text": [
+        {
+          "lineHeight": "38.08px",
+          "size": "34px",
+          "text": "QUIET WOOD",
+          "weight": "400"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/product/quiet-wood/",
+      "viewport": [
+        390,
+        844
+      ],
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "desktop-product.png",
+      "header": 80,
+      "overflow": false,
+      "photo": null,
+      "scroll": [
+        0,
+        0
+      ],
+      "text": [
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "전체 향수",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "나의 향 찾기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "브랜드 이야기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "53.2224px",
+          "size": "47.52px",
+          "text": "QUIET WOOD",
+          "weight": "400"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/product/quiet-wood/",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "desktop-shop.png",
+      "header": 80,
+      "overflow": false,
+      "photo": null,
+      "scroll": [
+        0,
+        0
+      ],
+      "text": [
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "전체 향수",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "나의 향 찾기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "브랜드 이야기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "55.68px",
+          "size": "48px",
+          "text": "나의 하루에, 작은 향을.",
+          "weight": "400"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/shop/",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "mobile-shop.png",
+      "header": 64,
+      "overflow": false,
+      "photo": null,
+      "scroll": [
+        0,
+        0
+      ],
+      "text": [
+        {
+          "lineHeight": "44.08px",
+          "size": "38px",
+          "text": "나의 하루에, 작은 향을.",
+          "weight": "400"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/shop/",
+      "viewport": [
+        390,
+        844
+      ],
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "mobile-home.png",
+      "header": 64,
+      "overflow": false,
+      "photo": null,
+      "scroll": [
+        0,
+        0
+      ],
+      "text": [
+        {
+          "lineHeight": "36.48px",
+          "size": "32px",
+          "text": "하루의 시작에,작은 향을.",
+          "weight": "350"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/#top",
+      "viewport": [
+        390,
+        844
+      ],
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "desktop-home.png",
+      "header": 80,
+      "overflow": false,
+      "photo": null,
+      "scroll": [
+        0,
+        0
+      ],
+      "text": [
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "전체 향수",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "나의 향 찾기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "브랜드 이야기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "70.5168px",
+          "size": "59.76px",
+          "text": "하루의 시작에,작은 향을.",
+          "weight": "350"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/#top",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    },
+    {
+      "file": "user-home.png",
+      "header": 80,
+      "overflow": false,
+      "photo": null,
+      "scroll": [
+        0,
+        0
+      ],
+      "text": [
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "전체 향수",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "나의 향 찾기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "21.75px",
+          "size": "15px",
+          "text": "브랜드 이야기",
+          "weight": "400"
+        },
+        {
+          "lineHeight": "77.88px",
+          "size": "66px",
+          "text": "하루의 시작에,작은 향을.",
+          "weight": "350"
+        }
+      ],
+      "url": "http://127.0.0.1:62517/#top",
+      "viewport": [
+        2089,
+        1408
+      ],
+      "pixels": [
+        2079,
+        1401
+      ],
+      "capture": "native viewport",
+      "encoding": "JPEG"
+    }
+  ],
+  "note": "Native viewport captures; error/keyboard/intermediate states intentionally scrolled. mobile-result-actions is later scroll; no composites. Current font weights and native inputs confirmed; original user cart1 preserved.",
+  "encoding_note": "The screenshot API returned JPEG bytes with the .png filenames used for capture paths. All22 decode correctly and are native viewport images, not composites. Filename extension is not a claim of PNG encoding."
+}

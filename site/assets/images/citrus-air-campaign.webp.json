@@ -1,0 +1,18 @@
+{
+  "prompt": "Use case: product-mockup. Create a single original photorealistic luxury perfume editorial campaign photograph for fictional ants. Input image is the PRODUCT IDENTITY REFERENCE: preserve the exact rectangular thick clear glass bottle shape, pale liquid tone, white cylindrical cap, ivory paper label and proportions. Label must read exactly 'ants', 'CITRUS AIR', '50 mL'; do not introduce another brand. This is a new natural photographic scene, not a web page or collage. A cool pale-blue stone windowsill, one pale yellow citrus fruit and a delicate curled peel at left, a clear water glass blurred far behind. The referenced perfume bottle stands at center-right in clear bright morning light, real subtle reflected caustics, elegant fresh still life. Landscape 16:9 wide composition, complete bottle cap and base visible, bottle around 60% of frame width horizontally and centered vertically, safe to crop to central portrait on mobile. Bottle label readable, subtle physically accurate reflections, real material depth, camera quality, restrained blue-white/teal world, no warm beige filter. No floating bottle, no artificial huge water droplets, no UI, no extra text, border or watermark.",
+  "createdAt": "2026-10-15T07:03:09.134Z",
+  "exactSubmittedPrompt": "Use case: product-mockup. Create a single original photorealistic luxury perfume editorial campaign photograph for fictional ants. Input image is the PRODUCT IDENTITY REFERENCE: preserve the exact rectangular thick clear glass bottle shape, pale liquid tone, white cylindrical cap, ivory paper label and proportions. Label must read exactly 'ants', 'CITRUS AIR', '50 mL'; do not introduce another brand. This is a new natural photographic scene, not a web page or collage. A cool pale-blue stone windowsill, one pale yellow citrus fruit and a delicate curled peel at left, a clear water glass blurred far behind. The referenced perfume bottle stands at center-right in clear bright morning light, real subtle reflected caustics, elegant fresh still life. Landscape 16:9 wide composition, complete bottle cap and base visible, bottle around 60% of frame width horizontally and centered vertically, safe to crop to central portrait on mobile. Bottle label readable, subtle physically accurate reflections, real material depth, camera quality, restrained blue-white/teal world, no warm beige filter. No floating bottle, no artificial huge water droplets, no UI, no extra text, border or watermark.",
+  "tool": "image_gen",
+  "fictional": true,
+  "reference_images": [
+    "C:/Users/User/Documents/ChatGPT/홈페이지/Homepage_Ants/site/assets/images/citrus-air-studio.webp"
+  ],
+  "reference_role": "Preserve current product bottle/label identity; create new scene.",
+  "original_copy": "work\\ants-dependencies\\product-depth-20261015\\citrus-air-campaign-master.png",
+  "width": 1672,
+  "height": 941,
+  "bytes": 145324,
+  "sha256": "c1cd5e9d6bd1f6084945926f4712ec5e6083d1e3d520d57d3be110d8a61c02d2",
+  "output_path": "Homepage_Ants\\site\\assets\\images\\citrus-air-campaign.webp",
+  "use": "Fictional product campaign scene; no manufacturing/ingredients/customer testimony claim."
+}

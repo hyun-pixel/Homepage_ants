@@ -1,0 +1,33 @@
+{
+  "scope": "Current extension; human UI actions in Codex IAB, separate localhost QA origins 62618 and storage-blocked 62619. Primary 62517 cart was observed as one FIRST LIGHT and never written or consumed.",
+  "passed": [
+    "Six product routes, corresponding name/photo/price, no horizontal overflow at 1440px",
+    "Mixed cart FIRST LIGHT 2 + QUIET WOOD 1 = 213000 KRW",
+    "Invalid decimal draft remains visible; near-field error; checkout inert until corrected",
+    "Individual quantity update and deletion preserve other items; per-product 9 cap",
+    "Clean family returns two products; descending price starts QUIET WOOD; direct query+family empty result",
+    "Search linen returns SOFT LINEN, soap returns FIRST LIGHT, no-match guidance",
+    "Native mobile menu and search Escape close; search focus returns to opener",
+    "Normal mixed mobile completion returns to scrollY 0, result 3 items/2 types/213000, cart empty",
+    "Blocked local/sessionStorage: add first product, search submit, second product, cart 2 types/144000, complete via navigation state, scrollY 0",
+    "Static links/IDs, catalog raster dimensions/provenance, visible Hangul coverage and flat contrast pairs",
+    "Existing movie ready, macro-to-bottle progress 0.960/time8.008 at updated header offset; mobile/PC captures",
+    "320/820/1440px shop and QUIET WOOD detail overflow checks, current user2089x1408 shop no overflow",
+    "Pure catalog/cart/result/legacy/invalid schema/storage tests and existing motion checks"
+  ],
+  "not_checked": [
+    "Real handset/Safari/assistive technology",
+    "Payment, shipping, live orders, security operations",
+    "Slow network/FPS measurement",
+    "All 11 routes at every intermediate size"
+  ],
+  "detector": {
+    "runs": 1,
+    "raw": "detector.json",
+    "findings": 63,
+    "primary_warnings": 45,
+    "advisories": 18,
+    "mechanical_changes": "Mobile notice increased from11 to12px; new family popup shadow changed to neutral black offset soft shadow. No second detector run.",
+    "remaining_context": "11px cart count is a small badge with full accessible cart label, not body text. sans kr parser fragment and Instrument Sans are incumbent documented fonts. Hero background is a full-bleed sticky media stage with internally inset copy. Advisory type steps go to documenter; reviewer independently assesses."
+  }
+}

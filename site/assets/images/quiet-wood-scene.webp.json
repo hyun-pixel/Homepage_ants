@@ -1,0 +1,14 @@
+{
+  "origin": "Built-in image_gen original generated editorial scene for fictional ants perfume. No external brand image copied.",
+  "exactSubmittedPrompt": "Use case: photorealistic-natural. Asset type: original photographic editorial scene for the fictional Korean perfume brand ants product detail page. Create one standalone landscape 4:3 high quality photograph, edge to edge, not a website mockup or collage. A quiet intimate corner by a window: pale natural oak chair seat with subtle authentic wood grain, an open ivory paper book resting partly on it, gentle leaf shadows across the wood, cool blue-white late morning daylight, uncluttered contemplative still life. Cropped close enough to read wood and paper texture, elegant asymmetry. No amber lighting, no dark forest, no bottle, no lettering, no person. Color world: luminous cool white, very pale blue, deep muted teal or natural subject colors. Real optical depth, physically coherent materials, natural photography, medium format editorial quality. No text, logo, watermark, graphic border, UI, illustration, CGI render or warm beige filter.",
+  "references": [],
+  "sourceCopy": "work\\ants-dependencies\\product-stories-20261015\\quiet-wood-scene-master.png",
+  "width": 1448,
+  "height": 1086,
+  "bytes": 133364,
+  "sha256": "6527ad1b2e980520cbc696dd06d523b1edc8f6c5fafd218db6c7c6b61c0dabea",
+  "use": "Product-specific fictional atmosphere, not an ingredient/formulation/actual customer photograph.",
+  "prompt": "Use case: photorealistic-natural. Asset type: original photographic editorial scene for the fictional Korean perfume brand ants product detail page. Create one standalone landscape 4:3 high quality photograph, edge to edge, not a website mockup or collage. A quiet intimate corner by a window: pale natural oak chair seat with subtle authentic wood grain, an open ivory paper book resting partly on it, gentle leaf shadows across the wood, cool blue-white late morning daylight, uncluttered contemplative still life. Cropped close enough to read wood and paper texture, elegant asymmetry. No amber lighting, no dark forest, no bottle, no lettering, no person. Color world: luminous cool white, very pale blue, deep muted teal or natural subject colors. Real optical depth, physically coherent materials, natural photography, medium format editorial quality. No text, logo, watermark, graphic border, UI, illustration, CGI render or warm beige filter.",
+  "schema": "impeccable-image-provenance-v1",
+  "tool": "image_gen"
+}

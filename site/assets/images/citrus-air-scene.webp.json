@@ -1,0 +1,14 @@
+{
+  "origin": "Built-in image_gen original generated editorial scene for fictional ants perfume. No external brand image copied.",
+  "exactSubmittedPrompt": "Use case: photorealistic-natural. Asset type: original photographic editorial scene for the fictional Korean perfume brand ants product detail page. Create one standalone landscape 4:3 high quality photograph, edge to edge, not a website mockup or collage. An airy contemporary still life of a freshly peeled pale yellow citrus fruit, one thin curled peel and a simple clear glass of water on a cool pale blue stone windowsill. Bright soft morning daylight and gentle reflected light, tiny real condensation, close off-center composition, restrained and fresh. No bottle, no lettering, no person. Color world: luminous cool white, very pale blue, deep muted teal or natural subject colors. Real optical depth, physically coherent materials, natural photography, medium format editorial quality. No text, logo, watermark, graphic border, UI, illustration, CGI render or warm beige filter.",
+  "references": [],
+  "sourceCopy": "work\\ants-dependencies\\product-stories-20261015\\citrus-air-scene-master.png",
+  "width": 1448,
+  "height": 1086,
+  "bytes": 139388,
+  "sha256": "c3efa5c8b5a832c9bf8f26873f299c0d539640970bcc4b4d157daa08122b6f57",
+  "use": "Product-specific fictional atmosphere, not an ingredient/formulation/actual customer photograph.",
+  "prompt": "Use case: photorealistic-natural. Asset type: original photographic editorial scene for the fictional Korean perfume brand ants product detail page. Create one standalone landscape 4:3 high quality photograph, edge to edge, not a website mockup or collage. An airy contemporary still life of a freshly peeled pale yellow citrus fruit, one thin curled peel and a simple clear glass of water on a cool pale blue stone windowsill. Bright soft morning daylight and gentle reflected light, tiny real condensation, close off-center composition, restrained and fresh. No bottle, no lettering, no person. Color world: luminous cool white, very pale blue, deep muted teal or natural subject colors. Real optical depth, physically coherent materials, natural photography, medium format editorial quality. No text, logo, watermark, graphic border, UI, illustration, CGI render or warm beige filter.",
+  "schema": "impeccable-image-provenance-v1",
+  "tool": "image_gen"
+}

@@ -1,0 +1,397 @@
+{
+  "required": [
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\cart-empty-desktop.png",
+      "pixels": [
+        1270,
+        714
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\cart-invalid-desktop.png",
+      "pixels": [
+        1270,
+        714
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\cart-mixed-desktop.png",
+      "pixels": [
+        1270,
+        714
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\cart-mixed-mobile.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\cart-storage-blocked-mobile.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\cart-total-mobile.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\checkout-empty-desktop.png",
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\checkout-mixed-desktop.png",
+      "pixels": [
+        1270,
+        714
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\checkout-mixed-mobile.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\checkout-total-mobile.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\complete-empty-blocked.png",
+      "pixels": [
+        1270,
+        714
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\complete-mixed-desktop.png",
+      "pixels": [
+        1270,
+        714
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\complete-mixed-mobile.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\complete-storage-blocked-mobile.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\complete-total-mobile.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\header-families-desktop.png",
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\home-collection-desktop.png",
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\home-collection-mobile.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\home-intro-desktop.png",
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\home-intro-mobile.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\home-product-desktop.png",
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\home-product-mobile.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\menu-mobile.png",
+      "pixels": [
+        390,
+        844
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\product-buy-mobile.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\product-cap-desktop.png",
+      "pixels": [
+        1270,
+        714
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\product-citrus-air-desktop.png",
+      "pixels": [
+        1270,
+        714
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\product-first-light-desktop.png",
+      "pixels": [
+        1270,
+        714
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\product-green-hour-desktop.png",
+      "pixels": [
+        1270,
+        714
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\product-invalid-mobile.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\product-petal-mist-desktop.png",
+      "pixels": [
+        1270,
+        714
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\product-quiet-wood-1440.png",
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\product-quiet-wood-320.png",
+      "pixels": [
+        310,
+        775
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\product-quiet-wood-820.png",
+      "pixels": [
+        810,
+        988
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\product-quiet-wood-desktop.png",
+      "pixels": [
+        1270,
+        714
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\product-soft-linen-desktop.png",
+      "pixels": [
+        1270,
+        714
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\product-soft-linen-mobile.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\search-desktop.png",
+      "pixels": [
+        1440,
+        1000
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\search-empty-desktop.png",
+      "pixels": [
+        1440,
+        1000
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\search-mobile.png",
+      "pixels": [
+        390,
+        844
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\shop-1280.png",
+      "pixels": [
+        1270,
+        714
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\shop-1440.png",
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\shop-320.png",
+      "pixels": [
+        310,
+        775
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\shop-820.png",
+      "pixels": [
+        810,
+        988
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\shop-clean-desktop.png",
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\shop-desktop.png",
+      "pixels": [
+        1270,
+        714
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\shop-empty-desktop.png",
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\shop-mobile.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\shop-products-mobile.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\\ud648\ud398\uc774\uc9c0\\Homepage_Ants\\.impeccable\\review\\catalog-20261015\\user-2089-shop.png",
+      "pixels": [
+        2079,
+        1401
+      ],
+      "capture": "native viewport, not fullPage or composited"
+    }
+  ],
+  "note": "Inspect all images once. Viewport images intentionally show current section, supplementary *-total-mobile are separate scroll positions. No native fullPage captures remain. user-2089-shop is actual primary window after reset; shop-1280 is a QA default width, not user viewport."
+}

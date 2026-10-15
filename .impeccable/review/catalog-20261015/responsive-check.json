@@ -1,0 +1,55 @@
+[
+  {
+    "grid": "131px 131px",
+    "header": "96px",
+    "menu": "grid",
+    "overflow": false,
+    "route": "/shop/",
+    "width": 320
+  },
+  {
+    "grid": "131px 131px",
+    "header": "96px",
+    "menu": "grid",
+    "overflow": false,
+    "route": "/product/quiet-wood/",
+    "width": 320
+  },
+  {
+    "grid": "235.328px 235.328px 235.328px",
+    "header": "96px",
+    "menu": "grid",
+    "overflow": false,
+    "route": "/shop/",
+    "width": 820
+  },
+  {
+    "grid": "235.328px 235.328px 235.328px",
+    "header": "96px",
+    "menu": "grid",
+    "overflow": false,
+    "route": "/product/quiet-wood/",
+    "width": 820
+  },
+  {
+    "grid": "408px 408px 408px",
+    "header": "112px",
+    "menu": "none",
+    "overflow": false,
+    "route": "/shop/",
+    "width": 1440
+  },
+  {
+    "grid": "408px 408px 408px",
+    "header": "112px",
+    "menu": "none",
+    "overflow": false,
+    "route": "/product/quiet-wood/",
+    "width": 1440
+  },
+  {
+    "height": 720,
+    "overflow": false,
+    "width": 1280
+  }
+]

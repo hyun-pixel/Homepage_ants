@@ -1,0 +1,14 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'work\ants-dependencies\first-light-camera-original.mp4':
+  Metadata:
+    minor_version   : 512
+    major_brand     : isom
+    compatible_brands: isomiso2avc1mp41
+    AIGC            : {"Label":"1","ContentProducer":"kling","ProduceID":"KLingMuse_bff6de13-bf77-423a-b75c-d6375990b2a3","ReservedCode1":null,"ContentPropagator":"kling","PropagateID":"KLingMuse_bff6de13-bf77-423a-b75c-d6375990b2a3","ReservedCode2":null}
+    encoder         : Lavf60.16.100
+  Duration: 00:00:08.04, start: 0.000000, bitrate: 12541 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(progressive), 1916x1080, 12538 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc60.31.102 h264_slapi
+At least one output file must be specified

@@ -1,0 +1,906 @@
+{
+  "required": [
+    {
+      "file": "first-light-desktop-story.jpg",
+      "fullPage": false,
+      "active": "본문으로 건너뛰기\n\nants\n전체 향수향별로 찾기 클린시트러스그린플로럴우",
+      "cart": "1",
+      "h1": "FIRST LIGHT",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-ritual.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-macro.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/green-hour-studio.webp"
+        }
+      ],
+      "overflow": false,
+      "profileTop": 1817.1875,
+      "scroll": [
+        0,
+        848
+      ],
+      "storyTop": 211.53125,
+      "url": "http://127.0.0.1:62517/product/first-light/#scent-story",
+      "viewport": [
+        1296,
+        900
+      ],
+      "savedPixels": [
+        1286,
+        893
+      ],
+      "encoding": "JPEG",
+      "captureKind": "scrolled viewport sample"
+    },
+    {
+      "file": "first-light-mobile-story.jpg",
+      "fullPage": false,
+      "active": "본문으로 건너뛰기\n\nants\n전체 향수향별로 찾기 클린시트러스그린플로럴우",
+      "cart": "1",
+      "h1": "FIRST LIGHT",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-ritual.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-macro.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/green-hour-studio.webp"
+        }
+      ],
+      "overflow": false,
+      "profileTop": 1423.1875,
+      "scroll": [
+        0,
+        1185
+      ],
+      "storyTop": 171.5625,
+      "url": "http://127.0.0.1:62517/product/first-light/#scent-story",
+      "viewport": [
+        351,
+        760
+      ],
+      "savedPixels": [
+        341,
+        738
+      ],
+      "encoding": "JPEG",
+      "captureKind": "scrolled viewport sample"
+    },
+    {
+      "file": "soft-linen-desktop-story.jpg",
+      "fullPage": false,
+      "active": "본문으로 건너뛰기\n\nants\n전체 향수향별로 찾기 클린시트러스그린플로럴우",
+      "cart": "1",
+      "h1": "SOFT LINEN",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-scene.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/green-hour-studio.webp"
+        }
+      ],
+      "overflow": false,
+      "profileTop": 878.140625,
+      "scroll": [
+        0,
+        848
+      ],
+      "storyTop": 211.53125,
+      "url": "http://127.0.0.1:62517/product/soft-linen/#scent-story",
+      "viewport": [
+        1296,
+        900
+      ],
+      "savedPixels": [
+        1286,
+        893
+      ],
+      "encoding": "JPEG",
+      "captureKind": "scrolled viewport sample"
+    },
+    {
+      "file": "soft-linen-mobile-story.jpg",
+      "fullPage": false,
+      "active": "본문으로 건너뛰기\n\nants\n전체 향수향별로 찾기 클린시트러스그린플로럴우",
+      "cart": "1",
+      "h1": "SOFT LINEN",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-scene.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/green-hour-studio.webp"
+        }
+      ],
+      "overflow": false,
+      "profileTop": 867.75,
+      "scroll": [
+        0,
+        1223
+      ],
+      "storyTop": 172.3125,
+      "url": "http://127.0.0.1:62517/product/soft-linen/#scent-story",
+      "viewport": [
+        390,
+        844
+      ],
+      "savedPixels": [
+        380,
+        822
+      ],
+      "encoding": "JPEG",
+      "captureKind": "scrolled viewport sample"
+    },
+    {
+      "file": "citrus-air-desktop-story.jpg",
+      "fullPage": false,
+      "active": "본문으로 건너뛰기\n\nants\n전체 향수향별로 찾기 클린시트러스그린플로럴우",
+      "cart": "1",
+      "h1": "CITRUS AIR",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-scene.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/green-hour-studio.webp"
+        }
+      ],
+      "overflow": false,
+      "profileTop": 878.140625,
+      "scroll": [
+        0,
+        848
+      ],
+      "storyTop": 211.53125,
+      "url": "http://127.0.0.1:62517/product/citrus-air/#scent-story",
+      "viewport": [
+        1296,
+        900
+      ],
+      "savedPixels": [
+        1286,
+        893
+      ],
+      "encoding": "JPEG",
+      "captureKind": "scrolled viewport sample"
+    },
+    {
+      "file": "citrus-air-mobile-story.jpg",
+      "fullPage": false,
+      "active": "본문으로 건너뛰기\n\nants\n전체 향수향별로 찾기 클린시트러스그린플로럴우",
+      "cart": "1",
+      "h1": "CITRUS AIR",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-scene.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/green-hour-studio.webp"
+        }
+      ],
+      "overflow": false,
+      "profileTop": 825.75,
+      "scroll": [
+        0,
+        1223
+      ],
+      "storyTop": 172.3125,
+      "url": "http://127.0.0.1:62517/product/citrus-air/#scent-story",
+      "viewport": [
+        390,
+        844
+      ],
+      "savedPixels": [
+        380,
+        822
+      ],
+      "encoding": "JPEG",
+      "captureKind": "scrolled viewport sample"
+    },
+    {
+      "file": "green-hour-desktop-story.jpg",
+      "fullPage": false,
+      "active": "본문으로 건너뛰기\n\nants\n전체 향수향별로 찾기 클린시트러스그린플로럴우",
+      "cart": "1",
+      "h1": "GREEN HOUR",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/images/green-hour-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/green-hour-scene.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-studio.webp"
+        }
+      ],
+      "overflow": false,
+      "profileTop": 878.140625,
+      "scroll": [
+        0,
+        848
+      ],
+      "storyTop": 211.53125,
+      "url": "http://127.0.0.1:62517/product/green-hour/#scent-story",
+      "viewport": [
+        1296,
+        900
+      ],
+      "savedPixels": [
+        1286,
+        893
+      ],
+      "encoding": "JPEG",
+      "captureKind": "scrolled viewport sample"
+    },
+    {
+      "file": "green-hour-mobile-story.jpg",
+      "fullPage": false,
+      "active": "본문으로 건너뛰기\n\nants\n전체 향수향별로 찾기 클린시트러스그린플로럴우",
+      "cart": "1",
+      "h1": "GREEN HOUR",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/images/green-hour-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/green-hour-scene.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-studio.webp"
+        }
+      ],
+      "overflow": false,
+      "profileTop": 894.9375,
+      "scroll": [
+        0,
+        1223
+      ],
+      "storyTop": 172.3125,
+      "url": "http://127.0.0.1:62517/product/green-hour/#scent-story",
+      "viewport": [
+        390,
+        844
+      ],
+      "savedPixels": [
+        380,
+        822
+      ],
+      "encoding": "JPEG",
+      "captureKind": "scrolled viewport sample"
+    },
+    {
+      "file": "petal-mist-desktop-story.jpg",
+      "fullPage": false,
+      "active": "본문으로 건너뛰기\n\nants\n전체 향수향별로 찾기 클린시트러스그린플로럴우",
+      "cart": "1",
+      "h1": "PETAL MIST",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/images/petal-mist-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/petal-mist-scene.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-studio.webp"
+        }
+      ],
+      "overflow": false,
+      "profileTop": 878.140625,
+      "scroll": [
+        0,
+        848
+      ],
+      "storyTop": 211.53125,
+      "url": "http://127.0.0.1:62517/product/petal-mist/#scent-story",
+      "viewport": [
+        1296,
+        900
+      ],
+      "savedPixels": [
+        1286,
+        893
+      ],
+      "encoding": "JPEG",
+      "captureKind": "scrolled viewport sample"
+    },
+    {
+      "file": "petal-mist-mobile-story.jpg",
+      "fullPage": false,
+      "active": "본문으로 건너뛰기\n\nants\n전체 향수향별로 찾기 클린시트러스그린플로럴우",
+      "cart": "1",
+      "h1": "PETAL MIST",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/images/petal-mist-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/petal-mist-scene.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-studio.webp"
+        }
+      ],
+      "overflow": false,
+      "profileTop": 894.9375,
+      "scroll": [
+        0,
+        1223
+      ],
+      "storyTop": 172.3125,
+      "url": "http://127.0.0.1:62517/product/petal-mist/#scent-story",
+      "viewport": [
+        390,
+        844
+      ],
+      "savedPixels": [
+        380,
+        822
+      ],
+      "encoding": "JPEG",
+      "captureKind": "scrolled viewport sample"
+    },
+    {
+      "file": "quiet-wood-desktop-story.jpg",
+      "fullPage": false,
+      "active": "본문으로 건너뛰기\n\nants\n전체 향수향별로 찾기 클린시트러스그린플로럴우",
+      "cart": "1",
+      "h1": "QUIET WOOD",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/images/quiet-wood-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/quiet-wood-scene.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-studio.webp"
+        }
+      ],
+      "overflow": false,
+      "profileTop": 918.140625,
+      "scroll": [
+        0,
+        913
+      ],
+      "storyTop": 212.15625,
+      "url": "http://127.0.0.1:62517/product/quiet-wood/#scent-story",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "savedPixels": [
+        1440,
+        1000
+      ],
+      "encoding": "JPEG",
+      "captureKind": "scrolled viewport sample"
+    },
+    {
+      "file": "quiet-wood-mobile-story.jpg",
+      "fullPage": false,
+      "active": "본문으로 건너뛰기\n\nants\n전체 향수향별로 찾기 클린시트러스그린플로럴우",
+      "cart": "1",
+      "h1": "QUIET WOOD",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/images/quiet-wood-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/quiet-wood-scene.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-studio.webp"
+        }
+      ],
+      "overflow": false,
+      "profileTop": 894.9375,
+      "scroll": [
+        0,
+        1223
+      ],
+      "storyTop": 172.3125,
+      "url": "http://127.0.0.1:62517/product/quiet-wood/#scent-story",
+      "viewport": [
+        390,
+        844
+      ],
+      "savedPixels": [
+        380,
+        822
+      ],
+      "encoding": "JPEG",
+      "captureKind": "scrolled viewport sample"
+    },
+    {
+      "file": "quiet-wood-desktop-full.jpg",
+      "fullPage": true,
+      "active": "본문으로 건너뛰기\n\nants\n전체 향수향별로 찾기 클린시트러스그린플로럴우",
+      "cart": "1",
+      "h1": "QUIET WOOD",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/images/quiet-wood-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/quiet-wood-scene.webp"
+        },
+        {
+          "loaded": false,
+          "src": "/assets/images/first-light-studio.webp"
+        },
+        {
+          "loaded": false,
+          "src": "/assets/images/soft-linen-studio.webp"
+        },
+        {
+          "loaded": false,
+          "src": "/assets/images/citrus-air-studio.webp"
+        }
+      ],
+      "overflow": false,
+      "profileTop": 1831.140625,
+      "scroll": [
+        0,
+        0
+      ],
+      "storyTop": 1125.15625,
+      "url": "http://127.0.0.1:62517/product/quiet-wood/",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "savedPixels": [
+        1430,
+        4186
+      ],
+      "encoding": "JPEG",
+      "captureKind": "document-top full page"
+    },
+    {
+      "file": "quiet-wood-mobile-full.jpg",
+      "fullPage": true,
+      "active": "본문으로 건너뛰기\n\nants\n전체 향수향별로 찾기 클린시트러스그린플로럴우",
+      "cart": "1",
+      "h1": "QUIET WOOD",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/images/quiet-wood-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/quiet-wood-scene.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-studio.webp"
+        }
+      ],
+      "overflow": false,
+      "profileTop": 2117.9375,
+      "scroll": [
+        0,
+        0
+      ],
+      "storyTop": 1395.3125,
+      "url": "http://127.0.0.1:62517/product/quiet-wood/",
+      "viewport": [
+        390,
+        844
+      ],
+      "savedPixels": [
+        380,
+        4749
+      ],
+      "encoding": "JPEG",
+      "captureKind": "document-top full page"
+    },
+    {
+      "file": "quiet-wood-desktop-profile.jpg",
+      "fullPage": false,
+      "active": "본문으로 건너뛰기\n\nants\n전체 향수향별로 찾기 클린시트러스그린플로럴우",
+      "cart": "1",
+      "h1": "QUIET WOOD",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/images/quiet-wood-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/quiet-wood-scene.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-studio.webp"
+        }
+      ],
+      "overflow": false,
+      "profileTop": 448.140625,
+      "scroll": [
+        0,
+        1383
+      ],
+      "storyTop": -257.84375,
+      "url": "http://127.0.0.1:62517/product/quiet-wood/#product-title",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "savedPixels": [
+        1430,
+        993
+      ],
+      "encoding": "JPEG",
+      "captureKind": "scrolled viewport sample"
+    },
+    {
+      "file": "quiet-wood-mobile-profile.jpg",
+      "fullPage": false,
+      "active": "본문으로 건너뛰기\n\nants\n전체 향수향별로 찾기 클린시트러스그린플로럴우",
+      "cart": "1",
+      "h1": "QUIET WOOD",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/images/quiet-wood-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/quiet-wood-scene.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-studio.webp"
+        }
+      ],
+      "overflow": false,
+      "profileTop": 51.9375,
+      "scroll": [
+        0,
+        2066
+      ],
+      "storyTop": -670.6875,
+      "url": "http://127.0.0.1:62517/product/quiet-wood/#profile-title",
+      "viewport": [
+        390,
+        844
+      ],
+      "savedPixels": [
+        380,
+        822
+      ],
+      "encoding": "JPEG",
+      "captureKind": "scrolled viewport sample"
+    },
+    {
+      "file": "narrow-profile.jpg",
+      "fullPage": false,
+      "active": "본문으로 건너뛰기\n\nants\n전체 향수향별로 찾기 클린시트러스그린플로럴우",
+      "cart": "1",
+      "h1": "QUIET WOOD",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/images/quiet-wood-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/quiet-wood-scene.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-studio.webp"
+        }
+      ],
+      "overflow": false,
+      "profileTop": -29.265625,
+      "scroll": [
+        0,
+        2066
+      ],
+      "storyTop": -705.390625,
+      "url": "http://127.0.0.1:62517/product/quiet-wood/#profile-title",
+      "viewport": [
+        320,
+        800
+      ],
+      "savedPixels": [
+        310,
+        775
+      ],
+      "encoding": "JPEG",
+      "captureKind": "scrolled viewport sample"
+    },
+    {
+      "file": "tablet-story.jpg",
+      "fullPage": false,
+      "active": "본문으로 건너뛰기\n\nants\n전체 향수향별로 찾기 클린시트러스그린플로럴우",
+      "cart": "1",
+      "h1": "QUIET WOOD",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/images/quiet-wood-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/quiet-wood-scene.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-studio.webp"
+        }
+      ],
+      "overflow": false,
+      "profileTop": 603.421875,
+      "scroll": [
+        0,
+        913
+      ],
+      "storyTop": 113.5625,
+      "url": "http://127.0.0.1:62517/product/quiet-wood/#scent-story",
+      "viewport": [
+        820,
+        1000
+      ],
+      "savedPixels": [
+        810,
+        988
+      ],
+      "encoding": "JPEG",
+      "captureKind": "scrolled viewport sample"
+    },
+    {
+      "file": "user-story.jpg",
+      "fullPage": false,
+      "active": "본문으로 건너뛰기\n\nants\n전체 향수향별로 찾기 클린시트러스그린플로럴우",
+      "cart": "1",
+      "h1": "QUIET WOOD",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/assets/images/quiet-wood-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/quiet-wood-scene.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/first-light-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/soft-linen-studio.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/assets/images/citrus-air-studio.webp"
+        }
+      ],
+      "overflow": false,
+      "profileTop": 918.140625,
+      "scroll": [
+        0,
+        913
+      ],
+      "storyTop": 212.15625,
+      "url": "http://127.0.0.1:62517/product/quiet-wood/#scent-story",
+      "viewport": [
+        2088,
+        1407
+      ],
+      "savedPixels": [
+        2078,
+        1400
+      ],
+      "encoding": "JPEG",
+      "captureKind": "scrolled viewport sample"
+    }
+  ],
+  "note": "19 unique valid captures opened by root. Browser zoom/native frame makes CSS viewport and saved pixels distinct; both declared. Story/profile viewport samples are intentionally scrolled and may crop surrounding content. Final quiet full pages from document top; mobile fixed buy bar appears at initial viewport position in stitched full-page capture, viewport samples show actual scroll behavior. Six product story mappings inspected together; final shared type correction confirmed in quiet/tablet/user and recaptured mobile scene captions. Offscreen lazy image metrics may be false; visible images in these captures loaded."
+}

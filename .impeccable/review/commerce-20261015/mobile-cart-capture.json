@@ -1,0 +1,24 @@
+{
+  "method": "two real viewport captures stitched at their matching overlap; no generated pixels",
+  "top": "mobile-cart-top-raw.png",
+  "bottom": "mobile-cart-bottom-raw.png",
+  "cssViewport": [
+    390,
+    844
+  ],
+  "topScrollY": 0,
+  "bottomScrollY": 494,
+  "cssDocumentHeight": 1338,
+  "nativePixelViewport": [
+    380,
+    822
+  ],
+  "overlapShiftPixels": 481,
+  "cutPixels": 684,
+  "overlapMeanError": 1.6494,
+  "result": [
+    380,
+    1303
+  ],
+  "reason": "native fullPage backend left below-viewport area unpainted"
+}

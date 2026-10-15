@@ -1,0 +1,147 @@
+[
+  {
+    "file": "desktop-home-opening.png",
+    "width": 1430,
+    "height": 993
+  },
+  {
+    "file": "desktop-home-full.png",
+    "width": 1430,
+    "height": 6883
+  },
+  {
+    "file": "desktop-home-ritual.png",
+    "width": 1430,
+    "height": 993
+  },
+  {
+    "file": "mobile-home-opening.png",
+    "width": 380,
+    "height": 822
+  },
+  {
+    "file": "mobile-home-full.png",
+    "width": 380,
+    "height": 5563
+  },
+  {
+    "file": "mobile-home-ritual.png",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "mobile-home-featured-footer.png",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "desktop-product.png",
+    "width": 1430,
+    "height": 993
+  },
+  {
+    "file": "desktop-product-full.png",
+    "width": 1430,
+    "height": 3639
+  },
+  {
+    "file": "mobile-product.png",
+    "width": 380,
+    "height": 822
+  },
+  {
+    "file": "mobile-product-full.png",
+    "width": 380,
+    "height": 3510
+  },
+  {
+    "file": "mobile-product-selection.png",
+    "width": 380,
+    "height": 822
+  },
+  {
+    "file": "user-2089-product.png",
+    "width": 2079,
+    "height": 1401
+  },
+  {
+    "file": "desktop-added.png",
+    "width": 1430,
+    "height": 993
+  },
+  {
+    "file": "desktop-cart.png",
+    "width": 1430,
+    "height": 993
+  },
+  {
+    "file": "mobile-cart.png",
+    "width": 380,
+    "height": 1303
+  },
+  {
+    "file": "narrow-cart.png",
+    "width": 310,
+    "height": 717
+  },
+  {
+    "file": "desktop-checkout.png",
+    "width": 1430,
+    "height": 993
+  },
+  {
+    "file": "mobile-checkout.png",
+    "width": 380,
+    "height": 1409
+  },
+  {
+    "file": "desktop-complete.png",
+    "width": 1430,
+    "height": 993
+  },
+  {
+    "file": "mobile-complete.png",
+    "width": 380,
+    "height": 822
+  },
+  {
+    "file": "mobile-cart-empty.png",
+    "width": 380,
+    "height": 822
+  },
+  {
+    "file": "mobile-cart-limit.png",
+    "width": 380,
+    "height": 822
+  },
+  {
+    "file": "mobile-menu.png",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "direct-complete-empty.png",
+    "width": 1270,
+    "height": 714
+  },
+  {
+    "file": "blocked-cart.png",
+    "width": 1270,
+    "height": 714
+  },
+  {
+    "file": "blocked-complete.png",
+    "width": 1270,
+    "height": 714
+  },
+  {
+    "file": "reduced-connected.png",
+    "width": 1270,
+    "height": 714
+  },
+  {
+    "file": "fallback-connected.png",
+    "width": 1270,
+    "height": 714
+  }
+]

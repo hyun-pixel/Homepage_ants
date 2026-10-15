@@ -1,0 +1,15 @@
+{
+  "pages": 12,
+  "broken_static_links": 0,
+  "duplicate_ids": 0,
+  "product_assets": 6,
+  "missing_hangul": 0,
+  "contrast": {
+    "body": 11.13,
+    "secondary": 5.69,
+    "notice-and-selected": 11.7,
+    "error": 5.83,
+    "button": 7.9
+  },
+  "scope": "Static source, local image metadata, font coverage and flat color pairs; not real-device or payment testing."
+}

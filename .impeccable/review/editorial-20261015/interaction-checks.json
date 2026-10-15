@@ -1,0 +1,27 @@
+{
+  "passed": [
+    "All6 own story anchor/photo/three impressions/everyday moment and disclaimer source assertions",
+    "All27 finder combinations, all6 reachable; existing cart/catalog/search/filter/sort/mixed totals/legacy storage/error fallback logic",
+    "Motion frame-range/monotonic/reading hold/copy-state tests",
+    "12routes/0brokenlocal links/0duplicateIDs/0missingHangul; font95760B variable; flatcontrast body11.13/secondary5.69/button7.9",
+    "New asset provenance15rasters/0missing; 5original new scenes1448x1086 with originals/prompts/hash",
+    "Browser6PC/6mobile story mappings; representative CSS1440/390/320/820/2088 no overflow",
+    "Native Enter story anchor then return #product-title verified, photo dialog1120 actual size and Escape trigger focus verified",
+    "Main cart FIRSTLIGHT1 preserved; normal browser error log empty"
+  ],
+  "not_checked": [
+    "Realhandset/Safari/assistive technology/browserzoom accessibility/slowconnection/FPS",
+    "Actual payment/order/shipping/PII/deployment"
+  ],
+  "detector": {
+    "runs": 1,
+    "findings": 14,
+    "counts": {
+      "design-system-font-size": 2,
+      "design-system-font": 6,
+      "overused-font": 6
+    },
+    "disposition": "Two new type sizes corrected23→24 and12→13. Remaining12 pinned font/parser advisories. No second scan."
+  },
+  "scope": "Existing six PDP editorial content extension only; previous viewer/commerce/full-site approval remains historical."
+}

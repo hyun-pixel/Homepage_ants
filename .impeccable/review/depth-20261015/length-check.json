@@ -1,0 +1,26 @@
+{
+  "before": {
+    "cart": "1",
+    "detailHeight": 1374,
+    "faq": true,
+    "footerNote": true,
+    "height": 4187,
+    "url": "http://127.0.0.1:62517/product/green-hour/",
+    "viewport": [
+      1600,
+      1111
+    ]
+  },
+  "after": {
+    "cart": "1",
+    "detailHeight": 4149,
+    "faq": false,
+    "footerNote": false,
+    "height": 6395,
+    "url": "http://127.0.0.1:62517/product/green-hour/",
+    "viewport": [
+      1600,
+      1111
+    ]
+  }
+}

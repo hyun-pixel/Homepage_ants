@@ -1,0 +1,44 @@
+{
+  "prompt": "Use case: product-mockup\nAsset type: a final individual portrait 4:5 perfume catalog product photograph for the fictional ants store, ideally 1024 x 1280 pixels or larger.\nPrimary request: photograph the QUIET WOOD fragrance in the same ants bottle as the reference. This is an original product photograph, not a website or UI mockup.\nInput images: image 1 is an anatomy and brand reference only: preserve its optically clear, thick, rounded rectangular glass bottle, full clear liquid cavity, small centered rectangular paper label with fine double border, short silver collar, and tall matte finely textured white cylindrical cap. Replace its watery setting with the seamless studio below. Any further reference image is the catalog composition master: match that master's camera, object scale, bottle position, lighting, and background exactly.\nScene/backdrop: pale cool blue-white seamless studio background and matte pale cool blue-white tabletop blending without a visible horizon, soft very subtle gradient, delicate natural contact shadow immediately beneath the base. Empty scene.\nSubject: a single closed QUIET WOOD perfume bottle, very pale honey-tinted transparent liquid and a soft stone-beige paper label. Keep color exceptionally muted and restricted to the liquid and label; the overall scene always stays cool blue-white.\nStyle/medium: precise premium commercial studio product photography, physically plausible glass refraction, real paper texture, restrained crisp detail.\nComposition/framing: portrait 4:5; one bottle exactly centered horizontally and vertically. Show the WHOLE bottle including entire cap, collar and thick glass base. The full cap-to-base height is exactly about 68 percent of the image height, its top at 16 percent and base at 84 percent. Keep generous unbroken space on every side. Upright bottle with vertical verticals. 85 mm lens, camera at label center, almost straight front view with only about 5 degrees of the right side visible. Same camera and same product scale throughout this catalog series.\nLighting/mood: large softbox upper left and gentle fill right, soft clean cool daylight, controlled highlights on thick glass edges, naturally readable label. No dramatic glare over lettering.\nText (verbatim), three centered lines on the small front paper label: \"ants\" / \"QUIET WOOD\" / \"50 mL\". Render exactly these words, lowercase ants, uppercase product name, dark charcoal fine sans-serif with generous letter spacing; ants larger, name smaller below, 50 mL near the bottom. Do not add any other lettering.\nConstraints: maintain the reference bottle's coherent manufactured anatomy and proportions, gently rounded shoulders and corners, thick transparent base, one white cylindrical cap centered over the short silver collar, one centered label. One original raster image; no collage, grid, contact sheet, additional bottle, or packaging.\nAvoid: water, waves, watery horizon, beach, outdoor/lifestyle scenery, props, flowers, fruit, wood, giant droplets, liquid splashes, strong colored background, warm global light, haze, heavy shadow, floating bottle, crop, truncated cap or base, distorted bottle, illegible or incorrect label text, caption, website UI, border around the image, watermark.",
+  "createdAt": "2026-10-15T01:29:10.356Z",
+  "schema": "ants.catalog-image.v1",
+  "product_id": "quiet-wood",
+  "product_name": "QUIET WOOD",
+  "prompt_file": "work/ants-dependencies/catalog-20261015/quiet-wood-prompt.txt",
+  "tool": "built-in image_gen.imagegen",
+  "source_type": "AI-generated original raster product photograph",
+  "fictional": true,
+  "demo": true,
+  "source": "Fictional ants demo product; not a photograph of a real manufactured fragrance.",
+  "reference_images": [
+    "C:/Users/User/Documents/ChatGPT/홈페이지/Homepage_Ants/site/assets/images/first-light-campaign.webp",
+    "C:/Users/User/.codex/generated_images/01a13d29-1e31-7f93-b545-7c975d37ef2f/exec-6d5af068-0032-48c5-96e9-5637a69da45b.png"
+  ],
+  "reference_roles": [
+    "existing ants brand bottle anatomy",
+    "FIRST LIGHT studio composition master"
+  ],
+  "generated_path": "C:\\Users\\User\\.codex\\generated_images\\01a13d29-1e31-7f93-b545-7c975d37ef2f\\exec-0af3a751-2351-4400-a22d-670dda927b36.png",
+  "original_copy": "work/ants-dependencies/catalog-20261015/quiet-wood-original.png",
+  "original_dimensions": [
+    1122,
+    1402
+  ],
+  "output_path": "Homepage_Ants/site/assets/images/quiet-wood-studio.webp",
+  "width": 1120,
+  "height": 1400,
+  "bytes": 70736,
+  "format": "WebP",
+  "conversion": "Pillow 10.4.0; RGB; resize 1120x1400 LANCZOS; quality 88; method 6; no recoloring, compositing, or content edits",
+  "sha256": "8fa801d768ad895c8fca93dc1c872ba8c5db515e2927aff5e0698cecf8649347",
+  "visual_qa": {
+    "whole_cap_and_base": true,
+    "exact_product_name": true,
+    "lowercase_ants": true,
+    "volume_50_mL": true,
+    "same_bottle_anatomy": true,
+    "same_centered_scale_and_cool_studio": true,
+    "no_props_or_watermark": true,
+    "correction_required": false
+  }
+}

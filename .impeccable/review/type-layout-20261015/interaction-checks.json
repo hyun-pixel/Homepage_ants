@@ -1,0 +1,27 @@
+{
+  "passed": [
+    "27 finder combinations, six products, invalid input cases",
+    "Existing catalog/cart and motion logic",
+    "All12 static routes/links/unique IDs/font coverage/flat color contrast",
+    "Desktop and mobile question flow, error, native Space selection, visible focus, long third question, result, correct product detail",
+    "All22 recorded captures no horizontal overflow; widths320/390/820/960/1440/2089",
+    "Computed variable font weights350/400/450; both font assets contain real wght axis",
+    "Browser error log empty; original cart1 observed and preserved; no logic/storage changes"
+  ],
+  "not_checked": [
+    "Real handset/Safari/assistive tech",
+    "Browser zoom/fallback font/OS reduced motion",
+    "Slow network/FPS/real payments or public deployment"
+  ],
+  "scope": "Shared h1/h2/navigation weights and scent finder composition only; no claim all previous commerce states retested.",
+  "detector": {
+    "saved_findings": 15,
+    "counts": {
+      "overused-font": 3,
+      "design-system-radius": 1,
+      "design-system-font-size": 8,
+      "design-system-color": 3
+    },
+    "context": "Pre-edit scan. One output-directory setup failure, then successful saved scan. No post-edit detector rerun. Existing pin/drift warnings passed to reviewer, not broadly repaired."
+  }
+}

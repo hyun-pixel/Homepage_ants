@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ants 홈페이지 와이어프레임</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-padding-top: 24px; }
+    body { margin: 0; color: #252525; background: #f4f4f2; font: 16px/1.45 "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; font-feature-settings: "kern" 1, "liga" 1; text-rendering: optimizeLegibility; }
+    main { max-width: 1200px; margin: auto; padding: 48px 32px 80px; }
+    h1,h2,h3 { line-height: 1.2; word-break: keep-all; margin: 0 0 16px; }
+    h1 { font-size: clamp(28px, 4vw, 40px); font-weight: 600; }
+    h2 { font-size: 24px; font-weight: 600; }
+    h3 { font-size: 18px; font-weight: 600; }
+    p { margin: 0 0 12px; max-width: 65ch; word-break: keep-all; }
+    a { color: inherit; text-underline-offset: 4px; text-decoration-thickness: 1px; }
+    a:focus-visible,summary:focus-visible { outline: 2px solid #252525; outline-offset: 4px; }
+    .intro { max-width: 760px; margin: 20px 0 28px; }
+    .meta { font-size: 14px; color: #575757; }
+    nav { display: flex; gap: 8px 24px; flex-wrap: wrap; margin: 28px 0 36px; }
+    nav a { padding: 12px 0; }
+    details { margin: 24px 0; padding: 24px 0; border-top: 1px solid #c5c5c5; }
+    summary { font-size: 24px; font-weight: 600; cursor: pointer; line-height: 1.3; }
+    .purpose { margin: 20px 0 24px; }
+    .pair { display: grid; grid-template-columns: minmax(0, 2.1fr) minmax(260px, 1fr); gap: 32px; align-items: start; }
+    .pair > * { min-width: 0; }
+    figure { margin: 0; }
+    figcaption { margin: 0 0 12px; font-size: 15px; font-weight: 600; }
+    .screen { background: white; border: 1px solid #acacac; }
+    .bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 60px; padding: 12px 20px; border-bottom: 1px solid #d8d8d8; font-size: 13px; }
+    .brand { font-size: 24px; font-weight: 600; }
+    .cap { text-transform: uppercase; letter-spacing: .06em; }
+    .phone .bar { flex-wrap: wrap; min-height: 64px; padding: 12px; gap: 8px; }
+    .phone .brand { font-size: 20px; }
+    .phone .bar .links { font-size: 12px; }
+    .links { display: flex; gap: 12px; align-items: center; }
+    .go { display: inline-flex; justify-content: center; align-items: center; min-height: 44px; padding: 10px 16px; background: #303030; color: #fff; text-decoration: none; border-radius: 4px; font-size: 14px; text-align: center; }
+    .minor { background: white; color: #252525; border: 1px solid #8b8b8b; }
+    .block { padding: 32px; border-bottom: 1px solid #e3e3e3; }
+    .phone .block { padding: 28px 16px; }
+    .code { display: block; color: #666; font-size: 12px; margin-bottom: 12px; }
+    .hero { min-height: 380px; background: #eee; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: center; }
+    .hero h3 { font-size: 26px; }
+    .phone .hero { min-height: 460px; grid-template-columns: 1fr; gap: 24px; }
+    .phone .hero h3 { font-size: 24px; }
+    .hero .object { width: min(100%, 170px); height: 190px; margin: 20px auto; }
+    .object { display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px dashed #777; border-radius: 12px; background: #fafafa; text-align: center; padding: 12px; min-height: 160px; font-size: 14px; }
+    .placeholder { background: #ebebeb; min-height: 170px; display: grid; place-items: center; padding: 20px; font-size: 14px; color: #555; text-align: center; border: 1px dashed #aaa; }
+    .wide { min-height: 210px; margin-bottom: 24px; }
+    .split { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: center; }
+    .phone .split { grid-template-columns: 1fr; gap: 24px; }
+    .phone .scent .copy { order: -1; }
+    .phase { padding: 20px 24px; background: #fafafa; border-bottom: 1px solid #ddd; }
+    .phase ol { margin: 12px 0 0; padding-left: 22px; font-size: 14px; }
+    .phase li { margin-bottom: 8px; }
+    .phase .meta { margin-top: 12px; }
+    .foot { padding: 28px; color: #555; font-size: 13px; }
+    .foot p { margin-top: 12px; }
+    .phone .foot { padding: 24px 16px; }
+    .entry { display: grid; grid-template-columns: 1.15fr 1fr; gap: 28px; padding: 32px; }
+    .entry .placeholder { min-height: 320px; }
+    .phone .entry { grid-template-columns: 1fr; padding: 24px 16px; gap: 24px; }
+    .phone .entry .placeholder { min-height: 250px; }
+    .price { font-size: 24px; font-variant-numeric: tabular-nums; margin: 16px 0; }
+    .quantity { padding: 12px; border: 1px solid #999; margin: 16px 0; display: flex; gap: 20px; justify-content: center; font-size: 18px; }
+    .purchase { padding: 16px; border-top: 1px solid #999; background: #e8e8e8; }
+    .purchase .go { width: 100%; }
+    .note { font-size: 13px; color: #555; margin-top: 16px; }
+    .flow { padding: 24px; background: #e8e8e8; margin-bottom: 24px; }
+    .flow p { margin: 0; max-width: none; }
+    .checkout { padding: 32px; display: grid; grid-template-columns: 1.2fr 1fr; gap: 28px; }
+    .phone .checkout { padding: 24px 16px; grid-template-columns: 1fr; }
+    .summary-box { padding: 20px; background: #f1f1f1; }
+    .row { margin-bottom: 12px; display: flex; justify-content: space-between; gap: 12px; font-size: 14px; }
+    .completion { padding: 44px 32px; }
+    .completion h3 { font-size: 26px; }
+    .phone .completion { padding: 36px 16px; }
+    .completion .go { margin-top: 20px; }
+    .compact { font-size: 14px; }
+    .empty { padding: 20px; margin: 24px 0 0; border: 1px dashed #aaa; }
+    @media(max-width: 780px) {
+      main { padding: 32px 20px 60px; }
+      .pair { grid-template-columns: 1fr; }
+      .phone { max-width: 390px; width: 100%; }
+      .pair > figure:not(.phone) { overflow-x: auto; }
+      .pair > figure:not(.phone) .screen { min-width: 600px; }
+    }
+    @media print { details { break-before: page; } summary { break-after: avoid; } .pair { gap: 16px; } nav { display: none; } body { background: white; } }
+  </style>
+<style>.catalog-update{margin:40px 0 64px;padding:28px;background:white;border:1px solid #bbb;border-radius:12px}.wire-pair{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:28px;margin:28px 0 40px}.wire-surface{border:1px solid #777;padding:20px;background:#fff;min-width:0}.wire-bar{padding:12px 0;border-bottom:1px solid #aaa;font-size:14px;line-height:1.6}.wire-notice{text-align:center;font-size:12px;padding:8px;background:#eee}.wire-label{font-size:14px;color:#555;margin:12px 0}.wire-products{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.wire-product{min-width:0;font-size:13px;line-height:1.5}.wire-photo{aspect-ratio:4/5;display:grid;place-items:center;background:#e8e8e8;color:#555;margin-bottom:10px;text-align:center;padding:12px}.wire-mobile .wire-products{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.wire-mobile{padding:14px}.wire-mobile .wire-product{font-size:12px}.wire-action{display:block;padding:12px;background:#333;color:white;text-align:center;font-size:14px;margin:16px 0 0}.wire-detail{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:20px}.wire-detail p{font-size:14px}.wire-mobile .wire-detail{display:block}.wire-lines{border-top:1px solid #aaa;margin-top:24px;padding-top:20px}.wire-cart-item{padding:20px 0;border-bottom:1px solid #aaa;font-size:14px}.wire-summary{background:#eee;padding:20px;font-size:14px}.wire-mobile .wire-summary{margin-top:24px}.wire-caption{font-size:14px;color:#555}.wire-flow{font-size:16px;line-height:1.8}@media(max-width:850px){.wire-pair{grid-template-columns:1fr}.wire-mobile{max-width:300px}.catalog-update{padding:20px}.wire-products{gap:12px}.wire-surface{padding:16px}}@media(max-width:480px){.wire-detail{grid-template-columns:1fr}.wire-products{grid-template-columns:repeat(2,minmax(0,1fr))}}</style></head>
+<body>
+<main>
+  <a href="REVIEW.html">문서 검토 화면으로 돌아가기</a>
+  <h1>ants 홈페이지 와이어프레임</h1>
+  <p class="meta">인터뷰 결과 · 검토 초안 · 2026년 10월 13일</p>
+  <div class="intro">
+    <p>와이어프레임은 색상과 장식보다 내용의 위치와 순서를 보여주는 화면 설계도입니다. 회색 영역은 제작할 이미지·장면의 자리이며 완성된 디자인이 아닙니다.</p>
+    <p>PC와 모바일 모두 같은 이야기를 이어갑니다. 도식의 버튼을 누르면 실제 구매 대신 연결될 설계 화면을 볼 수 있습니다. 좁은 화면에서는 PC 설계도 안을 좌우로 이동해 전체 배치를 볼 수 있습니다.</p>
+  </div>
+  <nav aria-label="설계 화면">
+    <a href="#wf-home">홈</a><a href="#wf-product">상품 상세</a><a href="#wf-cart">장바구니</a><a href="#wf-checkout">모의 주문</a><a href="#wf-complete">완료</a>
+  </nav><section class="catalog-update" id="catalog-plan"><h2>현재안 · 6종 스토어의 화면 구조</h2><p>2026년 10월 15일 확장 요청 반영. 아래는 내용의 위치와 이동을 보여주는 흑백 설계도입니다. 실제 디자인은 <a href="http://127.0.0.1:62517/shop/">완성된 스토어</a>에서 확인할 수 있습니다.</p><p class="wire-flow">홈의 기존 영상·향 소개·일상 장면 → 6종 컬렉션 → 전체 향수/향 분류/검색 → 각 상품 상세 → 여러 상품 장바구니 → 모의 주문 확인 → 완료</p><h3>전체 향수 목록</h3><div class="wire-pair"><div><p class="wire-caption">PC</p><div class="wire-surface"><div class="wire-bar">ants　　전체 향수 · 향별로 찾기 · 나의 향 찾기 · 브랜드 이야기　　검색 · 장바구니</div><h3 style="margin-top:24px">나의 하루에, 작은 향을.</h3><p class="wire-label">6종의 깨끗한 향을 비교하는 짧은 소개</p><div class="wire-bar">전체 · 클린 · 시트러스 · 그린 · 플로럴 · 우디<br>결과 수 / 추천순·가격순 정렬</div><p class="wire-label">검색 시 검색어와 지우기 표시</p><div class="wire-products"><div class="wire-product"><div class="wire-photo">제품 사진<br>4:5</div><strong>FIRST LIGHT</strong><br>비누·클린<br>50mL · 69,000원</div><div class="wire-product"><div class="wire-photo">제품 사진<br>4:5</div><strong>SOFT LINEN</strong><br>린넨·클린<br>50mL · 69,000원</div><div class="wire-product"><div class="wire-photo">제품 사진<br>4:5</div><strong>CITRUS AIR</strong><br>시트러스<br>50mL · 69,000원</div><div class="wire-product"><div class="wire-photo">제품 사진<br>4:5</div><strong>GREEN HOUR</strong><br>그린<br>50mL · 72,000원</div><div class="wire-product"><div class="wire-photo">제품 사진<br>4:5</div><strong>PETAL MIST</strong><br>플로럴<br>50mL · 72,000원</div><div class="wire-product"><div class="wire-photo">제품 사진<br>4:5</div><strong>QUIET WOOD</strong><br>우디<br>50mL · 75,000원</div></div><div class="wire-bar">브랜드 · 전체 향수 · 데모 안내 푸터</div></div></div><div><p class="wire-caption">모바일</p><div class="wire-surface wire-mobile"><div class="wire-bar">ants · 검색 · 장바구니 · 메뉴</div><h3 style="margin-top:24px">나의 하루에, 작은 향을.</h3><p class="wire-label">6종의 깨끗한 향을 비교하는 짧은 소개</p><div class="wire-bar">전체 · 클린 · 시트러스 · 그린 · 플로럴 · 우디<br>결과 수 / 추천순·가격순 정렬</div><p class="wire-label">검색 시 검색어와 지우기 표시</p><div class="wire-products"><div class="wire-product"><div class="wire-photo">제품 사진<br>4:5</div><strong>FIRST LIGHT</strong><br>비누·클린<br>50mL · 69,000원</div><div class="wire-product"><div class="wire-photo">제품 사진<br>4:5</div><strong>SOFT LINEN</strong><br>린넨·클린<br>50mL · 69,000원</div><div class="wire-product"><div class="wire-photo">제품 사진<br>4:5</div><strong>CITRUS AIR</strong><br>시트러스<br>50mL · 69,000원</div><div class="wire-product"><div class="wire-photo">제품 사진<br>4:5</div><strong>GREEN HOUR</strong><br>그린<br>50mL · 72,000원</div><div class="wire-product"><div class="wire-photo">제품 사진<br>4:5</div><strong>PETAL MIST</strong><br>플로럴<br>50mL · 72,000원</div><div class="wire-product"><div class="wire-photo">제품 사진<br>4:5</div><strong>QUIET WOOD</strong><br>우디<br>50mL · 75,000원</div></div><div class="wire-bar">브랜드 · 전체 향수 · 데모 안내 푸터</div></div></div></div><h3>6개 상품에 공통으로 쓰는 상세 구조</h3><div class="wire-pair"><div><p class="wire-caption">PC</p><div class="wire-surface"><div class="wire-bar">ants　　전체 향수 · 향별로 찾기 · 나의 향 찾기 · 브랜드 이야기　　검색 · 장바구니</div><div class="wire-detail"><div class="wire-photo">이 상품의 사진 4:5</div><div><p>전체 향수로 돌아가기</p><h3>SOFT LINEN</h3><p>흰결 · 클린<br>향의 느낌 / 50mL / 69,000원</p><div class="wire-bar">수량: 줄이기 · 입력 · 늘리기</div><p>항목 가까이 오류 / 선택 상품 금액</p><span class="wire-action">장바구니 담기</span><p class="wire-caption">가상 상품과 실제 거래 없음 안내</p></div></div><div class="wire-lines">향의 이미지와 일상 장면 → 다른 상품 추천 → 데모 FAQ</div></div></div><div><p class="wire-caption">모바일</p><div class="wire-surface wire-mobile"><div class="wire-bar">ants · 검색 · 장바구니 · 메뉴</div><div class="wire-detail"><div class="wire-photo">이 상품의 사진 4:5</div><div><p>전체 향수로 돌아가기</p><h3>SOFT LINEN</h3><p>흰결 · 클린<br>향의 느낌 / 50mL / 69,000원</p><div class="wire-bar">수량: 줄이기 · 입력 · 늘리기</div><p>항목 가까이 오류 / 선택 상품 금액</p><span class="wire-action">장바구니 담기</span><p class="wire-caption">가상 상품과 실제 거래 없음 안내</p></div></div><div class="wire-lines">향의 이미지와 일상 장면 → 다른 상품 추천 → 데모 FAQ</div><div class="wire-bar">하단 고정 담기: 본문 담기가 화면 밖일 때 표시</div></div></div></div><h3>다품목 장바구니</h3><div class="wire-pair"><div><p class="wire-caption">PC</p><div class="wire-surface"><div class="wire-bar">ants　　전체 향수 · 향별로 찾기 · 나의 향 찾기 · 브랜드 이야기　　검색 · 장바구니</div><h3 style="margin-top:24px">장바구니</h3><div class="wire-detail"><div><div class="wire-cart-item">FIRST LIGHT 사진 / 이름 / 개당 가격<br>수량 2개 / 행 금액 138,000원 / 삭제</div><div class="wire-cart-item">QUIET WOOD 사진 / 이름 / 개당 가격<br>수량 1개 / 행 금액 75,000원 / 삭제</div></div><div class="wire-summary">2종 · 총 3개<br>총 상품 금액 213,000원<br>실제 결제 없음<span class="wire-action">모의 주문하기</span></div></div></div></div><div><p class="wire-caption">모바일</p><div class="wire-surface wire-mobile"><div class="wire-bar">ants · 검색 · 장바구니 · 메뉴</div><h3 style="margin-top:24px">장바구니</h3><div class="wire-detail"><div><div class="wire-cart-item">FIRST LIGHT 사진 / 이름 / 개당 가격<br>수량 2개 / 행 금액 138,000원 / 삭제</div><div class="wire-cart-item">QUIET WOOD 사진 / 이름 / 개당 가격<br>수량 1개 / 행 금액 75,000원 / 삭제</div></div><div class="wire-summary">2종 · 총 3개<br>총 상품 금액 213,000원<br>실제 결제 없음<span class="wire-action">모의 주문하기</span></div></div></div></div></div><h3>상품 상세 강화 · 현재 확장안</h3><p>대표 사진 위의 ‘사진 크게 보기’ → 해당 상품 사진 확대 → 전체/원본 크기 전환 → 닫기 후 상품 사진으로 복귀합니다. 상품 정보는 이름·향 계열 → 짧은 소개 → 향의 인상·떠올린 순간 → 50mL·데모 가격 → 수량·담기 순서입니다. PC는 기존 사진/정보 두 열, 모바일은 한 열과 하단 구매 바를 유지합니다. 확대 화면은 상품명·크기 전환·닫기 → 사진 영역 → 안내 순서이며 원본 크기에서는 내부를 스크롤합니다.</p><h3>나의 향 찾기 · 현재 확장안</h3><p>PC 헤더 80px/모바일 64px. PC는 사진과 질문을 같은 폭의 두 열로 배치하고 선택지는 가로선으로 구분합니다. 다음 버튼은 입력 영역 너비로 표시하며 959px 이하는 한 열로 전환합니다. 상단 데모 안내 띠는 제거하고 푸터·상품·주문 안내는 유지합니다. 헤더/메뉴·홈 컬렉션·푸터에서 향 찾기로 이동합니다.</p><div class="wire-pair"><div class="wire-surface"><div class="wire-bar">ants · 전체 향수 · 향별 탐색 · 나의 향 찾기 · 브랜드 · 검색 · 장바구니</div><div class="wire-detail"><div class="wire-photo">질문 중: 기존 비누 장면<br>결과: 추천된 상품 사진</div><div><h3>나의 향 찾기</h3><p>질문 1/3 → 2/3 → 3/3</p><div class="wire-cart-item">한 질문 / 3개 라디오 선택지<br>이전 선택 유지 / 미선택 오류</div><span class="wire-action">다음 질문 / 나의 향 확인하기</span><p>결과: 상품명·향·선택 이유·답변3개·50mL·데모 가격</p><span class="wire-action">해당 상품 자세히 보기</span><p>다시 찾기 / 전체 향수</p></div></div></div><div class="wire-surface wire-mobile"><div class="wire-bar">ants · 검색 · 장바구니 · 메뉴</div><h3>나의 향 찾기</h3><p>모바일은 질문을 먼저 표시</p><div class="wire-cart-item">질문 1/3<br>선택지 3개</div><span class="wire-action">다음 질문</span><div class="wire-lines">결과: 상품 사진 → 추천 상품·선택 이유·세 답변·가격 → 상세 이동 / 다시 찾기</div></div></div><h3>확인과 완료</h3><p>확인: 모든 상품 사진·이름·개별 수량·금액, 전체 합계, 개인정보 입력 없음 안내, ‘모의 주문 완료하기’. PC는 요약을 옆에, 모바일은 아래에 둡니다.</p><p>완료: 체험 완료 안내, 선택한 모든 상품, 총 개수·종류·금액, 전체 향수/홈 이동. 실제 결제·주문 접수 없음 표시. 선택이 없는 경우에는 빈 상태와 상품 탐색 버튼을 보여줍니다.</p><p class="wire-caption">이 아래의 초기 한 제품 설계는 인터뷰 이력입니다. 현재 상품 수·헤더·검색·구매 흐름은 이 6종 확장안과 최신 PRD/디자인 명세서를 따릅니다.</p></section>
+  <div class="flow"><p><strong>구매 흐름</strong>　홈 → 상품 상세 → 장바구니 → 모의 주문 확인 → 모의 주문 완료</p></div>
+
+  <details id="wf-home" open>
+    <summary>01 홈</summary>
+    <p class="purpose">브랜드 경험 → 향 이해 → 일상과의 연결 → 상품 상세 이동. 첫 시안 범위는 헤더·전체 히어로·향 소개까지입니다.</p>
+    <div class="pair">
+      <figure><figcaption>PC 구성 · 제품과 문구의 공간 분리</figcaption><div class="screen">
+        <div class="bar"><span class="brand">ants</span><div class="links"><span>브랜드 이야기</span><a class="go" href="#wf-product">향수 알아보기</a><a href="#wf-cart">장바구니 0</a></div></div>
+        <div class="block hero"><div><span class="code">H-02 · 히어로 마지막 장면의 위치</span><h3>하루의 시작에,<br>작은 향을.</h3><p class="compact">깨끗한 비누향의 데일리 향수</p><p class="compact cap">FIRST LIGHT</p><p class="compact">50mL · 69,000원 · 데모용 제품</p><a class="go" href="#wf-product">향수 알아보기</a></div><div class="object">투명한 향수병<br>흰색 뚜껑<br>작은 ants 로고</div></div>
+        <div class="phase"><strong>한 무대에서 이어지는 스크롤</strong><ol><li>물방울을 가까이 보기</li><li>시점이 멀어지며 향수병 등장</li><li>병 위쪽 사선에서 정면으로 시점 변화</li><li>제품 정보와 상세 이동 버튼</li></ol><p class="meta">시간 자동 재생이 아닌 스크롤 진행률 기준. 위로 스크롤하면 같은 장면을 거슬러 이동.</p></div>
+        <div class="block split scent"><div class="placeholder">향의 느낌을 표현할 소재 이미지</div><div class="copy"><span class="code">H-03 · 향의 느낌</span><h3>깨끗한 기분을,<br>향으로.</h3><p class="compact">비누처럼 깨끗한 향의 이미지를 짧은 문장으로 설명</p></div></div>
+        <div class="block"><span class="code">H-04 · 일상과 브랜드 이야기</span><div class="placeholder wide">아침빛 선반과 제품의 큰 생활 이미지</div><h3>큰 변화보다, 작은 습관.</h3><p class="compact">외출 전의 순간과 ants의 의미를 연결</p></div>
+        <div class="block split"><div class="object">같은 제품의 전체 이미지</div><div><span class="code">H-05 · 제품 소개</span><h3 class="cap">FIRST LIGHT</h3><p class="compact">깨끗한 비누향 · 50mL · 69,000원</p><p class="note">가상의 데모용 제품</p><a class="go" href="#wf-product">향수 알아보기</a></div></div>
+        <div class="foot"><strong>ants · 일상을 바꾸는 작은 향</strong><p>홈 · 상품 상세 · 장바구니</p><p>가상의 브랜드 데모입니다. 실제 결제·배송·주문 접수는 진행되지 않습니다.</p></div>
+      </div></figure>
+      <figure class="phone"><figcaption>모바일 구성 · 같은 4단계와 주요 움직임</figcaption><div class="screen">
+        <div class="bar"><span class="brand">ants</span><div class="links"><a href="#wf-product">향수 알아보기</a><a href="#wf-cart">담기 0</a><span>메뉴</span></div></div>
+        <div class="block hero"><div><span class="code">H-02 · 문구 안전 영역</span><h3>하루의 시작에,<br>작은 향을.</h3></div><div class="object">향수병 전체<br>병과 글자는 겹치지 않음</div><div><p class="compact cap">FIRST LIGHT</p><p class="compact">50mL · 69,000원 · 데모용 제품</p><a class="go" href="#wf-product">향수 알아보기</a></div></div>
+        <div class="phase"><strong>PC와 같은 장면 순서</strong><ol><li>물방울 접사</li><li>향수병 등장</li><li>사선 → 정면 시점 변화</li><li>제품 정보와 버튼</li></ol><p class="meta">모바일에서도 움직임 유지. 세로 화면에 맞춰 구도·글자·제품 크기 조정.</p></div>
+        <div class="block split scent"><div class="copy"><span class="code">H-03 · 향의 느낌</span><h3>깨끗한 기분을,<br>향으로.</h3><p class="compact">향의 느낌을 읽은 뒤 소재 이미지</p></div><div class="placeholder">소재 이미지</div></div>
+        <div class="block"><span class="code">H-04 · 일상과 브랜드 이야기</span><div class="placeholder wide">세로 4:5 생활 이미지<br>제품의 위치 유지</div><h3>큰 변화보다,<br>작은 습관.</h3></div>
+        <div class="block"><span class="code">H-05 · 제품 소개</span><div class="object">제품 전체 이미지</div><h3 class="cap">FIRST LIGHT</h3><p class="compact">비누향 · 50mL · 69,000원</p><p class="note">가상의 데모용 제품</p><a class="go" href="#wf-product">향수 알아보기</a></div>
+        <div class="foot"><strong>ants</strong><p>홈 · 상품 상세 · 장바구니</p><p>가상의 브랜드 데모. 실제 결제·배송·주문 접수 없음.</p></div>
+      </div></figure>
+    </div>
+  </details>
+
+  <details id="wf-product">
+    <summary>02 상품 상세</summary>
+    <p class="purpose">제품명·향·용량·가격·수량을 한 흐름으로 읽고 장바구니에 담습니다. 단일 용량이므로 선택 목록은 추가하지 않습니다.</p>
+    <div class="pair">
+      <figure><figcaption>PC 구성 · 제품 이미지와 구매 정보</figcaption><div class="screen">
+        <div class="bar"><span class="brand">ants</span><a href="#wf-home">홈으로</a><a href="#wf-cart">장바구니</a></div>
+        <div class="entry"><div class="placeholder">대표 제품 이미지<br>병·뚜껑·로고 전체 표시</div><div><span class="code">D-01 · 구매 정보</span><h3 class="cap">FIRST LIGHT</h3><p>첫빛 · 깨끗한 비누향</p><p>50mL · 단일 구성</p><div class="price">69,000원</div><p class="compact">수량</p><div class="quantity">−　1　+</div><a class="go" href="#wf-cart">장바구니 담기 → 흐름 보기</a><p class="note">실제 제품 판매가 없는 가상 브랜드 데모</p></div></div>
+        <div class="block split"><div><span class="code">D-02 · 향과 일상 설명</span><h3>맑은 기분이 필요한 순간.</h3><p class="compact">향의 이미지와 사용 순간을 설명<br>확인하지 않은 성분·효능·지속 시간은 넣지 않음</p></div><div class="placeholder">소재·제품 확대 이미지</div></div>
+        <div class="block"><span class="code">D-03 · 데모 안내</span><h3>실제로 구매되는 상품인가요?</h3><p class="compact">가상의 브랜드와 상품으로 구성한 데모입니다.</p><h3>결제나 개인정보 입력이 필요한가요?</h3><p class="compact">실제 결제 없이 모의 주문을 완료합니다.</p></div>
+        <div class="foot">공통 푸터 · 데모 안내</div>
+      </div></figure>
+      <figure class="phone"><figcaption>모바일 구성 · 이미지 → 정보 → 담기</figcaption><div class="screen">
+        <div class="bar"><span class="brand">ants</span><a href="#wf-home">홈</a><a href="#wf-cart">장바구니</a></div>
+        <div class="entry"><div class="placeholder">제품 전체 이미지<br>정사각 안전 영역</div><div><span class="code">D-01</span><h3 class="cap">FIRST LIGHT</h3><p>첫빛 · 비누향 · 50mL</p><div class="price">69,000원</div><p class="compact">수량</p><div class="quantity">−　1　+</div><p class="note">가상의 데모용 제품</p></div></div>
+        <div class="block"><span class="code">D-02</span><h3>맑은 기분이 필요한 순간.</h3><p class="compact">짧은 설명과 소재 이미지</p><div class="placeholder">확대 이미지</div></div>
+        <div class="block"><span class="code">D-03</span><h3>데모 안내</h3><p class="compact">실제 결제와 개인정보 입력 없음</p><p class="note">고정 구매 바에 가리지 않도록 하단 여백 확보</p></div>
+        <div class="foot">공통 푸터 · 데모 안내</div>
+        <div class="purchase"><span class="code">하단 고정 구매 바의 위치 제안</span><a class="go" href="#wf-cart">장바구니 담기 → 흐름 보기</a></div>
+      </div></figure>
+    </div>
+    <p class="note">실제 제작에서는 담기 후 상품 상세를 유지하고 토스트·수량 표시·장바구니 보기로 결과를 안내합니다. 위 버튼은 설계상의 다음 화면을 보는 링크입니다.</p>
+  </details>
+
+  <details id="wf-cart">
+    <summary>03 장바구니</summary>
+    <p class="purpose">상품·수량·합계를 확인하고 수정합니다. 가격 계산은 단가 69,000원 × 수량입니다.</p>
+    <div class="pair">
+      <figure><figcaption>PC 구성 · 상품 행과 주문 요약</figcaption><div class="screen">
+        <div class="bar"><span class="brand">ants</span><a href="#wf-product">상품으로</a></div>
+        <div class="checkout"><div><h3>장바구니</h3><div class="placeholder">제품 축소 이미지</div><p class="cap">FIRST LIGHT</p><p>50mL · 69,000원</p><div class="quantity">수량　−　1　+</div><p class="compact">삭제</p></div><div class="summary-box"><h3>상품 금액</h3><div class="row"><span>수량</span><span>1개</span></div><div class="price">69,000원</div><p class="note">배송과 결제가 없는 데모입니다.</p><a class="go" href="#wf-checkout">모의 주문하기</a></div></div>
+        <div class="foot">공통 푸터 · 데모 안내</div>
+      </div></figure>
+      <figure class="phone"><figcaption>모바일 구성 · 상품 → 합계 → 행동</figcaption><div class="screen">
+        <div class="bar"><span class="brand">ants</span><a href="#wf-product">상품으로</a></div>
+        <div class="checkout"><div><h3>장바구니</h3><div class="placeholder">제품 축소 이미지</div><p class="cap">FIRST LIGHT</p><p>50mL · 69,000원</p><div class="quantity">수량　−　1　+</div><p class="compact">삭제</p></div><div class="summary-box"><h3>총 상품 금액</h3><div class="price">69,000원</div><p class="note">배송과 결제가 없는 데모</p><a class="go" href="#wf-checkout">모의 주문하기</a></div></div>
+        <div class="foot">공통 푸터 · 데모 안내</div>
+      </div></figure>
+    </div>
+    <div class="empty"><h3>빈 장바구니 상태</h3><p>아직 담은 향수가 없어요.</p><a class="go minor" href="#wf-product">향수 알아보기</a><p class="note">빈 상태에서는 모의 주문으로 진행하지 않습니다.</p></div>
+  </details>
+
+  <details id="wf-checkout">
+    <summary>04 모의 주문 확인</summary>
+    <p class="purpose">개인정보를 입력하지 않고 선택한 제품과 금액을 확인한 뒤 모의 주문을 완료합니다.</p>
+    <div class="pair">
+      <figure><figcaption>PC 구성 · 체험 안내와 요약</figcaption><div class="screen">
+        <div class="bar"><span class="brand">ants</span><a href="#wf-cart">장바구니 수정</a></div>
+        <div class="checkout"><div><h3>모의 주문 확인</h3><p>배송지 입력 없이 모의 주문을 체험합니다.</p><div class="placeholder">입력폼 대신 데모 안내<br>이름·주소·전화·카드 정보를 받지 않음</div></div><div class="summary-box"><h3>주문 내용</h3><p class="cap">FIRST LIGHT</p><p>50mL · 1개</p><div class="price">69,000원</div><p class="note">실제 결제·주문 접수가 없는 데모입니다.</p><a class="go" href="#wf-complete">모의 주문 완료하기</a></div></div>
+        <div class="foot">공통 푸터 · 데모 안내</div>
+      </div></figure>
+      <figure class="phone"><figcaption>모바일 구성 · 확인과 완료 행동</figcaption><div class="screen">
+        <div class="bar"><span class="brand">ants</span><a href="#wf-cart">수정</a></div>
+        <div class="checkout"><div><h3>모의 주문 확인</h3><p>배송지 입력 없이 구매 흐름을 체험합니다.</p></div><div class="summary-box"><p class="cap">FIRST LIGHT</p><p>50mL · 1개</p><div class="price">69,000원</div><p class="note">실제 결제·주문 접수 없음</p><a class="go" href="#wf-complete">모의 주문 완료하기</a></div></div>
+        <div class="foot">공통 푸터 · 데모 안내</div>
+      </div></figure>
+    </div>
+  </details>
+
+  <details id="wf-complete">
+    <summary>05 모의 주문 완료</summary>
+    <p class="purpose">체험 완료 사실과 실제 거래가 없다는 안내를 함께 보여줍니다.</p>
+    <div class="pair">
+      <figure><figcaption>PC 구성 · 결과와 복귀</figcaption><div class="screen">
+        <div class="bar"><span class="brand">ants</span><a href="#wf-home">홈</a></div>
+        <div class="completion"><span class="code">O-02 · 결과</span><h3>모의 주문을 완료했어요.</h3><p>실제 결제와 주문 접수는 이루어지지 않았습니다.</p><div class="summary-box"><p class="cap">FIRST LIGHT</p><div class="row"><span>용량·수량</span><span>50mL · 1개</span></div><div class="row"><span>체험 금액</span><span>69,000원</span></div></div><a class="go" href="#wf-home">홈으로 돌아가기</a> <a class="go minor" href="#wf-product">향수 다시 보기</a></div>
+        <div class="foot">공통 푸터 · 데모 안내</div>
+      </div></figure>
+      <figure class="phone"><figcaption>모바일 구성 · 같은 결과와 행동</figcaption><div class="screen">
+        <div class="bar"><span class="brand">ants</span><a href="#wf-home">홈</a></div>
+        <div class="completion"><span class="code">O-02 · 결과</span><h3>모의 주문을<br>완료했어요.</h3><p>실제 결제와 주문 접수는 이루어지지 않았습니다.</p><div class="summary-box"><p class="cap">FIRST LIGHT</p><p>50mL · 1개</p><p>체험 금액 69,000원</p></div><a class="go" href="#wf-home">홈으로 돌아가기</a><a class="go minor" href="#wf-product">향수 다시 보기</a></div>
+        <div class="foot">공통 푸터 · 데모 안내</div>
+      </div></figure>
+    </div>
+    <p class="note">직접 완료 주소로 진입했거나 기록이 없는 경우에는 ‘확인할 데모 주문이 없습니다’와 상품 이동 링크를 보여주는 상태를 별도로 구현합니다.</p>
+  </details>
+  <p class="meta">흑백 설계도 확인과 실제 홈페이지의 반응형·애니메이션·구매 동작 검수는 별개의 단계입니다.</p>
+</main>
+<script>
+  function revealTarget() {
+    const panel = document.getElementById(location.hash.slice(1));
+    if (panel instanceof HTMLDetailsElement) panel.open = true;
+  }
+  addEventListener('hashchange', revealTarget);
+  revealTarget();
+</script>
+<section style="max-width:1100px;margin:40px auto;padding:24px"><h2>제품별 상세 이야기 · FR-15</h2><p>구매 정보의 향 이야기 보기 → 각 향의 장면 사진과 고유 이야기 → 첫인상·중심·여운 → 어울리는 하루 → 관련 상품 → 간결한 공통 푸터. (이전 FR-15 흐름이며 아래 FR-16에서 확장)</p><p>PC는 사진7:문구5의 두 열, 향 인상3열이다. 모바일은 사진·이야기 순서로 쌓고 향 인상은 레이블/설명 한 행씩 배치한다. FIRST LIGHT의 기존 두 이야기 구간은 보존한다.</p></section><section style="max-width:1100px;margin:40px auto;padding:24px"><h2>상세 본문 확장 · FR-16</h2><p>구매 정보 → 기존 장면/향 인상 → 큰 제품 캠페인 사진 → 고유 제목과 두 문단 → 세 가지 일상 장면과 병/라벨 근접 사진 → 두 향 비교와 상대 상품 이동 → 관련 상품 → 로고/메뉴 푸터.</p><p>PC: 캠페인 사진은 전체 폭, 아래 제목과 본문은 두 열. 일상5:근접 사진7, 비교 상품은 두 열이다. 모바일: 같은 순서로 한 열을 유지하고 캠페인은4:5로 잘라 병 전체를 보존한다.320px에서도 비교 상품은 한 행씩 배치한다. 기존 사진 확대와 구매 버튼을 유지한다.</p><p>사용자 첨부의 ‘체험 전, 알아두세요’ 전체와 공통 푸터의 두 안내 문장/구분선은 삭제했다. 다른 위치에 대체하지 않는다.</p></section><section style="max-width:1100px;margin:40px auto;padding:24px"><h2>현재 전체 마감 · FR-17</h2><p>홈의 장면과6종 목록 → 검색/향 찾기 → 제품 사진·향·용량·가격·수량·담기 → 여러 상품 장바구니 → 모의 주문 확인 → 모의 주문 완료.</p><p>상품 상세는 반복 데모 안내 없이 향과 선택 정보에 집중한다. 장바구니/주문 단계의 한 문장과 모의 주문 버튼/완료 제목으로 실제 결제·배송이 없음을 전달한다. 삭제한 FAQ·푸터 안내·복귀 링크·가상 해석 문장은 복원하지 않는다.</p><p>PC는 기존 구매7:5/주문7:4 두 열을 유지한다. 모바일은 사진·정보와 상품·합계를 순서대로 쌓고 상품 상세의 담기 버튼은 기존 본문 버튼 노출에 맞춰 고정 표시를 조절한다. 빈 상태의 이동은 전체 향수 보기로 통일한다. 과거 도식에 다른 안내가 있으면 이 현행 정정이 우선한다.</p></section></body>
+</html>

@@ -1,0 +1,32 @@
+[
+  {
+    "route": "/product/first-light/",
+    "height": 390,
+    "overflow": 0,
+    "width": 844
+  },
+  {
+    "route": "/cart/",
+    "height": 390,
+    "overflow": 0,
+    "width": 844
+  },
+  {
+    "route": "/checkout/",
+    "height": 390,
+    "overflow": 0,
+    "width": 844
+  },
+  {
+    "route": "/complete/",
+    "height": 390,
+    "overflow": 0,
+    "width": 844
+  },
+  {
+    "route": "/",
+    "height": 390,
+    "overflow": 0,
+    "width": 844
+  }
+]

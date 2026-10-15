@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ko" data-scene="preview"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><base href="../site/"><title>ants · 새 제품 비주얼</title><link rel="stylesheet" href="styles.css?v=20261014g"><style>
+.static-scene .hero-stage{padding:0;display:block;height:var(--stage-height);min-height:680px}
+.static-scene .scene-visual{position:absolute;inset:0;min-height:0}
+.scene-poster{object-fit:cover;object-position:72% 50%}
+.static-scene .hero-copy{position:absolute;left:max(48px,calc((100vw - 1280px)/2));top:48%;width:min(36vw,490px);transform:translateY(-50%)}
+.static-scene .product-copy{display:none}
+.preview-switch{position:fixed;z-index:20;bottom:20px;left:20px;display:flex;gap:8px}
+.preview-switch button{border:1px solid #b7cfd4;background:#f7faf8;color:#173d47;font-size:14px;padding:12px 16px;border-radius:8px;min-height:44px}
+.preview-switch button[aria-pressed=true]{background:#1a5964;color:#fff}
+@media(max-width:959px){.static-scene .hero-stage{min-height:var(--stage-height)}.static-scene .scene-visual{top:114px;bottom:100px;mask-image:none}.static-scene .hero-copy{top:26px;left:20px;right:20px;width:auto;transform:none}.scene-poster{object-position:74% 50%}}
+</style></head><body class="static-scene">
+<header class="site-header"><div class="header-inner"><a class="wordmark" href="#top">ants</a><nav class="desktop-nav" aria-label="메뉴"><a href="index.html#scent">향의 느낌</a><a href="index.html#first-light">향수 알아보기</a></nav></div></header>
+<main id="top"><section class="hero-story" aria-labelledby="hero-title"><div class="hero-stage"><div class="scene-visual" role="img" aria-label="작은 물방울이 맺힌 두꺼운 유리 향수병"><img class="scene-poster" src="assets/images/first-light-campaign.webp" width="1672" height="941" alt="ants FIRST LIGHT 향수병과 맑은 수면"></div><div class="hero-copy intro-copy"><h1 id="hero-title">하루의 시작에,<br>작은 향을.</h1><p>씻고 나온 듯 깨끗한 기분.<br>하루의 시작에 작은 향을 더하세요.</p><span class="intro-product"><span class="latin caps">FIRST LIGHT</span> · 비누향의 데일리 향수</span></div></div></section></main>
+<div class="preview-switch" role="group" aria-label="영상의 기준 이미지 비교"><button type="button" data-frame="macro" aria-pressed="false">물방울 확대 컷</button><button type="button" data-frame="campaign" aria-pressed="true">향수병 전체 컷</button></div>
+<script>document.querySelectorAll('[data-frame]').forEach(button=>button.addEventListener('click',()=>{document.querySelector('.scene-poster').src='assets/images/first-light-'+button.dataset.frame+'.webp';document.querySelectorAll('[data-frame]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));}));</script>
+</body></html>

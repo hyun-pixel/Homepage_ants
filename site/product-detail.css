@@ -1,0 +1,93 @@
+.product-zoom{position:relative;display:block;cursor:zoom-in}
+.photo-enlarge{position:absolute;right:16px;top:16px;display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:10px 14px;border-radius:8px;background:var(--surface);color:var(--ink);font-size:14px}
+.photo-enlarge svg{width:18px;height:18px}
+.product-zoom:hover .photo-enlarge{background:var(--control-hover,#deedf0)}
+.detail-info{padding-top:0}
+.detail-info .back-link{margin-bottom:16px}
+.detail-info .product-korean{margin-bottom:20px}
+.detail-info .detail-description{font-size:16px;line-height:1.6;margin-bottom:20px}
+.detail-impression{margin:0 0 24px;display:grid;gap:12px}
+.detail-impression>div{display:grid;grid-template-columns:100px minmax(0,1fr);gap:16px;align-items:baseline}
+.detail-impression dt{font-size:14px;line-height:1.5}
+.detail-impression dd{font-size:16px;line-height:1.5;word-break:keep-all}
+.detail-info .product-spec{padding:20px 0;margin-bottom:24px}
+.scent-story-link{margin:0 0 24px;font-size:14px;gap:10px}
+#scent-story,#product-title{scroll-margin-top:112px}
+.scent-story{display:grid;grid-template-columns:7fr 5fr;gap:88px;align-items:center;padding-top:56px;padding-bottom:96px;border-top:1px solid var(--rule)}
+.scent-story figure{margin:0;min-width:0}
+.scent-story figure img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:12px}
+.scent-story figcaption{font-size:13px;line-height:1.5;color:var(--muted);margin-top:12px}
+.scent-story-copy h2,.scent-profile h2{font-size:clamp(30px,2.8vw,40px);line-height:1.35;max-width:17ch;text-wrap:balance;margin-bottom:28px}
+.scent-story-copy p{font-size:16px;line-height:1.7;color:var(--muted);max-width:32em}
+.scent-story-copy p+p{margin-top:20px}
+.scent-profile{padding-top:48px;padding-bottom:96px}
+.scent-profile-intro{display:grid;grid-template-columns:1fr 1fr;gap:88px;align-items:end;margin-bottom:40px}
+.scent-profile h2{margin:0;max-width:18ch}
+.scent-profile-intro>p{font-size:14px;line-height:1.6;color:var(--muted);max-width:34em}
+.scent-impressions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px;margin:0}
+.scent-impressions>div{border-top:1px solid var(--rule);padding-top:20px}
+.scent-impressions dt{font-size:14px;color:var(--muted);margin-bottom:20px}
+.scent-impressions h3{font-size:24px;line-height:1.4;margin:0 0 12px;font-weight:400}
+.scent-impressions p{font-size:16px;line-height:1.6;color:var(--muted);max-width:25em}
+.scent-moment{display:grid;grid-template-columns:1fr 2fr;column-gap:40px;row-gap:20px;border-top:1px solid var(--rule);margin-top:56px;padding-top:32px}
+.scent-moment h3{font-size:20px;line-height:1.45;font-weight:400;margin:0}
+.scent-moment p{font-size:16px;line-height:1.7;max-width:38em;color:var(--muted)}
+.scent-moment .text-link{grid-column:2;justify-self:start;font-size:14px}
+.scent-campaign{padding:24px 0 64px}
+.campaign-photo{margin:0;width:100%;aspect-ratio:2/1;max-height:820px;overflow:hidden;background:var(--bg)}
+.campaign-photo img{display:block;width:100%;height:100%;object-fit:cover}
+.campaign-copy{display:grid;grid-template-columns:1fr 1fr;gap:88px;padding-top:80px;padding-bottom:48px}
+.campaign-copy h2{font-size:clamp(34px,3.2vw,48px);line-height:1.35;max-width:16ch;margin:0;text-wrap:balance}
+.campaign-copy p{font-size:18px;line-height:1.7;color:var(--muted);max-width:34em}
+.campaign-copy p+p{margin-top:24px}
+.scent-ritual{display:grid;grid-template-columns:5fr 7fr;gap:88px;align-items:start;padding-top:64px;padding-bottom:112px}
+.scent-ritual h2,.scent-compare h2{font-size:clamp(30px,2.8vw,40px);line-height:1.4;max-width:18ch;margin:0 0 40px;text-wrap:balance}
+.scent-ritual dl{margin:0}
+.scent-ritual dl>div{padding:24px 0;border-top:1px solid var(--rule)}
+.scent-ritual dt{font-size:20px;line-height:1.5;margin-bottom:12px}
+.scent-ritual dd{font-size:16px;line-height:1.7;color:var(--muted);max-width:31em}
+.scent-design{margin:0;min-width:0}
+.scent-design-photo{aspect-ratio:1/1;overflow:hidden;background:var(--bg);border-radius:12px}
+.scent-design-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 40%;transform:scale(1.45)}
+.scent-design figcaption{padding-top:28px;max-width:36rem}
+.scent-design h3{font-size:24px;line-height:1.45;font-weight:400;margin:0 0 16px}
+.scent-design p{font-size:16px;line-height:1.7;color:var(--muted)}
+.scent-compare{padding-top:64px;padding-bottom:112px;border-top:1px solid var(--rule)}
+.scent-pair{display:grid;grid-template-columns:1fr 1fr;gap:64px;margin-bottom:40px}
+.scent-pair>div{display:grid;grid-template-columns:140px minmax(0,1fr);gap:28px;align-items:center}
+.scent-pair img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:8px}
+.scent-pair h3{font-size:24px;line-height:1.3;font-weight:400;letter-spacing:.05em;margin:0 0 12px}
+.scent-pair p{font-size:15px;line-height:1.6;color:var(--muted);margin:0}
+.scent-pair p+p{margin-top:12px;color:var(--ink)}
+.scent-compare-copy{display:grid;grid-template-columns:2fr 1fr;gap:64px;align-items:start;padding-top:32px;border-top:1px solid var(--rule)}
+.scent-compare-copy p{font-size:16px;line-height:1.7;color:var(--muted);max-width:44em}
+.scent-compare-copy .text-link{justify-self:end;font-size:15px}
+@media(max-width:1100px){.campaign-copy,.scent-ritual{gap:48px}.scent-pair,.scent-compare-copy{gap:32px}.scent-pair>div{grid-template-columns:112px minmax(0,1fr);gap:20px}.scent-pair h3{font-size:22px}}
+@media(max-width:819px){.campaign-photo{aspect-ratio:4/3}.campaign-copy{grid-template-columns:1fr;gap:28px;padding-top:48px}.campaign-copy h2{font-size:34px}.campaign-copy p{font-size:16px}.scent-ritual{grid-template-columns:1fr;gap:40px;padding-top:32px;padding-bottom:72px}.scent-ritual-copy{max-width:40rem}.scent-design-photo{aspect-ratio:5/4}.scent-pair{gap:28px}.scent-pair>div{grid-template-columns:88px minmax(0,1fr);gap:16px}.scent-compare{padding-top:40px;padding-bottom:72px}.scent-compare-copy{grid-template-columns:1fr;gap:24px}.scent-compare-copy .text-link{justify-self:start}}
+@media(max-width:600px){.scent-campaign{padding-top:0;padding-bottom:24px}.campaign-photo{aspect-ratio:4/5;max-height:none}.campaign-copy{padding-top:40px;padding-bottom:24px}.campaign-copy h2{font-size:32px}.scent-ritual h2,.scent-compare h2{font-size:30px;margin-bottom:32px}.scent-ritual dt{font-size:20px}.scent-design h3{font-size:22px}.scent-design-photo{aspect-ratio:1/1;border-radius:8px}.scent-pair{grid-template-columns:1fr;gap:28px;margin-bottom:32px}.scent-pair>div{grid-template-columns:100px minmax(0,1fr);gap:24px}.scent-pair h3{font-size:22px}.scent-pair p{font-size:14px}.scent-compare-copy{padding-top:24px}}
+@media(max-width:1100px){.scent-story{gap:48px}.scent-profile-intro{gap:48px}.scent-impressions{gap:28px}}
+@media(max-width:819px){.scent-story{gap:32px;grid-template-columns:1fr;padding-top:40px;padding-bottom:56px}.scent-story-copy{max-width:38rem}.scent-profile-intro{gap:28px;grid-template-columns:1fr}.scent-profile{padding-top:32px;padding-bottom:72px}#scent-story,#product-title{scroll-margin-top:88px}}
+@media(max-width:600px){.scent-story-copy h2,.scent-profile h2{font-size:30px;line-height:1.4}.scent-story figure img{border-radius:8px}.scent-story figcaption{font-size:13px}.scent-profile-intro{margin-bottom:32px;gap:24px}.scent-impressions{grid-template-columns:1fr;gap:24px}.scent-impressions>div{display:grid;grid-template-columns:64px minmax(0,1fr);gap:16px;padding-top:20px}.scent-impressions dt{margin:3px 0 0}.scent-impressions h3{font-size:22px;margin-bottom:8px}.scent-moment{grid-template-columns:1fr;gap:16px;margin-top:40px;padding-top:28px}.scent-moment .text-link{grid-column:1;margin-top:8px}}
+.product-lightbox{border:0;border-radius:16px;padding:24px;margin:auto;width:min(1180px,calc(100% - 48px));height:min(1040px,calc(100dvh - 48px));max-width:none;max-height:none;background:var(--surface);color:var(--ink);overflow:hidden}
+.product-lightbox[open]{display:flex;flex-direction:column;gap:20px}
+.product-lightbox::backdrop{background:rgba(23,61,71,.42)}
+.lightbox-toolbar{display:flex;align-items:center;gap:20px;flex-shrink:0}
+.lightbox-toolbar h2{flex:1;min-width:0;font-size:24px;line-height:1.25;letter-spacing:.035em}
+.lightbox-size{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 14px;border:1px solid var(--control-border);border-radius:8px;background:transparent;color:var(--ink);font-size:14px;white-space:nowrap}
+.lightbox-size:hover:not(:disabled){background:var(--control-hover,#deedf0)}
+.lightbox-size:disabled{opacity:.5;cursor:default}
+.lightbox-viewer{display:flex;align-items:center;justify-content:center;flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;background:var(--bg);border-radius:12px}
+.lightbox-viewer:focus-visible{outline:2px solid var(--focus);outline-offset:-3px}
+.lightbox-viewer img{display:block;width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain}
+.is-original .lightbox-viewer{display:block}
+.is-original .lightbox-viewer img{width:1120px;height:1400px;max-width:none;max-height:none}
+.lightbox-status{margin:0;min-height:42px;font-size:14px;line-height:1.5;color:var(--muted);flex-shrink:0}
+.lightbox-error{text-align:center;padding:24px;max-width:28em}
+.lightbox-error p{font-size:16px;line-height:1.5;margin-bottom:20px}
+@media(max-width:959px){.detail-impression>div{grid-template-columns:88px minmax(0,1fr);gap:12px}.detail-impression dd{font-size:15px}.lightbox-toolbar h2{font-size:22px}}
+@media(max-width:600px){
+ .photo-enlarge{right:12px;top:12px;font-size:13px;padding:10px 12px}
+ .detail-info .back-link{margin-bottom:16px}.detail-impression{margin-bottom:20px;gap:12px}.detail-impression dt{font-size:13px}.detail-impression dd{font-size:15px}
+ .product-lightbox{width:100%;height:100dvh;margin:0;padding:16px;border-radius:0}.product-lightbox[open]{gap:16px}
+ .lightbox-toolbar{gap:12px}.lightbox-toolbar h2{font-size:20px;letter-spacing:.015em}.lightbox-size{font-size:13px;padding:10px 12px}.lightbox-status{font-size:13px;min-height:40px}
+}

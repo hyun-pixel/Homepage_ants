@@ -1,0 +1,157 @@
+{
+  "required": [
+    {
+      "file": "desktop-error.png",
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport"
+    },
+    {
+      "file": "desktop-initial.png",
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport"
+    },
+    {
+      "file": "desktop-result.png",
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport"
+    },
+    {
+      "file": "desktop-step2.png",
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport"
+    },
+    {
+      "file": "desktop-step3.png",
+      "pixels": [
+        1430,
+        993
+      ],
+      "capture": "native viewport"
+    },
+    {
+      "file": "finder-320.png",
+      "pixels": [
+        310,
+        775
+      ],
+      "capture": "native viewport"
+    },
+    {
+      "file": "finder-820.png",
+      "pixels": [
+        810,
+        988
+      ],
+      "capture": "native viewport"
+    },
+    {
+      "file": "finder-960.png",
+      "pixels": [
+        950,
+        891
+      ],
+      "capture": "native viewport"
+    },
+    {
+      "file": "mobile-error.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport"
+    },
+    {
+      "file": "mobile-home-product.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport"
+    },
+    {
+      "file": "mobile-home.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport"
+    },
+    {
+      "file": "mobile-initial.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport"
+    },
+    {
+      "file": "mobile-menu.png",
+      "pixels": [
+        390,
+        844
+      ],
+      "capture": "native viewport"
+    },
+    {
+      "file": "mobile-result-actions.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport"
+    },
+    {
+      "file": "mobile-result.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport"
+    },
+    {
+      "file": "mobile-step2.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport"
+    },
+    {
+      "file": "mobile-step3.png",
+      "pixels": [
+        380,
+        822
+      ],
+      "capture": "native viewport"
+    },
+    {
+      "file": "user-finder.png",
+      "pixels": [
+        2089,
+        1408
+      ],
+      "capture": "native viewport"
+    },
+    {
+      "file": "user-home.png",
+      "pixels": [
+        2079,
+        1401
+      ],
+      "capture": "native viewport"
+    }
+  ],
+  "note": "Actual user viewport2089x1408, desktop1440x1000, mobile390x844, narrow320x800, tablet820x1000, desktop threshold960x900. Separate result-actions view is a later scroll. Existing reference photos reused; no new asset generation."
+}

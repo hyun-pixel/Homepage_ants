@@ -1,0 +1,69 @@
+{
+  "actions": [
+    {
+      "test": "desktop add FIRST LIGHT x2",
+      "cart": 2
+    },
+    {
+      "test": "desktop add GREEN HOUR x1",
+      "cart": 3
+    },
+    {
+      "test": "finder missing choice",
+      "error": true
+    },
+    {
+      "test": "finder back/retain/result",
+      "product": "first-light",
+      "cartPreserved": 3
+    },
+    {
+      "test": "desktop cart invalid0/recover2/reload/persist",
+      "total": 210000
+    },
+    {
+      "test": "desktop mock complete",
+      "total": 210000,
+      "quantity": 3,
+      "cart": 0
+    },
+    {
+      "test": "mobile menu Escape/focus/nav",
+      "pass": true
+    },
+    {
+      "test": "mobile filter/sort/search empty+soap",
+      "pass": true
+    },
+    {
+      "test": "mobile viewer1120/Tab/Escape/focus + addQuietWood",
+      "cart": 2
+    },
+    {
+      "test": "mobile recommendation native target",
+      "product": "citrus-air",
+      "cartPreserved": 2
+    },
+    {
+      "test": "mobile qty+/independent removal/readd/checkout",
+      "total": 213000
+    },
+    {
+      "test": "mobile mock complete",
+      "total": 213000,
+      "quantity": 3,
+      "cart": 0
+    },
+    {
+      "test": "home reverse",
+      "time": 0.012285
+    },
+    {
+      "test": "mobile home product scene",
+      "pass": true
+    }
+  ],
+  "logs": [],
+  "productionCart": "1",
+  "limits": "Browser viewport and keyboard checks; no physical handset/Safari/assistive-technology/FPS/slow-network/real commerce checks. Native original viewer starts at top-left and requires internal scrolling; screenshot records this expected state."
+}

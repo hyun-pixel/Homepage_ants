@@ -1,0 +1,33 @@
+{
+  "passed": [
+    "All6 canonical product photos, title, impressions, scenes, price checks",
+    "Viewer fit/original1120x1400, native closing/Escape/backdrop and trigger focus return",
+    "Mobile original photo scroll inside viewport, no pageoverflow at320/390/820/1280/1440",
+    "All6 browser modal image/title mappings",
+    "Isolated real404 image error and retry success, toggle restored",
+    "Detail/cart/catalog/finder27/motion checks,12routes0links0duplicateIDs0missingHangul",
+    "Main origin original FIRSTLIGHT1 preserved; normal page browser errorlogs empty",
+    "Targeted focus correction checks passed; canonical cart1 and normal browser error log[] after return."
+  ],
+  "findings_to_review": [],
+  "not_checked": [
+    "Realhandset/Safari/AT/browserzoom/OSreducedsetting",
+    "ActualnoJSsetting or native-dialogunsupportedbrowser; href fallback is source-tested",
+    "Pinchgesture/slowFPS/realpayments/publicdeploy"
+  ],
+  "detector": {
+    "runs": 1,
+    "findings": 12,
+    "counts": {
+      "design-system-font": 6,
+      "overused-font": 6
+    },
+    "context": "Parser/pinned InstrumentSans assertions on six generated HTML. No secondscan. One last always-visible badge position fix, no type changes."
+  },
+  "scope": "Detail summary and representative image viewer extension. Old whole-commerce QA is historical.",
+  "resolved_findings": [
+    "M1: Fit/original/mobile fit/error Tab and Shift+Tab wrap between visible enabled controls; each actual observed target visible and focus-visible.",
+    "M2: Keyboard retry moves to persistent viewer before hiding retry; success1120px and size control restored with viewer focus-visible. Failure retains same persistent viewer in source; repeat network failure not separately simulated."
+  ],
+  "focusEvidence": "focus-corrections.json"
+}

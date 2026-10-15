@@ -1,0 +1,56 @@
+[
+  {
+    "fg": "ink",
+    "bg": "surface",
+    "ratio": 11.13,
+    "threshold": 4.5
+  },
+  {
+    "fg": "muted",
+    "bg": "surface",
+    "ratio": 5.69,
+    "threshold": 4.5
+  },
+  {
+    "fg": "muted",
+    "bg": "bg",
+    "ratio": 5.45,
+    "threshold": 4.5
+  },
+  {
+    "fg": "error",
+    "bg": "surface",
+    "ratio": 5.83,
+    "threshold": 4.5
+  },
+  {
+    "fg": "success",
+    "bg": "surface",
+    "ratio": 6.65,
+    "threshold": 4.5
+  },
+  {
+    "fg": "focus",
+    "bg": "surface",
+    "ratio": 6.24,
+    "threshold": 4.5
+  },
+  {
+    "fg": "white",
+    "bg": "action",
+    "ratio": 7.9,
+    "threshold": 4.5
+  },
+  {
+    "fg": "white",
+    "bg": "ink",
+    "ratio": 11.7,
+    "threshold": 4.5
+  },
+  {
+    "fg": "control-border",
+    "bg": "surface",
+    "ratio": 3.62,
+    "threshold": 3
+  }
+]

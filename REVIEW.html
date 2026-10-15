@@ -1,0 +1,2030 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ants 홈페이지 기획 검토</title><style>
+*{box-sizing:border-box}html{scroll-padding-top:28px}body{margin:0;background:#f6f7f5;color:#243a3f;font:17px/1.45 "Malgun Gothic","Apple SD Gothic Neo",sans-serif;font-feature-settings:"kern" 1,"liga" 1;text-rendering:optimizeLegibility}main{max-width:1160px;margin:auto;padding:56px 40px 88px}h1{font-size:clamp(30px,4vw,44px);font-weight:600;line-height:1.15;margin:12px 0 20px}h2{font-size:26px;line-height:1.2;margin:48px 0 20px;word-break:keep-all}h3{font-size:20px;line-height:1.2;margin:32px 0 16px;word-break:keep-all}p{margin:0 0 .75em;max-width:65ch;word-break:keep-all}a{color:#175666;text-underline-offset:4px;text-decoration-thickness:1px}a:focus-visible,summary:focus-visible,.table-wrap:focus-visible{outline:2px solid #175666;outline-offset:4px}a:hover{color:#123f4b}.eyebrow,.footnote{font-size:14px;color:#586b6e}.overview{background:white;padding:28px;margin:28px 0;border-left:3px solid #175666}.overview p:last-child{margin:0}nav{display:flex;gap:12px 28px;flex-wrap:wrap;margin:28px 0}nav a{padding:12px 0}.guide{font-size:15px;color:#586b6e;margin:24px 0 36px}.document{margin:16px 0;background:white;border:1px solid #d4dfdc;border-radius:8px;min-width:0}.document summary{padding:24px 28px;cursor:pointer;line-height:1.3}.document summary span{font-size:23px;font-weight:600}.document summary small{display:block;font-size:14px;color:#586b6e;margin:8px 0 0 24px}.document[open] summary{border-bottom:1px solid #d4dfdc}article{padding:20px 36px 44px;min-width:0;overflow-wrap:anywhere}article>p,article>ul,article>ol{max-width:70ch}ul,ol{padding-left:24px}li{margin-bottom:8px;word-break:keep-all}table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.45}th,td{text-align:left;vertical-align:top;padding:12px 14px;word-break:keep-all;min-width:120px}th{font-weight:600;border-bottom:1px solid #879b9c}tbody tr:nth-child(even){background:#f7f9f8}td:last-child{min-width:170px}.table-wrap{overflow:auto;margin:24px 0 32px;max-width:100%}.next{margin-top:40px;padding:28px 0;border-top:1px solid #becfce}strong{font-weight:600}.shots{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,280px);gap:24px;margin:24px 0}.shots figure{margin:0}.shots img{display:block;width:100%;height:auto;border:1px solid #d4dfdc}.shots figcaption{font-size:14px;color:#586b6e;margin-top:8px}@media(max-width:640px){body{font-size:16px}main{padding:32px 18px 56px}.overview{padding:20px}.document summary{padding:20px}.document summary span{font-size:21px}.document summary small{margin-left:0}article{padding:12px 20px 32px}h2{font-size:23px}h3{font-size:19px}th,td{padding:10px;min-width:130px}nav{gap:8px 20px}.shots{grid-template-columns:1fr}.shots figure:last-child{max-width:320px}}@media print{body{background:white}main{padding:0}nav{display:none}.table-wrap{overflow:visible}th,td{min-width:0!important}h2,h3{break-after:avoid}p{orphans:2;widows:2}}
+</style></head><body><main><p class="eyebrow">2026년 10월 15일 · 6종 스토어·향 찾기 · 상품 상세 강화</p><h1>ants 홈페이지 기획 검토</h1><p>기존 연속 영상의 분위기를 유지하면서 향수 6종과 전체 상품·향별 탐색·검색·다품목 장바구니를 연결했습니다. 세 가지 취향 질문으로 향을 추천하는 화면을 추가하고, 헤더의 가상 브랜드 안내 띠를 삭제했습니다. 큰 제목과 질문의 강조 차이를 정리한 뒤, 사진 확대와 간단한 요약을 연결한 뒤, 현재는 각 제품의 사진·고유 이야기·세 가지 향 인상·어울리는 하루까지 확장했습니다. 제품과 가격은 가상의 데모 설정이며 실제 적용한 규칙과 검수 범위를 기록합니다.</p><div class="overview"><p><strong>깨끗한 향 6종</strong> — 비누·린넨·시트러스·그린·플로럴·우디 · 전 제품 50mL · 가상의 제품과 가격</p><p><strong>물방울로 여는 아침</strong> — PC 우선, 모바일도 같은 장면과 주요 움직임 유지</p><p><strong>홈 → 전체 향수·검색·나의 향 찾기 → 각 상품 상세 → 여러 상품 장바구니 → 모의 주문 완료</strong> — 실제 결제·개인정보 입력 없음</p></div><nav aria-label="검토 자료"><a href="http://127.0.0.1:62517/">완성된 데모 열기</a><a href="#preview">PC·모바일 실제 캡처</a><a href="#prd">PRD</a><a href="#design">디자인 명세서</a><a href="WIREFRAMES.html">PC·모바일 와이어프레임</a><a href="#decisions">결정 기록</a></nav><p class="guide">제목을 눌러 문서를 펼칠 수 있습니다. 색상·글꼴·간격은 실제 적용값과 다음 단계 제안을 구분했습니다. 흑백 와이어프레임은 화면의 순서와 위치를 보여줍니다.</p><details class="document" id="preview"><summary><span>PC·모바일 실제 캡처</span><small>현재 전체 마감 · 이전 단계별 화면 기록</small></summary><article><p>현재 제품별 상세 이야기의 실제 브라우저 화면입니다. 아래 사진 확대·향 찾기·홈 이미지는 앞선 단계 기록입니다. 한 화면에 모든 내용을 넣은 이미지가 아니라 각 위치에서 보이는 범위를 기록했습니다. 자세한 움직임과 조작은 로컬 데모에서 확인하세요.</p><h2>현재 전체 페이지 마감 · 2026-10-15</h2><p>12개 화면의 문구와 배치를 정리했습니다. 상품 선택 정보는 간결하게, 모의 주문 단계는 실제 결제·배송이 없다는 안내와 행동을 명확하게 전달합니다. 필수38개 원본과 실제 조작 근거를 현재 검수 폴더에 보존했습니다.</p><div class="shots"><figure><a href=".impeccable/review/final-20261015/desktop-first-light.jpg"><img src=".impeccable/review/final-20261015/desktop-first-light.jpg" alt="현재 PC 상품 상세" loading="lazy"></a><figcaption>PC · 간결한 구매 정보</figcaption></figure><figure><a href=".impeccable/review/final-20261015/mobile-first-light.jpg"><img src=".impeccable/review/final-20261015/mobile-first-light.jpg" alt="현재 모바일 상품 상세" loading="lazy"></a><figcaption>모바일 · 같은 사진과 정보 순서</figcaption></figure><figure><a href=".impeccable/review/final-20261015/desktop-checkout.jpg"><img src=".impeccable/review/final-20261015/desktop-checkout.jpg" alt="현재 PC 모의 주문 확인" loading="lazy"></a><figcaption>PC · 모의 주문 확인과 합계</figcaption></figure><figure><a href=".impeccable/review/final-20261015/mobile-checkout.jpg"><img src=".impeccable/review/final-20261015/mobile-checkout.jpg" alt="현재 모바일 모의 주문 확인" loading="lazy"></a><figcaption>모바일 · 순서대로 읽는 주문 정보</figcaption></figure></div><p><a href=".impeccable/review/final-20261015/capture-manifest.json">화면별 검수 기록</a> · <a href=".impeccable/review/final-20261015/interaction-checks.json">실제 조작 근거</a> · <a href=".impeccable/review/final-20261015/finish-review.md">독립 최종 검토</a></p><h2>이전 상세 확장 기록</h2><p>아래는 전체 마감 이전 화면입니다. 현재의 가격 표기·구매 안내·주문 문구는 위 현재 화면과 문서를 따릅니다.</p><h2>이전 상세 본문 확장 · 2026-10-15</h2><p>6종 모두 제품 캠페인, 두 문단의 이야기, 세 일상 장면과 라벨 근접 사진, 가까운 향과 비교를 추가했습니다. 첨부하신 FAQ 전체와 공통 푸터의 두 안내 문장/구분선을 삭제했습니다. GREEN HOUR의 같은1600px 화면에서 상세 본문은1374px에서4149px로 확장됐습니다.</p><div class="shots"><figure><a href=".impeccable/review/depth-20261015/green-hour-desktop-campaign.jpg"><img src=".impeccable/review/depth-20261015/green-hour-desktop-campaign.jpg" alt="현재 PC의 새 제품 캠페인" loading="lazy"></a><figcaption>현재 PC · 제품 사진과 이야기</figcaption></figure><figure><a href=".impeccable/review/depth-20261015/green-hour-mobile-campaign.jpg"><img src=".impeccable/review/depth-20261015/green-hour-mobile-campaign.jpg" alt="현재 모바일의 제품 캠페인" loading="lazy"></a><figcaption>현재 모바일 · 병 전체를 보존하는 구도</figcaption></figure><figure><a href=".impeccable/review/depth-20261015/green-hour-desktop-ritual.jpg"><img src=".impeccable/review/depth-20261015/green-hour-desktop-ritual.jpg" alt="현재 일상과 제품의 디테일" loading="lazy"></a><figcaption>세 가지 일상과 가까운 제품 사진</figcaption></figure><figure><a href=".impeccable/review/depth-20261015/green-hour-desktop-compare.jpg"><img src=".impeccable/review/depth-20261015/green-hour-desktop-compare.jpg" alt="현재 두 향 비교" loading="lazy"></a><figcaption>다른 향과 비교하고 이동</figcaption></figure></div><p><a href=".impeccable/review/depth-20261015/green-hour-desktop-full.jpg">PC 전체 상세페이지</a> · <a href=".impeccable/review/depth-20261015/green-hour-mobile-full.jpg">모바일 전체 상세페이지</a></p><h2>이전 상세 이야기 검토 기록</h2><p>아래 이전 캡처에 보이는 삭제 대상 FAQ·푸터 안내는 현행 화면에 없습니다. 이전 ship 이후 사용자가 길이를 재검토해 요청한 이번 확장이 우선합니다.</p><h2>6종 각각의 짧은 상세 이야기</h2><p>장면 사진 → 고유 이야기 → 세 가지 향 인상 → 어울리는 하루 → 상품 선택 복귀로 연결됩니다. 향 해석과 장면은 가상 브랜드 콘텐츠입니다.</p><h3>첫빛</h3><p><a href="http://127.0.0.1:62517/product/first-light/#scent-story">이 향의 상세 이야기 열기</a></p><div class="shots"><figure><img src=".impeccable/review/editorial-20261015/first-light-desktop-story.jpg" alt="첫빛 PC 상세 이야기" loading="lazy"><figcaption>PC · 상세 이야기</figcaption></figure><figure><img src=".impeccable/review/editorial-20261015/first-light-mobile-story.jpg" alt="첫빛 모바일 상세 이야기" loading="lazy"><figcaption>모바일 · 상세 이야기</figcaption></figure></div><h3>흰결</h3><p><a href="http://127.0.0.1:62517/product/soft-linen/#scent-story">이 향의 상세 이야기 열기</a></p><div class="shots"><figure><img src=".impeccable/review/editorial-20261015/soft-linen-desktop-story.jpg" alt="흰결 PC 상세 이야기" loading="lazy"><figcaption>PC · 상세 이야기</figcaption></figure><figure><img src=".impeccable/review/editorial-20261015/soft-linen-mobile-story.jpg" alt="흰결 모바일 상세 이야기" loading="lazy"><figcaption>모바일 · 상세 이야기</figcaption></figure></div><h3>여린 햇살</h3><p><a href="http://127.0.0.1:62517/product/citrus-air/#scent-story">이 향의 상세 이야기 열기</a></p><div class="shots"><figure><img src=".impeccable/review/editorial-20261015/citrus-air-desktop-story.jpg" alt="여린 햇살 PC 상세 이야기" loading="lazy"><figcaption>PC · 상세 이야기</figcaption></figure><figure><img src=".impeccable/review/editorial-20261015/citrus-air-mobile-story.jpg" alt="여린 햇살 모바일 상세 이야기" loading="lazy"><figcaption>모바일 · 상세 이야기</figcaption></figure></div><h3>초록의 시간</h3><p><a href="http://127.0.0.1:62517/product/green-hour/#scent-story">이 향의 상세 이야기 열기</a></p><div class="shots"><figure><img src=".impeccable/review/editorial-20261015/green-hour-desktop-story.jpg" alt="초록의 시간 PC 상세 이야기" loading="lazy"><figcaption>PC · 상세 이야기</figcaption></figure><figure><img src=".impeccable/review/editorial-20261015/green-hour-mobile-story.jpg" alt="초록의 시간 모바일 상세 이야기" loading="lazy"><figcaption>모바일 · 상세 이야기</figcaption></figure></div><h3>꽃의 안개</h3><p><a href="http://127.0.0.1:62517/product/petal-mist/#scent-story">이 향의 상세 이야기 열기</a></p><div class="shots"><figure><img src=".impeccable/review/editorial-20261015/petal-mist-desktop-story.jpg" alt="꽃의 안개 PC 상세 이야기" loading="lazy"><figcaption>PC · 상세 이야기</figcaption></figure><figure><img src=".impeccable/review/editorial-20261015/petal-mist-mobile-story.jpg" alt="꽃의 안개 모바일 상세 이야기" loading="lazy"><figcaption>모바일 · 상세 이야기</figcaption></figure></div><h3>고요한 숲</h3><p><a href="http://127.0.0.1:62517/product/quiet-wood/#scent-story">이 향의 상세 이야기 열기</a></p><div class="shots"><figure><img src=".impeccable/review/editorial-20261015/quiet-wood-desktop-story.jpg" alt="고요한 숲 PC 상세 이야기" loading="lazy"><figcaption>PC · 상세 이야기</figcaption></figure><figure><img src=".impeccable/review/editorial-20261015/quiet-wood-mobile-story.jpg" alt="고요한 숲 모바일 상세 이야기" loading="lazy"><figcaption>모바일 · 상세 이야기</figcaption></figure></div><h2>향의 인상과 어울리는 하루</h2><div class="shots"><figure><img src=".impeccable/review/editorial-20261015/quiet-wood-desktop-profile.jpg" alt="PC 세 가지 향 인상과 일상" loading="lazy"></figure><figure><img src=".impeccable/review/editorial-20261015/quiet-wood-mobile-profile.jpg" alt="모바일 세 가지 향 인상" loading="lazy"></figure></div><h2>이전 사진 확대 검토 기록</h2><p>아래는 이번 이야기 확장 이전의 사진 확대 기능 검수 기록입니다.</p><h2>향을 이해하는 상품 상세</h2><div class="shots"><figure><a href=".impeccable/review/detail-20261015/desktop-detail.jpg"><img src=".impeccable/review/detail-20261015/desktop-detail.jpg" alt="PC · 향의 인상과 떠올린 순간" loading="lazy"></a><figcaption>PC · 향의 인상과 떠올린 순간 · 원본 화면 확인</figcaption></figure><figure><a href=".impeccable/review/detail-20261015/mobile-info.jpg"><img src=".impeccable/review/detail-20261015/mobile-info.jpg" alt="모바일 · 정보와 담기" loading="lazy"></a><figcaption>모바일 · 정보와 담기 · 원본 화면 확인</figcaption></figure></div><h2>대표 사진 확대</h2><div class="shots"><figure><a href=".impeccable/review/detail-20261015/desktop-fit.jpg"><img src=".impeccable/review/detail-20261015/desktop-fit.jpg" alt="PC · 전체 사진 보기" loading="lazy"></a><figcaption>PC · 전체 사진 보기 · 원본 화면 확인</figcaption></figure><figure><a href=".impeccable/review/detail-20261015/mobile-fit.jpg"><img src=".impeccable/review/detail-20261015/mobile-fit.jpg" alt="모바일 · 전체 사진 보기" loading="lazy"></a><figcaption>모바일 · 전체 사진 보기 · 원본 화면 확인</figcaption></figure></div><h2>이전 글자·배치 검토 기록</h2><p>아래는 앞서 확인한 향 찾기와 홈 화면입니다. 이번 상품 상세 검수를 이 이전 화면들의 새 전체 검수로 확대하지 않습니다.</p><h2>나의 향 찾기</h2><div class="shots"><figure><a href=".impeccable/review/type-layout-20261015/desktop-finder.png"><img src=".impeccable/review/type-layout-20261015/desktop-finder.png" alt="PC · 첫 질문" loading="lazy"></a><figcaption>PC · 첫 질문 · 원본 화면 확인</figcaption></figure><figure><a href=".impeccable/review/type-layout-20261015/mobile-finder.png"><img src=".impeccable/review/type-layout-20261015/mobile-finder.png" alt="모바일 · 첫 질문" loading="lazy"></a><figcaption>모바일 · 첫 질문 · 원본 화면 확인</figcaption></figure></div><h2>추천 결과</h2><div class="shots"><figure><a href=".impeccable/review/type-layout-20261015/desktop-result.png"><img src=".impeccable/review/type-layout-20261015/desktop-result.png" alt="PC · SOFT LINEN 추천 예시" loading="lazy"></a><figcaption>PC · SOFT LINEN 추천 예시 · 원본 화면 확인</figcaption></figure><figure><a href=".impeccable/review/type-layout-20261015/mobile-result.png"><img src=".impeccable/review/type-layout-20261015/mobile-result.png" alt="모바일 · QUIET WOOD 추천 예시" loading="lazy"></a><figcaption>모바일 · QUIET WOOD 추천 예시 · 원본 화면 확인</figcaption></figure></div><h2>가벼운 제목과 공통 헤더</h2><div class="shots"><figure><a href=".impeccable/review/type-layout-20261015/user-home.png"><img src=".impeccable/review/type-layout-20261015/user-home.png" alt="PC · 첫 화면" loading="lazy"></a><figcaption>PC · 첫 화면 · 원본 화면 확인</figcaption></figure><figure><a href=".impeccable/review/type-layout-20261015/mobile-home.png"><img src=".impeccable/review/type-layout-20261015/mobile-home.png" alt="모바일 · 첫 화면" loading="lazy"></a><figcaption>모바일 · 첫 화면 · 원본 화면 확인</figcaption></figure></div><h2>이전 6종 스토어 검토 기록</h2><p>아래는 향 찾기 추가 전의 검토 화면입니다. 상단 안내 띠가 보이는 캡처는 이전 상태이며, 현재 헤더에서는 제거했습니다. 해당 글자·배치 검토와 이전 카탈로그 검수는 각각 당시 기록이며 이번 상품 상세 검수로 확대하지 않습니다.</p><h2>전체 향수</h2><div class="shots"><figure><a href=".impeccable/review/catalog-20261015/user-2089-shop.png"><img src=".impeccable/review/catalog-20261015/user-2089-shop.png" alt="PC의 전체 향수 실제 화면" loading="lazy"></a><figcaption>PC · 원본 화면 확인</figcaption></figure><figure><a href=".impeccable/review/catalog-20261015/shop-mobile.png"><img src=".impeccable/review/catalog-20261015/shop-mobile.png" alt="모바일의 전체 향수 실제 화면" loading="lazy"></a><figcaption>모바일 · 원본 화면 확인</figcaption></figure></div><h2>상품 상세</h2><div class="shots"><figure><a href=".impeccable/review/catalog-20261015/product-quiet-wood-1440.png"><img src=".impeccable/review/catalog-20261015/product-quiet-wood-1440.png" alt="PC의 상품 상세 실제 화면" loading="lazy"></a><figcaption>PC · 원본 화면 확인</figcaption></figure><figure><a href=".impeccable/review/catalog-20261015/product-buy-mobile.png"><img src=".impeccable/review/catalog-20261015/product-buy-mobile.png" alt="모바일의 상품 상세 실제 화면" loading="lazy"></a><figcaption>모바일 · 원본 화면 확인</figcaption></figure></div><h2>여러 상품 장바구니</h2><div class="shots"><figure><a href=".impeccable/review/catalog-20261015/cart-mixed-desktop.png"><img src=".impeccable/review/catalog-20261015/cart-mixed-desktop.png" alt="PC의 여러 상품 장바구니 실제 화면" loading="lazy"></a><figcaption>PC · 원본 화면 확인</figcaption></figure><figure><a href=".impeccable/review/catalog-20261015/cart-total-mobile.png"><img src=".impeccable/review/catalog-20261015/cart-total-mobile.png" alt="모바일의 여러 상품 장바구니 실제 화면" loading="lazy"></a><figcaption>모바일 · 원본 화면 확인</figcaption></figure></div><h2>향수 검색</h2><div class="shots"><figure><a href=".impeccable/review/catalog-20261015/search-desktop.png"><img src=".impeccable/review/catalog-20261015/search-desktop.png" alt="PC의 향수 검색 실제 화면" loading="lazy"></a><figcaption>PC · 원본 화면 확인</figcaption></figure><figure><a href=".impeccable/review/catalog-20261015/search-mobile.png"><img src=".impeccable/review/catalog-20261015/search-mobile.png" alt="모바일의 향수 검색 실제 화면" loading="lazy"></a><figcaption>모바일 · 원본 화면 확인</figcaption></figure></div></article></details><details class="document" id="prd"><summary><span>PRD</span><small>무엇을 왜 만드는지 · 기능과 검수 기준</small></summary><article><!-- impeccable:product-schema 1 -->
+
+<p>작성일: 2026년 10월 13일 · 갱신: 2026년 10월 15일 · 상태: 전12화면 문구·배치 마감 · PC/모바일 검수 및 독립 검토 ship</p>
+<p>ants는 ‘일상을 바꾸는 작은 향’을 표현하는 가상의 향수 브랜드다. 홈페이지의 목적은 깨끗한 향을 중심으로 한 6종을 비교하고, 검색·향 분류로 고른 여러 상품의 모의 주문을 완료하는 경험을 만드는 것이다.</p>
+<p>브랜드·제품·가격은 데모용 설정이다. 실제 결제, 상품 판매, 주문 접수, 개인정보 수집은 이 프로젝트 범위에 포함하지 않는다. 헤더·히어로와 전체12화면을 구현했고, 승인된 세계를 유지하며 마지막 문구·배치 정리와 PC·모바일 검수를 진행한다.</p>
+<h2 id="prd-1-프로젝트-목적과-주요-고객">1. 프로젝트 목적과 주요 고객</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>항목</th>
+<th>확정한 내용</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>가장 중요한 결과</td>
+<td>향수 구매로 연결되는 흐름을 보여주고 모의 주문 완료까지 체험</td>
+</tr>
+<tr>
+<td>주요 고객</td>
+<td>매일 편하게 사용할 향수를 찾는 사람</td>
+</tr>
+<tr>
+<td>브랜드 의미</td>
+<td>일상을 바꾸는 작은 향</td>
+</tr>
+<tr>
+<td>제품 포지션</td>
+<td>매일의 작은 습관을 조금 더 특별하게 만드는 향수</td>
+</tr>
+<tr>
+<td>대표 제품</td>
+<td>FIRST LIGHT · 첫빛</td>
+</tr>
+<tr>
+<td>향의 방향</td>
+<td>비누처럼 깨끗한 향</td>
+</tr>
+<tr>
+<td>상품 구성</td>
+<td>깨끗한 향을 중심으로 6종, 전 제품 50mL. 사용자가 2026-10-15 직접 선택</td>
+</tr>
+<tr>
+<td>데모 가격</td>
+<td>FIRST LIGHT·SOFT LINEN·CITRUS AIR 69,000원, GREEN HOUR·PETAL MIST 72,000원, QUIET WOOD 75,000원</td>
+</tr>
+<tr>
+<td>준비된 자료</td>
+<td>없음. 로고·향수병·사진·문구를 함께 기획</td>
+</tr>
+<tr>
+<td>비용과 일정</td>
+<td>추가 결제 없이 가능한 범위, 기한 없음</td>
+</tr>
+<tr>
+<td>우선 화면</td>
+<td>PC 기준. 모바일에서도 장면 순서와 주요 움직임을 거의 동일하게 유지</td>
+</tr>
+</tbody></table></div>
+<p>고객이 해결할 질문은 “어떤 느낌의 향인가?”, “나의 일상에 어울리는가?”, “제품의 용량과 가격은 무엇인가?”, “어떻게 구매하는가?”다. 실제 성분, 지속력, 안전성, 후기 등 확인되지 않은 내용을 구매 근거로 사용하지 않는다.</p>
+<p><strong>기획 가정:</strong> 처음 ants를 접하는 방문자가 브랜드 경험을 보고 제품을 알아보는 상황을 기준으로 한다. 유입 경로와 연령·성별은 정하지 않았으며, 특정 고객층에 대한 사실로 표현하지 않는다.</p>
+<h2 id="prd-Platform">Platform</h2>
+<p>web</p>
+<p>모바일 웹을 포함한다. 별도 앱 제작은 포함하지 않는다.</p>
+<h2 id="prd-Stack">Stack</h2>
+<p>사용자는 기술 선택을 직접 하지 않고 분위기와 사용 목적을 정하며, 제작자는 그에 맞는 구현을 제안한다.</p>
+<p>HTML·CSS·JavaScript 모듈로 구성한 독립적인 프런트엔드, 즉 브라우저에서 화면과 동작을 처리하는 구조다. 실제 영상의 재생 위치를 스크롤과 연결하며, 별도 프레임워크·결제·데이터베이스는 추가하지 않는다. 총 12개 주소(홈·목록·향 찾기·상세 6개·장바구니·확인·완료)를 실제 HTML로 제공한다. 상품 원본은 catalog.mjs, 공통 검색·분류·메뉴·구매 동작은 shop.mjs, 다품목 수량 검증과 저장은 cart.mjs가 담당한다.</p>
+<h2 id="prd-2-핵심-사용자-흐름">2. 핵심 사용자 흐름</h2>
+<ol>
+<li>홈 진입: ants와 FIRST LIGHT가 향수 브랜드·제품임을 이해한다.</li>
+<li>스크롤 경험: 물방울에서 아침빛 속 향수병으로 이어지는 장면을 본다.</li>
+<li>상품 탐색: 홈의 향 소개·일상 장면과 6종 컬렉션을 보거나 헤더의 전체 향수·향별로 찾기·검색으로 원하는 상품을 찾는다.</li>
+<li>상품 상세: 각 제품의 이름·향의 느낌·50mL·해당 가격을 읽고 수량을 선택한다.</li>
+<li>장바구니: 여러 향수의 개별 수량·금액과 전체 합계를 확인하고 한 상품씩 수정 또는 삭제한다.</li>
+<li>모의 주문: 개인정보 입력 없이 주문 내용을 확인한다.</li>
+<li>모의 주문 완료: 실제 결제·주문 접수가 없었다는 안내와 체험한 상품 정보를 확인한다.</li>
+</ol>
+<p>사용자는 스크롤 연출 전체를 보지 않아도 상품 상세에 접근할 수 있다. 상품 상세와 장바구니에서 뒤로 돌아갔을 때 데모 선택 상태가 불필요하게 사라지지 않아야 한다.</p>
+<h2 id="prd-3-페이지-구조">3. 페이지 구조</h2>
+<p>아래 주소는 구현된 로컬 화면이며 실제 공개 주소가 아니다.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>화면</th>
+<th>주소 제안</th>
+<th>역할</th>
+<th>핵심 행동</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>홈</td>
+<td>/</td>
+<td>브랜드 경험, 향의 느낌, 일상 속 사용 순간, 대표 제품 소개</td>
+<td>향수 알아보기</td>
+</tr>
+<tr>
+<td>나의 향 찾기</td>
+<td>/find-your-scent/</td>
+<td>세 취향 질문과 6종 중 한 향 추천</td>
+<td>추천 상품 상세</td>
+</tr>
+<tr>
+<td>전체 향수</td>
+<td>/shop/</td>
+<td>6종 비교·향 계열 필터·가격 정렬·검색 결과</td>
+<td>각 상품 보기</td>
+</tr>
+<tr>
+<td>상품 상세 6개</td>
+<td>/product/{id}/</td>
+<td>각 향수의 정보·사진·가격과 수량 선택</td>
+<td>장바구니 담기</td>
+</tr>
+<tr>
+<td>장바구니</td>
+<td>/cart/</td>
+<td>수량·상품 금액 확인 및 수정</td>
+<td>모의 주문하기</td>
+</tr>
+<tr>
+<td>모의 주문 확인</td>
+<td>/checkout/</td>
+<td>체험 상품과 금액 확인, 데모 안내</td>
+<td>모의 주문 완료하기</td>
+</tr>
+<tr>
+<td>모의 주문 완료</td>
+<td>/complete/</td>
+<td>체험 완료와 실제 거래 없음 안내</td>
+<td>홈으로 돌아가기</td>
+</tr>
+</tbody></table></div>
+<p>마지막 두 화면은 인터뷰에서 정한 ‘모의 주문 완료까지’의 세부 단계다. 상품 상세는 홈과 분리하며, 별도 브랜드 소개 페이지는 추가하지 않고 홈의 일상·브랜드 이야기 구간에 포함하는 것을 제안한다.</p>
+<h2 id="prd-4-기능-요구사항">4. 기능 요구사항</h2>
+<p>FR은 기능 요구사항을 구별하는 번호다. 예를 들어 FR-01의 스크롤 연출을 디자인 명세서의 H-02와 M-01에서 구체화한다.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>번호</th>
+<th>요구사항</th>
+<th>우선순위</th>
+<th>연결된 디자인 명세</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>FR-01</td>
+<td>스크롤 위치에 따라 물방울 확대, 향수병 등장, 시점 변화, 제품 안내가 연속적으로 진행되고 역방향 스크롤에도 대응</td>
+<td>필수</td>
+<td>H-02, M-01</td>
+</tr>
+<tr>
+<td>FR-02</td>
+<td>처음부터 전체 향수·향별 탐색·브랜드 이야기·검색·ants 홈·장바구니 진입 제공</td>
+<td>필수</td>
+<td>H-01, UI-01</td>
+</tr>
+<tr>
+<td>FR-03</td>
+<td>홈에서 향의 느낌 → 일상 속 사용 순간 → 대표 제품 소개 순서로 안내</td>
+<td>필수</td>
+<td>H-03~H-05</td>
+</tr>
+<tr>
+<td>FR-04</td>
+<td>6개 상세에서 해당 제품의 이름·향·용량·가격·수량·장바구니 담기 제공</td>
+<td>필수</td>
+<td>D-01, D-04~D-08</td>
+</tr>
+<tr>
+<td>FR-05</td>
+<td>다품목 담기·상품별 수량 변경·개별 삭제·정확한 행 금액/전체 합계·빈 상태 제공</td>
+<td>필수</td>
+<td>C-01, UI-03</td>
+</tr>
+<tr>
+<td>FR-06</td>
+<td>개인정보 입력·결제 없이 모의 주문 확인과 완료까지 진행</td>
+<td>필수</td>
+<td>O-01, O-02</td>
+</tr>
+<tr>
+<td>FR-07</td>
+<td>PC 우선 구성과 모바일의 유사한 전체 연출, 태블릿 및 중간 너비 대응</td>
+<td>필수</td>
+<td>R-01, M-01</td>
+</tr>
+<tr>
+<td>FR-08</td>
+<td>키보드 사용, 읽을 수 있는 대비, 오류 안내, 움직임 줄이기 설정 대응</td>
+<td>필수</td>
+<td>UI 상태, R-01, M-02</td>
+</tr>
+<tr>
+<td>FR-09</td>
+<td>장바구니·주문 확인·완료에서 실제 결제·배송 없는 모의 주문임을 명확히 표시</td>
+<td>필수</td>
+<td>C-01, O-01~O-02</td>
+</tr>
+<tr>
+<td>FR-10</td>
+<td>새로고침 시 장바구니 유지, 저장을 사용할 수 없을 때 메모리 동작</td>
+<td>제안하는 필수</td>
+<td>UI-03, 기술 제약</td>
+</tr>
+<tr>
+<td>FR-11</td>
+<td>영상 초기 로딩 또는 재생 불가 상태에도 제품 정보·상품 이동·구매 체험을 사용할 수 있음</td>
+<td>필수</td>
+<td>M-02</td>
+</tr>
+</tbody></table></div>
+<p>수량은 제품별 1~9개다. 이는 데모 조작 범위이며 실제 재고나 판매 제한이 아니다. catalog.mjs의 단가 × 각 수량을 합산한다. 상품을 하나 삭제해도 다른 상품은 유지한다. 모두 삭제한 경우 빈 화면과 전체 향수 이동을 제공한다. 기존 단일 FIRST LIGHT 장바구니·완료 결과를 호환해 읽는다.</p>
+<p>FR-11(필수, L-01): 전체/클린/시트러스/그린/플로럴/우디 필터, 추천순·가격 오름/내림 정렬, 결과 수와 빈 상태, 직접 질의 주소를 제공한다.</p>
+<p>FR-12(필수, UI-04): 상품명·한글 이름·향 설명·계열로 검색하고 결과 상품으로 이동한다. PC 향별 메뉴는 펼침, 모바일은 메뉴 패널을 사용한다. 검색은 키보드 포커스를 보호하는 별도 패널로 연다.</p>
+<h2 id="prd-5-콘텐츠-요구사항">5. 콘텐츠 요구사항</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>콘텐츠</th>
+<th>상태와 제작 방향</th>
+<th>사실처럼 쓰지 않을 내용</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>로고</td>
+<td>소문자 ants 글자 중심의 로고 제안</td>
+<td>등록 상표·기존 브랜드 로고라고 주장</td>
+</tr>
+<tr>
+<td>향수병</td>
+<td>부드러운 모서리의 직사각 투명병, 흰 뚜껑, 작은 ants 로고</td>
+<td>실물 촬영·실제 제조 제품이라고 주장</td>
+</tr>
+<tr>
+<td>제품 설정</td>
+<td>FIRST LIGHT, 깨끗한 비누향, 50mL, 69,000원 확정</td>
+<td>실제 판매가·실제 성분·재고</td>
+</tr>
+<tr>
+<td>홈 제목</td>
+<td>‘하루의 시작에, 작은 향을.’ 제안</td>
+<td>검증되지 않은 제품 성능</td>
+</tr>
+<tr>
+<td>향 소개</td>
+<td>감각을 설명하는 짧은 데모용 문구</td>
+<td>향료 구성·지속 시간·피부 안전성·호감도 수치</td>
+</tr>
+<tr>
+<td>생활 장면</td>
+<td>아침빛, 유리, 수건, 외출 전의 작은 습관을 표현한 가상 장면</td>
+<td>실제 고객 사진·실제 사용 후기</td>
+</tr>
+<tr>
+<td>제품 설명</td>
+<td>차분하고 친근한 한국어 본문, 영문 로고·제품명 제안</td>
+<td>‘천연’, ‘저자극’, ‘8시간 지속’ 등 근거 없는 주장</td>
+</tr>
+<tr>
+<td>안내</td>
+<td>가상 브랜드, 결제·배송·주문 접수 없음</td>
+<td>실제 연락처·사업자번호·수상·리뷰·배송 약속</td>
+</tr>
+</tbody></table></div>
+<p>이미지와 영상은 데모를 위해 제작한 시각 자료로 구분한다. 참고 영상에서 생산용 이미지나 로고를 추출해 사용하지 않는다.</p>
+<h2 id="prd-6-우선순위와-범위">6. 우선순위와 범위</h2>
+<p><strong>필수:</strong> 홈의 전체 흐름과 6종 컬렉션, 전체 향수 목록·검색·향 필터·가격 정렬, 세 질문의 향 찾기, 6개 상품 상세, 다품목 장바구니, 모의 주문 확인/완료, PC·모바일 유사 연출, 기본 접근성, 모의 주문 안내.</p>
+<p><strong>확정한 추가 범위(2026-10-15):</strong> 상품 상세의 대표 사진 확대와 향의 인상·일상 장면 요약. 아래 FR-14를 따른다. FIRST LIGHT의 추가 생활·재질 사진은 기존 세로 구성을 유지한다.</p>
+<p><strong>추후 별도 결정:</strong> 추가 향수·추가 용량, 위시리스트, 실제 고객 문의, 구매자 리뷰, 실제 판매·회원 기능, 방문자 분석, 공개 배포.</p>
+<p>검색·상품 필터는 2026-10-15 사용자 요청으로 필수 범위에 포함했다. 회원가입·로그인·찜·할인 쿠폰·정기구독·실제 결제·외부 주문 전송은 추가하지 않는다. 여섯 가상 상품과 모의 주문에 맞춘다.</p>
+<h2 id="prd-7-외부-서비스와-기술-제약">7. 외부 서비스와 기술 제약</h2>
+<ul>
+<li>데모를 위해 필수로 연결할 외부 서비스는 없다. API 키, 결제 서비스, 데이터베이스, 회원 서비스, 이메일 전송이 필요하지 않다.</li>
+<li>장바구니 유지에는 브라우저의 로컬 저장소 사용을 제안한다. 상품 번호와 수량만 저장하며 이름·주소·연락처·결제 정보는 수집하지 않는다. 저장이 차단되면 현재 탭의 메모리로 동작한다.</li>
+<li>상용 서비스 가입이나 크레딧 구매가 필요한 제작 도구는 실행 전에 비용과 사용 여부를 별도로 결정한다. 추가 결제 없이 가능한 범위라는 예산 조건을 유지한다.</li>
+<li>영상만으로 원본 웹페이지의 실제 구현 기술은 확인할 수 없다. ants의 연출은 별도 구현하며, 원본과 픽셀 단위로 같은 결과를 보장하지 않는다.</li>
+<li>모바일도 같은 핵심 장면과 시점 변화를 제공한다. 일반 모바일을 일괄적으로 정지 이미지로 대체하지 않는다.</li>
+<li>움직임 줄이기 설정, 영상 재생 불가, 그래픽 로딩 실패는 별도 대체 상태다. 제품 정보와 주요 버튼을 유지하고, 실패 원인을 기록하여 정상 연출의 문제를 숨기지 않는다.</li>
+<li>로컬 미리보기로 검수한다. 도메인·호스팅·운영용 정보·실제 판매 전환은 추가 설정과 비용·보안 영향을 설명한 뒤 승인받는다.</li>
+</ul>
+<h2 id="prd-8-검수-기준">8. 검수 기준</h2>
+<p>아래는 제작 완료 판정 기준이며, 현재 통과했다는 의미가 아니다.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>기준</th>
+<th>확인 방법과 합격 조건</th>
+<th>관련 요구사항</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>최초 이해</td>
+<td>첫 화면에서 향수 브랜드와 제품, 상품 상세로 가는 행동이 보임</td>
+<td>FR-01~FR-03</td>
+</tr>
+<tr>
+<td>스크롤 연출</td>
+<td>처음·중간·마지막·역방향에서 장면의 공간적 연결이 유지. 단순 이미지 교체나 글자 페이드만으로 대체하지 않음</td>
+<td>FR-01</td>
+</tr>
+<tr>
+<td>모바일 유사성</td>
+<td>PC·모바일 장면을 같은 진행률에서 나란히 비교하여 물방울, 병 등장, 시점 변화, 안내 순서가 대응</td>
+<td>FR-07</td>
+</tr>
+<tr>
+<td>실제 콘텐츠</td>
+<td>확정한 한글 문구, FIRST LIGHT, 50mL, 69,000원을 넣어도 겹침과 잘림이 없음</td>
+<td>FR-03~FR-04</td>
+</tr>
+<tr>
+<td>전체 구매 흐름</td>
+<td>상품 상세 → 담기 → 장바구니 → 모의 주문 → 완료까지 작동. 실제 외부 주문 요청이나 결제 발생 없음</td>
+<td>FR-04~FR-06</td>
+</tr>
+<tr>
+<td>금액·수량</td>
+<td>FIRST LIGHT 2개 138,000원 + QUIET WOOD 1개 75,000원 = 213,000원, 상품별 수량 경계·비정상 값·개별 삭제·전체 빈 상태를 확인</td>
+<td>FR-05</td>
+</tr>
+<tr>
+<td>중복·예외</td>
+<td>완료 버튼 연속 조작 시 중복 처리 방지. 빈 장바구니로 주문 진행 불가. 직접 완료 주소로 접근해도 설명과 복귀 경로 제공</td>
+<td>FR-05~FR-06</td>
+</tr>
+<tr>
+<td>저장</td>
+<td>새로고침으로 수량 유지. 저장 차단·손상 데이터에서도 사용 가능하며 오류 원인 확인</td>
+<td>FR-10</td>
+</tr>
+<tr>
+<td>화면 크기</td>
+<td>320·375·390·430·768·820·960·1024·1440px와 가로로 긴 모바일 화면에서 의도하지 않은 가로 스크롤 없음</td>
+<td>FR-07</td>
+</tr>
+<tr>
+<td>키보드·입력</td>
+<td>메뉴·링크·수량·구매 버튼 조작, 보이는 포커스, 메뉴 닫기와 포커스 복귀, 항목 근처 오류 안내</td>
+<td>FR-08</td>
+</tr>
+<tr>
+<td>대비</td>
+<td>일반 글자 4.5:1, 큰 글자 3:1을 목표로 실제 배경과 모든 주요 상태 측정</td>
+<td>FR-08</td>
+</tr>
+<tr>
+<td>움직임 줄이기</td>
+<td>시점 이동을 줄인 대체 화면에서도 향·상품 이동·장바구니 흐름 사용 가능</td>
+<td>FR-08</td>
+</tr>
+<tr>
+<td>로딩·성능</td>
+<td>첫 콘텐츠가 그래픽 준비를 기다리며 사라지지 않음. 이미지 공간 예약, 레이아웃 이동·긴 멈춤 없음. 실제 측정 조건과 결과 기록</td>
+<td>FR-11</td>
+</tr>
+<tr>
+<td>일관성</td>
+<td>공통 색·글자·여백·버튼 규칙을 모든 화면에 적용</td>
+<td>전체</td>
+</tr>
+</tbody></table></div>
+<p>화면 너비를 바꾸는 브라우저 검수와 실제 스마트폰 검수는 구분한다. 실제 기기를 확인하지 않았다면 미확인으로 보고한다. 접근성의 자동 확인과 키보드 수동 확인도 각각 기록한다.</p>
+<p>일반 글자와 큰 글자의 대비 기준은 <a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html">W3C의 대비 설명</a>을 참고한다.</p>
+<h2 id="prd-9-제작과-확인-순서">9. 제작과 확인 순서</h2>
+<ol>
+<li>이 PRD, <a href="#design">디자인 명세서</a>, <a href="WIREFRAMES.html">와이어프레임</a>, <a href="#decisions">결정 기록</a>을 함께 검토한다.</li>
+<li>문서와 방향 확인 후, 홈의 헤더·전체 히어로 연출·바로 다음 향 소개 섹션을 움직이는 웹 시안으로 제작한다.</li>
+<li>PC와 모바일에서 나란히 확인하고, 실제 화면의 수정 사항을 DESIGN.md와 DECISIONS.md에 반영한다.</li>
+<li>같은 기준으로 홈의 나머지 섹션과 상품 상세·장바구니·모의 주문 화면을 완성한다.</li>
+<li>위 검수 기준으로 확인한 결과와 미확인 항목을 보고한다.</li>
+</ol>
+<h2 id="prd-10-이전-단일-상품-단계의-검수-이력">10. 이전 단일 상품 단계의 검수 이력</h2>
+<p>2026년 10월 15일 사용자가 영상 시안 확인 후 “좋아. 다음”으로 다음 제작 단계를 요청했다. 승인된 영상·브랜드 규칙을 유지해 홈의 일상 이야기·제품 소개·공통 푸터와 별도 상품 상세·장바구니·모의 주문 확인·완료를 구현했다. 헤더와 홈 CTA는 상품 상세로 이동하며 장바구니 링크와 개수가 활성화됐다. 작은 표면 물방울에서 같은 병 전체로 이어지는 영상은 유지한다. 움직임 줄이기·영상 실패 대체 상태의 CTA도 상품 상세로 연결된다.</p>
+<p>수량 1~9, 정확한 합계, 누적 담기 상한, 오류·빈 상태, 삭제, 새로고침 유지, 중복 완료 방지를 제공한다. 로컬 저장을 사용할 수 없으면 현재 탭의 이동 기록에 상품 번호·수량만 보존해 페이지 이동을 이어간다. 완료 결과는 세션 저장과 완료 페이지의 이동 기록에만 보존하며 단순 직접 완료 주소는 주문 결과를 만들지 않는다. 실제 결제·개인정보·외부 주문 전송은 없다.</p>
+<p>PC·모바일의 전체 구매 흐름, 320~1440px의 아홉 너비×다섯 화면과 가로 844×390의 가로 넘침, 수량·저장·완료 논리, 메뉴 Esc·포커스 복귀를 확인했다. 실제 휴대폰·Safari·OS의 움직임 설정·느린 회선·FPS·최종 사용자 미적 수용은 미확인이다. 이번 단계에서 추가 Higgsfield 생성·크레딧 사용은 없으며 공개 배포·커밋·푸시도 하지 않았다. 검토 근거는 .impeccable/review/commerce-20261015에 보존한다.</p>
+<h2 id="prd-11-6종-스토어의-현재-요구와-검수-2026-10-15">11. 6종 스토어의 현재 요구와 검수 · 2026-10-15</h2>
+<p>사용자는 “실제 사이트처럼 향수 종류를 여러 개”, “상단 헤더도 마찬가지”를 요청했고 ‘깨끗한 향을 중심으로 6종’을 선택했다. 이전 단일 상품 제한을 이 요청으로 교체한다. 신규 다섯 제품의 이름·향 인상·가격은 제작자의 가상 설정이며 실제 제품 특성이나 판매 실적을 뜻하지 않는다.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>id</th>
+<th>제품</th>
+<th>한글 이름</th>
+<th>향 계열</th>
+<th>데모 가격</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>first-light</td>
+<td>FIRST LIGHT</td>
+<td>첫빛</td>
+<td>클린·비누</td>
+<td>69,000원</td>
+</tr>
+<tr>
+<td>soft-linen</td>
+<td>SOFT LINEN</td>
+<td>흰결</td>
+<td>클린·린넨</td>
+<td>69,000원</td>
+</tr>
+<tr>
+<td>citrus-air</td>
+<td>CITRUS AIR</td>
+<td>여린 햇살</td>
+<td>시트러스</td>
+<td>69,000원</td>
+</tr>
+<tr>
+<td>green-hour</td>
+<td>GREEN HOUR</td>
+<td>초록의 시간</td>
+<td>그린</td>
+<td>72,000원</td>
+</tr>
+<tr>
+<td>petal-mist</td>
+<td>PETAL MIST</td>
+<td>꽃의 안개</td>
+<td>플로럴</td>
+<td>72,000원</td>
+</tr>
+<tr>
+<td>quiet-wood</td>
+<td>QUIET WOOD</td>
+<td>고요한 숲</td>
+<td>우디</td>
+<td>75,000원</td>
+</tr>
+</tbody></table></div>
+<p>모든 제품은 50mL다. 정확한 사진·소개·가격·링크는 해당 상품에 대응해야 한다. 같은 병의 형태·조명·크기 기준으로 생성한 4:5 스튜디오 사진 6장을 별도로 사용한다. 새 사진은 내장 이미지 생성으로 만들었고, 추가 유료 외부 서비스나 Higgsfield 크레딧은 사용하지 않았다.</p>
+<p>사용자 요청으로 헤더의 데모 안내와 32px 띠를 제거했다. 실제 높이는 PC 80px, 959px 이하 64px이다. 기존 영상의 고정 위치와 읽기 영역도 이 높이를 따른다. 전체 향수 목록은 3열이며 600px 이하 2열, 작은 화면의 계열 선택은 3열×2행이다. PRD의 FR-02/FR-11/FR-12는 디자인 명세서의 H-01/L-01/UI-04, FR-04~FR-06은 D-01/C-01/O-01/O-02에 연결한다.</p>
+<p>이번 검수 근거는 <code>.impeccable/review/catalog-20261015/</code>다. 수량/금액·기존 데이터 호환·비정상 데이터·저장 차단의 순수 논리와 브라우저의 혼합 상품 구매 흐름, 검색·분류·정렬·오류·빈 상태·메뉴 Esc 및 검색 포커스 복귀를 확인한다. PC/모바일과 320/820/1440px 및 현재 사용자 화면의 관찰 범위를 기록한다. 이전 단계의 아홉 너비×다섯 화면 통과를 새 11개 주소 전체의 실기기 통과로 확대 해석하지 않는다.</p>
+<p>실제 휴대폰·Safari·결제사·배송·운영 주문·보안 운영·느린 회선/FPS/보조기기 실측은 미확인이다. 저장 차단의 유지 범위는 같은 탭의 내부 링크와 검색 제출이며 새 탭 공유를 보장하지 않는다. 공개 배포·commit·push·PR·merge는 하지 않는다.</p>
+<h2 id="prd-12-나의-향-찾기와-헤더-안내-제거-2026-10-15">12. 나의 향 찾기와 헤더 안내 제거 · 2026-10-15</h2>
+<p>사용자는 다음 단계 1번 ‘취향 질문 3개 → 상품 추천 → 상세 페이지’를 선택하고 헤더의 ‘가상의 브랜드…’ 문구를 모두 삭제해달라고 요청했다. 상단 안내와 띠를 DOM·스타일·공통 생성 원본에서 제거한다. 상품·가격·실제 거래 없음 안내는 해당 상세·주문·푸터에 유지한다.</p>
+<p>FR-13(필수, 디자인 F-01): 향의 느낌, 함께할 순간, 남기고 싶은 기분을 한 번에 하나씩 묻는다. 각 질문은 명확한 선택지 3개다. 이전 질문에서 선택이 유지되고 미선택으로 다음을 누르면 항목 가까이 안내와 포커스를 제공한다. 결과에는 해당 제품의 사진·이름·향의 인상·세 선택·선택 이유·50mL·데모 가격·상세 이동을 제공한다. 다시 찾기는 선택을 초기화한다.</p>
+<p>추천은 이 여섯 가상 제품을 위한 작성된 규칙이며 학습된 AI나 과학적 정확도·일치율을 주장하지 않는다. 27개 조합이 모두 정상 상품으로 연결되고 6종 모두 도달할 수 있어야 한다. 선택값은 이 화면에서만 처리하며 외부 요청·저장소·회원/개인정보 수집을 추가하지 않는다. 추천이나 상세 이동만으로 장바구니가 바뀌지 않아야 한다. 기존 카탈로그·장바구니·모의 주문을 재사용한다.</p>
+<p>진입점은 PC 헤더, 모바일 메뉴, 홈 컬렉션과 푸터다. PC는 기존 비누 장면과 질문을 나란히, 모바일은 질문을 먼저 제공한다. 결과의 사진은 실제 추천된 상품 사진으로 교체한다. 헤더가 80/64px로 줄어든 뒤 기존 영화형 히어로의 고정 위치와 상품 앵커도 다시 확인한다.</p>
+<p>검수: finder-check.mjs의 모든 27개 조합·6개 대표 사례·잘못된 선택값, 기존 cart/motion 검사, 12개 주소의 링크·헤더 안내 제거·한글 글꼴, 브라우저 PC/모바일의 미선택·선택·이전·결과·초기화·상품 연결, 320/820/960px와 실제 2089×1408px 화면을 확인한다. 실제 휴대폰·Safari·보조기기 검수는 별도이며 수행했다고 기록하지 않는다. 근거는 <code>.impeccable/review/finder-20261015/</code>다. 외부 서비스·추가 유료 생성·결제·공개 배포는 필요하지 않다.</p>
+<h2 id="prd-13-상품-상세-강화-FR-14">13. 상품 상세 강화 · FR-14</h2>
+<p>사용자가 ‘상품 상세 강화: 사진 확대와 향별 특징·사용 장면 정리’를 선택했다. 실제 상품 정보나 새 사진을 요구하는 작업은 아니다. 여섯 제품의 기존 tags 앞 두 개와 scene을 ‘향의 인상’·‘떠올린 순간’으로 첫 구간에 배치하고, 가격·용량·수량·담기와 기존 상세 이야기를 유지한다. 향 계열은 한글 상품명 옆에 계속 표시한다. 연결 명세는 D-01과 새 D-04다.</p>
+<p>대표 사진의 ‘사진 크게 보기’는 키보드/터치로 조작한다. 확대 화면에서 전체 사진과 실제1120×1400 원본 크기를 전환하고, 원본에서는 사진 영역을 스크롤해 살펴본다. 닫기 버튼·Esc·PC 바깥 클릭으로 닫고 상품 사진 링크에 포커스를 돌려준다. 확대 중에는 배경 조작과 스크롤을 막고 키보드 선택을 보호한다. 이미지 로딩·실패 안내와 ‘다시 불러오기’를 제공한다. JavaScript/native dialog를 사용할 수 없는 경우에도 원본 이미지로 연결되는 실제 링크를 유지한다.</p>
+<p>검수 조건:6개 제품과 확대 사진·제목·기존 태그/장면·가격이 일치, PC/모바일/작은 화면/실제 사용자1280×720에서 주요 조작과 문구가 가리지 않음, 전체/원본·키보드·닫기·포커스 복귀·실패/복구 동작, 기존 장바구니 내용 보존. 성분·지속력·안전성·실제 판매 주장을 추가하지 않는다. 새 외부 연결·계정·결제·개인정보·배포·유료 생성은 없다. 실제 휴대폰/Safari/보조기기/브라우저 확대/핀치 성능은 별도로 구분한다.</p>
+<h2 id="prd-14-제품마다-다른-짧은-상세-이야기-FR-15">14. 제품마다 다른 짧은 상세 이야기 · FR-15</h2>
+<p>사용자는 상품별 상세 콘텐츠가 허전하므로 다른 향수 업체를 참고한 각각의 상세페이지를 요청했다. 현재 6개 주소와 구매·사진 확대를 유지하면서 아래 이야기 구간을 확장한다. 구매 정보에서 ‘향 이야기 보기’로 바로 연결하며, 각 향의 고유 장면 사진·이야기·첫인상/중심/여운의 세 가지 해석·어울리는 하루를 제공한다. D-02 확장과 D-05를 연결한다.</p>
+<p>공식 NONFICTION GENTLE NIGHT와 Aesop Tacit의 향 설명·영감·향 구성 구분을 참고한다. 원문/사진/원료/가격/정책을 복제하지 않는다. FIRST LIGHT의 기존 생활/재질 사진과 이야기를 보존하고, 나머지5종에 내장 이미지 생성으로 각 장면을 만든다. 이름/향 계열/가격/용량/장바구니/홈은 유지한다. 새 해석은 가상 제품 콘텐츠로 표시하며 실제 배합·원료·지속력·효능·실제 구매 후기를 만들지 않는다.</p>
+<p>완료 기준:6종 고유 사진과 문구가 정확히 대응, 향 이야기와 다른 상품으로 이동 가능, PC/모바일/중간/좁은 화면에서 모든 텍스트·사진·구매 조작이 읽히고 가로 넘침 없음, 사진 확대와 기존 수량/장바구니 내용 유지. 새 사진에는 정확한 생성 문구·원본·치수·해시/출처를 보존한다. 외부 실행 서비스/계정/추가 유료 생성/개인정보/결제/배포는 추가하지 않는다. 실제 휴대폰/Safari/보조기기/느린 회선은 미확인으로 구분한다.</p>
+<h2 id="prd-15-충분한-상세-본문과-첨부-영역-삭제-FR-16">15. 충분한 상세 본문과 첨부 영역 삭제 · FR-16</h2>
+<p>사용자가 직전 결과를 너무 짧다고 판단하고 FAQ와 푸터 안내 두 이미지를 첨부해 삭제를 요청했다. 이번 지시가 이전 해당 영역 유지 결정에 우선한다. 전6종의 체험 전 알아두세요 전체 구간, 공통 푸터의 가상 브랜드/거래 없음/제품·가격 가상 설정 두 문장과 구분선을 삭제한다. 삭제한 안내를 다른 위치에 다시 만들지 않는다. 구매 아래/모의 주문의 범위 밖 안내는 유지한다. D-03 삭제·공통 푸터 갱신과 D-06~D-08을 연결한다.</p>
+<p>상품명·용량·가격·사진 확대·장바구니·헤더는 유지하고 기존 이야기와 향 인상 뒤에 세 구간을 확장한다. 큰 제품 캠페인 사진+두 문단의 이야기, 일상3장면+해당 제품의 병/라벨 근접 사진, 비슷한 향과의 구체적인 인상 차이 및 실제 해당 상세 링크를 제공한다. 제품별 내용이 다르고 새로운 화려한 기능 대신 충분한 읽을거리를 만든다. FIRST LIGHT의 승인된 이미지/기존 두 이야기는 보존하고 다섯 추가 향의 현재 병 사진을 참조해 캠페인 이미지를 내장 생성한다.</p>
+<p>완료 조건: 첨부된 두 영역이6개 상세와12개 공통 푸터에서 보이지 않고, 생성기를 반복 실행해도 부활하거나 본문이 중복되지 않는다. 전6종 사진/확장문구/비교 상대가 정확하고, 본문 길이 증가를 실제 화면에서 확인하며 긴 사진·문장·연결을 PC/모바일/중간/좁은 화면에서 읽을 수 있다. 사실로 확인되지 않은 성분·지속력·효능·후기·배송·실제 판매를 새로 만들지 않는다. 추가 외부 유료 서비스·회원/개인정보·결제·공개 배포 없이 로컬에서 검수한다.</p>
+<h2 id="prd-16-전12화면-최종-마감-FR-17">16. 전12화면 최종 마감 · FR-17</h2>
+<p>사용자가 전체 페이지 문구/배치 정리와 PC·모바일 최종 검수를 승인했다. 기존 디자인·사진·영상·6종 이름/용량/가격·장바구니 기능을 유지한다. 앞서 삭제한 FAQ·공통 푸터 안내·홈 제품 안내·상세 상품 선택 복귀·가상 향 해석 문장은 복원하지 않는다.</p>
+<p>반복 안내를 줄이기 위해6종 구매 영역의 두 문장 데모 안내를 제거하고 ‘데모 가격’을 ‘가격’으로 통일한다. 향 찾기는 취향 기반 제안과 선택값을 저장/전송하지 않는다는 짧은 설명을 쓴다. 장바구니와 주문 요약에는 ‘실제 결제와 배송이 없는 모의 주문입니다.’를 한 번씩 제공하고, 주문 확인과 완료 버튼·결과에는 모의 주문 명칭을 유지한다. 상품/사진/설정이 실제로 검증되었다는 주장이나 새 성분·성능·리뷰를 추가하지 않는다.</p>
+<p>공통 입력 글자와 한글 단어 줄바꿈, 장바구니 상품명 굵기, 주문 설명 제목/본문 간격을 기존 토큰에 맞춘다. PC·모바일에서12주소와 탐색/선택/오류/빈 상태·여러 상품 합계·모의 주문을 검수한다. 사용자 장바구니는 보존하고 별도 로컬 검수 주소에서만 시험 주문을 한다. 실휴대폰/Safari/보조기기/느린 회선/FPS는 미확인과 구분한다. 공개 배포·실제 판매·새 유료 서비스·회원/개인정보는 범위 밖이다.</p>
+<p>최종 근거: .impeccable/review/final-20261015/의38개 viewport와 조작 기록 및 새 독립 전체 검토 disposition: ship. 실제 기기/운영 거래까지 통과했다는 의미는 아니다.</p>
+</article></details>
+<details class="document" id="design"><summary><span>디자인 명세서</span><small>어떤 모습과 동작으로 만드는지 · 공통 규칙</small></summary><article><p>갱신일: 2026년 10월 15일 · 상태: 기존 세계의 전12화면 문구·배치 마감 · 자체 최종 검수 완료·독립 최종 검토 대기</p>
+<p>이 문서는 승인된 기획과 실제 구현을 병합한 디자인 기준이다. 앞의 YAML은 현행 반복 토큰이며 본문은 적용 맥락과 동작을 설명한다. 현재는 홈 H-01<del>H-06, 상품 목록 L-01, 취향 질문 세 개와 추천을 제공하는 향 찾기, 여섯 상품의 D-01·D-02·D-04</del>D-08, 장바구니 C-01, 모의 확인·완료 O-01~O-02와 공통 메뉴·검색·수량·알림을 제공한다. D-03은 사용자 요청으로 삭제했다. 실제 HTML 주소는 <code>/</code>, <code>/shop/</code>, <code>/find-your-scent/</code>, <code>/product/{first-light,soft-linen,citrus-air,green-hour,petal-mist,quiet-wood}/</code>, <code>/cart/</code>, <code>/checkout/</code>, <code>/complete/</code>의 <strong>12개</strong>다. 실제 판매·결제·배송·주문 접수·개인정보 수집은 없다. 최신 범위는 아래 ‘전12화면 문구·배치 마감’을 따른다. 10월 14일 영상 및 10월 15일 앞선 단일 상품·6종·향 찾기·글자/배치·사진 확대·짧은 상세 이야기·충분한 상세 본문 검토는 날짜가 붙은 이력으로 보존하며 당시 판정을 이번 최종 검수의 승인으로 확대하지 않는다.</p>
+<h2 id="design-Overview">Overview</h2>
+<p><strong>Creative North Star: &quot;물방울로 여는 아침&quot;</strong></p>
+<p>‘일상을 바꾸는 작은 향’을 밝고 투명한 아침빛, 유리, 물방울, 외출 전의 조용한 습관으로 표현한다. 병 표면의 작은 물방울과 어깨 부분의 접사에서 같은 향수병 전체가 드러나는 하나의 카메라 이동을 실제 생성 영상으로 제공한다. 정상 상태에서는 스크롤로 영상 시간을 앞뒤로 탐색하고, 마지막 구도를 유지하는 읽기 구간에서 제품 정보를 확인한다. 움직임 줄이기나 영상 실패에서는 제품 전경과 정보를 일반 문서 흐름에서 읽게 한다.</p>
+<p>흰색과 옅은 하늘색을 넓게 사용하고 깊은 청록의 글자와 행동 버튼으로 읽는 위치를 분명하게 만든다. 제품과 장면이 시선을 이끌며 글자는 향과 다음 행동을 설명한다. 말투는 차분하고 친근하다. 과장된 고급 표현이나 구매 압박을 추가하지 않는다. 소문자 ants 글자 로고를 유지한다.</p>
+<p>FIRST LIGHT·첫빛의 깨끗한 비누향과 영상은 대표 제품의 이야기로 유지한다. 현행 스토어는 사용자가 선택한 ‘깨끗한 향을 중심으로 6종’이며 모두 50mL다. 같은 병·조명·사진 크기로 비교하고 향의 인상·이름·해당 데모 가격을 분명히 읽게 한다. 다섯 추가 이름·향 표현·가격은 제작자의 가상 설정이다. 성분·지속력·안전성·효능·후기는 검증 자료가 없으므로 만들지 않는다. 실제 결제·배송·주문 접수·개인정보 수집은 없다.</p>
+<p><strong>Key Characteristics:</strong></p>
+<ul>
+<li>밝은 청백색과 투명한 유리, 조용한 아침빛.</li>
+<li>실제 제품처럼 읽히는 유리·액체·뚜껑과 병 표면의 작은 물방울.</li>
+<li>PC의 왼쪽 문구·오른쪽 제품과 모바일의 제목·중앙 제품·아래 정보 구성.</li>
+<li>같은 병의 매크로→전체 공개→제품 안내를 연결하는 실제 영상의 정방향·역방향 스크롤 탐색.</li>
+<li>정렬과 여백으로 정보를 묶는 차분한 밀도.</li>
+<li>같은 4:5 사진의 여섯 향수, 향별 탐색·검색·정렬과 제품별 장바구니.</li>
+<li>세 가지 취향의 선택과 해당 상품 사진·선택 이유·상세 이동을 연결하는 차분한 향 찾기.</li>
+<li>영상 준비 중 보이는 포스터와 움직임 줄이기·영상 실패의 정적 제품 정보.</li>
+<li>구매 아래·모의 주문의 기존 데모 안내를 유지하며 사용자가 삭제한 FAQ·공통 푸터 안내는 다시 만들지 않음.</li>
+</ul>
+<h3 id="design-확정-방향과-자료-해석">확정 방향과 자료 해석</h3>
+<p>확정 범위는 브랜드·향·제품·가격·핵심 연출·페이지 분리·콘텐츠 순서·버튼 노출 시점·PC 우선과 모바일 유사 연출·문구 말투다. 준비된 자료와 별도 금지 분위기는 없었다. 기획 당시 추가 결제 없이 가능한 제작 범위였으며 기한은 없다. 글꼴은 Noto Sans KR와 Instrument Sans로 선택되어 현재 자체 제공 파일로 구현됐다. 원래 승인 명세의 H-04~O-02를 같은 세계로 구현했다. 기획 당시의 열 개념과 실제 CSS 비율·간격을 구분해 아래에 기록한다.</p>
+<p>따뜻한 생활 공간, 신비로운 수중 분위기, 비눗방울 속 세계를 검토한 뒤 밝고 투명한 아침 장면을 선택했다. 일상적 사용 목적과 깨끗한 향을 직관적으로 연결한다.</p>
+<p>참고 자료는 약 8.95초의 KakaoTalk_20261012_155947986.mp4다. 주요 프레임에서 닫힌 분홍 조개 → 열린 조개와 향수병 → 수면 높이의 시점 → 수중 → 제품 정보 등장 순서를 확인했다. 스크롤에 따른 변화라는 관계는 사용자의 설명에 따른다.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>분석 항목</th>
+<th>확인한 내용</th>
+<th>ants에 반영할 원칙</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>핵심 움직임</td>
+<td>제품과 장면, 시점이 이어져 변화</td>
+<td>하나의 공간 안에서 물방울·병·시점이 연속적으로 변화</td>
+</tr>
+<tr>
+<td>전체 분위기·색</td>
+<td>청록색 물, 분홍 조개, 반사광</td>
+<td>사용자가 고른 흰색·옅은 하늘색·아침빛으로 전환</td>
+</tr>
+<tr>
+<td>글자 표현</td>
+<td>제품 옆 짧은 문구, 적은 화면 정보</td>
+<td>짧은 한글 메시지와 읽기 쉬운 본문. 원본 글꼴·정확한 크기는 미확인</td>
+</tr>
+<tr>
+<td>레이아웃</td>
+<td>제품을 크게 보여주고 마지막에 구매 정보 연결</td>
+<td>제품의 주인공 역할 유지. 홈에서는 상품 상세 이동, 구매 선택은 별도 상세 페이지</td>
+</tr>
+<tr>
+<td>그리드</td>
+<td>영상 속 작은 웹페이지여서 정확한 열과 간격은 판별 불가</td>
+<td>별도 공통 그리드 제안</td>
+</tr>
+<tr>
+<td>이미지·구도</td>
+<td>위에서 수면과 수중으로 시점 변화</td>
+<td>물방울 접사에서 향수병을 포함하는 넓은 아침 장면으로 변화</td>
+</tr>
+<tr>
+<td>여백·리듬</td>
+<td>집중된 제품 장면 유지</td>
+<td>히어로 뒤 향 설명, 생활 사진, 제품 소개로 밀도와 배치 변화</td>
+</tr>
+<tr>
+<td>메뉴·버튼</td>
+<td>영상에서 작은 상단 요소와 마지막 구매 UI 확인</td>
+<td>처음부터 상품 이동 버튼 제공. 정확한 원본 메뉴 기능은 미확인</td>
+</tr>
+<tr>
+<td>반응 방식</td>
+<td>영상에서 장면 진행을 확인</td>
+<td>역방향 스크롤과 키보드·터치까지 별도 설계</td>
+</tr>
+<tr>
+<td>모바일</td>
+<td>휴대폰 화면 안에 촬영된 가로 모니터 웹페이지</td>
+<td>실제 모바일 웹 구성은 미확인. ants는 PC와 유사한 연출을 별도 구현</td>
+</tr>
+</tbody></table></div>
+<p>전체 복제보다 제품을 중심으로 한 공간 변화와 읽는 흐름을 가져온다. 원본 조개·병·텍스트·로고·이미지를 ants 자료로 사용하지 않는다.</p>
+<p>2026년 10월 14일의 앞선 모션·배경 정제 뒤 사용자가 향수병과 물방울이 이상하고 전체 품질이 낮다고 다시 명확히 거절했다. 이 최신 거절은 이전의 긍정 답변과 제한된 수정 검토보다 우선한다. 기존 절차적 Three.js 병과 큰 독립 물방울을 실행 경로에서 교체했다. 새 제품 이미지는 두꺼운 광학 유리·내부 액체 경계·질감 있는 흰 원통 뚜껑·병에 붙은 작은 물방울·수면 반사를 함께 표현한다. 브랜드, 확정 문구, 두 글꼴, 50mL·69,000원, 메뉴와 향 소개를 유지한다.</p>
+<p>현재 <code>first-light-campaign.webp</code>는 내장 이미지 생성으로 만든 가상 제품 전경이며 <code>first-light-macro.webp</code>는 같은 전경을 참조해 편집한 작은 물방울 시작 기준 컷이다. 이 두 기준 이미지를 올바른 시작·끝 참조로 제공해 만든 <code>first-light-camera.mp4</code>를 연결했다. 실제 영상의 0.5~7.5초 표본 여덟 장에서 병 어깨와 작은 표면 물방울의 접사→라벨 등장→같은 병 전체와 수면 반사의 공개를 확인했다. 이는 한 영상 안의 카메라 후퇴이며 두 정지 이미지를 교차 전환하는 구현이 아니다. 접사는 하나의 물방울만 화면을 채우는 구도가 아니라 물방울이 맺힌 병의 어깨와 뚜껑 일부를 함께 보여준다.</p>
+<p>앞서 승인된 0.25크레딧은 Higgsfield 수면 이미지 한 장만 포함했다. 이후 <strong>Kling v3.0 pro·무음·8초·16:9·1개·14크레딧</strong>의 구체적인 제안 바로 뒤 사용자가 ‘다음 진행해’라고 지시해 이번 영상 한 개를 승인했다. 완료한 작업은 <code>d96438cb-5844-4916-9e61-50594d0b1abb</code> 하나다. 제출 과정에서 계획한 텍스트 프롬프트가 실수로 빠졌으며 실제 <code>submitted_prompt</code>는 빈 값이다. 시작·끝 참조 이미지는 맞게 제출했고, 누락 사실을 사용자에게 알린 뒤 실제 결과 프레임을 확인해 연결했다. 보존한 <code>first-light-camera.prompt.txt</code>는 <strong>계획 문구</strong>이며 실제 적용된 생성 프롬프트로 표시하지 않는다. 추가 생성·재시도는 하지 않았다. 당시 영상 연결 범위에는 후속 홈·구매 화면과 공개 배포가 포함되지 않았다. 홈·구매 화면은 2026년 10월 15일에 별도로 구현했으며 공개 배포는 하지 않았다.</p>
+<h3 id="design-구현-근거와-검토-범위">구현 근거와 검토 범위</h3>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>근거</th>
+<th>현재 확인 대상</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="site/styles.css">site/styles.css</a></td>
+<td>공통 색·글꼴·버튼·메뉴, 고정 영상 무대·정적 흐름·반응형 크롭. 작은 가로 화면의 전체 병 보존용 contain</td>
+</tr>
+<tr>
+<td><a href="site/index.html">site/index.html</a></td>
+<td>실제 한글·제품 사실·링크·데모 안내, 초기 매크로 포스터, MP4 경로를 가진 <code>data-src</code>와 초기 <code>src</code> 없는 native video</td>
+</tr>
+<tr>
+<td><a href="site/main.js">site/main.js</a></td>
+<td>loading/ready/still/fallback 상태, 전체 MP4 fetch·Blob URL 후 실제 영상 탐색, 문구·앵커·포스터 전환과 reduced-motion 로드 방지. 현재 메뉴·포커스는 공통 shop.mjs로 분리</td>
+</tr>
+<tr>
+<td><a href="site/commerce.css">site/commerce.css</a> · <a href="site/shop.mjs">site/shop.mjs</a> · <a href="site/cart.mjs">site/cart.mjs</a></td>
+<td>생활·제품·구매 배치와 상태, 공통 dialog·수량·저장·완료 결과</td>
+</tr>
+<tr>
+<td><a href="site/product/first-light/index.html">상품 상세</a> · <a href="site/cart/index.html">장바구니</a> · <a href="site/checkout/index.html">확인</a> · <a href="site/complete/index.html">완료</a></td>
+<td>독립된 실제 HTML 경로와 데모 안내·빈 상태</td>
+</tr>
+<tr>
+<td><a href="site/motion.mjs">site/motion.mjs</a></td>
+<td>문구 진행률과 실제 영상의 시간 매핑. 현재 3D 카메라·병·물방울 계산은 없음</td>
+</tr>
+<tr>
+<td><a href="site/assets/video/first-light-camera.mp4.json">first-light-camera.mp4.json</a></td>
+<td>실제 작업·프롬프트 누락·승인 경계·원본/배포 파일 수치·압축 방식</td>
+</tr>
+<tr>
+<td><a href="ASSETS.md">ASSETS.md</a></td>
+<td>새 전경·매크로의 원본과 정확한 프롬프트, 기존 수면·3D의 이력, 글꼴·라이브러리 라이선스</td>
+</tr>
+<tr>
+<td><a href="#decisions">DECISIONS.md</a> · <a href="../work/ants-home-brief.md">ants-home-brief.md</a></td>
+<td>사용자 거절·제품 미디어 교체·이번 영상 승인과 연결 범위. 이전 영상 승인 대기 문단은 생성 이전의 이력</td>
+</tr>
+</tbody></table></div>
+<p>이번 문서 갱신은 위 소스·출처 기록·실제 영상 표본과 작업자가 제공한 브라우저 관찰에 근거한다. 일반 진입은 처음부터 <code>data-scene=&quot;loading&quot;</code>과 고정 영상 무대를 사용한다. 매크로 포스터가 먼저 보이고 영상 준비 이후 <code>ready</code>로 전환하므로 정상 로딩이 정적 레이아웃에서 긴 스크롤 레이아웃으로 바뀌지 않는다. 제품 해시로 직접 진입하면 전경 포스터와 마지막 안내를 먼저 맞추고 실제 영상도 해당 끝 구도로 탐색한 뒤 표시한다. 초기 움직임 줄이기는 <code>still</code>, 영상 오류는 <code>fallback</code>의 일반 문서 흐름이다. 영상은 생성한 가상 제품이며 실제 제품 촬영을 뜻하지 않는다. 실행 중 Three.js·Higgsfield·외부 CDN을 호출하지 않는다.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>실제 미디어</th>
+<th>크기·길이·용량</th>
+<th>보존·역할</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>생성 원본 MP4</td>
+<td>1916×1080·24fps·8.041667초·12,606,474바이트·오디오 없음</td>
+<td>상위 <code>work/ants-dependencies/first-light-camera-original.mp4</code> 보존</td>
+</tr>
+<tr>
+<td>사이트 MP4</td>
+<td>1600×902·24fps·8.041667초·3,177,846바이트·오디오 없음</td>
+<td><code>site/assets/video/first-light-camera.mp4</code>. H.264/yuv420p·CRF 22·6프레임(0.25초)마다 키프레임·faststart</td>
+</tr>
+<tr>
+<td>제품 전경 WebP</td>
+<td>1672×941·132,684바이트</td>
+<td>정적 대체 화면·끝 구도로 직접 진입할 때의 포스터</td>
+</tr>
+<tr>
+<td>매크로 WebP</td>
+<td>1672×941·111,290바이트</td>
+<td>정상 시작의 초기 포스터·영상 시작 참조 이미지</td>
+</tr>
+</tbody></table></div>
+<p>새 영상 검수 자료는 <a href=".impeccable/review/cinematic-20261014">.impeccable/review/cinematic-20261014</a>에 보존한다. PC 1440×1000과 모바일 390×844에서 진행률 0·.55·.96·.25의 처음·중간·제품 안내·역방향을 캡처했으며 가로 넘침 없음과 마지막 CTA의 <code>inert</code> 해제를 관찰했다. 실제 <code>seeked</code> 이벤트가 기록한 <code>data-video-time</code>은 중간 5.133초·제품 8.008초·역방향 PC 2.339초/모바일 2.333초로 보고됐다. 브라우저 제어 도구의 읽기 범위에서 영상 <code>currentTime</code>이 0으로 반환되는 한계가 있어, 그 getter를 실제 시간 관찰로 쓰지 않았다. 320×740의 제품 안내도 진행률 .96·8.008초·가로 넘침 없음이 관찰됐다.</p>
+<p>작은 가로 화면에서 뚜껑이 잘리는 것을 확인한 뒤 <code>object-fit:contain; object-position:100% 50%</code>로 바꿨다. 수정 후 844×390의 진행률 .956·8.008초에서 전체 병·뚜껑을 확인했다. 가로·768×1024 태블릿·320×740 좁은 화면 모두 가로 넘침 없음이며 태블릿·좁은 화면의 제품 구도는 .960·8.008초다. 로컬 서버에 부분 파일 응답이 없어 실제 메뉴 이동 중 탐색이 멈추는 문제는 전체 MP4를 Blob으로 준비해 연결하는 방식으로 고쳤다. 수정한 실제 <code>main.js</code>에서 모바일 메뉴 열기→FIRST LIGHT 선택→메뉴 닫힘→진행률 .956·8.008초·제품 CTA 조작 가능→<code>#scent</code> 이동을 확인했다(<code>mobile-live-product.png</code>, <code>mobile-scent.png</code>). 실제 기본 페이지의 <code>#first-light</code> 직접 진입도 영상 준비·해당 프레임의 탐색 후 표시하여 .960·8.008초에 도착했다(<code>desktop-live-product.png</code>).</p>
+<p>PC 1440×1000과 모바일 390×844의 강제 움직임 줄이기 검수는 <code>data-scene=&quot;still&quot;</code>·video <code>src</code> 없음·제품 전경 포스터·가로 넘침 없음을 확인했다(<code>reduced-desktop.png</code>, <code>reduced-mobile.png</code>). 영상 fetch를 HTTP 404로 실패시키는 검수는 <code>data-scene=&quot;fallback&quot;</code>·보이는 제품 전경·읽을 수 있는 실패 안내와 제품 CTA를 두 화면에서 확인했다(<code>fallback-desktop.png</code>, <code>fallback-mobile.png</code>). 이 결과는 동일 구현을 강제 상태로 검사한 브라우저 결과이며 실제 OS 설정·스마트폰 검수로 확대하지 않는다.</p>
+<p>새 독립 <a href=".impeccable/review/cinematic-20261014/finish-review.md">finish-review.md</a>의 판정은 <strong>ship</strong>, 이전 정지 제품 검토에서 남은 <strong>M1 resolved</strong>다. 실제 연속 카메라 영상·PC/모바일의 정·역방향 탐색과 이번 연결에 필요한 로딩·가로 뚜껑·실제 앵커 수정의 캡처 범위에서 ceiling은 <strong>reached</strong>이고 남은 material finding은 없다. 검토자는 실제 프레임 표본·19개 캡처·소스·작업자의 실제 브라우저 관찰과 검사 결과를 근거로 했으며 별도의 실기기나 전체 프레임 성능 측정은 하지 않았다. 이 판정은 해당 영상 항목과 연결 수정의 통과이며 후속 페이지·공개 배포·실제 판매·전체 기기 성능·사용자의 최종 미적 수용을 승인하지 않는다. 정적 재질의 이전 제한 판정과 새 영상 판정을 각 범위에 유지한다.</p>
+<p>이전 정지 제품 품질 검토 자료 경로는 <a href=".impeccable/review/quality-20261014">.impeccable/review/quality-20261014</a>다. 아래는 영상 연결 <strong>이전</strong> 정지 상태 캡처이며 모두 페이지 스크롤 0에서 가로 넘침 없음이 기록됐다. CSS 화면 크기와 저장된 콘텐츠 PNG 크기를 구분한다.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>캡처</th>
+<th>CSS 화면 크기</th>
+<th>콘텐츠 PNG 크기</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>desktop-still.png</td>
+<td>1440×1000</td>
+<td>1430×993</td>
+</tr>
+<tr>
+<td>mobile-still.png</td>
+<td>390×844</td>
+<td>380×822</td>
+</tr>
+<tr>
+<td>tablet-still.png</td>
+<td>768×1024</td>
+<td>758×1011</td>
+</tr>
+<tr>
+<td>narrow-still.png</td>
+<td>320×740</td>
+<td>310×717</td>
+</tr>
+<tr>
+<td>landscape-still.png</td>
+<td>844×390</td>
+<td>834×385</td>
+</tr>
+<tr>
+<td>user-current.png</td>
+<td>연결을 재설정한 기본 1280×720</td>
+<td>1270×714</td>
+</tr>
+</tbody></table></div>
+<p>이전 PC·모바일의 강제 fallback은 실패 안내와 전경 이미지, 강제 reduced는 영상 <code>src</code> 없이 still 모드를 유지했다. 이전 모바일 메뉴 제품 링크는 메뉴를 닫고 실제 패널을 64px 헤더 아래 약 84.19px에 표시했으며 향 소개 CTA 이동도 기록했다. 이는 브라우저의 강제 상태 검사이며 OS 설정·실제 스마트폰 검증과 구분한다. 당시 독립 FULL finish review의 전체 disposition은 <strong>fix</strong>였고, 정적 제품 재질·구도·가독성·대체 상태 범위의 ceiling은 reached였다. 당시 남은 영상 제작을 이번에 진행했지만 이 정지 화면 판정을 새 영상의 연속성·성능·사용자 최종 수용 판정으로 확장하지 않는다.</p>
+<p>이전 <a href=".impeccable/review/motion-20261014">.impeccable/review/motion-20261014</a>, <a href=".impeccable/review/background-20261014">.impeccable/review/background-20261014</a>, 최초 finish-review·finish-verdict는 이력이다. 당시 <code>ship</code>은 지정된 수정 M1·M2 또는 정적 제품 앵커 해결에 한정했다. 이전 3D의 네 구도·300만 픽셀 제한·단위 계산 PASS·7.11:1 배경 표본 대비·정적 앵커 83.9375px는 새 제품 미디어의 성능·대비·배치 통과를 보증하지 않는다. 영상 연결 이전 1280×720 정지 화면은 실제 DOM 글자 위치를 원본 이미지의 cover 크롭에 대응시켜 배경 대비를 확인했다. 해당 직사각형 영역 최소 대비는 큰 제목 9.77:1, 본문 10.46:1, 제품 제목 7.49:1, 설명 7.11:1, 용량 9.41:1, 가격 8.86:1이다. 보조 문구는 실제 글자의 Range 영역으로 6.80:1이다. 흰 버튼 글자와 기본 강조 배경 대비는 7.90:1이다. 이 결과는 해당 정지 화면에 한정하며 새 영상의 매 프레임 대비·실제 기기 검증으로 확대하지 않는다.</p>
+<p>실제 스마트폰·Safari·제한된 네트워크·OS의 실제 움직임 줄이기 설정·초당 프레임 수 측정은 미확인이다. 이전 검출기 권고는 이력으로 남기며 이번 문서 작업에서 검출기를 실행하거나 UI를 고치지 않았다. 영상 파일의 24fps는 인코딩 수치이며 브라우저에서 측정한 탐색 성능이 아니다. 실제 표본과 스크롤 탐색 관찰을 넘어 전체 프레임·전체 기기 품질을 보증하지 않는다. 당시 별도 상품 상세·장바구니·모의 주문은 후속 제작 범위였으며, 현재 상태는 아래 전체 데모 확장 기록을 따른다.</p>
+<h3 id="design-이력-단일-상품-데모-확장-2026년-10월-15일">이력 · 단일 상품 데모 확장 · 2026년 10월 15일</h3>
+<p>아래는 6종 요청 이전 다섯 주소·단일 상품 단계의 검토 이력이다. 현행 제품 수·탐색·장바구니 규칙은 다음 ‘6종 스토어 확장’과 Components를 따른다.</p>
+<p>사용자가 영상 시안 뒤 ‘좋아. 다음’으로 원래 제작 순서 4번을 요청했다. 기존 세계를 교체하지 않고 H-04~O-02와 공통 UI를 구현했다. H-03의 임시 ‘FIRST LIGHT 다시 보기’ 링크를 없애고 생활 사진→이야기→대표 제품→공통 푸터로 이어진다. 헤더·모바일 메뉴·히어로 마지막 CTA는 별도 <code>/product/first-light/</code>로 이동하며 장바구니 링크·개수를 활성화했다. <code>/cart/</code>→<code>/checkout/</code>→<code>/complete/</code>가 실제 HTML 주소다. 이전 <code>#first-light</code> 영상 앵커의 직접 진입·시간 매핑은 남아 있지만 현재 주 상품 이동은 상세 페이지다. 메뉴만 <code>main.js</code>에서 공통 <code>shop.mjs</code>로 옮겼고 영상 본체·제어·읽기 구간은 유지했다.</p>
+<p>새 생활 이미지 <code>first-light-ritual.webp</code>는 기존 제품 전경을 참조한 내장 이미지 생성 결과(1448×1086·101,054바이트)다. 원본·정확한 이미지 생성 문구·참조와 JSON을 보존했다. H-04와 D-02에서 사용하며 추가 Higgsfield 생성·크레딧 사용은 없다. 네 raster의 메타데이터 검사에서 누락은 0개다. 앞선 유료 영상의 실제 제출 문구 누락과 0.25/14크레딧의 별도 승인 이력은 변경하지 않는다.</p>
+<p>검수 근거는 <a href=".impeccable/review/commerce-20261015/checks.md">.impeccable/review/commerce-20261015/checks.md</a>, 대비·화면 크기 관찰·29개 캡처 manifest다. Node의 장바구니·모션·구문과 로컬 링크 검사가 통과했다. 작업자의 실제 PC/모바일 조작은 2개 담기→138,000원→확인→완료138,000원/실제0원/장바구니0, 1~9 경계·누적상한·0/10 인접 오류·삭제 후 빈 상태·Enter 담기·메뉴 Esc와 포커스 복귀·새로고침 유지다. 저장 차단 QA에서는 직접 완료의 빈 상태→1개→완료69,000원/실제0원을 확인했다. 아홉 너비×다섯 화면 45개와 844×390 가로 다섯 화면에서 가로 넘침이 없었다. 이 순회는 모든 너비의 모든 상태를 검사한 결과가 아니다.</p>
+<p>독립 <a href=".impeccable/review/commerce-20261015/finish-review.md">finish-review.md</a>는 <strong>ship</strong>, ceiling <strong>reached</strong>, material fixes <strong>없음</strong>이다. 검토자는 현재 manifest 29개와 모바일 장바구니 상·하단 원본 두 장을 열고 소스·작업자 검사 기록과 대조했다. 최초 recapture 원인은 native fullPage의 미도색 영역이었다. 교체 <code>mobile-cart.png</code>는 실제 viewport 두 장을 관찰된 스크롤 0/494와 겹침에 맞춰 연결한 380×1303 증거이며 단일 native fullPage로 주장하지 않는다. 원본과 <code>mobile-cart-capture.json</code>을 함께 보존한다. 홈 full-page의 긴 여백은 sticky 스크롤 거리의 구조 증거이고 실제 화면 구도는 개별 viewport를 따른다.</p>
+<p>이번 ship은 제공된 H-04~O-02·공통 UI와 흐름의 범위다. 실제 휴대폰·Safari·OS 움직임 설정·느린 회선·FPS·정량 CLS·전체 영상 프레임 대비·전체 스크린리더·200% 글자 확대·사용자의 최종 미적 수용은 미확인이다. documenter는 소스·기록을 병합했으며 독자적으로 브라우저·검출기를 실행하지 않았다. 기존 확정 글꼴·전면 히어로에 관한 검출기 경고는 새 시스템 규칙이나 수정 사유로 만들지 않았다. Git은 상위 <code>master</code>, 기존 미커밋·untracked 상태를 유지하며 commit·push·PR·merge·공개 배포는 없다.</p>
+<h3 id="design-6종-스토어-확장-2026년-10월-15일-향-찾기-이전-검토">6종 스토어 확장 · 2026년 10월 15일 · 향 찾기 이전 검토</h3>
+<p>사용자가 실제 판매 사이트처럼 여러 향수와 헤더를 요청하고 ‘깨끗한 향을 중심으로 6종’을 선택해 단일 상품 제한을 교체했다. <a href="../work/ants-catalog-brief.md">현재 방향 계약</a>과 <a href="#prd">PRODUCT.md</a>의 최신 범위를 기존 세계에 연결한다. 새 정체성·시안 선택 없이 승인된 FIRST LIGHT 영상, H-01~H-04의 장면과 이야기, 청백색·청록·두 글꼴을 유지했다. H-01은 탐색 기능을 확장하고 H-05만 여섯 상품 컬렉션으로 교체했다.</p>
+<p>현행 근거는 <code>site/store.css</code>, <code>site/catalog.mjs</code>, <code>site/shop.mjs</code>, <code>site/cart.mjs</code>와 기존 <code>styles.css</code>·<code>commerce.css</code>·<code>main.js</code>다. <a href=".impeccable/review/catalog-20261015/source-check.json">source-check.json</a>은 11페이지·깨진 정적 링크 0·중복 id 0·사진 6·한글 누락 0을 기록한다. <a href=".impeccable/review/catalog-20261015/interaction-checks.json">interaction-checks.json</a>은 실제 메뉴·검색·필터·정렬, 제품별 수정/삭제·오류 차단·새 형식과 이전 저장 호환, 다품목 213,000원 및 저장 차단 144,000원 모의 완료·완료 scrollY 0을 확인했다. 이 조작은 별도 QA origin에서 수행했으며 사용자 주 화면의 FIRST LIGHT 1개를 변경하거나 소모하지 않았다.</p>
+<p><a href=".impeccable/review/catalog-20261015/capture-manifest.json">capture-manifest.json</a>의 필수 49장은 모두 실제 현재 스크롤 위치의 viewport 캡처이며 fullPage나 합성본이 아니다. 일부는 페이지 뒤쪽 사진·목록·합계이므로 첫 화면 또는 전체 페이지로 해석하지 않는다. 실제 사용자 창은 2089×1408이며 해당 PNG 콘텐츠는 2079×1401이다. 1280×720은 QA 기본 창이고 사용자 창이 아니다. PC 명칭의 캡처는 1280 또는 1440 계열이 섞여 있으므로 정확한 크기는 manifest를 따른다. <a href=".impeccable/review/catalog-20261015/responsive-check.json">responsive-check.json</a>은 320·820·1440의 목록/QUIET WOOD와 사용자 너비의 목록에서 가로 넘침 없음을 기록하며 모든 주소의 모든 상태를 뜻하지 않는다.</p>
+<p>독립 <a href=".impeccable/review/catalog-20261015/finish-review.md">finish-review.md</a>는 49장과 소스 표본·검사 기록을 대조해 시각 수정·재캡처 필요 없음, 현행 문서와 sidecar 병합 M1을 마지막 보완으로 지목했다. 이 병합은 해당 M1을 반영하며 최종 판정은 연결된 보고서를 따른다. 문서 담당자는 브라우저나 검출기를 별도로 실행하지 않았다. 검출기는 **1회·63건(경고45·권고18)**이며 원본 <code>detector.json</code>을 보존한다. 당시 안내문 11→12px와 새 향 분류 팝업 그림자의 중립색·부드러운 offset을 수정했다. 확정 글꼴의 파서 조각 <code>Sans KR</code>, Instrument Sans, 44px 링크 안의 접근 가능한 11px 숫자 배지, 안쪽 문구가 있는 full-bleed 영상은 맥락을 구분한다. 의도된 새 글자 단계는 Typography에 기록하며 검출기 경고를 없애기 위해 글꼴·UI를 바꾸거나 재실행하지 않았다.</p>
+<p>현행 raster 출처는 <a href=".impeccable/review/catalog-20261015/asset-scan.txt">asset-scan.txt</a>의 10개·누락0이다. 새 6장도 내장 image_gen 결과로 원본·정확한 이미지 문구·참조·JSON을 보존한다. 이번 단계의 추가 Higgsfield 유료 생성은 없다. 기존 영상 한 개의 14크레딧 승인·실제 빈 제출 문구와 계획 문구의 차이는 위 이력 그대로다. 실제 휴대폰·Safari·보조기술·느린 회선·FPS·실제 거래/보안 운영·사용자의 최종 미적 수용은 확인하지 않았다. 현재 상위 master이며 commit·push·PR·merge·공개 배포는 없다.</p>
+<h3 id="design-향-찾기헤더-안내-띠-제거-2026년-10월-15일-글자-조정-이전-검토">향 찾기·헤더 안내 띠 제거 · 2026년 10월 15일 · 글자 조정 이전 검토</h3>
+<p>사용자가 ‘취향 질문3개→추천→상세’를 선택하고 헤더의 가상 브랜드 안내 삭제를 요청했다. <a href="../work/ants-finder-brief.md">현재 방향 계약</a>에 따라 <code>/find-your-scent/</code>를 추가하고 12개 페이지와 공통 생성 원본에서 안내 문구와 32px 띠를 제거했다. 헤더는 PC80px·959px 이하64px이며 본문·영상 무대·sticky·앵커가 같은 <code>--header</code>를 사용한다. 데스크톱·모바일 메뉴·푸터와 H-05에서 향 찾기로 이동한다. 상품·모의 주문·푸터의 데모 안내는 유지한다.</p>
+<p>구현 근거는 <code>site/finder.css</code>·<code>site/finder.mjs</code>·<code>site/find-your-scent/index.html</code>·<code>site/store.css</code>와 공통 12개 HTML이다. 기존 여섯 상품·사진·청백색/청록·두 글꼴·영상·장바구니 계산을 재사용했다. 문서 담당자는 소스와 전달된 검사 기록을 병합했으며 브라우저·검출기를 추가 실행하거나 화면을 수정하지 않았다. <a href=".impeccable/review/finder-20261015/source-check.json">source-check.json</a>은 12페이지·깨진 정적 링크0·중복 id0·한글 누락0을 기록한다. 27개 답 조합은 모두 유효하고 여섯 상품 모두 도달하며 기존 장바구니·영상 계산 검사도 통과했다. 사용자 주 화면의 FIRST LIGHT1개는 변경하지 않았다.</p>
+<p><a href=".impeccable/review/finder-20261015/capture-manifest.json">capture-manifest.json</a>은 현재19장의 native viewport PNG를 기록한다. PC·모바일의 질문/오류/결과, 320·820·960 경계와 실제 사용자 창2089×1408을 포함하며 결과 행동 캡처는 뒤쪽 스크롤이다. 각 PNG의 실제 콘텐츠 크기는 manifest를 따른다. <a href=".impeccable/review/finder-20261015/detector.json">detector.json</a>은 <strong>1회·28건</strong>이며 새 글자 단계3건, 전체 폭 히어로 여백1건, 기존 Noto Sans KR 파서 조각12건·Instrument Sans12건이다. 새 질문/선택/결과 위계는 실제 구현에 따라 아래에 기록하며 확정 글꼴·기존 히어로를 경고 제거 목적으로 교체하지 않는다. 최종 판정은 후속 독립 검토 보고서를 따른다.</p>
+<p>새 raster·외부 API·저장·개인정보·분석 추적·유료 생성은 없다. 현재 raster10개·출처 누락0과 기존 영상의14크레딧·실제 빈 제출 문구 이력은 보존한다. 실제 휴대폰·Safari·보조기술·느린 회선·FPS·사용자의 최종 미적 수용은 확인하지 않았다. Git은 상위 master이며 commit·push·PR·merge·공개 배포는 없다.</p>
+<h3 id="design-글자-굵기레이아웃-조정-2026년-10월-15일-상품-상세-강화-이전-검토">글자 굵기·레이아웃 조정 · 2026년 10월 15일 · 상품 상세 강화 이전 검토</h3>
+<p>사용자가 ‘구성은 좋은데 폰트 굵기랑 레이아웃 배치 손을 봐야 될 것 같아.’라고 요청했다. <a href="../work/ants-type-layout-brief.md">현재 조정 계약</a>에 따라 기존 기능·문구·상품·색·두 글꼴·자산·영상 동작을 유지하고 <code>styles.css</code>·<code>store.css</code>·<code>finder.css</code>의 글자 굵기와 향 찾기 배치를 좁게 조정했다. 공통 제목400·소개350·질문/선택450·일반 선택과 메뉴400으로 위계를 나누고 로고600·버튼/금액500을 유지한다. 향 찾기는 동일 폭의 두 열, 질문과 가로선 선택 행, 입력 너비를 사용하는 다음 버튼으로 정돈했다. 정확한 현행 토큰과 조건은 Typography·Layout·F-01을 따른다. 헤더80/64px·안내 띠 제거·12주소와 FR-13 기능은 그대로다.</p>
+<p><a href=".impeccable/review/type-layout-20261015/capture-manifest.json">capture-manifest.json</a>은 <strong>22장</strong>의 현재 native viewport 이미지를 기록한다. 파일명 확장자는 <code>.png</code>이며 실제 인코딩은 JPEG다. 320·390·820·960·1440·실제 사용자2089px 너비에서 기록한 모든22상태의 가로 넘침이 없으며, 중간 질문·오류/키보드·결과 행동 캡처는 해당 스크롤 위치를 나타낸다. 전체 페이지나 합성 캡처가 아니다. <a href=".impeccable/review/type-layout-20261015/source-check.json">source-check.json</a>은12페이지·깨진 정적 링크0·중복 id0·한글 누락0·기존 단색 대비를 기록한다. <a href=".impeccable/review/type-layout-20261015/interaction-checks.json">interaction-checks.json</a>은27답 조합/여섯 상품과 기존 장바구니·영상 계산, 질문·인접 오류·Space 선택/포커스·긴 세 번째 질문·추천·상세 이동, 실제 가변 굵기350/400/450을 확인했다. 원래 사용자 장바구니1개를 보존했다. 기존 모든 구매 상태를 다시 검증했다는 의미는 아니다.</p>
+<p><a href=".impeccable/review/type-layout-20261015/detector.json">detector.json</a>은 <strong>수정 전 저장 결과15건</strong>(글꼴3·이전 반경1·이전 크기8·이전 색3)이다. 출력 경로 준비 실패1회 후 정상 결과를 보존했으며 수정 후 재실행하지 않았다. 확정된 글꼴·색·이 범위 밖의 기존 경고를 새로운 시스템 교체 이유로 만들지 않는다. 문서 담당자는 현재 CSS와 검사 기록을 대조했으며 브라우저·검출기·소스를 추가 실행/수정하지 않았다. 최종 판정은 후속 독립 검토 보고서를 따른다.</p>
+<p>새 자산·문구·글꼴 파일·기능·저장·외부 전송·비용은 없다. 실제 휴대폰·Safari·보조기술·브라우저 확대·대체 글꼴·OS 움직임 설정·느린 회선·FPS는 미확인이다. 기존 영상의14크레딧·실제 빈 제출 문구와 날짜 있는 검토 이력을 보존한다. 상위 master의 기존 미커밋 상태를 유지하며 commit·push·PR·merge·공개 배포는 없다.</p>
+<h3 id="design-상품-상세-강화-2026년-10월-15일-제품-상세-이야기-이전-검토">상품 상세 강화 · 2026년 10월 15일 · 제품 상세 이야기 이전 검토</h3>
+<p><a href="../work/ants-detail-brief.md">현재 확장 계약</a>과 PRODUCT.md의 FR-14에 따라 기존 여섯 스튜디오 사진의 실제 링크를 유지하면서 ‘사진 크게 보기’와 D-04 native dialog를 연결했다. D-01은 기존 catalog.mjs의 tags 앞 두 개와 scene을 ‘향의 인상’·‘떠올린 순간’ 두 행으로 정리한다. 제품명·향 계열·용량·가격·수량·담기·하단 이야기와 기존 350/400/450 위계·80/64px 헤더·영화형 홈·장바구니를 보존한다. 구현 근거는 <code>site/product-detail.css</code>·<code>site/product-detail.mjs</code>, 기존 CSS와 생성 원본 <code>../work/ants-build-catalog.py</code>다. 새 자산·외부 서비스·추가 비용은 없으며 기존 사진을 재사용한다.</p>
+<p><a href=".impeccable/review/detail-20261015/capture-manifest.json">capture-manifest.json</a>의 필수 <strong>22장</strong>은 native viewport JPEG다. PC1440·모바일390·중간820·좁은320·이번 실제 사용자1280×720에서 상품·전체 보기·원본·조작/실패 상태를 나누어 기록하며 정확한 화면/저장 크기와 스크롤은 manifest를 따른다. 원본 모드의 잘린 사진은 내부 스크롤 영역의 의도된 표본이다. 전체 페이지나 합성 이미지가 아니며 앞선2089px 사용자 창의 이력과 구분한다. <a href=".impeccable/review/detail-20261015/source-check.json">source-check.json</a>은12페이지·깨진 정적 링크0·중복 id0·사진6·한글 누락0과 기존 단색 대비를 기록한다. <a href=".impeccable/review/detail-20261015/interaction-checks.json">interaction-checks.json</a>은 여섯 제품/사진/제목/요약/가격 대응, 크기 전환·닫기·포커스 복귀·내부 스크롤·이미지 실패/복구·기존 계산과27개 향 찾기 조합을 기록한다. 주 화면의 FIRST LIGHT1개를 보존했으며60949의 이미지 실패 fixture는 shop 동작이 없는 별도 검수 상태다.</p>
+<p>독립 <a href=".impeccable/review/detail-20261015/finish-review.md">finish-review.md</a>의 최초 판정은 <strong>fix</strong>, 시각 범위의 ceiling은 <strong>reached</strong>다. 검토자는22장 원본을 각각 열었고 M1 키보드 경계 순환, M2 다시 불러오기 뒤 보이는 포커스 유지, M3 문서 영속화를 요청했다. 현행 MJS는 표시되고 활성화된 버튼과 viewer를 기준으로 Tab/Shift+Tab 경계를 순환시키고, retry를 숨기기 전에 계속 표시되는 viewer로 포커스를 옮긴다. <a href=".impeccable/review/detail-20261015/focus-corrections.json">focus-corrections.json</a>은 PC 전체/원본과 실패 상태의 양방향 경계·모바일 전체 보기의 앞방향 경계·Esc 복귀·Enter retry 직후 및 실제1120px 사진 복구 뒤 viewer의 보이는 포커스를 기록한다. 영향받은7장 재캡처는 manifest의 focusCorrectionRecaptures를 따르며 독립 검토자가7장을 각각 확인해 M1/M2 해결을 확인했다. 반복 실패 retry는 소스의 지속 포커스 구조만 확인했으며 실제로 반복 실패시킨 검수로 주장하지 않는다. 이 문서와 sidecar의 좁은 병합을 포함한 독립 <a href=".impeccable/review/detail-20261015/finish-verdict.md">finish-verdict.md</a>는 <strong>M1/M2/M3 resolved · remaining clear · disposition ship</strong>이다. 이 ship은 점수화한 세 수정 항목에 한정하며 전체 화면·모든 상태·실기기·사용자 최종 미적 수용의 승인으로 확대하지 않는다. 앞선 글자/배치·향 찾기·영상 검토의 통과를 이 기능의 승인으로 사용하지 않는다. 문서 담당자는 소스·저장된 검사/검토 기록과 작업자의 확인 보고만 대조했으며 브라우저·검출기를 추가 실행하지 않았다.</p>
+<p>검출기는 <strong>1회·12건</strong>(확정 글꼴/파서 관련6건·반복 글꼴6건)이며 재실행하지 않았다. 해당 경고를 없애기 위해 기존 두 글꼴·굵기·세계 규칙을 바꾸지 않는다. 이번 문구까지 포함한 가변 Noto Sans KR은89,048바이트이며 모든 HTML·모든 <code>*.mjs</code> 문구의 한글 누락0을 기록한다. 실제 휴대폰·Safari·보조기술·브라우저 확대·실제 no-JavaScript 설정/미지원 브라우저·핀치 동작·느린 회선/FPS는 미확인이다. 실제 링크 fallback은 소스 확인이며 기기 검증으로 확대하지 않는다. 새 이미지·유료 생성·개인정보·공개 배포는 없고 기존0.25/14크레딧과 실제 빈 영상 제출 문구의 이력을 보존한다.</p>
+<h3 id="design-제품마다-다른-짧은-상세-이야기-2026년-10월-15일-본문-재확장-이전-검토">제품마다 다른 짧은 상세 이야기 · 2026년 10월 15일 · 본문 재확장 이전 검토</h3>
+<p><a href="../work/ants-editorial-brief.md">현재 확장 계약</a>과 PRODUCT.md의 FR-15에 따라 같은 여섯 상품 주소의 D-02를 확장하고 D-05를 추가했다. D-01에 ‘향 이야기 보기’ 실제 앵커를 두고, FIRST LIGHT의 기존 생활/재질 두 구간을 보존하며 다른 다섯 향은 고유 장면 사진·기존 이야기·짧은 보완 문단을 제공한다. 그 뒤 모든 제품에 첫인상/중심/여운의 세 가지 해석과 어울리는 하루를 제공한다. 하단의 상품 선택 복귀 링크는 후속 사용자 요청으로6종 모두 삭제했다. 제품 이름·가격·용량·4:5 대표 사진·D-04 확대·수량/장바구니·헤더·홈 영화와 기존 두 글꼴/굵기는 유지한다. 새 세계·시안 경쟁·전면 재작성 없이 현행 코드에 국소 확장했다.</p>
+<p>공식 <a href="https://int.nonfiction.com/products/gentle-night-parfum">NONFICTION GENTLE NIGHT</a>와 <a href="https://www.aesop.com/c/fragrance/tacit/">Aesop Tacit</a>의 짧은 향 설명·영감·향 구성 구분을 작업자가 직접 확인해 정보 순서만 참고했다. 원문·사진·원료·가격·정책은 복제하지 않았다. Tamburins는 접근 실패로 확정 참고 자료에서 제외했다. 현재 첫인상/중심/여운은 가상 향을 떠올리는 해석이며 실제 배합·원료·발향 시간·지속력·효능·고객 후기가 아니다. 그 한계를 세 인상 바로 앞에서 표시한다.</p>
+<p>구현 근거는 <code>site/catalog.mjs</code>의 제품별 detail, <code>site/product-detail.css</code>, 정적 생성 원본 <code>../work/ants-build-catalog.py</code>와 여섯 상세 HTML이다. <code>#scent-story</code>와 <code>#product-title</code>은 native anchor이며 새 JavaScript·라이브러리·애니메이션·외부 실행 요청은 없다. 다섯 장면은 내장 image_gen으로 만든 각각1448×1086의4:3 WebP다. 원본·정확한 제출 이미지 문구·참조·치수·바이트·SHA-256을 <code>../work/ants-dependencies/product-stories-20261015/generation-manifest.json</code>과 원본/문구 파일, 각 WebP JSON에 보존한다. FIRST LIGHT의 기존 ritual/material 이미지는 유지한다. 현행 raster 검사15개·출처 누락0, 가변 Noto Sans KR95,760바이트·모든 HTML/모든 MJS 문구의 한글 누락0이다. 앞선0.25/14크레딧·실제 빈 영상 제출 문구와 계획 문구의 차이는 위 이력 그대로다.</p>
+<p>현행 검수 폴더는 <a href=".impeccable/review/editorial-20261015">.impeccable/review/editorial-20261015</a>다. 저장된 <a href=".impeccable/review/editorial-20261015/source-check.json">source-check.json</a>은12페이지·깨진 정적 링크0·중복 id0·대표 사진6·한글 누락0과 기존 단색 대비를 기록한다. <a href=".impeccable/review/editorial-20261015/capture-manifest.json">capture-manifest.json</a>의 필수19장은 작업자가 모두 열어 확인했으며17개는 현재 스크롤 위치의 viewport 표본,2개는 문서 상단에서 캡처한 QUIET WOOD 전체 페이지다. 전체 페이지 속 모바일 고정 구매 바 위치는 최초 viewport 기준이며 실제 스크롤 동작은 별도 viewport 표본을 따른다. 화면 밖 lazy 이미지의 loaded=false는 보이는 사진의 실패로 해석하지 않는다.</p>
+<p>CSS viewport와 저장 픽셀을 구분한다. 다섯 PC 이야기 표본은1296×900/저장1286×893, 최종 QUIET WOOD 이야기 표본은1440×1000/저장1440×1000이다. 모바일 다섯 제품은390×844/저장380×822, FIRST LIGHT는351×760/저장341×738이다. 대표320×800·820×1000·이번 실제 사용자2088×1407의 저장 크기는 각각310×775·810×988·2078×1400이며 해당 표본에는 가로 넘침이 없다. 나머지 저장 크기와 스크롤은 manifest를 따른다. 초기90% 확대율을 관찰했으나 native 프레임 조정 이후에도 모두90%였다고 단정하지 않는다. 일반 브라우저 관찰이며 브라우저 확대 접근성 검수는 아니다. 마지막 공통 글자 수정은 QUIET WOOD·중간/사용자 화면과 교체 모바일 캡션 표본에서 확인했다.</p>
+<p><a href=".impeccable/review/editorial-20261015/interaction-checks.json">interaction-checks.json</a>은6종의 고유 장면/세 인상/하루/가상 안내 대응, Enter로 <code>#scent-story</code>와 복귀 <code>#product-title</code> 이동, 기존1120px 사진 확대·Esc 후 원래 링크 포커스, 향 찾기27조합·기존 장바구니/영상 계산을 기록한다. 주 화면 FIRST LIGHT1개를 보존했고 일반 브라우저 오류 기록은 비어 있다. 새 독립 <a href=".impeccable/review/editorial-20261015/finish-review.md">finish-review.md</a>는 필수19장 원본을 각각 열어 제품/콘텐츠·공백 없음·문서 상단 전체 페이지·선언한 크기를 확인했으며 <strong>disposition ship · ceiling reached · material fixes none</strong>이다. 이 판정은6개 기존 상품 상세의 FR-15 이야기 확장 범위에 한정하며 전체 사이트·실기기·실제 거래·배포·사용자의 최종 미적 수용을 승인하지 않는다. 앞선 확대 기능의 ship도 별도 이력으로 유지한다. 문서 담당자는 소스·저장된 검사/manifest·이번 독립 검토와 작업자 보고를 대조했으며 브라우저·검출기를 추가 실행하거나 사이트를 수정하지 않았다.</p>
+<p>검출기는 <strong>1회·14건의 권고</strong>(새 크기 단계2건·확정 글꼴 파서6건·Instrument Sans 반복6건)다. 작업자는 이번 새 인상 이름23→24px, 모바일 장면 캡션12→13px를 기존 단계로 맞추고 <code>stories2</code> 스타일/12페이지를 갱신했다. 재검출하지 않았으며 나머지 확정 글꼴 경고를 새 세계·글꼴 교체나 범위 밖 수정의 근거로 삼지 않는다. 최종 실제 값은 위 토큰과 아래 Typography를 따른다.</p>
+<p>이번 확장에는 별도 유료 외부 생성·계정·개인정보·실제 결제·공개 배포가 없다. 실제 휴대폰·Safari·보조기술·브라우저 확대 접근성·느린 회선/FPS·사용자 최종 미적 수용은 미확인이다. 상위 master의 기존 미커밋 상태를 유지하며 commit·push·PR·merge·공개 배포는 없다.</p>
+<h3 id="design-충분한-상세-본문과-첨부-영역-삭제-2026년-10월-15일-전-페이지-마감-이전-검토">충분한 상세 본문과 첨부 영역 삭제 · 2026년 10월 15일 · 전 페이지 마감 이전 검토</h3>
+<p><a href="../work/ants-depth-brief.md">현재 확장 계약</a>과 PRODUCT.md의 FR-16에 따라 사용자가 직전 상세를 너무 짧다고 판단한 후 본문을 다시 확장했다. 첨부 이미지가 가리킨 여섯 상세의 D-03 전체와 12개 주소의 공통 footer-note 두 문장·구분선을 삭제했다. 기존 FAQ·푸터 유지 문구보다 이번 지시가 우선하며, 삭제한 내용을 다른 위치에 다시 넣지 않는다. 구매 아래와 모의 주문에 있던 범위 밖 안내는 유지한다. 이전 FR-15의 독립 ship은 이 새 요청의 수용 판정이 아니다.</p>
+<p>기존 D-01 구매 → D-02 고유 장면/이야기 → D-05 세 인상/하루 다음에 D-06 큰 캠페인 사진과 두 문단, D-07 일상 세 장면과 현재 스튜디오 사진의 병/라벨 근접 크롭, D-08 가까운 향과의 차이·실제 상세 링크를 추가했다. FIRST LIGHT의 기존 생활/재질 두 구간과 campaign/ritual/macro는 보존한다. 상품명·가격·50mL·사진 확대·수량·장바구니·헤더·영화·글꼴·굵기·토큰을 유지하며 새 JavaScript·라이브러리·애니메이션을 추가하지 않았다. 구현 근거는 <code>site/catalog.mjs</code>의 <code>detail.extended</code>, <code>site/product-detail.css</code>, 여섯 상세 HTML과 정적 생성 원본 <code>../work/ants-build-catalog.py</code>다.</p>
+<p>다섯 새 <code>{soft-linen,citrus-air,green-hour,petal-mist,quiet-wood}-campaign.webp</code>는 현재 각 제품 스튜디오 사진을 제품 정체성 참조로 제공한 내장 image_gen 결과다. 정확한 제출 이미지 문구·참조·원본·치수·바이트·SHA-256을 <code>../work/ants-dependencies/product-depth-20261015/generation-manifest.json</code>, 원본/문구 파일과 각 WebP JSON에 보존한다. 파일은 각각1672×941이며 화면의 사진 틀/HTML 예약 크기1536×864와 구분한다. D-07은 같은 기존1120×1400 스튜디오 파일의 CSS 크롭이며 새로운 촬영 파일이 아니다. 가상 제품을 위한 생성 이미지·작성 문구이며 실제 촬영·원료·성능·고객 후기의 증거로 주장하지 않는다. 당시 raster 검사는20개·출처 누락0, 가변 Noto Sans KR은100,364바이트·모든 HTML/모든 MJS 문구의 한글 누락0이었다. 과거 유료 영상의0.25/14크레딧 승인, <strong>실제 빈 submitted_prompt</strong>와 올바른 시작/끝 참조, 계획 문구의 구분을 유지하며 새 유료 생성은 없다.</p>
+<p>이번 검수 근거는 <a href=".impeccable/review/depth-20261015">.impeccable/review/depth-20261015</a>다. 저장된 <a href=".impeccable/review/depth-20261015/source-check.json">source-check.json</a>은12페이지·깨진 정적 링크0·중복 id0·대표 사진6·한글 누락0과 기존 단색 대비를 기록한다. <a href=".impeccable/review/depth-20261015/length-check.json">length-check.json</a>의 같은1600×1111 CSS viewport에서 GREEN HOUR 상세 본문 높이는1374→4149px, 문서 높이는4187→6395px로 늘었으며 FAQ/footerNote는 true→false, 장바구니 표시1은 유지됐다. 이 비교는 한 제품·한 화면의 관찰이며 모든 제품의 측정 결과로 확대하지 않는다. 문서 담당자는 GREEN HOUR의 저장된 PC campaign/ritual/compare JPEG 세 장과 소스를 대조했다. 검출기는1회·26건이며 Noto Sans KR 파서6건·기존 Instrument Sans9건과 범위 밖 styles.css의11건이다. 새 product-detail.css 경고는 없으며 기존 글꼴·히어로 값의 차이를 이번 작업에서 고치거나 새 규칙으로 채택하지 않는다. 새 독립 전체 검토자는 사용자 첨부2장과 필수 캡처23장을 각각 열어 상세 확장·삭제·반응형·현재 명세의 일치를 확인했고, 필수 수정 없음 / disposition: ship으로 판정했다. 문서의 현행 글꼴 및 삭제 D-03 참조도 수정 후 재확인했다. <a href=".impeccable/review/depth-20261015/finish-review.md">finish-review.md</a>, <a href=".impeccable/review/depth-20261015/capture-manifest.json">capture-manifest.json</a>, <a href=".impeccable/review/depth-20261015/browser-log.json">browser-log.json</a>에 근거를 보존한다. 원본1120px 확대·Esc/선택 복귀·키보드 앵커·비교 상품 도착을 확인했고 장바구니1개를 유지했다. 이 판정은 이번 FR-16 확장 범위이며 실기기·전체 운영 판매·사용자 최종 미적 수용을 뜻하지 않는다.</p>
+<p>추가 유료 외부 서비스·회원/개인정보·실제 결제·공개 배포는 없다. 실제 휴대폰·Safari·보조기술·브라우저 확대 접근성·느린 회선/FPS·사용자 최종 미적 수용은 미확인이다. 상위 master의 기존 미커밋 상태를 유지하며 commit·push·PR·merge·공개 배포는 없다. 기존 세계의 범위 밖 글꼴/히어로 경고나 과거 문서 차이를 이번 확장으로 정당화하거나 임의 수정하지 않는다.</p>
+<h3 id="design-전12화면-문구배치-마감-2026년-10월-15일-현행">전12화면 문구·배치 마감 · 2026년 10월 15일 · 현행</h3>
+<p>사용자가 ‘전체 페이지 문구랑 배치 정리하고 PC·모바일 최종 검수’를 승인했다. <a href="../work/ants-final-brief.md">현재 마감 계약</a>에 따라 기존12개 주소와 세계·토큰·350/400/450 위계·두 글꼴·6종 이름/가격/50mL·원본 영상과20개 raster의 메타데이터를 보존하는 코드 중심 국소 polish다. 새 세계·시안·JavaScript·라이브러리·이미지·외부 서비스는 추가하지 않았다. 삭제한 FAQ·푸터 안내·홈 문구·상세 하단 복귀 링크·가상 해석 문장은 복원하거나 다른 곳으로 옮기지 않는다.</p>
+<p>전6종 D-01의 가격 레이블은 ‘가격’이며 담기 아래의 반복 데모 문단을 제거했다. 다른5종 D-02 사진 캡션은 ‘향의 분위기를 담은 장면’, FIRST LIGHT 재질 문단은 ‘차분한 아침의 분위기를 작은 병 하나에 담았습니다.’다. F-01의 결과는 ‘50mL · 가격’, 추천 설명은 ‘선택한 취향을 바탕으로 여섯 가지 향 중 하나를 제안해요.’, 개인정보 안내는 ‘선택한 취향은 저장하거나 외부로 보내지 않아요.’로 짧게 읽힌다. 장바구니·확인 요약에는 ‘실제 결제와 배송이 없는 모의 주문입니다.’ 한 문장을 둔다. 주문 행동과 단계의 ‘모의 주문’ 명칭, 실제 결제·배송 없음 및 확인 화면의 개인정보·실제 주문 접수 없음은 유지한다. 확인 화면은 위치를 가리키는 말 대신 실제 버튼명으로 안내하며, 빈 상태의 공통 복귀 행동은 ‘전체 향수 보기’로 통일했다. 완료 화면의 중복 안내를 덜고 결과 없는 직접 진입 문구를 명확히 했다. 정확한 화면별 문구는 아래 D-01/D-02/F-01/C-01/O-01/O-02를 따른다.</p>
+<p>공통 본문은 의미 단위 줄바꿈과 긴 문자열의 비상 줄바꿈을 상속하고, input/select는 기존 글꼴과 글자색을 상속한다. 장바구니 상품명은 기존 제목 굵기400을 재사용한다. 확인 화면 설명 제목은 PC24px/1.4·아래16px, &lt;=600:22px/1.3이며 본문은16px/1.65·margin0·최대36em이다. 새 한글 문구를 포함해 Noto Sans KR 서브셋을99,872바이트로 갱신했으며 wght100~900·Instrument Sans는 유지한다.12개 HTML·모든 MJS·main.js의 한글 누락은0이다.</p>
+<p>이번 근거 디렉터리는 <a href=".impeccable/review/final-20261015">.impeccable/review/final-20261015</a>다. 저장된 <a href=".impeccable/review/final-20261015/source-check.json">source-check.json</a>은12페이지·깨진 정적 링크0·중복id0·대표 사진6·한글 누락0과 기존 단색 대비를 기록한다. <a href=".impeccable/review/final-20261015/capture-manifest.json">capture-manifest.json</a>의 필수38파일은 제작 담당자가 각각 열었으며12개 주소의 PC/모바일과 실제320/390/820/1440/2088px 너비에서 가로 넘침0·미로딩 이미지0을 기록한다. 문서 담당자는12개 HTML·공통 styles.css/commerce.css·관련 상세/향 찾기 스타일·정적 생성 원본과 저장된 PC FIRST LIGHT/향 찾기 결과 화면, 수정 후 PC·모바일 확인 및 모바일 빈 확인 화면을 대조했다. <a href=".impeccable/review/final-20261015/interaction-checks.json">interaction-checks.json</a>은 PC FIRST LIGHT2+GREEN HOUR1=210,000원·모바일 FIRST LIGHT2+QUIET WOOD1=213,000원의 모의 완료, 원본1120px 사진·Tab/Esc/포커스 복귀, 검색/분류/정렬, 미선택 오류·이전 답 유지, 수량 오류 복구·개별 삭제·빈 상태와 빈 브라우저 로그를 보존한다. 홈 영상은 끝8.008333초에서 시작0.012285초로 역방향 탐색을 확인했다. 검출기는1회·40건이며 고정 Instrument Sans15건·Noto 파서12건·기존 styles.css 값11건·기존 commerce.css의12px1건·기존 fullbleed 히어로의0 inset1건이다. 이번 문구·배치 수정으로 새 재설계가 필요한 경고는 없고 기존 차이는 새 토큰으로 채택하거나 범위 밖에서 고치지 않는다. raster20개·출처 누락0을 유지한다. 자체 확인 후 새 독립 전체 검토자가 필수38개 캡처를 각각 열고 현재 문구·명세·생성기를 대조해 필수 수정 없음 / disposition: ship으로 판정했다. <a href=".impeccable/review/final-20261015/finish-review.md">finish-review.md</a>에5개 계약 섹션을 보존한다. 이 판정은 이번 마감과 제공된38개 viewport 범위이며 모든 하단 위치·상태·실기기·운영 거래의 인증으로 확대하지 않는다. 모의 거래 검수는 별도62518 origin에서 했으며 사용자62517 장바구니1개를 보존했다. 실휴대폰·Safari·보조기기·느린 회선/FPS·사용자 최종 미적 수용은 별도 미확인이다. master의 기존 미추적 작업을 보존하고 commit·push·PR·merge·공개 배포는 없다.</p>
+<h2 id="design-Colors">Colors</h2>
+<p>넓은 밝은 청백색 바탕과 깊은 청록의 읽기·조작 영역으로 아침의 투명함을 표현한다. 실제 색 값은 앞의 <code>colors</code>가 기준이며, 현재 소스는 <code>site/styles.css</code>의 루트 색 변수와 버튼·선택 영역, <code>site/commerce.css</code>의 구분선·조작 경계·상태색, <code>site/store.css</code>의 헤더·목록·검색과 <code>site/finder.css</code>의 질문·결과 확장을 사용한다.</p>
+<h3 id="design-Primary">Primary</h3>
+<ul>
+<li><strong>깊은 청록 행동색</strong>(<code>action</code>): 제품 안내 CTA와 영상 모드의 진행선. 행동 위치를 명확히 한다.</li>
+<li><strong>깊어진 청록</strong>(<code>action-hover</code>, <code>action-active</code>): 버튼에 마우스를 올리거나 누를 때. 상태는 짧은 색 변화와 눌림으로 전달한다.</li>
+<li><strong>선명한 청록 포커스</strong>(<code>focus</code>): 키보드로 선택한 링크·버튼의 바깥 선. 색 외에 분명한 테두리를 사용한다.</li>
+</ul>
+<h3 id="design-Neutral">Neutral</h3>
+<ul>
+<li><strong>옅은 하늘빛 아침</strong>(<code>bg</code>): 히어로·홈 컬렉션·제품 사진과 주문 요약의 바탕. 제품 이미지의 아침빛과 화면의 경계를 안정시킨다.</li>
+<li><strong>차분한 밝은 흰색</strong>(<code>surface</code>): 주 헤더·향 소개·메뉴/검색 패널·본문 바탕.</li>
+<li><strong>깊은 청록 글자</strong>(<code>ink</code>): 제목·본문·가격·아이콘과 제품 미디어 위의 히어로 보조 글자·용량·데모 안내·영상 진행 표시·실패 안내.</li>
+<li><strong>회청록 보조 글자</strong>(<code>muted</code>): 향 소개·메뉴·공통 푸터·상품과 주문의 보조 설명. 공통 값은 유지하며 제품 이미지 위의 히어로에서는 <code>ink</code>를 사용한다. 새 이미지의 실제 대비 검증과 구분한다.</li>
+<li><strong>버튼의 흰 글자</strong>(<code>on-action</code>): 청록 주 버튼 안의 이름과 화살표.</li>
+<li><strong>옅은 하늘색 선택 영역</strong>(<code>sky</code>): 선택한 텍스트의 바탕. 작은 글자의 색으로 쓰지 않는다.</li>
+<li><strong>안개빛 구분선</strong>(<code>rule</code>): 메뉴 링크·공통 푸터·상품 정보·주문 합계의 구조.</li>
+<li><strong>밝은 청록 조작면</strong>(<code>control-hover</code>): 사용 가능한 아이콘 버튼의 호버 바탕.</li>
+</ul>
+<p><strong>The 읽기 영역 Rule.</strong> 유리와 반사광은 제품에 사용한다. 글자는 안정된 밝은 바탕에 두고 병·뚜껑·강한 반사광과 겹치지 않게 한다.</p>
+<p>초안의 전체 바탕은 읽기 영역과 현행 주 헤더에 유지되며 히어로·컬렉션은 옅은 하늘빛으로 분리한다. 선택된 향 필터는 깊은 청록 글자색 바탕·흰 글자다. 향 찾기의 선택면은 밝은 청록 조작면과 행동색 경계·native radio의 체크 표시를 함께 사용한다. 초안의 <code>color-mist #EAF4F7</code>은 현재 공통 토큰으로 사용하지 않는다. 새 제품 이미지의 유리·액체·물빛은 미디어 안의 표현이며 UI 색을 추가하는 근거가 아니다. 이전 3D 내부 재질·광원 값은 현재 실행 경로에서 사용하지 않는다.</p>
+<h3 id="design-구매-UI의-조작-경계와-상태-구현">구매 UI의 조작 경계와 상태 · 구현</h3>
+<p>기존 세 제안값을 상품·장바구니·완료 화면에 적용하고 앞의 구현 토큰에 포함했다. <code>control-border</code>는 수량 조작면, <code>success</code>는 담기 문구와 완료 체크, <code>error</code>는 인접 입력 오류다. 성공·오류는 이해할 수 있는 문장과 함께 사용한다.</p>
+<p>단색 조합의 소스 계산은 밝은 읽기 영역의 본문 11.13:1, 보조 5.45 이상, 오류 5.83, 성공 6.65, 포커스 6.24, 버튼 7.90, 토스트 11.70, 조작 경계 3.62:1이다. <a href=".impeccable/review/commerce-20261015/contrast.json">contrast.json</a>은 일반 글자 4.5:1·조작 경계 3:1 기준을 충족한다. 영상의 매 프레임이나 모든 기기 대비 통과로 확대하지 않는다. 기준 설명은 <a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html">W3C 기준</a>을 따른다.</p>
+<h2 id="design-Typography">Typography</h2>
+<p><strong>Display Font:</strong> Noto Sans KR, sans-serif.<br><strong>Body Font:</strong> Noto Sans KR, sans-serif.<br><strong>Latin / Logo Font:</strong> Instrument Sans, Noto Sans KR, sans-serif.</p>
+<p>차분한 한글의 읽기 흐름과 소문자 로고·영문 제품명의 간결함을 조합한다. 숫자·제품명은 빠르게 확인하고 한국어 메시지는 의미 단위로 읽게 한다. 정확한 현재 값은 앞의 <code>typography</code>가 기준이다. 공통 h1/h2는 <code>--weight-heading</code>의400, 히어로 소개/중간과 향 찾기 안내 제목은 <code>--weight-display</code>의350, 질문과 선택된 이름은 <code>--weight-label</code>의450을 사용한다. 일반 선택과 데스크톱 메뉴/향별 버튼은400이다. 로고600과 주 버튼·금액500, 명시적으로 굵기를 가진 검색 결과 등은 유지한다. 가변 글꼴의 실제 wght 축으로 표현하며 모든 글자를 한 굵기로 통일하지 않는다.</p>
+<h3 id="design-Hierarchy">Hierarchy</h3>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>역할</th>
+<th>현재 적용과 반응형</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Display</td>
+<td>히어로 처음·중간 두 줄 제목. PC는 <code>display</code>, 959px 이하에서는 <code>display-mobile</code>. 359px 이하 30px, 작은 가로 화면 32px</td>
+</tr>
+<tr>
+<td>Headline</td>
+<td>H-03 제목. 959px 이하 32px. PC 제목→본문 32px, 600px 이하 24px</td>
+</tr>
+<tr>
+<td>Title</td>
+<td>마지막 FIRST LIGHT. PC는 <code>title</code>, 959px 이하 30px, 359px 이하·작은 가로 화면 26px. 한 줄 유지</td>
+</tr>
+<tr>
+<td>Body</td>
+<td>PC 본문 18px. 959px 이하 일반 본문 16px. 모바일 히어로의 짧은 제품 설명 14px, 작은 가로 화면 12px</td>
+</tr>
+<tr>
+<td>Label / Navigation</td>
+<td>PC 버튼15px/500·메뉴15px/400. 모바일 상단 상품 링크와 히어로 버튼 14px. 작은 가로 화면 히어로 버튼 12px</td>
+</tr>
+<tr>
+<td>Supporting</td>
+<td>제품·데모·오류·저장 안내·공통 푸터 14px. 모바일에서도 마지막 히어로 데모 안내 14px</td>
+</tr>
+<tr>
+<td>Wordmark</td>
+<td>PC 30px, 959px 이하 25px, 359px 이하 헤더 23px. 공통 푸터 PC 30px·959px 이하 25px</td>
+</tr>
+<tr>
+<td>Price / volume</td>
+<td>PC 가격 26px·용량 18px, 모바일 가격 22px·용량 16px. 가격 굵기 500, 숫자 폭 고정</td>
+</tr>
+</tbody></table></div>
+<p>제목은 <code>word-break:keep-all</code>과 균형 잡힌 줄바꿈을 사용한다. 공통 본문도 <code>word-break:keep-all</code>을 상속하며 긴 문자열은 <code>overflow-wrap:break-word</code>로 읽기 영역 안에서 나눈다. input/select는 기존 글꼴과 글자색을 상속한다. 현재 한글 제목의 자간은 −0.025em, 짧은 영문 대문자 표시는 0.06em이다. 본문은 왼쪽 정렬과 줄 간격 1.45, 문단 기본 간격 0.75em이다. 세로 모바일 영상 모드는 중앙 정렬 제목을 위에, 15px 소개·중간 본문을 무대 아래에 배치한다. 정적 대체 히어로에서는 제목과 소개 본문을 제품 이미지 위 일반 흐름에 유지한다. 작은 가로 화면의 정적 모드에서는 소개 본문을 숨기며 제품 설명과 다음 향 소개를 유지한다. 중간 메시지는 영상 모드의 진행률에 따라 표시한다.</p>
+<p><strong>The 의미 단위 Rule.</strong> 한글 제목은 의미 단위로 끊고 한 글자만 남는 줄을 피한다. 긴 본문에 고정 줄바꿈을 과하게 추가하지 않는다.</p>
+<h3 id="design-글꼴-제공과-구매-화면의-실제-위계">글꼴 제공과 구매 화면의 실제 위계</h3>
+<p>두 글꼴은 OFL 라이선스 파일을 <code>site/assets/fonts</code>에 보존하며 WOFF2로 자체 제공한다. 현행 Noto Sans KR은 전 페이지 마감의 한글까지 포함해 <strong>99,872바이트</strong>, wght100<del>900의 가변 글꼴이며 12개 HTML·모든 <code>*.mjs</code>·main.js 문구의 한글 누락은0이다. 이전100,364바이트는 상세 본문 확장 단계, 이전95,760바이트는 짧은 상세 이야기 단계, 이전89,048바이트는 사진 확대 단계, 이전87,980바이트는 향 찾기 단계, 이전85,836바이트는6종 카탈로그 단계의 이력이다. Instrument Sans 약45KB·wght400</del>700은 재사용한다. 이전 약64KB는 단일 상품 단계의 이력이다. <strong>새 한글 문구를 추가할 때는 원본 글꼴에서 사용 문자를 다시 포함해 서브셋을 갱신한다.</strong> 현재의 글꼴 파일에 모든 한국어 문자가 있다고 가정하지 않는다.</p>
+<p>상품 상세 제품명은 34~48px clamp와 줄 간격1.12, &lt;=1100:36px·&lt;=959:32px·&lt;=819:36px·&lt;=600:34px다. 마지막 store.css의34px가 좁은 화면에도 적용된다. 상품 상세 이름은 영문 대문자와 0.035em 자간·균형 줄바꿈을 사용하며 긴 이름도 한 줄로 강제하지 않는다. 영화 끝 구도의 FIRST LIGHT는 기존 <code>title</code>과 0.06em을 유지한다. 구매 화면 제목은 PC 42px·819px 이하 36px·600px 이하 34px이며 완료 제목은 44px→36px이다. 보조·오류·데모 안내는 14px, 수량 입력은 16px, 상품 수량 레이블은15px, 장바구니의 상품명 포함 레이블은13px다. 가격은 단가 26px, 선택 합계 22px, 주문 합계 24px로 숫자 폭을 고정한다. D-02 본문은 16px·최대 38rem, H-03은 최대 440px, 히어로는 최대 490px다. 새 구매 문구에 맞춰 자체 제공 글꼴의 사용 문자를 갱신했다. 기존 359px 이하 헤더 로고 23px는 이전 구현의 좁은 화면 값이며 새 구매 글자 단계로 확대하지 않는다.</p>
+<h3 id="design-카탈로그검색의-의도된-글자-단계-현행">카탈로그·검색의 의도된 글자 단계 · 현행</h3>
+<p>정확한 반복값은 앞의 <code>catalog-*</code>, <code>filter</code>, <code>search-result*</code>, <code>result-total</code> 토큰을 따른다. 아래는 실제 <code>store.css</code>의 조건별 적용으로, 단순히 크기 경고를 면제하려고 만든 새 위계가 아니다.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>역할</th>
+<th>PC</th>
+<th>조건별 적용·이유</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>목록 제목</td>
+<td>catalog-headline·48px/1.16</td>
+<td>&lt;=959:44px, &lt;=600:38px, &lt;=359:34px. 좁은 화면의 의미 단위 줄바꿈</td>
+</tr>
+<tr>
+<td>목록 제품명</td>
+<td>catalog-name·22px/1.2</td>
+<td>&lt;=1100:20px, &lt;=600:18px, &lt;=359:16px. 3열/2열 사진 아래 이름 보존</td>
+</tr>
+<tr>
+<td>목록 향·계열</td>
+<td>향15px/1.5·계열13px</td>
+<td>&lt;=959 향14px, &lt;=600 향13px·계열12px. 제품명과 조작보다 낮은 설명 위계</td>
+</tr>
+<tr>
+<td>목록 가격·용량</td>
+<td>가격16px·용량14px</td>
+<td>&lt;=600 가격14px·용량12px, &lt;=359 가격13px. 숫자 폭 고정</td>
+</tr>
+<tr>
+<td>필터·정렬·개수</td>
+<td>필터15px/1.4·정렬/개수14px</td>
+<td>&lt;=600 필터14px. 전부44px 조작 영역 유지</td>
+</tr>
+<tr>
+<td>검색</td>
+<td>제목26px/1.3·결과명18px/1.2·설명/가격14px</td>
+<td>&lt;=600 제목24px·결과명17px·설명/가격13px. 입력은16px·지속 레이블15px</td>
+</tr>
+<tr>
+<td>향별 편집 이야기·이전 구현</td>
+<td>editorial-title의40px/1.3·본문18px/1.65</td>
+<td>이전5종 텍스트 구성의 이력. 현재 D-02 장면/D-05는 아래 story/impression 역할을 따름</td>
+</tr>
+<tr>
+<td>다품목 결과</td>
+<td>합계28px·행16px</td>
+<td>&lt;=600 합계24px·행15px. 총금액과 실제 결제·주문 없음 안내를 함께 읽음</td>
+</tr>
+</tbody></table></div>
+<p>11px 장바구니 숫자는 본문이나 데모 안내용 기본 토큰이 아니다. 44px 링크 안에서 수량을 보조하고 전체 ‘장바구니, 상품 N개’ 이름을 별도 제공하는 기존 한정 배지다. 새 설명문에 11px를 전파하지 않는다.</p>
+<h3 id="design-향-찾기의-의도된-글자-단계-현행">향 찾기의 의도된 글자 단계 · 현행</h3>
+<p>안내 제목은 <code>finder-title</code>의36px/1.3·350, &lt;=1100:32px, &lt;=959:32px, &lt;=600:30px다. 결과 안내는 <code>finder-result-intro</code>의28px/1.35·350, &lt;=959:26px로 한 단계 낮춰 추천 제품명이 먼저 읽히게 한다. 추천 제품명은 <code>finder-result*</code>의 Instrument Sans·38px/1.15·400·자간0.06em, &lt;=959:30px, &lt;=359:28px다. 두 글꼴과 영문 제품명의 대문자 관계를 유지한다.</p>
+<p>질문은 <code>finder-question*</code>의24px/1.4·450·자간−0.02em, &lt;=1100:22px, &lt;=959:24px, &lt;=600:22px, &lt;=359:21px다. 선택 이름은 <code>finder-option*</code>의17px/1.4·400, &lt;=1100:16px, &lt;=959:17px, &lt;=600 및 &lt;=359:16px다. 체크된 이름만450으로 구분한다. 설명은 모든 너비에서 기존 supporting의14px/1.45다. 선택 행 전체의 조작 높이는 PC최소88px·&lt;=959최소84px다.</p>
+<p>향 설명20px→&lt;=600:18px, 이유16px/1.6→&lt;=600:15px, 선택 요약14px/1.5→&lt;=600:13px, 가격24px/500·숫자 폭 고정은 유지한다. 소개 본문16px/1.65→&lt;=600:15px, 진행/인접 오류14px, 하단 안내13px/1.65다. 이는 실제 질문·조작·결과의 위계이며 새 화면마다 모든 단계를 반복하는 규칙은 아니다.</p>
+<h3 id="design-상품-요약사진-확대의-글자-단계-현행">상품 요약·사진 확대의 글자 단계 · 현행</h3>
+<p>D-01의 짧은 설명은 <code>detail-copy</code>이며 모든 너비에서16px/1.6·400이다. 두 요약 행은 레이블 <code>detail-summary-label</code>의14px/1.5·400과 값 <code>detail-summary</code>의16px/1.5·400이며, &lt;=959에서 값은 <code>detail-summary-compact</code>의15px, &lt;=600에서 레이블은13px다. 정보의 굵기를 올리지 않고 같은 제품명·가격 위계 안에서 짧은 두 행을 구분한다.</p>
+<p>D-04 상품명은 <code>viewer-title</code>의 Instrument Sans24px/1.25·400·자간0.035em, &lt;=959:22px, &lt;=600:<code>viewer-title-mobile</code>의20px·자간0.015em이다. 확대 힌트와 크기 버튼은 <code>viewer-control</code>의14px/1.45·400, &lt;=600:13px다. 안내는 <code>viewer-status</code>의14px/1.5·400과 muted, &lt;=600:13px이며 실패 문장은16px/1.5·400이다. 일반 버튼·닫기의 기존 굵기와44px 조작 영역을 유지하며 새 강조 굵기를 도입하지 않는다.</p>
+<h3 id="design-제품-상세-이야기향-해석의-글자-단계-현행">제품 상세 이야기·향 해석의 글자 단계 · 현행</h3>
+<p>D-02의 다섯 새 장면 제목과 여섯 제품 D-05 제목은 <code>story-title</code>의30~40px clamp/1.35·400·기존−0.025em 자간을 사용한다. &lt;=600에서는 <code>story-title-mobile</code>의30px/1.4다. 장면 제목의 최대 폭17ch, 세 인상 소개 제목18ch와 balance 줄바꿈으로 의미 단위를 유지한다. FIRST LIGHT의 기존 생활/재질 제목은 기존 headline 규칙을 그대로 따른다.</p>
+<p>장면 설명과 어울리는 하루는 <code>story-copy</code>의16px/1.7·400·muted다. 장면 본문 최대32em·문단 사이20px이며 하루 설명은 최대38em이다. 세 인상의 이름은 <code>impression-title</code>의24px/1.4·400, &lt;=600:<code>impression-title-mobile</code>22px다. 각 설명은 기존 <code>detail-copy</code>16px/1.6·400·최대25em, 인상 레이블14px·muted다. 하루 소제목은 <code>moment-title</code>20px/1.45·400이다. 장면 캡션은 모든 너비에서13px/1.5, 구매 정보의 ‘향 이야기 보기’ 링크는14px다. 가상 해석 안내의14px/1.6·최대34em과 하단 복귀 링크14px는 <strong>삭제 이전 이력</strong>이며 현재 화면에 적용하거나 복원하지 않는다. 새로운 강조 굵기·장식 라벨 위계를 추가하지 않는다.</p>
+<h3 id="design-상세-확장-D-06D-08의-글자-단계-현행">상세 확장 D-06~D-08의 글자 단계 · 현행</h3>
+<p>D-06 제목은34<del>48px clamp/1.35·400·최대16ch이며 &lt;=819:34px, &lt;=600:32px다. 본문은18px/1.7·muted·최대34em, &lt;=819:16px이며 두 문단 사이24px다. D-07/D-08 제목은30</del>40px clamp/1.4·400·최대18ch, &lt;=600:30px다. 일상 항목명은20px/1.5, 설명16px/1.7·최대31em이다. 병 설명 소제목은24px/1.45·400, &lt;=600:22px이며 본문16px/1.7다. 비교 제품명은 Instrument Sans24px/1.3·400·자간0.05em, &lt;=1100:22px다. 비교 소개/인상은15px/1.6, &lt;=600:14px이며 차이 설명은16px/1.7·최대44em, 이동 링크15px다. 모두 기존 글꼴과 굵기를 재사용하는 국소 역할이며 새 전역 글자 체계를 만들지 않는다.</p>
+<h2 id="design-Layout">Layout</h2>
+<p>PC는 넓은 좌우 구성, 모바일은 제품 중심의 위·아래 안전 영역으로 배치한다. 현재 구현은 고정 12열 CSS 그리드가 아니라 히어로의 비율 배치와 섹션별 두 열 그리드다. 기획의 12·8·4열은 정렬 개념의 이력이며 실제 비율과 간격은 아래를 따른다.</p>
+<h3 id="design-현재-공통-배치">현재 공통 배치</h3>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>영역</th>
+<th>실제 값·구조</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>고정 헤더</td>
+<td>PC80px, &lt;=959:64px. 상단 안내 문구와32px띠는 제거. 본문·영상 무대·앵커 여백은 마지막 store.css의 --header를 공유</td>
+</tr>
+<tr>
+<td>주 헤더</td>
+<td>최대1376px·PC 좌우48px·1fr auto 1fr. &lt;=959 좌우24px의 flex, &lt;=600 왼쪽20/오른쪽16px, &lt;=359 왼쪽16/오른쪽12px</td>
+</tr>
+<tr>
+<td>정상 H-02</td>
+<td>준비 중부터 고정 무대 <code>100svh − 헤더</code>, 전체 높이 <code>무대 + 260svh</code>. 영상·문구가 같은 진행률을 사용. 86% 이후 끝 구도 유지</td>
+</tr>
+<tr>
+<td>PC 영상 히어로</td>
+<td>전체 폭 미디어·오른쪽 병. 왼쪽 문구 <code>max(48px, (100vw − 1280px)/2)</code>·폭 <code>min(36vw, 490px)</code>. 소개·중간 top 48%, 제품 top 47%</td>
+</tr>
+<tr>
+<td>제품 미디어</td>
+<td>MP4 1600×902, 포스터 1672×941. PC <code>object-fit:cover; object-position:72% 50%</code>, 세로 모바일 <code>87% 50%</code>. 작은 가로 화면은 contain·<code>100% 50%</code>. 제목·가격·버튼은 HTML 글자이며 영상에 구워 넣지 않음</td>
+</tr>
+<tr>
+<td>세로 모바일 영상 히어로</td>
+<td>문구 위 26px·미디어 위 114px/아래 238px·제품 안내 아래 34px. 359px 이하 미디어 위 106px. 미디어 위·아래 6% feather</td>
+</tr>
+<tr>
+<td>PC 정적 대체 히어로</td>
+<td>40:60 두 열과 왼쪽 두 행. 소개는 첫 행 아래, 제품 정보는 둘째 행 위. 전체 폭 제품 전경이 뒤에 놓임. 최소 높이 <code>max(100svh − 헤더, 760px)</code>, 간격 36px, 상하 72px·좌우 <code>max(48px, (100vw − 1280px)/2)</code></td>
+</tr>
+<tr>
+<td>세로 모바일 정적 대체 히어로</td>
+<td>너비 959px 이하·높이 601px 이상 또는 너비 599px 이하에서 한 열. 제목·소개→제품 전경→제품 정보·CTA. 패딩 <code>26px 0 34px</code>, 간격 20px, 문구 좌우 margin 20px. 이미지 높이 <code>min(54svh, 460px)</code>·최소 280px, 위·아래 6% feather</td>
+</tr>
+<tr>
+<td>H-03</td>
+<td>최대 1280px, 동일한 두 열 <code>1fr 1fr</code>, PC 간격 100px. PC 상하 144px·좌우 48px</td>
+</tr>
+<tr>
+<td>H-03 중간 너비</td>
+<td>960~1100px 열 간격 64px. 959px 이하 상하 96px·좌우 32px, 간격 44px</td>
+</tr>
+<tr>
+<td>H-03 모바일</td>
+<td>600px 이하 한 열. 설명→이미지, 상하 72px·좌우 20px, 간격 36px. 359px 이하 상하 64px·좌우 16px</td>
+</tr>
+<tr>
+<td>H-06 공통 푸터</td>
+<td>최대 1376px·패딩 64px 48px 40px, 브랜드/링크 간격 48px·아래 여백 64px. 959px 이하 48px 32px 32px·아래 40px, 600px 이하 40px 20px 32px·세로 간격 28px·아래 32px</td>
+</tr>
+</tbody></table></div>
+<p>같은 정보 묶음은 짧은 간격, 다음 행동과 별도 정보는 더 큰 간격으로 구분한다. 상품 정보의 PC 설명→사실 24px, 사실→버튼 30px이며 모바일 사실 영역 위 16px·아래 18px이다. 화면 높이에 맞춰 문구와 제품이 서로 침범하지 않도록 한다.</p>
+<h3 id="design-구현된-R-01-반응형">구현된 R-01 반응형</h3>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>실제 조건</th>
+<th>배치 변경</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>959px 이하</td>
+<td>전체 헤더64px, 데스크톱 탐색은 메뉴 드로어. 로고·검색·장바구니·메뉴 유지</td>
+</tr>
+<tr>
+<td>600px 이하</td>
+<td>H-03 한 열, 설명 우선. 사진 모서리 12px, 푸터 세로 정렬</td>
+</tr>
+<tr>
+<td>359px 이하</td>
+<td>헤더 왼쪽16/오른쪽12px·로고23px, 히어로 제목30px·제품명26px. 정적 문구의 좌우 margin20px 유지</td>
+</tr>
+<tr>
+<td>너비 600~959px·높이 600px 이하</td>
+<td>정상 영상: 전체 무대 미디어·왼쪽 36% 문구·feather 없음. 영상과 포스터는 <code>object-fit:contain; object-position:100% 50%</code>로 뚜껑·전체 병 보존. 정적 대체: 두 열 40:60, 패딩 36px 24px·간격 24px·최소 높이 560px·소개 본문 숨김</td>
+</tr>
+<tr>
+<td>세로 정적 대체 조건</td>
+<td>위 표의 한 열 흐름을 적용. 이미지 자체의 제품 크롭으로 맞추며 3D 카메라 비율 계산은 사용하지 않음</td>
+</tr>
+</tbody></table></div>
+<p>600px 경계에서는 공통 모바일 규칙과 작은 가로 화면 규칙이 함께 적용될 수 있다. <code>styles.css</code> 순서가 최종 기준이다. 메뉴와 CTA의 44px 조작 영역, 한글 줄바꿈, 320px 좁은 화면과 가로 화면을 함께 확인한다. 마우스 휠·터치·키보드의 기본 세로 스크롤을 유지하며 가로 스크롤·강제 스냅은 없다.</p>
+<h3 id="design-영상-준비-중정상-영상-모드의-배치-구현">영상 준비 중·정상 영상 모드의 배치 · 구현</h3>
+<p>MP4 경로가 있고 실패·움직임 줄이기가 아닌 경우 고정 무대는 영상 준비 중부터 유지된다. 시작 매크로 포스터에서 실제 영상으로 바뀔 때 무대 높이·문구 배치를 바꾸지 않는다. PC 문구는 왼쪽 <code>max(48px, (100vw − 1280px)/2)</code>·폭 <code>min(36vw, 490px)</code>, 영상은 전체 폭이다. 959px 이하 세로 구도는 문구 위 26px·미디어 위 114px/아래 238px·제품 안내 아래 34px, 좁은 화면 미디어 위 106px다. 위·아래 6% feather와 모바일 <code>87% 50%</code> 크롭을 사용한다. 작은 가로 영상 모드는 전체 무대·feather 없이 왼쪽 36% 문구를 두며, contain과 오른쪽 정렬로 전체 병을 보존한다. PC·모바일의 같은 진행률 처음·중간·제품·역방향과 가로 수정 뒤 전체 병·뚜껑의 캡처가 있으며, 검수 범위와 미확인 사항은 Overview를 따른다.</p>
+<h3 id="design-M-02-정적-정보와-실패-안내">M-02 정적 정보와 실패 안내</h3>
+<p>영상 경로가 없는 상태, 움직임 줄이기, 영상 로드 실패는 위의 일반 문서 흐름을 사용한다. 정상 영상 준비 중은 고정 무대를 유지하므로 정적 대체 상태와 구분한다. 정적 상태에서 제품 안내는 보이고 <code>inert</code>가 해제되며 <code>#first-light</code>는 실제 제품 패널을 가리킨다. 문구가 화면 높이에 의존하는 절대 위치로 겹치지 않게 한다.</p>
+<p>실패 안내는 이미지 마스크 밖 <code>role=&quot;status&quot;</code> 텍스트다. PC는 왼쪽 정렬·폭 36%·아래 20px·z-index 3, 세로 모바일은 네 번째 행에 상대 배치·좌우 margin 20px·중앙 정렬로 표시한다. 글자는 14px·<code>ink</code>다. 정상 준비 중·ready·reduced still에서는 안내를 숨기며, 실제 영상 오류 이벤트일 때 ‘움직이는 장면을 불러오지 못해 제품 이미지로 보여드려요.’를 제공한다.</p>
+<h3 id="design-홈-확장구매-화면의-그리드와-여백-구현">홈 확장·구매 화면의 그리드와 여백 · 구현</h3>
+<p>공통 콘텐츠는 최대 1376px 안에 좌우 48px을 포함한다. 959px 이하 32px, 600px 이하 20px, 359px 이하 16px이다. 기존 H-03은 자체 최대 1280px 콘텐츠를 유지한다.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>영역</th>
+<th>PC</th>
+<th>실제 반응형</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>H-04 생활 사진/이야기</td>
+<td>사진 4:3·최대 높이800px, 아래 52px 뒤 제목/본문 1:1·간격80px, 섹션 위36px/아래136px</td>
+<td>959px 이하 간격44px·아래96px; 600px 이하 사진4:5·아래72px, 제목/본문 한 열·간격24px·사진 뒤32px</td>
+</tr>
+<tr>
+<td>H-05 여섯 향 컬렉션</td>
+<td>제목/전체 보기·향 찾기 뒤 카탈로그3열, 위112px/아래128px</td>
+<td>&lt;=959 위80/아래96px; &lt;=600 2열·위64/아래72px</td>
+</tr>
+<tr>
+<td>D-01 상품 선택</td>
+<td>7fr:5fr·간격88px·위56px/아래120px, 정보 최대480px</td>
+<td>1100px 이하 간격48px; 959px 이하36px; 819px 이하 한 열·최대660px·스튜디오 이미지4:5·간격32px·아래80px; 600px 이하 위20px·간격28px</td>
+</tr>
+<tr>
+<td>D-02 FIRST LIGHT 생활/재질</td>
+<td>기존 생활5fr:7fr·간격88px·위64px/아래112px, 다음 재질7fr:5fr·아래144px</td>
+<td>1100px 이하 간격48px; 959px 이하40px; 600px 이하 한 열·간격32px·아래72px</td>
+</tr>
+<tr>
+<td>D-02 다른5종 장면/이야기</td>
+<td>사진7fr:문구5fr·간격88px·위56px/아래96px·위1px구분선. 사진4:3</td>
+<td>&lt;=1100 간격48px; &lt;=819 한 열·간격32px·위40px/아래56px</td>
+</tr>
+<tr>
+<td>D-05 세 인상/하루</td>
+<td>위48px/아래96px. 소개1:1·간격88px·아래40px, 세 인상3열·간격40px</td>
+<td>&lt;=1100 소개48px/인상28px; &lt;=819 소개 한 열·28px, 섹션 위32px/아래72px; &lt;=600 인상 한 열·24px</td>
+</tr>
+<tr>
+<td>D-03 삭제</td>
+<td>첨부 이미지에 따른 여섯 상세 FAQ 전체 삭제</td>
+<td>모든 너비에서 삭제하며 다른 위치로 옮기지 않음</td>
+</tr>
+<tr>
+<td>D-06 캠페인/두 문단</td>
+<td>화면 전체 폭 사진2:1·최대높이820px, 섹션 위24/아래64px. 아래 제목/본문1:1·간격88px·위80/아래48px</td>
+<td>&lt;=1100 간격48px; &lt;=819 사진4:3·본문 한 열/간격28px·위48px; &lt;=600 사진4:5/높이 제한 없음·섹션 위0/아래24px·본문 위40/아래24px</td>
+</tr>
+<tr>
+<td>D-07 일상/병 디테일</td>
+<td>문구5fr:사진7fr·간격88px·위64/아래112px. 일상 세 행, 병 사진1:1</td>
+<td>&lt;=1100 간격48px; &lt;=819 한 열·간격40px·위32/아래72px·사진5:4; &lt;=600 사진1:1</td>
+</tr>
+<tr>
+<td>D-08 가까운 향 비교</td>
+<td>위64/아래112px·위1px선. 두 제품1:1·간격64px·아래40px, 제품별 사진140px/문구·간격28px. 차이/링크2fr:1fr·간격64px·위32px/1px선</td>
+<td>&lt;=1100 제품/설명 간격32px·사진112px/간격20px; &lt;=819 위40/아래72px·사진88px/간격16px·제품 간28px·차이/링크 한 열/24px; &lt;=600 제품 한 열/28px·아래32px·사진100px/간격24px·설명 위24px</td>
+</tr>
+<tr>
+<td>C-01/O-01 상품·요약</td>
+<td>minmax(0,7fr):minmax(300px,4fr)·간격100px, 요약 sticky·헤더 아래32px</td>
+<td>1100px 이하 간격48px; 959px 이하 1fr:300px·36px; 819px 이하 한 열·간격36px·요약 일반 흐름</td>
+</tr>
+<tr>
+<td>O-02 결과</td>
+<td>최대960px·위72px/아래104px, 여러 review-item의 사진160px+정보·간격32px</td>
+<td>&lt;=819 최대720px·위48px; &lt;=600 위44/아래72px, 사진100px+정보·간격20px. 결과 합계는 모든 행 뒤 일반 흐름</td>
+</tr>
+</tbody></table></div>
+<p>D-01의 모바일 고정 담기는 819px 이하에서 사용한다. 본문 전체에 <code>84px + safe-area-inset-bottom</code>을 예약해 푸터까지 가리지 않게 하며, 바 자체는 위12px·아래12px+안전 여백과 48px 이상 버튼을 갖는다. inline 담기 버튼이 조금이라도 화면에 들어오면 IntersectionObserver가 고정 바를 숨긴다. 장바구니·주문 요약은 819px 이하에서 고정하지 않는다. 토스트는 상품 화면에서 고정 바 위 <code>96px + safe-area-inset-bottom</code>, 다른 모바일 화면에서는 아래20px이다.</p>
+<p>D-01의 현행 정보는 위 여백0, 돌아가기 뒤16px·한글명 뒤20px·설명 뒤20px로 묶는다. 요약 두 행 사이12px, 레이블100px/값나머지·열 간격16px, 요약 아래24px와 용량/가격 위아래20px를 사용한다. &lt;=959에서 레이블88px·열 간격12px, &lt;=600에서 요약 아래20px다. 기존 사진/정보7:5와 한 열 전환은 유지한다.</p>
+<p>D-02로 가는 ‘향 이야기 보기’는 기존 요약 뒤·용량/가격 앞의 글자 링크이며 아래24px 여백과10px 아이콘 간격을 사용한다. 이야기 시작과 상품 제목에는 PC112px, &lt;=819:88px의 scroll-margin-top을 두어 고정 헤더 아래에 도착한다. FIRST LIGHT는 기존 첫 생활 섹션을, 다른 다섯 제품은 고유 장면 섹션을 같은 <code>#scent-story</code>로 가리킨다.</p>
+<p>D-05 세 인상은 별도 배경·둥근 카드 없이 각 열 위1px 선과 위20px 여백을 사용한다. 레이블 뒤20px, 이름 뒤12px다. &lt;=600에서는 레이블64px/설명나머지·간격16px의 행으로 바뀌며 레이블 위3px·이름 뒤8px다. 소개의 아래32px·내부24px도 이 조건에서 적용한다. 어울리는 하루는 위56px 뒤1px 선·위32px 여백, 1fr:2fr·열40px/행20px이며 복귀 링크는 두 번째 열이다. &lt;=600에서는 한 열·16px 간격, 위40px·안쪽 위28px, 복귀 링크 위8px로 전환한다.</p>
+<p>D-04 확대창은 가운데 <code>product-viewer</code> 크기·패딩과16px 모서리, 열린 상태의 세로20px 간격을 사용한다. 제목/크기/닫기 도구줄 사이20px이며 사진 영역은 남은 높이에서만 스크롤한다. &lt;=600에서 <code>product-viewer-mobile</code>로 전체100dvh·패딩16px·모서리0·세로16px 간격·도구줄12px 간격을 적용한다. 안내 높이를 PC최소42px·모바일최소40px 확보해 사진과 겹치지 않는다. 사진 힌트는 오른쪽/위16px(&lt;=600:12px), 내부10px 14px(&lt;=600:10px 12px)·아이콘/글자10px 간격이다.</p>
+<p>초안의 12·8·4열, 24·20·16px 열 간격, 구매 바72px는 이전 계획값이다. 현재는 위의 실제 비율·간격과 84px 안전 공간을 기준으로 한다. 뒤로 이동·새로고침·저장 차단은 아래 공통 상태 계약과 검수 한계 안에서 확인한다.</p>
+<h3 id="design-L-01-목록검색향별-이야기-배치-현행">L-01 목록·검색·향별 이야기 배치 · 현행</h3>
+<p>목록은 최대1376px 안에서 PC 위64/아래120px, &lt;=959 위56/아래96px, &lt;=600 위40/아래72px다. 제목·소개 뒤48px(&lt;=600:36px)에서 필터/정렬을 제공한다. 카탈로그3열·가로28/세로56px, &lt;=959 가로20px, &lt;=600 <strong>2열·가로16/세로36px</strong>다. 모바일 필터는 전체/클린/시트러스/그린/플로럴/우디의 <strong>3×2</strong>다. 정렬은 native select이며 &lt;=959 도구 영역의 다음 행 오른쪽에 놓인다. 사진 아래20px(&lt;=600:16px)에 이름·향·용량/가격을 카드 테두리 없이 정렬한다.</p>
+<p>검색은 오른쪽 native dialog, 폭560px·패딩32px·높이100dvh이며 &lt;=600 전체 폭·24px 20px다. 결과는 사진64×80/정보/가격, &lt;=600 사진56×70과 간격12px다. 사진은4:5다. 상품별 장면·세 인상·새 본문은 위 D-02/D-05~D-08의 현행 배치를 따른다. 관련 상품은 같은3열/2열 카탈로그이며 &lt;=600 마지막 세 번째 항목을 숨겨2개만 보여준다. 이야기와 일상·비교는 열린 섹션으로 제공한다. FAQ는 삭제했다.</p>
+<h3 id="design-향-찾기의-질문결과-배치-현행">향 찾기의 질문·결과 배치 · 현행</h3>
+<p>향 찾기 바깥 폭은 PC최대1248px 안에 좌우48px을 포함한다. 여유 폭이 충분하면 사진과 질문이 각각528px인 같은 폭 두 열·간격96px, 위72/아래96px이며 콘텐츠 최대528px다. &lt;=1100 열 간격48px이다. 첫 비누 사진은5:6, 결과 스튜디오 사진은4:5이며 모서리16px·가운데 크롭·헤더 아래40px의 sticky는 유지한다. &lt;=959 최대660px의 한 열·위36/아래80px·간격28px이며 분위기 사진을 숨겨 질문부터 읽는다. &lt;=600 위28/아래64px다. 결과에서는 해당 사진을 내용 위에 폭240px·최대76%로 보여준다.</p>
+<p>질문 아래20px 뒤 세 선택을 간격 없이 연결하고 목록 위/각 행 아래의1px 가로선으로 구분한다. 행 안쪽18px 16px·간격16px, &lt;=1100:16px, &lt;=600:16px 12px·간격14px, &lt;=359:14px 12px·간격12px다. 상자 테두리·둥근 모서리는 사용하지 않는다. 조작 행은 위28px(&lt;=600:24px)·사이24px이며 다음 버튼이 입력 열 너비를 사용한다. 이전 버튼이 있으면 최소폭64px를 확보하고 다음 버튼이 남은 폭을 사용한다. 다음 버튼의 최소폭176px, &lt;=359:144px이며 이전 높이는최소44px다.</p>
+<p>진행선은 폭120px 안의3구간·높이3px·간격6px와 ‘질문 N / 3’를 함께 제공한다. 소개 뒤32px(&lt;=959:28px·&lt;=600:24px), 진행 뒤28px(&lt;=600:20px)이다. 결과 선택 요약은126px/나머지 두 열·간격20px, &lt;=600:112px/나머지·간격12px, &lt;=359 한 열·간격4px다. 결과는 일반 문서 흐름이며 새 고정 연출을 추가하지 않는다.</p>
+<h2 id="design-Elevation-amp-Depth">Elevation &amp; Depth</h2>
+<p>일반 정보는 그림자 카드 대신 정렬·여백·구분선으로 묶는다. 현재 화면의 깊이는 생성 영상과 정지 제품 이미지 안의 두꺼운 유리·내부 액체·작은 물방울·아침빛·수면 반사로 표현한다. 이 재질은 실행 중 계산되는 3D 셰이더가 아니다. UI 그림자는 화면 위에 뜨는 메뉴 패널과 조작 결과 토스트에 사용한다. 상품·주문 요약은 단색 바탕으로 구분하고 장식 그림자를 추가하지 않는다.</p>
+<h3 id="design-Shadow-Vocabulary">Shadow Vocabulary</h3>
+<ul>
+<li><strong>향 분류 팝업 그림자</strong>(<code>0 12px 32px rgba(0,0,0,.12)</code>): 주 내비게이션 아래200px 팝업의 부드러운 중립색 깊이.</li>
+<li><strong>메뉴·검색 패널 그림자</strong>(<code>−12px 0 48px rgba(0,0,0,.12)</code>): 오른쪽에서 열린 드로어의 높이와 경계를 표현한다.</li>
+<li><strong>담기 알림 그림자</strong>(<code>0 12px 36px rgba(0,0,0,.14)</code>): 화면 위에 뜨는 토스트의 부드러운 중립색 그림자. 상태색 광채나 단단한 장식 그림자로 확장하지 않는다.</li>
+<li><strong>메뉴 뒤 배경</strong>(<code>rgba(23,61,71,.2)</code>): 현재 열린 메뉴에 집중하도록 본문을 가볍게 가린다.</li>
+<li><strong>사진 확대 뒤 배경</strong>(<code>rgba(23,61,71,.42)</code>): D-04의 밝은 확대창과 사진에 집중하도록 기존 화면을 가린다. 창 자체에 새 그림자를 추가하지 않는다.</li>
+<li><strong>제품 접촉과 반사</strong>: 전경 이미지 안에 구성한 물리적인 그림자·수면 반사. UI 카드 그림자로 재사용하지 않는다. 이전 3D 평면·Reflector·굴절 재질 수치는 현재 구현값이 아니다.</li>
+</ul>
+<p><strong>The 구조 먼저 Rule.</strong> 읽기 영역은 평평하게 두고 여백·정렬·가는 선으로 묶는다. 떠 있는 메뉴·알림의 그림자와 제품의 물리적 그림자에는 서로 다른 역할을 유지한다.</p>
+<h3 id="design-제품-미디어와-자원-관리">제품 미디어와 자원 관리</h3>
+<p>현재는 <code>first-light-macro.webp</code>를 명시된 원본 비율·높은 요청 우선순위로 먼저 제공한다. <code>main.js</code>는 정적 상태 또는 진행률 .86 이상에서 전경 포스터를 선택한다. 영상의 광학 유리·액체 경계·음영 있는 흰 뚜껑·작은 표면 물방울·수면 반사는 올바른 시작·끝 이미지로 생성한 영상 안의 표현이다. 큰 독립 물방울과 기존 절차적 병은 사용자 거절 뒤 홈페이지 실행 경로에서 교체됐다. Three.js 파일과 이전 출력은 제작 이력으로 보존되지만 현재 <code>main.js</code>는 가져오지 않는다.</p>
+<p>native video는 <code>muted</code>·<code>playsinline</code>·<code>preload=&quot;none&quot;</code>이며 HTML에 MP4 <code>data-src</code>만 있고 초기 <code>src</code>는 없다. 움직임 줄이기가 켜진 초기 진입에서는 영상 fetch·<code>src</code> 배정을 하지 않는다. 정상 상태에서 전체 MP4(약 3.2MB)를 <code>fetch()</code>로 받아 <code>response.blob()</code>→<code>URL.createObjectURL()</code>로 연결하고 <code>preload=&quot;auto&quot;</code>·<code>load()</code>를 적용한다. <code>filmLoading</code>으로 중복 요청을 막고, 준비 중 움직임 줄이기가 켜졌으면 Blob URL을 video <code>src</code>로 배정하기 전에 반환한다. 이미 진행 중인 네트워크 요청을 중단하는 구현은 아니다. 이 방식은 부분 파일 응답을 제공하지 않는 로컬 서버에서도 메뉴·역방향 시간 탐색이 멈추지 않게 한다. Blob URL과 메모리는 문서가 유지되는 동안 보존되며 문서가 해제될 때 브라우저가 정리한다.</p>
+<p>유효한 길이를 확인한 뒤 시작 이외 위치에서는 <code>seeked</code>까지 기다려 원하는 구도로 맞추고 영상 표시·포스터 숨김을 적용한다. 준비 중에도 매크로 포스터와 고정 무대를 유지하지만 전체 파일을 받는 시간이 필요하며 느린 회선의 정량 성능은 미확인이다. 영상은 <code>pause()</code> 상태에서 <code>currentTime</code>으로 탐색하며 자동 재생·오디오가 없다. HTTP 오류·fetch 실패·video 오류·유효하지 않은 길이는 전경 이미지로 복귀하고 읽기·CTA를 유지한다. 화면 밖·숨긴 탭에서는 반복 프레임을 멈추고 목표 진행률에 도달하면 추가 반복을 끝낸다. 압축·짧은 키프레임 간격·Blob 준비는 전달과 탐색을 위한 구현 선택이며 실제 스마트폰·제한된 네트워크 성능 통과를 뜻하지 않는다.</p>
+<p>기존 film3 검수 당시 버전은 CSS <code>20261014film2</code>·main <code>20261014film3</code>·motion <code>20261014quality1</code>이었다. 현행 motion의 시간 규칙은 그대로이며 commerce·main은 <code>20261015a</code>, 기본 styles.css·공통 shop·store.css·finder.css·finder.mjs는 캐시 버전 <code>20261015type</code>이다. 메뉴 공유 분리 이외의 film3 시간·기하·모션 규칙을 유지한다. 실행 중 외부 CDN·Higgsfield·API·결제·계정 서비스 호출이나 크레딧 사용은 없다. 이번 한 개의 승인된 영상 생성 이후 추가 유료 생성은 없으며 공개 배포·실제 판매 기능은 별도 경계다.</p>
+<h2 id="design-Shapes">Shapes</h2>
+<p>제품은 부드러운 모서리의 직사각 투명병과 흰 원통형 뚜껑이다. 소문자 ants와 각 제품의 영문 이름을 실제 HTML로 사용한다. 개미 그림·장식 리본·금색 문양은 확정된 브랜드 요소가 아니므로 현재 시안에 추가하지 않았다.</p>
+<p>향 찾기의 선택 행은 가로선으로 구분하며 둥근 상자 형태를 사용하지 않는다. 그 외 기존 조작면은 부드러운 모서리(<code>rounded.control</code>), 향 소재 사진은 더 넓은 모서리(<code>rounded.image</code>, 모바일 <code>rounded.image-mobile</code>)로 표현한다. 드로어는 화면 오른쪽에 붙는 직사각 패널이다. 섹션은 카드로 둘러싸지 않는다. 1.5px 선의 SVG 아이콘은 메뉴·닫기·장바구니·행동 화살표에 사용하며 기본 24px, 화살표 20px이다. 아이콘 버튼의 실제 조작 영역은 44×44px이다.</p>
+<h3 id="design-이미지와-크롭">이미지와 크롭</h3>
+<p>H-03의 내장 생성 비누·젖은 유리·수건 이미지는 유지한다. <code>soap.webp</code>는 1200×1200·약 94KB이며 별도 JSON에 생성 출처를 보존한다.</p>
+<p>현재 히어로의 전경·매크로는 모두 사이트 포스터로 연결돼 있으며 크기·용량은 Overview의 미디어 표를 따른다. 내장 이미지 생성 도구로 전경을 만들고 같은 전경을 참조해 매크로를 편집했다. 원본은 상위 <code>work/ants-dependencies/first-light-campaign-master.png</code>·<code>first-light-macro-master.png</code>, 정확한 <strong>이미지</strong> 생성 문구는 각각의 <code>.prompt.txt</code>와 WebP JSON에 보존한다. 영상 계획 문구는 실제 제출 프롬프트와 구분하며 MP4 JSON에 누락 사실을 기록했다. 압축한 가상 제품 이미지와 영상이며 실제 촬영으로 표시하지 않는다. 웹 제목·가격·버튼은 이미지나 영상에 넣지 않고 HTML로 제공한다.</p>
+<p>이전 수면 질감은 0.25크레딧으로 승인한 Higgsfield gpt_image_2_5 결과(1344×752·72,574바이트, 작업 <code>44fc376e-f295-4453-b3c5-1c8afadcddca</code>)이며 상위 <code>work/ants-dependencies/retired-morning-water.webp</code>로 보존한다. 이전 WebGL 마지막 구도 출력(900×1080·36,440바이트)은 <code>retired-first-light.webp</code>로 보존한다. 두 자산과 JSON 출처는 사이트 폴더에서 이력 폴더로 옮겼으며 현재 실행·검사 경로에서 참조하지 않는다. 현재 <code>checks/export.html</code>은 새 미디어 저장 링크이고 이전 출력 페이지는 <code>checks/export-before-quality.html</code>로 보존한다. 두 자산의 출처·원본·라이선스는 이력으로 유지하며 현재 화면의 재질·모션·대체 이미지를 설명하는 데 사용하지 않는다. 정확한 기록은 <a href="ASSETS.md">ASSETS.md</a>에 있다.</p>
+<p>현재 PC는 전체 폭 영상과 포스터의 오른쪽 병 구도, 세로 모바일은 같은 미디어의 <code>87% 50%</code> 제품 크롭을 사용한다. 작은 가로 화면은 contain·<code>100% 50%</code>로 뚜껑을 포함한 전체 병을 보존한다. 처음 접사에서는 병 일부가 의도적으로 화면 밖에 있으며 제품 정보 구간에서는 전체 병·뚜껑·수면 접촉을 읽을 수 있게 유지한다. 생활 사진은 H-04의 PC 4:3·최대800px, 600px 이하4:5이며 수평 크롭 위치는 PC58%·모바일61%다. D-02 생활 사진은4:5·61%를 사용한다. <code>first-light-ritual.webp</code>(1448×1086·101,054바이트)는 기존 campaign을 참조한 내장 생성 장면이며 원본 <code>../work/ants-dependencies/first-light-ritual-master.png</code>와 정확한 이미지 문구 <code>first-light-ritual.prompt.txt</code>, WebP JSON을 보존한다. 현행 여섯 스튜디오 대표 사진은 모든 너비에서4:5·가운데50% 구도다. 장바구니 축소 사진의 틀은1:1·가운데 크롭이며 확인·완료 행은4:5다. 이전 단일 상품의 campaign 대표 사진/오른쪽 크롭 규칙을 새 스튜디오 사진에 적용하지 않는다. 제품 전체 이미지에서는 제품과 뚜껑·로고를 자르지 않으며 생활 사진만 피사체 중심으로 크롭한다. 젖은 유리·흰 수건·밝은 선반의 가상 장면을 사용하고 고객 사진·후기처럼 표현하지 않는다.</p>
+<p>스튜디오 사진은 <code>{first-light,soft-linen,citrus-air,green-hour,petal-mist,quiet-wood}-studio.webp</code> 각1120×1400이다. 같은 병·흰 원통 뚜껑·밝은 청백색 조명·제품 크기를 맞추며 라벨과 미묘한 액체 톤으로 구분한다. 병·뚜껑·제품명은 목록과 상세4:5 틀 안에서 보존한다. 여섯 장은 내장 image_gen의 가상 이미지로, 원본·정확한 prompt·참조·메타데이터를 ASSETS.md와 각 <code>.webp.json</code>에 기록했다. 기존 campaign/ritual/macro는 FIRST LIGHT 고유 이야기 안에서 유지한다.</p>
+<p>D-02의 새 장면은 <code>{soft-linen,citrus-air,green-hour,petal-mist,quiet-wood}-scene.webp</code> 각각1448×1086이며 모든 너비에서4:3·object-fit:cover·가운데 구도다. 모서리는12px, &lt;=600:8px이며 캡션은 사진 아래12px에 둔다. 흰 린넨/시트러스와 물잔/비 갠 잎/옅은 꽃/나무 의자와 책의 서로 다른 가상 장면이다. 이 사진은 제품의 향 분위기를 표현하며 원료·배합·실제 고객 촬영 증거가 아니다. <code>catalog.detail.image</code>와 alt가 해당 향에 대응하고 FIRST LIGHT의 기존4:5 생활 크롭·재질 사진 규칙은 보존한다.</p>
+<p>D-06 캠페인 사진은 모서리 없는 전체 폭 틀·object-fit:cover이며 제품별 <code>detail.extended.crop</code>을 모든 너비에서 사용한다. FIRST LIGHT는 기존 campaign의84% 50%, 나머지 다섯 새 campaign은60% 50%다. PC2:1 → &lt;=819:4:3 → &lt;=600:4:5로 사진 틀을 바꾸며 문구는 사진 아래 일반 흐름에 둔다. 기존 D-02 장면 사진의4:3/가운데 규칙과 구분한다.</p>
+<p>D-07 병/라벨 확대는 해당 제품의 기존 스튜디오 이미지에 object-fit:cover·object-position:50% 40%·scale(1.45)를 적용한다. 틀은 PC1:1·&lt;=819:5:4·&lt;=600:1:1, 모서리12px·&lt;=600:8px이며 병 일부와 뚜껑/밑면의 크롭은 디테일을 위한 의도된 구성이다. 원본 파일 자체를 바꾸거나 새 고해상도 촬영으로 부르지 않는다. D-01/D-04 전체 제품 사진은 계속 온전한4:5 원본을 사용한다. D-08의 두 스튜디오 사진도4:5·8px 모서리를 유지한다.</p>
+<h2 id="design-Components">Components</h2>
+<p>현재 구성요소는 기존 버튼·글자 링크·로고·확장 헤더·아이콘·native 메뉴/검색·향 분류 팝업·필터/정렬·카탈로그 카드·native radio 질문/추천 결과·영상/정적 히어로·향/생활 이야기·공통 푸터·제품별 수량·담기 알림·다품목 요약·빈 상태/완료 결과와 상품 사진 링크/요약/native 확대창·제품별 장면/세 인상/하루다. <code>.impeccable/design.json</code>에는 실제 시스템을 보여주는 ds- 접두사의 자체 완결 HTML/CSS 미리보기12개를 보존한다. 이번 정적 이야기 확장에는 새 미리보기를 만들지 않는다. 미리보기의 정적 예시와 shop.mjs·product-detail.mjs의 실제 상태 동작을 구분한다. 검토 통과 범위는 Overview를 따른다.</p>
+<h3 id="design-Buttons-Links">Buttons / Links</h3>
+<p>이동은 링크, 현재 화면의 조작은 버튼을 사용한다. 공통 헤더의 ‘전체 향수’와 H-05의 ‘전체 향수 보기’는 <code>/shop/</code>, 헤더·모바일 메뉴·푸터와 H-05의 ‘나의 향 찾기’는 <code>/find-your-scent/</code>, 각 카드는 해당 <code>/product/{id}/</code>, 기존 히어로의 ‘향수 자세히 보기’는 <code>/product/first-light/</code>로 이동한다. 상품의 ‘장바구니 담기’는 현재 화면에서 조작한다. 청록 채움과 흰 글자, 최소 높이 48px, PC 패딩 14px 22px·화살표 간격 20px을 사용한다. 모바일 히어로에서는 패딩 12px 20px·글자 14px이며 최소 높이 48px을 유지한다.</p>
+<p>호버는 더 깊은 청록, 누름은 한 단계 깊은 색과 아래 1px 이동, 상태 전환은 160ms ease다. 키보드 포커스는 2px 선과 바깥 4px 간격이다. 초안의 바깥 3px 간격보다 현재 화면의 4px이 기준이다. 덜 중요한 이동은 최소 44px 높이의 글자 링크와 20px 화살표, 호버의 밑줄·화살표 3px 이동으로 표현한다. 호버에서만 정보를 보여주지 않는다.</p>
+<p>모바일 메뉴·닫기 버튼은 44×44px·패딩 10px·모서리 8px이다. 사용 가능한 아이콘 버튼만 호버 바탕을 표시한다. 장바구니는 <code>/cart/</code>의 활성 링크이며 숫자와 ‘장바구니, 상품 N개’라는 접근 가능한 이름을 함께 갱신한다. 이전 비활성 0.5 상태는 첫 시안 이력이며 현재 진입을 막지 않는다.</p>
+<p>담기·모의 주문도 기존 주 버튼을 재사용한다. 상품의 inline 담기와 주문 요약 버튼은 전체 폭이며 최소48px다. 비활성은 구분선색 바탕·보조 글자색과 실제 조작 차단을 함께 사용한다. 별도 투명 실선 보조 버튼은 구현하지 않았으므로 새 변형 토큰으로 만들지 않는다.</p>
+<h3 id="design-H-01-공통-헤더-현행">H-01 공통 헤더 · 현행</h3>
+<ul>
+<li><strong>높이:</strong> PC80px·&lt;=959:64px. 상단 안내 문구와32px띠를 제거하고 밝은 surface를 유지한다. 고정 위치와 본문 시작·영상 높이·앵커가 같은 --header를 사용한다.</li>
+<li><strong>PC:</strong> 왼쪽 ants <code>/#top</code>, 중앙 ‘전체 향수’ <code>/shop/</code>·‘향별로 찾기’·‘나의 향 찾기’ <code>/find-your-scent/</code>·‘브랜드 이야기’ <code>/#ritual</code>, 오른쪽 검색·장바구니다. 내비 gap36px, &lt;=1100:24px. 검색/장바구니/모바일 메뉴는44×44px다.</li>
+<li><strong>향별 팝업:</strong> 실제 button+hidden 패널과 일반 링크다. ARIA menu/listbox가 아니며 native Tab/Enter/Space를 사용한다. 클린/시트러스/그린/플로럴/우디가 <code>/shop/?family={id}</code>로 이어진다. 클릭으로 토글하고 바깥 클릭·포커스 이탈·링크 선택으로 닫는다. Esc는 닫고 opener로 포커스를 돌린다. <code>aria-expanded</code>를 함께 갱신한다.</li>
+<li><strong>모바일:</strong> 로고·검색·장바구니·메뉴 순서다. 기존 상단 ‘향수 알아보기’는 확장 탐색으로 교체했다. 숫자와 ‘장바구니, 상품 N개’ 이름은 총 수량과 함께 갱신한다.</li>
+<li><strong>영상 직접 앵커 보존:</strong> loading/ready의 <code>#first-light</code>는249.6svh+20px 가상 마커, still/fallback은 실제 제품 패널이다. 전역 scroll-padding은 헤더+20px. 현재 주 탐색과 구분하며 직접 해시는 마지막 전경 포스터·seek 완료를 유지한다.</li>
+</ul>
+<h3 id="design-UI-01-UI-02-모바일-메뉴검색-현행">UI-01 / UI-02 모바일 메뉴·검색 · 현행</h3>
+<p>모바일 메뉴는 오른쪽 native dialog·폭 min(360px,100%)·높이100dvh·패딩26px 24px다. ‘전체 향수’·‘나의 향 찾기’, 두 열의 다섯 향 계열 링크, ‘브랜드 이야기’, ‘장바구니’를 제공한다. 주 링크20px·상하18px·가는 아래 선, 향 계열16px·최소48px이며 nav 위아래40px다.</p>
+<p>검색은 폭560px/모바일전체의 별도 native dialog다. ‘어떤 향을 찾으세요?’ 제목과 닫기, <strong>‘상품명이나 향의 느낌’ 지속 레이블</strong>, 16px 검색 입력·48px 높이·실제 submit 버튼을 제공한다. placeholder는 레이블을 대체하지 않는다. 비어 있으면 실제6종, 입력할 때 catalog.mjs의 영문/한글명·향·향 계열·태그에서 일치한 결과와 개수를 표시한다. 결과 링크는 해당 상품으로 이동하고 일치하지 않으면 다른 검색어 안내·전체 향수 링크가 보인다. submit은 <code>/shop/?q=</code>로 간다.</p>
+<p>공통 shop.mjs는 열린 다른 dialog를 닫고 showModal()로 열며 검색 입력에 포커스를 준다. native dialog의 포커스 범위와 body 스크롤 잠금을 사용한다. 닫기·Esc·배경 클릭·결과/메뉴 링크 선택으로 닫고 <code>aria-expanded</code>를 갱신해 해당 opener로 포커스를 돌린다. 메뉴 입장은240ms cubic-bezier(.2,.8,.2,1), reduced-motion은 전환을 생략한다. 실제 검색 상태/키보드 로직은 shop.mjs이며 sidecar에는 열린 내용의 정적 미리보기를 제공한다.</p>
+<h3 id="design-L-01-카탈로그필터정렬-현행">L-01 카탈로그·필터·정렬 · 현행</h3>
+<p><code>/shop/</code>은 여섯 사진·이름·향의 한 줄 설명·50mL·해당 가격을 제공한다. 전체와 다섯 향 계열은 일반 버튼/aria-pressed, 정렬은 레이블이 붙은 native select다. 추천순은 catalog.mjs의 순서이며 가격 낮은순/높은순도 제공한다. 현재 family/q/sort를 URL에 유지하고 새로고침·직접 공유 시 복원한다. 필터를 바꿔도 q/sort는 유지한다. 검색어와 결과수·없는 결과·해제 링크를 가까이 표시한다. 페이지네이션·별도 계정·찜은 이 여섯 상품 범위에 없다.</p>
+<p>카탈로그의 가상 설정 원본은 catalog.mjs 하나다. 스토어 및 합계는 이 가격을 조회하며 저장 자료가 보낸 가격을 사용하지 않는다.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>id·이름</th>
+<th>한글명·향의 인상</th>
+<th>50mL 데모 가격</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>first-light · FIRST LIGHT</td>
+<td>첫빛 · 맑은 비누향/클린</td>
+<td>69,000원</td>
+</tr>
+<tr>
+<td>soft-linen · SOFT LINEN</td>
+<td>흰결 · 햇볕에 말린 린넨/클린</td>
+<td>69,000원</td>
+</tr>
+<tr>
+<td>citrus-air · CITRUS AIR</td>
+<td>여린 햇살 · 산뜻한 시트러스</td>
+<td>69,000원</td>
+</tr>
+<tr>
+<td>green-hour · GREEN HOUR</td>
+<td>초록의 시간 · 비 갠 잎사귀/그린</td>
+<td>72,000원</td>
+</tr>
+<tr>
+<td>petal-mist · PETAL MIST</td>
+<td>꽃의 안개 · 이슬 맺힌 꽃잎/플로럴</td>
+<td>72,000원</td>
+</tr>
+<tr>
+<td>quiet-wood · QUIET WOOD</td>
+<td>고요한 숲 · 밝은 나무결/우디</td>
+<td>75,000원</td>
+</tr>
+</tbody></table></div>
+<p>이름·향 인상·가격은 가상 데모 설정이며 실제 향료/성분·안전성·효능·지속력·재고·판매량·할인을 뜻하지 않는다.</p>
+<h3 id="design-F-01-향-찾기-질문과-추천-결과-현행">F-01 향 찾기 · 질문과 추천 결과 · 현행</h3>
+<p>FR-13의 <code>/find-your-scent/</code>는 한 번에 질문 하나와 native radio 세 개를 보여준다. 세 fieldset 중 현재 하나만 표시·활성화한다. 선택은 상자 없이 목록 위/행 아래의1px 가로선·투명 바탕으로 이어진다. 호버는 bg, 체크는 action 아래 선/control-hover 바탕·450 이름과 native radio로 전달한다. 키보드 포커스는 선택면 바깥2px/4px이며 radio에만 중복 선을 그리지 않는다. 이전 질문은 답을 보존한다. 미선택 제출은 가까운 ‘마음에 드는 항목을 하나 골라주세요.’와 aria-invalid·첫 radio 포커스로 수정 위치를 알린다. 다음 질문은 legend에 포커스를 두고 가장 가까운 위치로 즉시 스크롤한다.</p>
+<p>마지막 답 이후 질문/진행을 숨기고 해당 catalog 상품의 스튜디오 사진·영문/한글명·향 계열·향 설명·선택 이유·고른 세 라벨·‘50mL · 가격’·해당 금액·상세 링크를 표시한다. 상세 링크는 해당 상품으로 이동하며 자동으로 장바구니에 담지 않는다. 페이지 제목에 포커스를 두고 맨 위로 즉시 이동한다. ‘다시 찾기’는 모든 답과 결과를 비우고 첫 질문·비누 장면으로 복귀한다. JavaScript가 없으면 질문 조작을 숨기고 직접 고를 수 있는 전체 향수 링크와 안내를 제공한다.</p>
+<p>추천은 첫 답의두 상품 후보에 순간/기분의 작성된 점수와 동점 우선순위를 적용한다. 27개 조합이 모두 유효하고 여섯 상품 모두 추천된다. 과학적 검사·AI 판정·정확도/일치율을 주장하지 않으며 결과 하단에는 ‘선택한 취향을 바탕으로 여섯 가지 향 중 하나를 제안해요.’라고 표시한다. 답은 현재 문서의 메모리에만 있고 저장·외부 전송·개인정보·분석 추적이 없으며 하단 문구는 ‘선택한 취향은 저장하거나 외부로 보내지 않아요.’다. 이미지·이름·가격은 catalog.mjs 하나를 사용한다. sidecar의 추가 미리보기는 radio의 실제 hover/checked/focus를 제공하며 세 질문 진행·추천·초기화는 실제 finder.mjs의 동작이다.</p>
+<h3 id="design-H-02-히어로-M-01-스크롤-장면-실제-영상-연결">H-02 히어로 / M-01 스크롤 장면 · 실제 영상 연결</h3>
+<ul>
+<li><strong>목적:</strong> 향수 브랜드와 깨끗한 아침의 제품 경험을 이해한다. FR-01의 같은 병 공개를 실제 카메라 영상으로 제공하고 FR-02의 제품 정보 이동을 유지한다. 전체 품질·실제 기기 판정과 구분한다.</li>
+<li><strong>처음 문구:</strong> ‘하루의 시작에, 작은 향을.’ / ‘씻고 나온 듯 깨끗한 기분. 하루의 시작에 작은 향을 더하세요.’ / ‘FIRST LIGHT · 비누향의 데일리 향수’. 현재 세로 모바일도 제목과 소개 본문을 읽는다.</li>
+<li><strong>중간 문구:</strong> ‘맑은 아침을, 곁에.’ / ‘큰 변화보다, 매일의 작은 향.’ 실제 영상의 중간 구간에 표시하며 still/fallback에서는 숨긴다.</li>
+<li><strong>제품 정보:</strong> FIRST LIGHT / 첫빛 · 깨끗한 비누향의 데일리 향수 / 50mL / 69,000원 / ‘향수 자세히 보기’→별도 상품 상세. 사용자 첨부에 따라 홈의 데모 제품 안내 문장은 삭제했다. 제품 정보는 영상 후반에 표시하고 제품 opacity .95 초과에서 CTA를 조작할 수 있다. 정적 대체 상태는 항상 표시·조작 가능하다.</li>
+<li><strong>배치·연결:</strong> PC는 왼쪽 소개·제품 정보와 오른쪽 병이 있는 전체 폭 영상, 세로 모바일은 위 제목·중앙 미디어·아래 정보. 끝 구도를 유지하는 읽기 구간 뒤 H-03으로 이어진다. 처음부터 상단 전체 향수·검색·장바구니 탐색을 유지한다.</li>
+<li><strong>미디어 상태:</strong> <code>data-src</code> MP4와 시작 매크로 포스터를 연결했다. 원본 영상·출처·실제 프롬프트 누락 기록을 보존하며 추가 영상 생성은 없다.</li>
+</ul>
+<p>현재 영상은 작은 물방울이 맺힌 병 어깨의 접사에서 같은 병 전체를 공개하는 약 8초의 연속 카메라 후퇴다. 실제 표본과 PC·모바일의 정방향·역방향 탐색을 확인했고 남은 M1과 이번 연결 수정의 독립 검토는 통과했다. 판정의 범위와 미확인 사항은 Overview를 따른다. 텍스트 프롬프트가 누락된 실제 결과이므로 계획 문구의 모든 연출 지시가 적용됐다고 설명하지 않는다. 이전 큰 물방울의 수면 합류·병의 Three.js 카메라 곡선은 현재 장면의 구현으로 설명하지 않는다.</p>
+<p>아래는 현재 <code>motion.mjs</code>와 <code>main.js</code>가 실제 MP4에 적용하는 제어다. 계산식과 브라우저 관찰, 실제 기기 성능 측정을 구분한다.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>제어</th>
+<th>현재 코드</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>소개 opacity</td>
+<td><code>1 − smooth(.23,.34,p)</code></td>
+</tr>
+<tr>
+<td>중간 opacity</td>
+<td><code>smooth(.36,.46,p) × (1 − smooth(.65,.75,p))</code></td>
+</tr>
+<tr>
+<td>제품 opacity</td>
+<td><code>smooth(.78,.9,p)</code></td>
+</tr>
+<tr>
+<td>문구 visibility</td>
+<td>소개·중간 값이 .001 초과일 때 표시; 정적 소개는 항상 표시. 제품은 .001 초과 또는 정적 상태에서 표시</td>
+</tr>
+<tr>
+<td>제품 조작</td>
+<td>제품 값 .95 초과 또는 정적 상태에서 <code>inert</code> 해제</td>
+</tr>
+<tr>
+<td>스크롤 안내</td>
+<td>소개 값 .94 초과이고 영상 모드일 때만 표시·조작, 그 외 hidden visibility와 <code>inert</code></td>
+</tr>
+<tr>
+<td>영상 시간</td>
+<td><code>clamp(p/.86) × max(0, duration − 1/30)</code>. 86% 뒤 마지막 프레임을 유지하며 제품 정보 읽기 구간을 확보</td>
+</tr>
+<tr>
+<td>진행률 추종</td>
+<td><code>current + (target − current) × (1 − exp(−14 × dt))</code>, dt 최대 .05초·차이 .0003 미만에서 목표에 맞춤</td>
+</tr>
+<tr>
+<td>영상 탐색</td>
+<td>현재 seek가 끝난 경우에만 <code>currentTime</code> 갱신, 차이 1/60초 초과 기준. 최신 스크롤 위치를 목표로 하며 동시에 여러 seek를 넣지 않음</td>
+</tr>
+<tr>
+<td>영상 준비</td>
+<td>약 3.2MB 전체 MP4 fetch→Blob URL→video load. 중복 준비를 막고 초기 reduced에서는 요청하지 않음; 준비 중 reduced로 바뀌면 Blob src 배정 전 반환</td>
+</tr>
+<tr>
+<td>최초 영상 표시</td>
+<td><code>loadeddata</code>에서 현재 진행률의 영상 시간을 계산. 시작 이외 위치는 실제 <code>seeked</code> 후 <code>setMotionMode()</code>로 표시. 직접 제품 해시에서 시작 프레임을 먼저 노출하지 않음</td>
+</tr>
+<tr>
+<td>탐색 관찰</td>
+<td>실제 <code>seeked</code>에서 <code>.scene-visual</code>의 <code>data-video-time</code>에 시간 기록. 검수용 DOM 관찰값이며 사용자 화면의 UI 아님</td>
+</tr>
+<tr>
+<td>표시 장면명</td>
+<td>p&lt;.24 ‘물방울 가까이’, p&lt;.6 ‘첫빛의 순간’, p&lt;.8 ‘맑은 아침’, 이후 ‘FIRST LIGHT’</td>
+</tr>
+</tbody></table></div>
+<p><code>smooth(a,b,p)</code>는 범위를 0~1로 제한한 <code>u²(3−2u)</code>다. <code>getFilmTime()</code>은 유효한 양수 영상 길이가 아니면 0을 반환한다. 실제 ready 상태의 정방향·역방향에 같은 매핑을 사용한다. 8.041667초 영상의 읽기 구간은 약 8.008초에 머무른다. 탐색의 FPS·실제 스마트폰 성능은 측정하지 않았다. 버튼 160ms와 메뉴 240ms가 구현됐고 H-03에는 별도 360ms 등장이나 긴 고정 연출을 넣지 않았다.</p>
+<h3 id="design-H-03-향의-느낌-구현">H-03 향의 느낌 · 구현</h3>
+<ul>
+<li><strong>목적·메시지:</strong> 눈으로 본 제품을 고객의 언어로 이해한다. ‘비누처럼 깨끗한 향.’ FR-03의 첫 구간이다.</li>
+<li><strong>제목·본문:</strong> ‘깨끗한 기분을, 향으로.’ / ‘샤워를 마친 아침처럼 맑고 편안한 향의 이미지를 담았습니다.’ / ‘바쁜 하루를 시작하기 전, 나를 위한 작은 향의 습관.’</li>
+<li><strong>자료:</strong> 흰 비누·젖은 유리 접시·물방울·수건의 원본 생성 사진 한 장. 정사각형 공간과 원본 크기를 미리 예약해 로딩 시 흔들림을 줄인다.</li>
+<li><strong>PC/모바일:</strong> PC 이미지 왼쪽·설명 오른쪽의 두 열. 모바일은 제목·설명→이미지 한 열로 순서를 바꾼다. 초안의 5열+2열 여백+5열 개념은 현재 같은 크기 두 열과 고정 간격으로 구현됐다.</li>
+<li><strong>정보·연결:</strong> 향의 이미지→일상 연결. 성분·지속력 수치 없음. 임시 ‘FIRST LIGHT 다시 보기’ 링크는 제거했으며 원래 순서대로 별도 버튼 없이 H-04로 이어진다.</li>
+</ul>
+<h3 id="design-M-02-움직임-줄이기-영상-실패-구현">M-02 움직임 줄이기 / 영상 실패 · 구현</h3>
+<ul>
+<li><strong>정상 준비 상태:</strong> MP4 <code>data-src</code>가 있으면 <code>loading</code>. 처음부터 긴 고정 무대와 시작 매크로 포스터를 제공한다. <code>#first-light</code> 직접 진입은 마지막 구도의 전경 포스터를 선택한다. 안내는 숨긴 채 시작하며 문구·헤더 이동을 사용할 수 있다.</li>
+<li><strong>움직임 줄이기:</strong> 처음부터 <code>still</code>의 정지 전경을 사용하고 긴 스크롤 고정·문구 이동을 생략한다. 초기 reduced 상태에서는 video <code>src</code>를 배정하거나 영상 요청을 하지 않는다. 설정을 끄면 로드 가능 여부를 다시 확인한다.</li>
+<li><strong>영상 성공:</strong> 전체 MP4를 Blob으로 준비해 video에 연결하고 <code>loadeddata</code> 이후 유효한 영상 길이와 현재 위치의 프레임을 맞춘 뒤 <code>ready</code>로 영상 표시·포스터 숨김을 적용한다. 준비 중과 같은 고정 무대·가상 제품 마커를 유지한다.</li>
+<li><strong>실패:</strong> HTTP 오류·fetch 실패·영상 <code>error</code> 또는 유효하지 않은 길이에서 <code>fallback</code>. ‘움직이는 장면을 불러오지 못해 제품 이미지로 보여드려요.’라는 <code>role=&quot;status&quot;</code> 문구와 전경 이미지를 제공한다. 안내는 미디어 마스크 밖이며 제품 정보·CTA·데모 안내·실제 패널 앵커를 유지한다.</li>
+<li><strong>영상 경로가 없는 경우:</strong> <code>still</code>의 제품 전경·소개·제품 정보·CTA를 일반 흐름에서 제공한다. 현재 정상 사이트에는 영상 경로가 있으므로 이를 일반 모바일의 기본 모드로 설명하지 않는다.</li>
+<li><strong>경계:</strong> 강제 reduced/fallback 브라우저 검수와 실제 스마트폰·OS 설정 검수는 별도다. 파일의 24fps·압축 용량을 탐색 성능이나 사용자 최종 수용의 통과 판정으로 사용하지 않는다.</li>
+</ul>
+<h3 id="design-홈-확장과-구매-화면별-명세-구현">홈 확장과 구매 화면별 명세 · 구현</h3>
+<p>아래 H-04<del>O-02는 원래 승인 명세의 콘텐츠·목적·순서·PC/모바일·연결을 보존해 구현한 전체 로컬 데모다. H-06 공통 푸터가 임시 시안 푸터를 대체하며 FR-03</del>FR-06·FR-09~FR-10에 대응한다. 현재 구현값은 Layout과 아래 상태 계약을 따른다.</p>
+<h3 id="design-H-04-일상-속-사용-순간과-브랜드-이야기">H-04 일상 속 사용 순간과 브랜드 이야기</h3>
+<ul>
+<li>목적·메시지: ‘나도 매일 사용할 수 있겠다’는 사용 장면과 ‘일상을 바꾸는 작은 향’을 연결한다.</li>
+<li>제목·본문: ‘큰 변화보다, 작은 습관.’ / ‘외출을 준비하는 잠깐의 순간. 나를 위한 작은 향의 습관을 더해보세요.’</li>
+<li>자료·배치: 아침빛 선반의 큰 생활 이미지, 제품을 곁에 둔 가상 장면. PC는 넓은 이미지 아래의 짧은 문장으로 H-03의 두 열 구성과 리듬을 바꾼다.</li>
+<li>우선순위: 생활 장면 → 브랜드의 의미. 실제 고객 후기처럼 표현하지 않는다.</li>
+<li>버튼·연결: 화면의 감상 흐름을 유지하고 H-05에서 상품 상세 행동을 다시 제공한다.</li>
+<li>모바일: 4:5 사진으로 재구성하고 제품이 보이는 부분을 유지한다. 사진 위에 긴 글자를 넣지 않는다.</li>
+</ul>
+<h3 id="design-H-05-여섯-향-컬렉션-현행">H-05 여섯 향 컬렉션 · 현행</h3>
+<ul>
+<li>목적·메시지: ‘일상에 스며드는, 여섯 가지 깨끗함.’ 향과 생활 이야기를 본 뒤 제품을 비교한다.</li>
+<li>자료·배치: 같은 기준의4:5 스튜디오 사진6장과 각 이름·향·50mL·가격을3열/모바일2열로 제공한다. H-04의 넓은 생활 장면을 유지해 모든 구간을 같은 카드 틀로 만들지 않는다.</li>
+<li>행동·연결: ‘전체 향수 보기’는 <code>/shop/</code>, 나란한 ‘나의 향 찾기’는 <code>/find-your-scent/</code>, 각각의 상품은 해당 상세로 이동한다. 이 위치에서 직접 담지 않는다.</li>
+<li>이전 FIRST LIGHT 단일 큰 사진/정보 두 열은 앞선 단일 상품 단계의 이력이며 현행 H-05가 아니다.</li>
+</ul>
+<h3 id="design-H-06-공통-푸터">H-06 공통 푸터</h3>
+<ul>
+<li>목적·메시지: 브랜드와 주요 탐색 링크로 경험을 마무리한다. FR-16의 첨부 영역 삭제를 반영한다.</li>
+<li>구성·자료: ants, ‘일상을 바꾸는 작은 향’, 전체 향수 <code>/shop/</code>·나의 향 찾기 <code>/find-your-scent/</code>·브랜드 이야기 <code>/#ritual</code>·장바구니 <code>/cart/</code> 링크.</li>
+<li>삭제: 12개 주소의 footer-note 안 두 문장과 상단 구분선을 제거했다. 다른 위치로 옮기거나 새 고지로 대체하지 않는다.</li>
+<li>배치·우선순위: PC는 브랜드와 링크를 분리 정렬하며 기존 공통 푸터 여백을 유지한다.</li>
+<li>모바일: 브랜드 → 링크. 고정 구매 바에 가리지 않도록 기존 하단 안전 공간을 유지한다.</li>
+<li>실제 연락처·주소·사업자 정보·가짜 SNS·법적 약관 링크를 만들어 넣지 않는다.</li>
+</ul>
+<h3 id="design-D-01-상품-상세-첫-구간">D-01 상품 상세 첫 구간</h3>
+<ul>
+<li>목적·메시지: 구매 판단과 담기를 한 화면 흐름 안에서 제공한다. FR-04·FR-14·FR-15 연결.</li>
+<li>제목·본문: 각 제품의 영문/한글명·향 계열·가상 향 설명·해당 가격. <code>/shop/</code>으로 돌아가는 명확한 링크를 제공한다.</li>
+<li>자료·배치: PC7fr:5fr의 사진/정보. 각 제품 고유 스튜디오4:5 이미지는 모든 너비에서 같은 병 크기·조명을 유지한다. 모바일은 한 열이며 정보는 일반 스크롤로 이어진다.</li>
+<li>사진 링크: 대표 사진 전체가 실제 원본 이미지 href를 가진 ‘해당 제품명 사진 크게 보기’ 링크다. 오른쪽 위의18px SVG와 ‘사진 크게 보기’는 항상 보이며 hover에서만 나타나지 않는다. 지원되는 기본 클릭/키보드는 D-04를 열고 수정키/새 탭 클릭은 실제 링크를 유지한다.</li>
+<li>요약: 짧은 설명 뒤 ‘향의 인상’은 기존 catalog.tags의 앞 두 항목, ‘떠올린 순간’은 같은 제품의 scene이다. 두 행의 dl/dt/dd 구조이며 새로운 성분·효능·사용 지시를 만들지 않는다.</li>
+<li>우선순위: 제품명·향 계열·짧은 설명 → 향의 인상/떠올린 순간 → ‘향 이야기 보기’ → 용량·가격 → 수량 → 담기. 가격 레이블은 ‘가격’이며 담기 아래의 반복 데모 안내는 전6종에서 제거했다. 50mL 단일 구성으로 불필요한 용량 선택기를 만들지 않는다.</li>
+<li>버튼·연결: ‘장바구니 담기’ → 즉시 담기 피드백과 장바구니 보기 링크. 현재 상품 화면을 유지하며 강제로 전환하지 않는다.</li>
+<li>모바일: 제품 이미지 → 정보 → 수량. 담기 버튼은 하단 고정 바에서 사용할 수 있게 하고, 화면 안의 위치와 중복될 때 하나만 보이게 한다.</li>
+</ul>
+<h3 id="design-D-02-향과-일상-설명">D-02 향과 일상 설명</h3>
+<ul>
+<li>목적·메시지: 각 향을 떠올릴 수 있는 고유 장면과 짧은 이야기로 차이를 이해하도록 돕는다. FR-15 연결.</li>
+<li>FIRST LIGHT: ‘맑은 기분이 필요한 순간.’과 승인된 생활/재질 두 구간·ritual/macro 이미지를 보존한다. 재질 문단은 ‘차분한 아침의 분위기를 작은 병 하나에 담았습니다.’이며 첫 생활 섹션이 <code>#scent-story</code>다.</li>
+<li>다른 다섯 상품: 해당 catalog의 detail.image/alt와 headline·기존 story·detail.paragraph를 연결한다. 흰결은 린넨, 여린 햇살은 시트러스/물잔, 초록의 시간은 비 갠 잎, 꽃의 안개는 옅은 꽃, 고요한 숲은 의자/책으로 서로 구분한다.</li>
+<li>자료·배치: 사진7:문구5의 넓은 두 열과 위 구분선,4:3 사진 아래 ‘향의 분위기를 담은 장면’ 캡션. 문구는 제목과 짧은 두 문단이며 이미지 위에 겹치지 않는다. FIRST LIGHT에 다른 제품의 사진·설명을 재사용하지 않는다.</li>
+<li>모바일: &lt;=819에서 사진→설명의 한 열. 4:3 비율은 유지하며 캐러셀·새 확대 조작을 추가하지 않는다.</li>
+<li>연결: D-01 ‘향 이야기 보기’ → 이 구간 → D-05의 세 인상/하루 → D-06 캠페인 → D-07 일상/병 디테일 → D-08 가까운 향 비교 → 관련 상품3개(&lt;=600:2개)·전체 향수 링크 → 공통 푸터. 실제 성분·제조·지속력·효능·고객 후기를 만들지 않는다.</li>
+</ul>
+<h3 id="design-D-03-삭제된-질문-영역-FR-16">D-03 삭제된 질문 영역 · FR-16</h3>
+<p>사용자가 첨부한 ‘체험 전 알아두세요.’ 전체 구간을 여섯 상세에서 삭제했다. 정적 생성 원본에서도 생성하지 않으며 새 FAQ나 다른 위치의 고지로 대체하지 않는다. 이후 전 페이지 마감에서 구매 아래 반복 안내도 제거했으며 모의 주문 단계의 안내는 아래 C-01/O-01/O-02를 따른다. 과거 D-03 검토는 날짜 있는 이력으로만 남긴다.</p>
+<h3 id="design-D-04-대표-사진-확대-현행">D-04 대표 사진 확대 · 현행</h3>
+<p>제품의 실제 스튜디오 사진을 안정된 밝은 창 안에서 살펴보는 단일 native dialog다. FR-14에 대응하며 <code>product-detail.mjs</code>가 조작하고 기존 색·두 글꼴·8/12/16px 모서리를 재사용한다. 새 이미지·캐러셀·확대 라이브러리를 만들지 않는다.</p>
+<ul>
+<li><strong>열기·fallback:</strong> 사진의 기본 클릭/Enter는 다른 열린 dialog를 닫고 showModal()로 현재 제품명을 가진 창을 열며 닫기 버튼에 포커스를 둔다. body 스크롤을 잠그고 배경은 native modal의 inert 영역으로 남긴다. 수정키 클릭은 가로채지 않는다. JavaScript 또는 showModal을 사용할 수 없으면 같은 사진 href의 원본 링크가 작동한다. 이 fallback은 소스로 확인했으며 실제 미지원 브라우저 검수는 미확인이다.</li>
+<li><strong>준비·성공:</strong> 시작할 때 전체 보기로 되돌리고 사진을 준비하는 aria-busy와 ‘사진을 준비하고 있어요.’를 표시하며 크기 버튼을 비활성화한다. 이미지가 로드되면 사진 전체를 contain으로 맞추고 크기 버튼을 활성화하며 ‘사진 전체를 화면에 맞춰 보고 있어요.’를 알린다. 준비/성공 안내는 role=status·aria-live=polite다.</li>
+<li><strong>전체/원본:</strong> ‘원본 크기’는 aria-pressed=true와 ‘전체 보기’로 바뀌고 실제1120×1400px 이미지를 제한 없이 표시한다. 포커스 가능한 사진 영역 안에서만 가로/세로 스크롤·키보드/터치로 살펴보고 ‘사진 영역을 스크롤해 자세히 살펴보세요.’를 안내한다. 전환 때 사진 영역의 스크롤은0으로 돌아온다. 확대를 보간한 고해상도 파일로 주장하지 않는다.</li>
+<li><strong>오류·다시 불러오기:</strong> 실패한 이미지는 숨기고 role=alert의 ‘사진을 불러오지 못했어요.’와 기존 주 버튼 ‘다시 불러오기’를 보여준다. 크기 버튼은 비활성화하고 닫기와 사진 영역은 유지한다. retry는 숨겨질 버튼에서 지속되는 viewer로 포커스를 먼저 옮긴 뒤 같은 원본 링크를 다시 요청한다. 성공 또는 다시 실패해도 그 viewer가 DOM에 계속 남아 포커스를 유지한다. 실제 실패→성공과 보이는 포커스는 검수했고 반복 실패 재현은 미확인이다.</li>
+<li><strong>키보드·닫기:</strong> 매 Tab에서 현재 보이며 활성화된 버튼과 tabindex=0 viewer를 수집한다. 끝에서 Tab은 처음으로, 처음에서 Shift+Tab은 끝으로 순환하며 실패 상태의 retry도 포함한다. viewer에는 안쪽3px 간격의2px focus 선, 링크/버튼에는 기존 바깥4px 간격의2px 선을 표시한다. 닫기·Esc·PC 창 바깥 클릭으로 닫으며 전체 보기/내부 스크롤을 초기화하고 다른 열린 dialog가 없으면 body 잠금을 해제한다. 원래 사진 링크에 preventScroll 포커스를 돌려 페이지 위치를 유지한다.</li>
+<li><strong>형태·밀도:</strong> 창/사진틀은 각각16px/12px 모서리와 surface/bg, 크기 버튼은8px 모서리·1px control-border·최소44px 높이다. 사진틀은 남은 높이의 scroll region이며 실패 내용은24px 안쪽 여백·최대28em·문장 뒤20px다. 확대/크기 버튼 hover는 control-hover, 비활성 크기 버튼은 opacity.5와 실제 조작 차단을 함께 사용한다. 정확한 크기·여백·글자 단계는 앞의 Layout·Typography와 YAML을 따른다.</li>
+</ul>
+<p>sidecar의 ‘Product Image Viewer’는 실제 FIRST LIGHT 사진을 내장한 열린 native dialog의 정적 내용 미리보기다. hover/focus는 미리보기에서도 보이며 전체/원본 전환·retry·modal 잠금·닫기·포커스 복귀는 실제 사이트의 MJS 계약이다.</p>
+<h3 id="design-D-05-세-가지-향-인상과-어울리는-하루-현행">D-05 세 가지 향 인상과 어울리는 하루 · 현행</h3>
+<p>FR-15의 여섯 제품 공통 구조이며 내용은 각 <code>catalog.detail</code>에서 가져온다. D-02 뒤에 고유 제목과 ‘향을 떠올리는 세 가지 인상.’ 문구를 표시한다. 사용자 요청으로 그 뒤의 가상 해석 안내 문장은6종 모두 삭제했다. 첫인상/중심/여운은 실제 향조·시간대별 성분표가 아니라 허구의 인상 구분이다.</p>
+<p>세 항목은 dl/dt/dd 안의 인상 이름 h3와 짧은 문단으로 읽는다. PC는 열린3열, &lt;=600은 레이블/설명 행3개이며 위1px선만 사용한다. 선택·호버·탭 전환 기능이 없는 정적 콘텐츠다. 아래 ‘이런 하루에 함께해요.’에는 해당 제품만의 moment를 둔다. 사용자 요청으로 상품 선택 복귀 링크를6종 모두 삭제했다. 별도의 대체 버튼이나 포커스 이동 스크립트·새 애니메이션을 추가하지 않는다. 글자·간격·반응형의 실제 값은 Typography·Layout을 따른다.</p>
+<h3 id="design-D-06-큰-제품-캠페인과-두-문단-현행">D-06 큰 제품 캠페인과 두 문단 · 현행</h3>
+<p>FR-16의 첫 확장 구간이다. <code>catalog.detail.extended.image/crop/headline/paragraphs</code>를 각 제품에 연결한다. 같은 상품의 병이 일상에 놓인 큰 사진을 화면 전체 폭에 먼저 제공하고, 아래 제한된 콘텐츠 폭에서 제목과 두 문단을 나란히 읽는다. 기존 D-02 사진7:문구5 배치와 다른 리듬이며 사진 위 글자·새 동작을 추가하지 않는다. 모바일은 사진→제목→두 문단의 순서를 유지한다. FIRST LIGHT는 기존 campaign을 재사용하며 다른 다섯 향은 해당 studio를 참조한 새 campaign이다. 비율·크롭·글자·반응형 수치는 앞의 Layout·Shapes·Typography를 따른다.</p>
+<h3 id="design-D-07-일상-세-장면과-병라벨-디테일-현행">D-07 일상 세 장면과 병/라벨 디테일 · 현행</h3>
+<p>제품별 <code>ritualTitle</code>과 <code>ritual</code>의 세 쌍을 dl/dt/dd 세 행으로 제공한다. 각 행은 위1px 구분선·상하24px, 제목 뒤12px이며 캐러셀·선택·호버 상태가 없다. PC는 왼쪽 일상 세 장면/오른쪽 병 사진, &lt;=819는 같은 순서의 한 열이다. 사진 아래28px 뒤 ‘가까이에서 보는, 작은 형태.’와 해당 제품 <code>bottle</code> 문구를 둔다. 소제목 뒤16px, 캡션 최대36rem이다. 병 사진은 기존 스튜디오 원본의1.45배 CSS 크롭이며 라벨·유리·뚜껑의 시각적 인상을 설명한다. 새로운 재질·제조·성분 증명을 주장하지 않는다.</p>
+<h3 id="design-D-08-가까운-향의-구체적인-비교-현행">D-08 가까운 향의 구체적인 비교 · 현행</h3>
+<p>두 상품의 실제 studio 사진·영문/한글 이름·계열·기존 scent를 나란히 두고, 아래 해당 <code>compareText</code>와 <code>compareId</code>의 실제 <code>/product/{id}/</code> 링크를 제공한다. 고정된 ‘우디도 보세요’ 같은 공통 문구 대신 제품별 인상의 차이를 읽는다. 링크는 비교 대상의 한글명과 ‘도 살펴보기’이며 장바구니를 바꾸지 않는 native 링크다. 두 제품/차이/연결 순서를 모바일 한 열에서도 유지한다.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>현재 제품</th>
+<th>연결 대상</th>
+<th>본문이 구분하는 인상</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>FIRST LIGHT</td>
+<td>SOFT LINEN <code>/product/soft-linen/</code></td>
+<td>막 씻은 듯 또렷한 비누의 맑음 ↔ 햇볕을 머금은 천의 포근함</td>
+</tr>
+<tr>
+<td>SOFT LINEN</td>
+<td>FIRST LIGHT <code>/product/first-light/</code></td>
+<td>포근한 천과 편안한 온기 ↔ 씻어낸 듯 맑고 또렷한 비누향</td>
+</tr>
+<tr>
+<td>CITRUS AIR</td>
+<td>GREEN HOUR <code>/product/green-hour/</code></td>
+<td>시트러스의 밝고 경쾌함 ↔ 비 갠 잎의 차분하고 투명한 초록빛</td>
+</tr>
+<tr>
+<td>GREEN HOUR</td>
+<td>CITRUS AIR <code>/product/citrus-air/</code></td>
+<td>젖은 잎의 맑고 차분함 ↔ 밝고 경쾌한 시트러스</td>
+</tr>
+<tr>
+<td>PETAL MIST</td>
+<td>SOFT LINEN <code>/product/soft-linen/</code></td>
+<td>여린 꽃잎의 설렘 ↔ 보송한 천의 편안하고 포근함</td>
+</tr>
+<tr>
+<td>QUIET WOOD</td>
+<td>GREEN HOUR <code>/product/green-hour/</code></td>
+<td>잘 마른 나무결의 담백하고 부드러움 ↔ 젖은 잎의 싱그럽고 맑음</td>
+</tr>
+</tbody></table></div>
+<p>이는 가상 향의 인상 비교이며 실제 향료·지속 시간·효능·우열이나 고객 평가를 만들지 않는다. 사진/대상/문구는 <code>detail.extended.compareId/compareText</code>와 대상 catalog 항목을 함께 따른다.</p>
+<h3 id="design-C-01-장바구니">C-01 장바구니</h3>
+<ul>
+<li>목적·메시지: 선택한 상품과 수량·합계를 확인한다. FR-05 연결.</li>
+<li>자료·배치: 제품 축소 이미지, 이름·50mL·단가, 수량 조작, 삭제. PC는 왼쪽 상품 행·오른쪽 요약. 모바일은 상품 → 요약 → 버튼.</li>
+<li>우선순위: 선택 상품 → 수량 → 총 상품 금액 → 모의 주문 안내 → ‘모의 주문하기’. 상품명은 기존 제목 굵기400을 사용한다.</li>
+<li>금액: 각 제품의 catalog.mjs 단가 × 해당 수량을 합산. 배송·결제 수수료는 계산하지 않고 ‘실제 결제와 배송이 없는 모의 주문입니다.’ 한 문장으로 안내한다.</li>
+<li>상태: 빈 장바구니에는 ‘아직 담은 향수가 없어요.’와 ‘좋아하는 향을 골라 장바구니에 담아보세요.’·‘전체 향수 보기’. 상품·요약·주문 버튼을 숨기고 상품 복귀 행동을 제공한다.</li>
+<li>모바일: 수량과 삭제 조작의 44px 영역 확보. 819px 이하 요약과 주문 버튼은 일반 흐름에 놓고 고정하지 않는다.</li>
+</ul>
+<h3 id="design-O-01-모의-주문-확인">O-01 모의 주문 확인</h3>
+<ul>
+<li>목적·메시지: 실제 입력 없이 구매 과정의 마지막 선택을 체험한다. FR-06 연결.</li>
+<li>구성: 상품·수량·총 상품 금액, ‘실제 결제와 배송이 없는 모의 주문입니다.’ 한 문장의 요약 안내, 장바구니 수정 링크.</li>
+<li>개인 정보: 이름·전화·주소·카드 정보를 받지 않는다. 설명 제목은 ‘선택한 향을 확인해 주세요.’, 본문은 “‘모의 주문 완료하기’를 선택하면 체험이 완료됩니다.”와 ‘개인정보 입력이나 실제 주문 접수는 없습니다.’ 두 짧은 줄이다. 버튼의 위치를 방향으로 설명하지 않는다.</li>
+<li>배치: PC는 주문 정보와 요약을 두 영역으로, 모바일은 한 열로 배치한다. 설명 제목 PC24px/1.4·아래16px, &lt;=600:22px/1.3이며 본문16px/1.65·margin0·최대36em이다.</li>
+<li>버튼: ‘모의 주문 완료하기’ → O-02. 빈 장바구니 접근 시 ‘확인할 상품이 없어요.’와 ‘먼저 좋아하는 향수를 장바구니에 담아주세요.’·‘전체 향수 보기’를 제공한다.</li>
+</ul>
+<h3 id="design-O-02-모의-주문-완료">O-02 모의 주문 완료</h3>
+<ul>
+<li>목적·메시지: 체험의 결과를 분명히 알려준다.</li>
+<li>제목: ‘모의 주문을 완료했어요.’를 두 줄로 읽고 아래에 ‘선택한 향과 수량을 확인해 보세요.’와 ‘실제 결제와 배송은 진행되지 않습니다.’를 둔다.</li>
+<li>구성: 완료 시점의 모든 제품·각 수량·각 금액·총 수량과 종류·체험 총금액, 홈과 전체 향수 복귀 행동. 별도 중복 completion-note는 제거했다.</li>
+<li>상태: 완료 버튼을 즉시 비활성화하고 상품 번호·수량 결과를 보존한 다음 장바구니를 비워 완료 주소로 이동하고 scrollY0으로 맞춘 뒤 재로드한다. 결과는 세션 저장과 완료 페이지의 이동 기록에서만 읽는다. URL 수량이나 fragment만으로 완료 결과를 만들지 않는다. 직접 진입·새 세션에서는 실제 완료처럼 보이게 하지 않고 ‘완료한 모의 주문이 없어요.’와 ‘좋아하는 향수를 고르고 모의 주문을 진행해 보세요.’·‘전체 향수 보기’ 링크를 표시한다.</li>
+<li>모바일: 결과·제품 요약·복귀 행동 순서, 헤더·푸터의 공통 규칙 유지.</li>
+</ul>
+<h3 id="design-UI-03UI-06와-상태-계약-구현">UI-03~UI-06와 상태 계약 · 구현</h3>
+<p>UI는 화면에서 보고 조작하는 요소다. 공통 메뉴/검색/목록/상품/장바구니/완료는 shop.mjs, 가상 제품 사실·검색/정렬은 catalog.mjs, 제품별 검증·합계·저장 호환은 cart.mjs를 재사용한다.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>번호·구성요소</th>
+<th>현재 구조·상태</th>
+<th>동작·모바일</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>UI-01 내비게이션</td>
+<td>전체 향수·향별 탐색·브랜드·검색·장바구니</td>
+<td>&lt;=959 로고/검색/장바구니/메뉴; 모든 조작44px</td>
+</tr>
+<tr>
+<td>UI-02 드로어</td>
+<td>메뉴360px·검색560px/&lt;=600 전체폭 native dialog</td>
+<td>닫기·Esc·배경·링크로 닫고 opener 포커스 복귀</td>
+</tr>
+<tr>
+<td>UI-03 수량</td>
+<td>제품별1~9, 상품명 레이블·44px 증감·52×44px 입력</td>
+<td>1/9 비활성. 잘못된 draft 보존·인접 오류·aria-invalid/live. 고치기 전 담기/확인 inert</td>
+</tr>
+<tr>
+<td>UI-04 토스트</td>
+<td>잉크색 바탕/흰 글자·상태·장바구니 링크·닫기·12px 모서리</td>
+<td>5초 시점 hover/focus면 보존. 지속 inline 결과도 유지·포커스 강제 이동 없음</td>
+</tr>
+<tr>
+<td>UI-05 배지</td>
+<td>모든 품목 수량 합0~54와 같은 aria-label</td>
+<td>44px 장바구니 링크 안11px 숫자 보조 표시</td>
+</tr>
+<tr>
+<td>UI-06 행동</td>
+<td>기존 주 버튼·글자 링크·필터·native select</td>
+<td>이동은 링크, 담기/개별수량/삭제/완료는 버튼. 빈 상태/오류/중복 완료 차단</td>
+</tr>
+</tbody></table></div>
+<p>수량은 <strong>한 제품마다1~9개, 최대6행·총54개</strong>다. 전체9개 제한이 아니다. 합계는 <code>sum(catalog.price × item.quantity)</code>이며 FIRST LIGHT2개+QUIET WOOD1개는138,000+75,000=213,000원이다. 각 수량 수정·행 삭제는 다른 상품을 보존한다. 잘못된 draft를 다른 값으로 바꾸거나 재렌더로 덮어쓰지 않고 항목 옆 오류와 수정 경로를 유지하며 확인 링크를 inert/aria-disabled 처리한다. 삭제 뒤 다음/이전 남은 상품 링크에, 마지막 삭제 뒤 빈 상태 제목에 포커스를 둔다. 결과를 토스트에만 남기지 않는다.</p>
+<p>저장 키 <code>ants.cart.v1</code>은 유지하되 새 payload는 <code>{version:2, items:[{id,quantity}]}</code>만 쓴다. 이전 <code>{product:&#39;first-light&#39;,quantity:0..9}</code> 장바구니·이전 완료 결과를 호환해 읽는다. id 중복·존재하지 않는 제품·잘못된 수량/형식은 유효 결과로 사용하지 않는다. 저장한 가격은 무시하고 catalog.mjs에서 고정 가격을 조회한다. 차단/손상 시 경고와 안내를 보이고 메모리·같은 탭 내부 링크·검색 submit의 history state로 흐름을 유지한다. 새 탭·이동 기록 삭제까지 보존을 보장하지 않는다.</p>
+<p>완료는 모든 items의 snapshot을 sessionStorage <code>ants.result.v1</code> 또는 완료 history state에 남기고 장바구니를 비운다. 완료 버튼을 먼저 비활성화해 중복 처리를 막고 <code>/complete/</code>의 맨 위로 이동한다. 결과 없는 직접 진입은 빈 결과와 전체 향수 복귀를 제공한다. 주소/fragment만으로 결과를 만들지 않는다. 개인/결제 정보·실제 주문번호·외부 전송은 없다.</p>
+<p>이전 ‘단일 상품이라 검색/필터 불필요’는 교체된 범위다. 현행은 향별 팝업·검색 dialog·분류/정렬을 실제 제공한다. 여섯 상품에는 페이지네이션·별도 sidebar·슬라이더·캐러셀을 추가하지 않았다. 이는 모든 향후 화면에 대한 금지가 아니다.</p>
+<h3 id="design-공통-상태-계약">공통 상태 계약</h3>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>상태</th>
+<th>표현·동작</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>기본</td>
+<td>분명한 이름과 경계, 주요 버튼 청록 채움</td>
+</tr>
+<tr>
+<td>호버</td>
+<td>채움 색 변화, 글자 링크의 가는 밑줄. 정보가 호버에서만 나타나지 않음</td>
+</tr>
+<tr>
+<td>키보드 포커스</td>
+<td>2px 포커스 선, 링크·버튼은 바깥4px/입력은3px 간격. 고정 헤더나 구매 바에 가리지 않음</td>
+</tr>
+<tr>
+<td>누름</td>
+<td>버튼 색 변화, 1px 아래 이동. 레이아웃은 움직이지 않음</td>
+</tr>
+<tr>
+<td>선택</td>
+<td>현재 페이지 표시, 현재 수량. 색 이외 글자·기호로도 전달</td>
+</tr>
+<tr>
+<td>비활성</td>
+<td>수량 경계 또는 빈 주문에서 작동 차단. 가까운 안내로 이유 전달</td>
+</tr>
+<tr>
+<td>로딩</td>
+<td>영상·이미지 준비 상태를 구분하고 텍스트·상품 이동 버튼 유지. 동기식 담기에 임의의 긴 로딩을 넣지 않음</td>
+</tr>
+<tr>
+<td>성공</td>
+<td>‘장바구니에 담았어요.’, 개수 갱신, 모의 완료 메시지. 스크린리더에 결과 전달</td>
+</tr>
+<tr>
+<td>오류</td>
+<td>‘수량은 1~9 사이의 정수로 입력해 주세요.’처럼 항목 가까이에 표시. 입력값과 수정 경로 유지</td>
+</tr>
+</tbody></table></div>
+<p>주문 완료 조작은 중복 처리되지 않게 한다. 저장·그래픽 로딩 오류는 기록하고 구매 정보가 유지되도록 복구한다.</p>
+<h2 id="design-Do39s-and-Don39ts">Do&#39;s and Don&#39;ts</h2>
+<h3 id="design-Do">Do:</h3>
+<ul>
+<li><strong>Do</strong> ‘물방울로 여는 아침’, 밝은 청백색과 깊은 청록, 선택한 두 글꼴을 다음 화면까지 유지한다.</li>
+<li><strong>Do</strong> 같은 진행률에서 PC·모바일의 작은 표면 물방울 접사·같은 병 전체 공개·제품 정보와 역방향 순서를 비교한다.</li>
+<li><strong>Do</strong> 실제 한글·가격·데모 안내와 44px 조작 영역을 넣은 화면에서 겹침·잘림·포커스를 확인한다.</li>
+<li><strong>Do</strong> 정적 대체 상태의 실제 제품 패널과 loading/ready 영상 모드의 가상 제품 마커를 구분해 링크·직접 해시·메뉴 이동을 검증한다.</li>
+<li><strong>Do</strong> 새 한글 문구를 글꼴 서브셋에 포함하고 출처·라이선스·이미지 메타데이터를 보존한다.</li>
+<li><strong>Do</strong> 홈→목록/검색/향별 탐색→각 상품→다품목 장바구니→확인→완료와 빈 결과·제품별1~9·혼합 합계·저장 호환/차단·중복 완료를 변경 후 함께 확인한다.</li>
+<li><strong>Do</strong> 여섯 스튜디오 사진의 같은 병·조명·4:5 비율·크기와 각 제품 이름/가격의 대응을 유지한다.</li>
+<li><strong>Do</strong> 향 찾기의 선택 전/체크/키보드/인접 오류·이전 답 보존·여섯 추천·초기화와 해당 상세 링크를 함께 확인한다.</li>
+</ul>
+<h3 id="design-Don39t">Don&#39;t:</h3>
+<ul>
+<li><strong>Don&#39;t</strong> 글자를 병·뚜껑·강한 반사광 위에 겹치거나 작은 저대비 설명으로 축소한다.</li>
+<li><strong>Don&#39;t</strong> 모든 구간을 같은 카드 목록이나 반복되는 긴 고정 연출로 만든다.</li>
+<li><strong>Don&#39;t</strong> 향수와 관계없는 장식이나 확정하지 않은 개미 그림·과도한 구매 압박을 추가한다.</li>
+<li><strong>Don&#39;t</strong> 확인되지 않은 성분·지속력·효능·안전성·리뷰·배송 약속·실제 연락처를 만들어 넣는다.</li>
+<li><strong>Don&#39;t</strong> 모바일에서 호버에만 의존하거나 움직임 줄이기·실패의 정적 대체 화면을 정상 모바일의 기본 연출로 바꾼다.</li>
+<li><strong>Don&#39;t</strong> 미제출 계획 프롬프트를 실제 적용 지시로 기록하거나 이전 제한 수정의 PASS·파일의 24fps·현재 캡처 범위의 ship을 실제 운영 결제·전체 기기 성능·사용자 최종 미적 수용의 통과로 표현한다.</li>
+</ul>
+<p>현재 남은 위험·미확인 사항은 Overview의 검토 범위를 따른다. 작업 상태와 Git·배포 보고는 <a href="#decisions">DECISIONS.md</a>에 별도로 기록한다.</p>
+</article></details>
+<details class="document" id="decisions"><summary><span>결정 기록</span><small>확정 · 제안 · 미정 · 필요한 자료</small></summary><article><h2 id="decisions-2026-10-15-전체-데모-확장-최신-상태">2026-10-15 전체 데모 확장 · 최신 상태</h2>
+<ul>
+<li>사용자 ‘좋아. 다음’은 영상 시안 수용 후 PRODUCT.md 제작 순서 4번의 진행 요청이다. 기존 H01<del>H03 연출은 유지하고 승인 명세 H04</del>O02를 구현한다.</li>
+<li>홈은 향의 느낌 → 아침 선반과 작은 습관 → 제품 소개 → 공통 푸터로 이어진다. 새 생활 이미지는 같은 병을 참조한 내장 이미지 생성 결과이며 실물·고객 사진으로 표시하지 않는다.</li>
+<li>다섯 실제 주소 <code>/</code>, <code>/product/first-light/</code>, <code>/cart/</code>, <code>/checkout/</code>, <code>/complete/</code>를 로컬 제공한다. 사이트 루트를 site 폴더로 제공하는 정적 서버가 필요하며 별도 API는 없다.</li>
+<li>장바구니는 1~9개, 누적 상한 9개, 69,000원×수량이다. 잘못된 입력을 자동으로 다른 수량으로 바꾸지 않고 인접 안내와 비활성 행동으로 수정하게 한다.</li>
+<li>로컬 저장 차단·손상 시 현재 탭의 메모리와 이동 기록으로 다섯 페이지를 연결한다. 상품 번호·수량만 저장한다. 완료는 세션 저장 또는 완료 이동 기록을 사용하고 실제 결과 없이 완료 주소에 진입하면 빈 결과를 표시한다.</li>
+<li>모바일은 이미지→정보→수량이며 화면 속 담기 버튼이 보이지 않을 때만 하단 고정 담기를 표시한다. 하단 안전 공간을 본문·푸터에 확보한다. 장바구니·주문 요약은 일반 흐름이다.</li>
+<li>성공 #23644E, 오류 #A73F3F, 조작 경계 #74868A는 기존 후속 UI 제안값을 실제 적용한다. 기존 두 글꼴·청백색·청록·8px 버튼·12~16px 사진 규칙을 유지한다.</li>
+<li>완료 화면의 작은 사진이 세로로 잘리는 문제를 정사각형 비율과 자동 높이로 수정했다. 자동 점검의 신규 크기·모서리·상태색·그림자 지적은 기존 규칙에 맞췄다. 확정 글꼴에 관한 기존 경고는 브랜드 변경 사유로 삼지 않는다.</li>
+<li>검수: PC/모바일 전체 구매·오류·수량 상한·삭제·저장 차단·직접 완료·메뉴/키보드, 아홉 너비×다섯 화면과 가로 모바일 가로 넘침 없음. 상세 근거·미확인은 .impeccable/review/commerce-20261015/checks.md. 독립 검토 결과는 해당 폴더의 finish-review.md에 기록한다.</li>
+<li>비용·운영: 새 유료 생성 없음. 기존 영상 비용 기록은 그대로 보존한다. 현재 master, 커밋·푸시·PR·병합·공개 배포 없음.</li>
+</ul>
+<p>아래는 각 시점의 이력이며 현재 범위는 위 최신 기록을 따른다.</p>
+<p>작성일: 2026년 10월 13일 · 상태: 인터뷰 결과</p>
+<p>사용자가 선택한 내용과 제작자가 제안한 내용을 분리한다. 문서의 제안값은 실제 웹 시안에서 확인하고 변경 이력을 남긴다.</p>
+<h2 id="decisions-1-사용자와-확정한-내용">1. 사용자와 확정한 내용</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>번호</th>
+<th>결정</th>
+<th>사용자 답변의 의미</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>C-01</td>
+<td>가상의 향수 브랜드 ants</td>
+<td>실물 브랜드 자료 없이 함께 기획하는 데모</td>
+</tr>
+<tr>
+<td>C-02</td>
+<td>가장 중요한 목적은 구매 유도</td>
+<td>브랜드 소개만으로 마치지 않고 구매 체험으로 연결</td>
+</tr>
+<tr>
+<td>C-03</td>
+<td>주요 고객은 매일 편하게 사용할 향수를 찾는 사람</td>
+<td>향의 느낌과 일상에 어울리는지 쉽게 전달</td>
+</tr>
+<tr>
+<td>C-04</td>
+<td>비누처럼 깨끗한 향</td>
+<td>제품의 중심 향 이미지</td>
+</tr>
+<tr>
+<td>C-05</td>
+<td>모의 주문 완료까지</td>
+<td>상품 선택·장바구니·모의 주문 결과 제공</td>
+</tr>
+<tr>
+<td>C-06</td>
+<td>대표 향수 한 가지</td>
+<td>다른 향·다른 용량의 선택 목록 추가 없음</td>
+</tr>
+<tr>
+<td>C-07</td>
+<td>‘일상을 바꾸는 작은 향’</td>
+<td>브랜드의 중심 의미</td>
+</tr>
+<tr>
+<td>C-08</td>
+<td>레퍼런스 핵심은 스크롤에 따른 연속적인 장면 변화</td>
+<td>원본의 모든 소재·색을 복제하는 요청으로 해석하지 않음</td>
+</tr>
+<tr>
+<td>C-09</td>
+<td>기존 로고·제품 이미지·문구 없음</td>
+<td>가상 브랜드의 시각 자료를 함께 제작</td>
+</tr>
+<tr>
+<td>C-10</td>
+<td>밝고 투명한 깨끗함</td>
+<td>흰색·옅은 하늘색·유리·물방울·아침빛</td>
+</tr>
+<tr>
+<td>C-11</td>
+<td>추가 결제 없이 가능한 범위</td>
+<td>상용 도구 구매·유료 서비스 가입은 승인 범위 아님</td>
+</tr>
+<tr>
+<td>C-12</td>
+<td>기한 없음</td>
+<td>특정 완료 날짜 없음</td>
+</tr>
+<tr>
+<td>C-13</td>
+<td>‘물방울로 여는 아침’</td>
+<td>물방울 접사 → 시점이 멀어짐 → 향수병 → 제품 안내</td>
+</tr>
+<tr>
+<td>C-14</td>
+<td>홈과 상품 상세를 분리</td>
+<td>홈에서 브랜드와 연출, 상세에서 정보와 구매 선택</td>
+</tr>
+<tr>
+<td>C-15</td>
+<td>부드러운 직사각 투명병·흰 뚜껑·작은 ants 로고</td>
+<td>히어로와 상품 이미지에 같은 제품 형태 사용</td>
+</tr>
+<tr>
+<td>C-16</td>
+<td>FIRST LIGHT · 첫빛</td>
+<td>데모 대표 제품명</td>
+</tr>
+<tr>
+<td>C-17</td>
+<td>69,000원</td>
+<td>데모용 가격. 처음 추천한 39,000원은 선택하지 않음</td>
+</tr>
+<tr>
+<td>C-18</td>
+<td>50mL</td>
+<td>데모용 단일 용량</td>
+</tr>
+<tr>
+<td>C-19</td>
+<td>PC 우선, 모바일도 PC와 거의 비슷한 연출</td>
+<td>같은 핵심 장면과 주요 움직임 유지, 구도·글자 배치는 조정</td>
+</tr>
+<tr>
+<td>C-20</td>
+<td>차분하고 친근한 문구</td>
+<td>시적인 표현만으로 제품 설명을 대신하지 않음</td>
+</tr>
+<tr>
+<td>C-21</td>
+<td>별도 금지 분위기 없음</td>
+<td>특정 표현이 싫다는 요청은 없음</td>
+</tr>
+<tr>
+<td>C-22</td>
+<td>홈에서 향의 느낌부터</td>
+<td>히어로 → 향 → 사용 순간 → 제품 소개 → 상세 이동 → 푸터</td>
+</tr>
+<tr>
+<td>C-23</td>
+<td>상품 상세 버튼은 처음부터 표시</td>
+<td>상단에 유지하고 연출 마지막에 제품 옆에서도 제공</td>
+</tr>
+<tr>
+<td>C-24</td>
+<td>첫 시안은 직접 스크롤하는 웹 시안</td>
+<td>정지 이미지부터 시작하지 않음</td>
+</tr>
+<tr>
+<td>C-25</td>
+<td>문서와 디자인 방향 확인 후 제작</td>
+<td>PRD·명세서·와이어프레임·결정 기록 검토가 다음 작업의 선행 단계</td>
+</tr>
+</tbody></table></div>
+<h2 id="decisions-2-제작자-제안과-가정">2. 제작자 제안과 가정</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>번호</th>
+<th>제안·가정</th>
+<th>이유와 확인 시점</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>P-01</td>
+<td>처음 브랜드를 접하는 방문자를 기준으로 설계</td>
+<td>유입 경로·연령·성별은 인터뷰에서 확정하지 않음. 초기 사용자 흐름의 가정</td>
+</tr>
+<tr>
+<td>P-02</td>
+<td>한글 본문, 영문 로고·제품명</td>
+<td>인터뷰 언어와 구매 정보 가독성. 문서 검토에서 확인</td>
+</tr>
+<tr>
+<td>P-03</td>
+<td>Noto Sans KR + Instrument Sans</td>
+<td>읽기 쉬운 한글과 간결한 영문. 실제 글꼴 적용은 첫 웹 시안에서 확인</td>
+</tr>
+<tr>
+<td>P-04</td>
+<td>DESIGN.md의 색상·크기·여백·그리드·브레이크포인트</td>
+<td>구현 가능한 출발점. 실제 내용과 화면으로 검수하고 조정</td>
+</tr>
+<tr>
+<td>P-05</td>
+<td>소문자 ants 글자 중심의 로고</td>
+<td>확정한 작은 로고와 투명한 제품 분위기. 완성 디자인은 첫 시안에서 확인</td>
+</tr>
+<tr>
+<td>P-06</td>
+<td>‘하루의 시작에, 작은 향을.’ 및 각 섹션 문구</td>
+<td>확정한 의미·말투에 맞춘 데모용 문구. 실제 제품 성능 주장 아님</td>
+</tr>
+<tr>
+<td>P-07</td>
+<td>모바일 메뉴 드로어, 담기 토스트, 수량 배지</td>
+<td>작은 화면과 조작 결과를 명확히 전달. 문서 검토 후 적용</td>
+</tr>
+<tr>
+<td>P-08</td>
+<td>수량 1~9개, 저장에는 상품 번호와 수량만 사용</td>
+<td>실재 재고·판매 제한이 아닌 데모 조작 범위</td>
+</tr>
+<tr>
+<td>P-09</td>
+<td>모의 주문 확인·완료를 두 화면으로 구체화</td>
+<td>확정한 구매 체험을 이해하기 쉬운 단계로 구성</td>
+</tr>
+<tr>
+<td>P-10</td>
+<td>개인정보 입력 없이 모의 주문</td>
+<td>가상 브랜드 데모에 불필요한 실제 데이터 수집과 결제 연결을 줄임</td>
+</tr>
+<tr>
+<td>P-11</td>
+<td>홈의 일상 구간에 브랜드 이야기 포함, 별도 소개 페이지 없음</td>
+<td>단일 상품의 페이지 구조와 범위 유지</td>
+</tr>
+<tr>
+<td>P-12</td>
+<td>프런트엔드 중심, 외부 서비스·API 키 없이 로컬 검수</td>
+<td>추가 비용 없는 구매 데모. 정확한 도구는 첫 시안 기술 검증으로 결정</td>
+</tr>
+<tr>
+<td>P-13</td>
+<td>PC·모바일 공통 진행률과 장면 순서, 연출 스크롤 거리 화면 높이 2.6배</td>
+<td>유사한 연출을 구체적으로 확인하기 위한 출발점</td>
+</tr>
+<tr>
+<td>P-14</td>
+<td>실제 지속력·성분·효능·배송 정책·후기 없음</td>
+<td>가상 콘텐츠를 실제 근거로 보이게 하지 않음</td>
+</tr>
+</tbody></table></div>
+<p>이 제안들에 대한 별도의 개별 승인을 받은 것은 아니다. 현재 문서와 첫 시안의 검토 대상이다.</p>
+<h2 id="decisions-3-아직-결정하지-않은-내용">3. 아직 결정하지 않은 내용</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>항목</th>
+<th>현재 상태</th>
+<th>결정 시점</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>문서와 디자인 방향 확인</td>
+<td>사용자가 1번으로 첫 웹 시안 제작 선택</td>
+<td>확인 완료. 화면의 세부값은 시안 검토 후 확정</td>
+</tr>
+<tr>
+<td>로고·향수병·장면 자료의 완성 모습</td>
+<td>텍스트 방향만 확정</td>
+<td>첫 웹 시안</td>
+</tr>
+<tr>
+<td>최종 제목 줄바꿈·정확한 크롭·이동 거리·스크롤 길이</td>
+<td>제안값</td>
+<td>PC·모바일 실화면 비교</td>
+</tr>
+<tr>
+<td>3D 구현 도구와 성능 예산</td>
+<td>Three.js 0.186.1로 첫 시안 구현. 모바일도 동일 장면 사용</td>
+<td>실제 스마트폰 성능 추가 확인 필요</td>
+</tr>
+<tr>
+<td>유입 경로·연령·성별·실제 소비자 조사</td>
+<td>미정</td>
+<td>필요 시 별도 기획. 현재 필수 제작을 막는 항목 아님</td>
+</tr>
+<tr>
+<td>공개 배포·도메인·운영 전환</td>
+<td>요청·승인 없음</td>
+<td>완성 데모 검토 후 별도 결정</td>
+</tr>
+</tbody></table></div>
+<h2 id="decisions-4-필요한-자료">4. 필요한 자료</h2>
+<p>사용자가 지금 제공해야 할 필수 자료는 없다. 다음 자료는 확정 방향에 맞춰 제작한다.</p>
+<ul>
+<li>소문자 ants 로고와 향수병 라벨.</li>
+<li>같은 제품 형태를 유지하는 히어로용 모델·상품 대표 이미지.</li>
+<li>아침빛·물방울·유리·수건을 표현한 장면 자료.</li>
+<li>데모 표시가 있는 홈·상품·주문 문구.</li>
+</ul>
+<p>실제 판매로 전환할 경우에는 실물 사진, 검증한 제품 성분·성능·주의사항, 사업자 정보·연락처, 배송·교환 조건, 개인정보 처리와 결제 설정이 별도로 필요하다.</p>
+<h2 id="decisions-5-변경-기록">5. 변경 기록</h2>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>날짜</th>
+<th>변경</th>
+<th>관련 문서</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2026-10-13</td>
+<td>인터뷰 결과를 PRD·디자인 명세·결정 기록으로 정리. 모바일의 유사 연출을 필수 검수 항목으로 반영</td>
+<td>PRODUCT.md, DESIGN.md</td>
+</tr>
+<tr>
+<td>2026-10-13</td>
+<td>제품 가격은 사용자가 선택한 69,000원, 페이지는 홈·상품 상세 분리로 기록</td>
+<td>PRODUCT.md, DESIGN.md</td>
+</tr>
+<tr>
+<td>2026-10-13</td>
+<td>문서 검토 후 첫 웹 시안 제작 선택. 헤더·전체 스크롤 히어로·향 소개 구현</td>
+<td>PRODUCT.md, site/</td>
+</tr>
+<tr>
+<td>2026-10-13</td>
+<td>첫 시안의 제품 바로가기는 히어로 제품 안내로 임시 연결. 별도 상세와 구매 체험은 다음 단계에 유지</td>
+<td>PRODUCT.md, DESIGN.md</td>
+</tr>
+<tr>
+<td>2026-10-14</td>
+<td>사용자 의견에 따라 기존 물방울의 옆 이동·축소와 분절된 카메라를 폐기. 고정된 병, 수면에 퍼지는 물방울, 잔물결, 연속 카메라로 수정</td>
+<td>site/main.js, site/motion.mjs, DESIGN.md</td>
+</tr>
+<tr>
+<td>2026-10-14</td>
+<td>각진 유리 선반 대신 수면 반사와 부드러운 접지 그림자 사용. 라벨 선명도 개선, 모바일 수면 경계와 제품 정보 간격 수정</td>
+<td>site/styles.css, ASSETS.md</td>
+</tr>
+</tbody></table></div>
+<p>추후 웹 시안 수정은 변경 이유·영향받는 섹션·최종값을 이 표에 추가하고, DESIGN.md의 해당 값을 함께 갱신한다.</p>
+<h2 id="decisions-6-작업과-검증-상태">6. 작업과 검증 상태</h2>
+<p>현재 작성물은 문서와 흑백 와이어프레임이다. 다음은 이 작성물에 대해 실제 확인한 결과다.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>확인한 항목</th>
+<th>결과</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>다섯 작성물의 인코딩·제품명·용량·가격</td>
+<td>UTF-8 문자 손상 없음. FIRST LIGHT·50mL·69,000원 일치</td>
+</tr>
+<tr>
+<td>검토 화면의 내부 링크</td>
+<td>48개 연결 대상 확인, 누락된 대상 없음</td>
+</tr>
+<tr>
+<td>주요 색상 조합</td>
+<td>8개 글자·버튼 조합 모두 4.5:1 이상. 본문 11.13:1, 보조 문구 5.69:1, 기본 버튼 7.90:1</td>
+</tr>
+<tr>
+<td>검토 화면과 와이어프레임의 화면 너비</td>
+<td>Edge 브라우저에서 320·375·390·768·1440px 확인. 페이지 전체의 의도하지 않은 가로 넘침 없음</td>
+</tr>
+<tr>
+<td>와이어프레임의 모든 화면을 펼친 상태</td>
+<td>320·390·768·1440px에서 페이지 전체 가로 넘침 없음. 좁은 화면의 PC 도식은 도식 내부에서 좌우 이동</td>
+</tr>
+<tr>
+<td>문서 펼치기·설계 화면 이동</td>
+<td>디자인 명세서 펼치기와 상품·장바구니·주문·완료 설계 화면의 링크 확인</td>
+</tr>
+<tr>
+<td>브라우저 실행 오류</td>
+<td>확인한 과정에서 JavaScript 실행 오류 없음</td>
+</tr>
+<tr>
+<td>화면 캡처 확인</td>
+<td>검토 화면의 PC·모바일, 홈과 상품·장바구니·주문·완료 설계도 확인</td>
+</tr>
+</tbody></table></div>
+<p>위 문서 검수 캡처는 상위 작업 폴더의 work/ants-document-review에 저장했다. 이 결과는 문서 표시와 설계도 확인에 해당한다. 이후 제작한 첫 웹 시안의 결과는 다음과 같다.</p>
+<h3 id="decisions-첫-웹-시안-실제-확인한-결과">첫 웹 시안: 실제 확인한 결과</h3>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>확인한 항목</th>
+<th>결과와 조건</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>구현 범위</td>
+<td>H-01 헤더, H-02 전체 히어로, H-03 향 소개. site/index.html·styles.css·main.js·motion.mjs</td>
+</tr>
+<tr>
+<td>PC·모바일 장면</td>
+<td>물방울 접사 → 병 등장 → 시점 변화 → 제품 정보. 같은 3D 장면과 진행률 사용, 일반 모바일도 3D 유지</td>
+</tr>
+<tr>
+<td>화면 너비</td>
+<td>320·375·390·430·768·820·960·1024·1280·1440·1600px와 가로 모바일 844×390, 사용자 실제 2089×1408. 가로 넘침 없고 헤더 항목이 화면 안에 유지</td>
+</tr>
+<tr>
+<td>제품 바로가기</td>
+<td>클릭·Enter·메뉴·직접 해시 재접근 확인. 390×844와 844×390에서 진행률 0.960, 제품명·가격·버튼 표시와 조작 가능</td>
+</tr>
+<tr>
+<td>키보드·메뉴</td>
+<td>메뉴 열기, Tab 이동, Esc 닫기, 메뉴 버튼으로 포커스 복귀, 스크롤 잠금 해제. 보이지 않는 스크롤 안내는 선택 순서에서 제외, 포커스 선 2px 확인</td>
+</tr>
+<tr>
+<td>향 소개 연결</td>
+<td>히어로 버튼과 모바일 메뉴에서 향 소개 이동. 한글 문구·비누 사진 확인</td>
+</tr>
+<tr>
+<td>역방향·장면 계산</td>
+<td>시작으로 복귀 시 진행률 0.000. checks/motion-check.mjs에서 연속 카메라·역방향 재현·범위 제한·모바일 장면 대응 통과</td>
+</tr>
+<tr>
+<td>글꼴·이미지</td>
+<td>자체 호스팅 WOFF2 로딩, 원본 생성 비누 사진·자체 제품 렌더 사용. 이미지 2개의 출처 메타데이터 누락 없음</td>
+</tr>
+<tr>
+<td>실제 색상 대비</td>
+<td>히어로 제목 10.66:1, 보조 글자 5.45:1, 향 소개 제목 11.13:1·본문 5.69:1, 버튼 기본 7.90:1·호버 10.12:1·누름 12.15:1. 단색 읽기 영역 기준 계산</td>
+</tr>
+<tr>
+<td>움직임 감소의 배치</td>
+<td>checks/reduced.html에서 해당 상태를 강제로 적용한 동일 소스 확인. 1280×720와 844×390에서 소개·제품 정보가 겹치지 않음. 실제 운영체제 설정 검수가 아님</td>
+</tr>
+<tr>
+<td>3D 실패의 대체 화면</td>
+<td>checks/fallback.html에서 WebGL을 의도적으로 사용할 수 없게 설정. 동일 코드의 오류 처리가 제품 이미지·안내·가격·버튼을 유지. 1280×720와 844×390 확인</td>
+</tr>
+</tbody></table></div>
+<p>첫 시안 캡처와 별도 검수 기록은 .impeccable/review에 저장했다. 강제 상태 검수 파일은 실제 사이트를 제공하는 site 폴더 밖에 분리했다. 정상 화면에서 JavaScript 실행 오류는 확인되지 않았으나, Windows 그래픽 렌더러의 극소수 계산 정밀도 경고(X4122)가 있었다. 장면이 표시되는 것은 확인했고, 경고를 숨기지 않았다.</p>
+<p>별도 화면 검수에서 제품 이동 위치, 숨겨진 링크의 키보드 선택, 정적 대체 상태의 겹침을 수정 대상으로 확인했다. 앞선 검토에서 뒤의 두 항목을 해결로 판단했고, 마지막 판정은 정적 세로 화면의 제품 이동을 포함한 남은 첫 항목을 <strong>resolved / ship</strong>으로 확인했다. 이 판정은 지적된 수정 항목의 해결 여부이며 전체 구매 기능·실기기 성능의 통과 판정은 아니다. 390×844의 움직임 감소·3D 실패 검수에서 제품 안내가 헤더 아래 약 84px에 도착하고 버튼 하단은 약 263px로 화면 안에 유지된다.</p>
+<p><strong>미확인·다음 단계:</strong> 실제 스마트폰의 터치·배터리·GPU 성능, Safari, 운영체제의 실제 움직임 감소 설정, 느린 네트워크에서의 정량 성능과 화면 이동 지표. 별도 상세·장바구니·모의 주문은 아직 구현하지 않았으므로 구매 계산·저장·주문 검수는 다음 단계다. 현재 모습에 대한 사용자의 검토도 남아 있다.</p>
+<h3 id="decisions-2026-10-14-연출-수정-검수">2026-10-14 연출 수정 검수</h3>
+<ul>
+<li>사용자는 향수와 물방울의 움직임이 어색하다고 판단했다. 이전 시안의 ship 기록은 이번 수정의 승인 근거로 사용하지 않는다.</li>
+<li>PC 1440×1000, 모바일 390×844의 시작·수면 전환·병 등장·제품 안내를 같은 진행률 0.000·약 0.307·약 0.538·약 0.960에서 확인했다. 사용자 실제 2089×1408의 시작 장면도 확인했다.</li>
+<li>320×700·390×844·768×1024·1024×768·1440×1000·844×390에서 가로 넘침 없이 3D 실행을 확인했다. 실제 스마트폰이나 FPS 측정 결과가 아니다.</li>
+<li>장면 계산 검사는 고정된 병, 이전 구간 연결점에서 멈추지 않는 카메라, 수면에 접한 물방울, 끝에서 사라지는 잔물결, 역방향 재현, PC·모바일 공통 순서를 통과했다.</li>
+<li>모바일 제품 바로가기는 진행률 0.960에서 정보 표시와 조작을 유지한다. 장면 하단과 제품 안내 사이에는 약 24.5px 간격을 확보했다.</li>
+<li>강제 움직임 감소·WebGL 실패 검사에서 제품 안내가 헤더 아래 약 84px에 도착하고 조작 가능한 상태를 확인했다. 실제 운영체제 설정·미지원 하드웨어 검수로 해석하지 않는다.</li>
+<li>새 대체 이미지는 같은 3D 모델의 최종 장면을 직접 출력한 900×1080 이미지다. 사이트 이미지 2개 모두 출처 메타데이터가 있으며 정상 PC·모바일에서는 계속 실제 3D를 사용한다.</li>
+</ul>
+<p>별도 최종 검토에서 모바일 수면의 직선 경계(M1)와 제품 제목 앞 여백(M2)을 모두 resolved / ship으로 판정했다. 이 판정은 두 수정의 해결 여부에 한정하며, 전체 구매 기능·실기기 성능·최종 디자인에 대한 사용자 승인으로 해석하지 않는다.</p>
+<p>이번 캡처와 별도 검토는 .impeccable/review/motion-20261014에 보존한다. 원래 색·글꼴·메뉴·가격·구매 화면의 후속 범위는 유지한다.</p>
+<h3 id="decisions-2026-10-14-배경-보강">2026-10-14 배경 보강</h3>
+<ul>
+<li>사용자는 앞선 향수·물방울 연출을 긍정적으로 확인했고 배경의 중요성을 강조했다. 어려운 경우 힉스필드 이용을 허용했으며, 이후 수면 이미지 한 장의 0.25크레딧 견적을 명시적으로 승인했다. 이는 이번 한 장에 관한 승인으로 추가 생성·결제·공개 배포를 포함하지 않는다.</li>
+<li>기존 밝은 청백색·깨끗한 비누향·제품 형태·스크롤 카메라·물방울 동작을 유지한다. 배경은 아침빛과 수면 질감이 느껴지는 하나의 3D 공간으로 확장했다. 새 배경의 최종 모습은 사용자 화면 검토 대기다.</li>
+<li>힉스필드 gpt_image_2_5 완료 결과는 가상 수면 질감이며 실제 장소의 사진으로 사용하지 않는다. 1344×752 원본, 72,574바이트의 WebP와 정확한 프롬프트를 보존했다. 사이트 실행 중에는 로컬 파일만 사용하고 힉스필드에 연결하거나 크레딧을 추가 사용하지 않는다.</li>
+<li>PC는 장면을 전체 너비로 확장하고 카메라의 화면 위치 조정으로 기존 오른쪽 제품 구도를 유지한다. 수면 질감은 실제 3D 바닥에 적용되므로 시점·굴절·반사가 같은 공간에서 이어진다. 모바일은 기존 위·아래 안전 여백과 같은 장면 순서를 유지하며 수면의 양쪽 경계를 부드럽게 연결한다.</li>
+<li>새 수면 위에서 작은 보조 문구의 대비가 낮아지는 것을 확인해 히어로 안에서는 기존 깊은 청록 글자색으로 통일했다. PC 첫 화면 문구 주변의 배경만 표본으로 측정한 최저 대비는 7.11:1이다. 전체 애니메이션의 모든 픽셀을 측정한 결과로 해석하지 않는다.</li>
+<li>PC 1440×1000과 모바일 390×844의 진행률 0·.307·.538·.960, 이전 사용자 너비를 재현한 2089×1408, 새 브라우저의 기본 1280×720을 확인했다. 320×700·768×1024·844×390에서 가로 넘침 없이 장면 실행을 확인했다. 저장된 PNG는 브라우저 콘텐츠 크기이며 전체 뷰포트 크기와 구분한다.</li>
+<li>기존 장면 계산 검사 통과, 제품 바로가기와 역방향 복원 확인. 강제 움직임 감소·3D 실패의 제품 이동은 헤더 아래 약 84px와 조작 가능 상태를 유지한다. 새 제품 대체 렌더는 900×1080·36,440바이트이며 화면 UI가 포함되지 않는다. 사용 이미지 3개 모두 출처 기록이 있다.</li>
+<li>실제 스마트폰·Safari·OS 설정·느린 네트워크·초당 프레임 수는 이번에도 미확인이다. 메인 캔버스의 약 300만 픽셀 상한은 구현 제한이며 실제 성능 통과를 뜻하지 않는다. 별도 상품 상세·장바구니·모의 주문은 후속 제작 범위다.</li>
+</ul>
+<p>별도 검토에서 3D 대체 화면 안내가 수면의 가장자리 효과에 함께 옅어지는 항목 M1을 지적했다. 안내를 장면 효과 바깥에 배치하고 14px의 깊은 청록 문구로 표시한 뒤 같은 화면들을 다시 캡처했다. 마지막 판정은 M1을 <strong>resolved / ship</strong>으로 확인했다. 이 판정은 지적된 안내 문구 수정의 해결 여부에 한정하며, 새 배경의 사용자 승인이나 실제 기기·전체 구매 기능의 통과를 뜻하지 않는다.</p>
+<p>배경 보강 캡처·표본 대비·별도 검토 기록은 .impeccable/review/background-20261014에 보존한다. 정상 연출, 제품 구도, 모바일 장면 여백은 유지했다.</p>
+<p>Git은 상위 작업 폴더의 master 브랜치다. 기존 미커밋 파일은 유지했으며, ants 문서는 새 폴더에 추가한다. 커밋·푸시·PR·병합·배포는 진행하지 않는다.</p>
+<h1>2026-10-14 제품 비주얼 교체 진행</h1>
+<h2 id="decisions-연속-영상-연결-현재-상태">연속 영상 연결 — 현재 상태</h2>
+<ul>
+<li>사용자가 구체적인 14크레딧 영상 제작 안내 뒤 “다음 진행해”로 진행을 승인했다. 이전 0.25크레딧 승인을 확대 해석하지 않았다.</li>
+<li>실제 영상 한 개 생성 완료: Kling v3.0 pro, 무음, 8.041667초. 원본 보존, 웹용1600×902 / 3,177,846B로 변환. 추가 유료 생성 없음.</li>
+<li>요청 문구 누락 실수를 사용자에게 알렸다. 정상 전달된 시작·끝 이미지로 나온 결과가 실제로 작은 표면 물방울에서 동일 향수병 전체로 연결되는지 프레임·페이지로 확인한 뒤 사용했다. 계획 문구가 적용됐다고 기록하지 않는다.</li>
+<li>현재 정상 PC/모바일은 같은 영상·진행률의 스크롤 정·역방향 연출. 마지막 약14%는 제품 정보를 읽는 정지 구간. 줄이기/실패 대체는 기존 제품 전경과 CTA를 유지한다.</li>
+<li>가로600~959px·높이600px 이하에서 병 뚜껑이 잘리지 않도록 전체 영상 비율을 유지하고 오른쪽 정렬. 로컬 서버의 구간 응답이 없어도 탐색이 멈추지 않게 약3.2MB 영상 전체를 준비한 뒤 연결했다. 준비 중에도 첫 이미지와 레이아웃을 유지한다.</li>
+<li>PC·모바일 대표 장면과 역방향, 실제 모바일 메뉴→제품 장면→향 소개 이동을 확인했다. 나머지 대체·중간 화면 확인과 새 finish 검토는 아래 최신 검수 기록에서 구분한다. 실제 휴대폰·Safari·저속 회선·FPS·최종 사용자 수용은 미확인이다.</li>
+</ul>
+<p>아래 정지 화면·비용 승인 대기 기록은 바로 앞 단계의 이력이다.</p>
+<ul>
+<li>사용자 재거절: 향수병과 물방울이 이상하고 전체 품질이 낮음. 이전 모션/수면의 제한 범위 통과를 전체 품질 승인으로 간주하지 않음.</li>
+<li>독립 검토 결과 rebuild: 유리 내부·두께·뚜껑 재질과 물방울의 물리적 크기를 전면 교체하고, 카메라 이동과 제품 일관성을 함께 확보할 것.</li>
+<li>실행: 새 제품 전경과 작은 표면 물방울 확대 이미지 2장을 내장 이미지 생성으로 제작. 실제 홈페이지에는 새 전경을 적용하고 기존 3D 절차 모델은 실행 경로에서 교체했다. 메뉴·향 소개·가격 등 확정 정보 유지.</li>
+<li>현재는 추가 영상 비용 선택을 기다리는 정지 이미지 화면. 일반적인 세로 흐름으로 제품 정보와 CTA에 바로 접근할 수 있다. 연속 카메라 이동까지 완성했다고 보고하지 않는다.</li>
+<li>추가 비용 견적: Higgsfield Kling v3.0 pro 무음 8초 16:9 영상 1개 14크레딧. 견적만 조회, 승인 전 생성하지 않음. 앞선 0.25크레딧 승인은 포함하지 않는다.</li>
+<li>준비: 네이티브 영상의 시간 위치를 스크롤에 맞추는 제어 코드, 역방향·읽기 구간, 정지 이미지 대체와 움직임 줄이기 설정을 구현했다. 실제 영상이 아직 없어 동작 품질은 미검증이다.</li>
+<li>새 FULL 독립 검토 결과: 전체 disposition <strong>fix</strong>. 새 정적 제품의 재질·구도·가독성·대체 상태 범위는 reached이고 추가 시각 수정은 요구되지 않았다. 남은 항목은 별도 영상 비용 선택 후 실제 연속 영상의 제작과 PC/모바일·역방향 탐색 검수이다. 전체 움직임 목표 또는 사용자 수용을 통과했다고 보고하지 않는다.</li>
+</ul>
+<h2 id="decisions-2026-10-15-6종-스토어-확장-결정">2026-10-15 · 6종 스토어 확장 결정</h2>
+<p><strong>확정:</strong> 사용자가 실제 판매 사이트처럼 여러 향수와 헤더 구현을 요청하고 ‘깨끗한 향을 중심으로 6종’을 선택했다. 기존 단일 상품 제한을 교체한다. 기존 청백색/청록·두 글꼴·FIRST LIGHT 영화형 첫 화면은 유지한다.</p>
+<p><strong>제작자가 구체화한 가상 설정:</strong> SOFT LINEN·흰결/린넨 69,000원, CITRUS AIR·여린 햇살/시트러스 69,000원, GREEN HOUR·초록의 시간/그린 72,000원, PETAL MIST·꽃의 안개/플로럴 72,000원, QUIET WOOD·고요한 숲/우디 75,000원. 전 제품 50mL. 각 소개는 상상한 향의 인상이며 실제 성분/효능/지속력/안전성이나 실물 판매 사실이 아니다. 기존 FIRST LIGHT 69,000원은 유지한다.</p>
+<p><strong>구현:</strong> 전체 향수 목록·5개 향 계열/전체 필터·추천/가격 정렬·상품명과 향 검색·6개 상세·상품별 수량/삭제·혼합 합계·모의 주문. 헤더는 로고·전체 향수·향별로 찾기·브랜드 이야기·검색·장바구니이며, 모바일은 검색·장바구니·메뉴다. 없는 계정·찜·후기·베스트 판매량·무료배송·할인을 만들지 않는다.</p>
+<p><strong>자료:</strong> 같은 병/조명/4:5 구도를 기준으로 카탈로그 사진 6장을 내장 이미지 생성으로 제작했다. 각 원본·정확한 프롬프트·참조·출처를 보존했다. 추가 Higgsfield 비용은 없다. 새 한글 글꼴 부분 추출을 포함해 기존 자료를 재사용했다.</p>
+<p><strong>보존:</strong> 사용자 주 화면의 장바구니 FIRST LIGHT 1개는 변경하지 않았다. 기존 단일 상품 저장/완료 형식을 호환해 읽고 새 형식은 여러 id/수량만 저장한다. 별도 로컬 테스트 주소에서만 추가·삭제·모의 완료를 검수했다. 개인정보·운영 데이터·실제 거래는 없다.</p>
+<p><strong>미결/별도 범위:</strong> 실물 제품과 실제 가격·정책·재고·성분·후기 자료, 회원/주문 관리, 결제사/보안 설정, 배포 주소·운영비. 실제 판매 연결 전 필요한 자료와 비용·보안 영향을 설명하고 승인받는다. 현재 기한 없음, 로컬 데모, master 최초 커밋 없음·commit/push/PR/merge/공개 배포 없음.</p>
+<p><strong>검수 범위:</strong> 이번 근거는 <code>.impeccable/review/catalog-20261015/</code>의 소스/상태/반응형/캡처/독립 검토 기록이다. 이전 검수의 판정이나 실제 기기 검증으로 확대하지 않는다.</p>
+<h3 id="decisions-6종-확장-완료-기록">6종 확장 완료 기록</h3>
+<div class="table-wrap" tabindex="0" role="region" aria-label="문서 표"><table>
+<thead>
+<tr>
+<th>수정·생성한 파일</th>
+<th>역할</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>site/catalog.mjs · cart.mjs · shop.mjs · store.css</td>
+<td>6종 원본, 여러 상품 수량/저장/합계, 검색·분류·구매 동작, 확장 디자인</td>
+</tr>
+<tr>
+<td>site/index.html · shop/index.html · product/6개 id/index.html · cart/checkout/complete의 index.html</td>
+<td>총 11개 주소와 공통 헤더·푸터</td>
+</tr>
+<tr>
+<td>site/assets/images/6개 *-studio.webp 및 JSON · assets/fonts/noto-sans-kr.woff2</td>
+<td>제품별 스튜디오 사진·정확한 프롬프트/출처·새 한글 문구</td>
+</tr>
+<tr>
+<td>PRODUCT.md · DESIGN.md · .impeccable/design.json · ASSETS.md · WIREFRAMES.html · REVIEW.html · DECISIONS.md</td>
+<td>연결된 기획·공통 규칙·섹션·자료·화면 구조·검토 기록</td>
+</tr>
+<tr>
+<td>checks/catalog-check.mjs · cart-check.mjs · storage-preview.py · reduced.html · fallback.html</td>
+<td>다품목 검증과 기존 검증 진입점 호환, 로컬 예외 상태 검사 자료</td>
+</tr>
+<tr>
+<td>상위 work/ants-build-catalog.py · ants-build-review.ps1 · ants-catalog-brief.md · ants-dependencies/catalog-20261015 및 catalog-source-check.py</td>
+<td>정적 화면 생성·검토 문서 생성·범위·자료 원본과 검증 근거</td>
+</tr>
+</tbody></table></div>
+<p><strong>확인 결과:</strong> 카탈로그/장바구니 검증과 기존 영상 논리 PASS. 11개 HTML의 로컬 링크·중복 id 문제 0개, 한글 누락 0개, 지정한 단색 대비 조합 통과. 활성 raster 출처 10개/누락 0개. 실제 브라우저에서 정상 혼합 상품 213,000원과 저장 차단 환경 144,000원의 흐름, 개별 수정·삭제·오류·검색·분류·정렬·모바일 메뉴·완료 후 맨 위 표시를 확인했다. 320/820/1440px의 목록/QUIET WOOD, 실제 사용자 2089×1408px 목록에서 가로 넘침 0개를 관찰했다. 이전 단계의 넓은 검사 범위를 새 전체 11개 주소에 자동 적용하지 않는다.</p>
+<p><strong>독립 검토:</strong> 필수 viewport 캡처 49개가 유효하고 이번 화면의 재질·탐색·구매 흐름·데모 표시가 방향에 맞는다는 최초 검토를 받았다. 남은 M1 문서 병합을 수정했고, 최종 <code>finish-verdict.md</code>에서 M1 resolved / disposition: ship으로 판정됐다. 최종 판정은 M1 해결 범위이며 실제 기기·운영 판매 전체 인증이 아니다.</p>
+<p><strong>사용자가 확인할 경로:</strong> <code>http://127.0.0.1:62517/shop/</code>에서 향을 분류하거나 검색한 뒤 상품을 선택해 장바구니와 모의 주문을 체험한다. 문서 모음은 <code>http://127.0.0.1:60949/REVIEW.html</code>이다. 현재 로컬 데모에는 추가 계정·환경변수·유료 서비스 설정이 필요 없다. 실제 판매에는 실물 상품·가격·운영 정책 자료와 결제·주문 관리·배송·보안 설정이 별도로 필요하다.</p>
+<p><strong>남은 한계/상태:</strong> 실제 휴대폰·Safari·보조기기·느린 회선/FPS·운영 결제/배송은 미확인이다. 실제 판매·개인정보 수집·외부 주문 전송은 연결하지 않았다. 주 미리보기의 FIRST LIGHT 1개는 보존했고 테스트 주소의 임시 서버 두 개만 종료했다. master, 최초 커밋 없음, commit·push·PR·merge·공개 배포 미실행.</p>
+<h2 id="decisions-2026-10-15-향-찾기와-헤더-안내-제거">2026-10-15 · 향 찾기와 헤더 안내 제거</h2>
+<ul>
+<li>사용자 확정: 추천한 ‘취향 질문 3개 → 향 추천 → 상품 상세’ 제작, 헤더의 ‘가상의 브랜드…’ 문구 삭제. 상단32px 안내 띠까지 제거하고 공통 헤더80/64px로 조정했다. 상품/주문/푸터의 실제 거래 없는 데모 표시는 유지한다. 이전112/96px와 띠가 있는 캡처·문서는 당시 이력이다.</li>
+<li>제작자 구체화: 향의 느낌·함께할 순간·남기고 싶은 기분 각3선택, 이전/다음·미선택 안내·결과/초기화, 작성된 규칙으로6종 중1개 안내. 추천 이유와 실제 선택3개를 보여주며 일치율·학습AI·실제 향 검증을 주장하지 않는다.</li>
+<li>결과: 해당 제품의 사진/이름/향/데모 가격과 상세로 이동한다. 답변은 외부 전송·저장하지 않고 장바구니를 자동 변경하지 않는다. 기존 사용자 FIRST LIGHT1개 보존. 새 사진·라이브러리·외부서비스·유료 생성·운영 데이터는 추가하지 않는다.</li>
+<li>수정 파일: site/finder.mjs·finder.css·find-your-scent/index.html, site/store.css와 12개 공통 헤더/메뉴/푸터, 홈 컬렉션, 한글 글꼴. 상위work/ants-build-catalog.py가 질문과 공통 화면을 재생성한다. checks/finder-check.mjs와 기존 검사 진입점, 현재 줄이기/실패 QA 자료를 갱신했다. PRD·디자인 명세·와이어프레임·검토 문서도 같은 기준을 따른다.</li>
+<li>검증: 27개 조합/6종 도달/6대표 사례/잘못된 선택값, 기존 장바구니·영상 논리 PASS. 12개 주소의 로컬 링크와 중복id 문제0, 헤더안내없음, 한글누락0. PC와모바일에서오류·선택·이전선택유지·키보드선택·결과/재시작·QUIET WOOD상세연결을확인. 320/820/960px·실제2089×1408px에서가로넘침없음. 모바일기존영상진행률0.960/8.008초와헤더/고정장면64px대응확인.</li>
+<li>범위: 실제 휴대폰/Safari/보조기기·느린 회선/FPS·운영 결제는 미확인. master, 커밋·푸시·PR·병합·배포 미실행. 근거는 <code>.impeccable/review/finder-20261015/</code>.</li>
+</ul>
+<p><strong>최종 검토:</strong> 새 독립 검토자가 필수 화면 캡처 19장을 모두 열고 이번 향 찾기·공통 헤더 변경을 <code>disposition: ship</code>으로 판정했다. 남은 필수 수정은 없다. 이 판정은 이번 기능 확장 범위이며 실제 기기 성능이나 운영 판매를 인증한 결과가 아니다. 세부 기록은 <code>.impeccable/review/finder-20261015/finish-review.md</code>에 보존한다.</p>
+<p><strong>문서 반영:</strong> PRD의 FR-13과 디자인 명세의 F-01을 연결했다. 공통 헤더 80/64px, 질문·선택·오류·결과·초기화 상태, 모바일 질문 우선 구성과 결과 사진, 현재 글꼴 포함 범위를 반영했다. 문서 구조와 참조 검사를 통과했고, 검토 페이지에서 현재 화면과 이전 카탈로그 캡처를 구분했다.</p>
+<p><strong>직접 확인할 경로:</strong> 헤더의 ‘나의 향 찾기’를 눌러 세 질문에 답하면 추천 향과 상세페이지로 이어진다. 별도 계정이나 환경변수 설정은 필요 없다. 로컬 주소는 <code>http://127.0.0.1:62517/find-your-scent/</code>, 문서 모음은 <code>http://127.0.0.1:60949/REVIEW.html</code>이다. 이번 추가 비용은 없으며 Git과 공개 배포 상태는 위와 같다.</p>
+<h2 id="decisions-2026-10-15-글자-굵기와-배치-조정">2026-10-15 · 글자 굵기와 배치 조정</h2>
+<p>사용자가 구성을 유지하면서 글자 굵기와 배치 개선을 요청했다. 공통 제목은400, 히어로·향 찾기 안내 제목은350, 질문과 선택된 항목은450, 메뉴·일반 선택지는400으로 조정했다. 로고·금액·주요 버튼의 강조는 유지했다. 글꼴 파일 자체의 실제 가변 굵기 축도 확인했다.</p>
+<p>향 찾기는 최대 폭1248px 안에서 두 열을 같은 폭으로 맞추고 간격96px, 열별 최대528px로 정리했다. 첫 사진은5:6, 결과 제품은4:5 비율이다. 선택지를 가로선으로 구분하고 다음 버튼을 입력 영역 너비로 넓혔다. 959px 이하는 질문 우선 한 열로 전환하며 모바일 설명 글자를14px로 높였다. 기능·문구·이미지·상품과 가격·영상 동작은 그대로 유지했다.</p>
+<p>변경 파일: site/styles.css·store.css·finder.css, 정적 생성기의 스타일 버전과12개 HTML. 기존 소스 검사 도구는 결과 경로를 지정할 수 있게 해 이전 검수 기록을 덮어쓰지 않는다. 근거는 <code>.impeccable/review/type-layout-20261015/</code>이다. PC·모바일·중간 너비 및 실제 사용자 너비의22개 화면에서 가로 넘침이 없고 질문/오류/키보드 선택/추천/상세 연결을 확인했다. 기존27개 추천 조합과 장바구니·영상 논리,12개 주소·한글·링크 검사는 통과했다. 실제 휴대폰·Safari·보조기기·브라우저 확대·저속 회선/FPS는 미확인이다.</p>
+<p>추가 비용·외부 연결·설정은 없다. 사용자 FIRST LIGHT1개 장바구니를 보존했다. master, 최초 커밋 없음, 커밋·푸시·PR·병합·공개 배포 미실행. 새 독립 검토에서 현재 화면22개와 최종 문서의 일치를 확인하고 <code>disposition: ship</code>으로 판정했다. 필수 수정 사항은 없다. 이 판정은 공통 글자 굵기와 향 찾기 배치 조정의 검토 범위이며 전체 사이트나 실기기 검증으로 확대하지 않는다. 판정 기록은 <code>.impeccable/review/type-layout-20261015/finish-review.md</code>에 보존한다.</p>
+<h2 id="decisions-2026-10-15-상품-상세-강화">2026-10-15 · 상품 상세 강화</h2>
+<p><strong>사용자 확정:</strong> 다음 작업1번 ‘상품 상세 강화: 사진 확대와 향별 특징·사용 장면 정리’를 선택했다. FR-14를 D-01/D-04로 연결한다. 기존350/400/450 글자 규칙·청백색/청록·6종·가격·영화형 홈·구매 체험을 유지한다.</p>
+<p><strong>구현:</strong> 여섯 대표 사진마다 native 링크와 확대 화면을 연결했다. 해당 상품명·전체 보기·실제1120×1400 원본 크기·내부 스크롤·닫기·Esc·PC 바깥 클릭, 로딩·실패·다시 불러오기를 제공한다. 기존 태그 앞 두 개와 장면을 ‘향의 인상’·‘떠올린 순간’으로 첫 구간에 요약한다. 향 계열은 한글 상품명 옆에 남기고 용량·데모 가격과 담기를 유지했다. 성분·지속력·안전성·후기·실제 거래를 추가하지 않았다.</p>
+<p><strong>파일:</strong> site/product-detail.mjs·product-detail.css, 상위work/ants-build-catalog.py와 6개 상세 HTML(공통 스타일/글꼴 캐시 버전으로12개 HTML 갱신), site/styles.css의 글꼴 주소와 assets/fonts/noto-sans-kr.woff2, checks/detail-check.mjs·detail-image-error.html, 기존 소스 검사 도구의 모듈 문구 범위. 기획·디자인·와이어프레임·자료·검토 문서와 이번 근거 폴더를 연결한다.</p>
+<p>**검수:**6개 상품의 사진/제목/태그/장면/가격·링크 및 이미지 확대를 확인했다. PC1440·모바일390·좁은320·중간820·실제 사용자1280×720, 원본 내부 스크롤·닫기/복귀와 실패/재시도를 관찰했다. 상세/기존 장바구니/27추천조합/영상 논리 검사,12개 주소/로컬 링크/중복id/한글/단색 대비와 이미지 출처10개/누락0개 검사를 통과했다. 대표 JPEG 캡처22개를 저장했다. 독립 검토의 M1/M2에 따라 키보드 첫/끝 순환과 재시도 시 선택 위치를 수정했다. 전체/원본/모바일/이미지 오류 상태에서 보이는 활성 요소 사이의 양방향 순환을 확인했고, 키보드 재시도 전후 사진 영역의 선택 표시가 유지됐다. 관련 화면7개를 다시 저장했다. 재시도 후 두 번째 네트워크 실패는 별도 재현하지 않았고 소스에서 유지 경로만 확인했다. D-01/D-04와 공통 기록을 병합한 뒤 최종 독립 판정에서 M1·M2·M3 해결 / 남은 필수 수정 없음 / disposition: ship을 받았다. 이 판정은 해당 수정 항목의 해결 범위이며 전체 사이트·실기기·운영 판매 인증이 아니다. 최초 fix와 최종 판정은 finish-review.md·finish-verdict.md로 각각 보존한다. 근거는 <code>.impeccable/review/detail-20261015/</code>이다.</p>
+<p><strong>한계와 운영:</strong> 실제 휴대폰·Safari·보조기기·브라우저 확대·OS 설정·핀치 조작/느린 회선/FPS·운영 판매는 미확인이다. 기본 이미지 링크는 소스에서 확인했으며 실제 JavaScript 비활성 브라우저 모드는 미검수다. 현재 서버가 종료돼 있어 로컬62517과 문서60949를 다시 실행했다. 공개 접속 없이127.0.0.1만 사용한다. 기존 FIRST LIGHT1개 장바구니 보존, 추가 비용·외부 연결·개인정보·결제 없음. master, 최초 커밋 없음·커밋/푸시/PR/병합/배포 미실행.</p>
+<p><strong>직접 확인:</strong> <a href="http://127.0.0.1:62517/product/quiet-wood/">QUIET WOOD 상품 상세</a>에서 ‘사진 크게 보기’를 누른다. 전체/원본 크기를 전환하고 원본에서 사진 안을 스크롤한 뒤 닫는다. 다른 5종도 같은 기능을 제공한다. 별도 계정·환경변수·유료 설정 없이 로컬에서 확인할 수 있다. <a href="http://127.0.0.1:60949/REVIEW.html">기획 검토 문서</a>는 최신 상세/확대 화면과 PRD·디자인·결정 기록을 연결한다.</p>
+<h2 id="decisions-2026-10-15-6종-각각의-짧은-상세-이야기">2026-10-15 · 6종 각각의 짧은 상세 이야기</h2>
+<p><strong>사용자 확정:</strong> 각 제품 페이지가 허전해 다른 향수 업체를 참고한 짧은 상세 콘텐츠 제작을 요청했다. 기존6개 주소의 구매/가격/사진 확대와 홈은 유지한다. FR-15 ↔ D-02 확장/D-05다.</p>
+<p><strong>참고와 구체화:</strong> <a href="https://int.nonfiction.com/products/gentle-night-parfum">NONFICTION GENTLE NIGHT</a>의 향 설명·영감 이야기·향 구성, <a href="https://www.aesop.com/c/fragrance/tacit/">Aesop Tacit</a>의 향 인상·영감·사용 장면 구분을 공식 텍스트에서 확인했다. 다른 브랜드의 사진·문구·원료·가격·정책은 복제하지 않는다. Tamburins 경로는 접근하지 못해 확정 참고 자료에서 제외했다. ants의 고유한6개 이야기를 작성했고 향 인상은 실제 원료/발향 시간이 아닌 가상 해석으로 인접 표시한다.</p>
+<p><strong>구현:</strong> 구매 첫 구간에 향 이야기 보기, 5종의 장면 사진+기존 이야기와 보완 문단, 전6종의 첫인상/중심/여운3해석과 어울리는 하루·상품 선택 복귀 링크를 제공한다. FIRST LIGHT의 기존 생활/재질 구간은 보존한다. 이미지7:문구5와 아래 열린3열을 모바일 사진→이야기/향 인상 한 행씩으로 바꾸며 카드 반복·새 애니메이션·별도 라이브러리를 추가하지 않는다.</p>
+<p><strong>자료/파일:</strong> site/catalog.mjs의 detail 필드, product-detail.css, 상위work/ants-build-catalog.py와6개 상세 HTML/공통 스타일 캐시12개HTML, styles.css의 글꼴 URL과95760B Noto, *-scene.webp5개와 각JSON, 원본/정확한 문구 ../work/ants-dependencies/product-stories-20261015/, checks/detail-check.mjs, PRD·디자인·자료·와이어프레임·REVIEW 문서를 갱신한다. 내장 image_gen으로5개 장면을 생성했으며 추가 Higgsfield/API 유료 호출은 없다. 실제 촬영이나 원료 사진으로 주장하지 않는다.</p>
+<p><strong>검수:</strong> 상세 대응·원본 확대 관련 기존 검사,27추천조합,장바구니/검색/분류/정렬,영상논리 PASS. 현재12개주소/링크/중복id/한글 문제0, 출처15개/누락0. detector1회14advisory 중 새크기2개는24px제목/13px캡션으로 공통단계에 맞췄고 나머지12개는 이미 선택된 글꼴/파서 경고다. 재검출하지 않았다. PC/모바일6종·작은/중간/실제 사용자 너비의 브라우저 근거와 최종 독립 검토는 .impeccable/review/editorial-20261015/에 모은다. 실제 CSS너비와 저장픽셀을 구분한 필수 캡처19개를 보존한다. 최종 대표1440/390/320/820/2088에서 가로 넘침0을 관찰했고, 나머지 제품도 각 캡처에 실제 너비를 기록했다. Enter로 이야기/상품 선택 사이의 앵커 이동과 기존 사진 확대1120px·Esc·사진 링크로의 포커스 복귀를 확인했다. 새 독립 검토자는 필수 원본19개를 각각 열어 자료의 유효성과 현재6종 상세 콘텐츠의 일치를 확인했고, 필수 수정 없음 / disposition: ship으로 판정했다. 판정 범위는 이번 상세 이야기 확장이며 실제 기기·전체 운영 판매 인증이 아니다. 근거는 .impeccable/review/editorial-20261015/finish-review.md다.</p>
+<p><strong>한계/운영:</strong> 실제 휴대폰/Safari/보조기기/느린 회선/FPS는 미검수다. 실제 결제·개인정보·외부 주문·공개 배포 없음. 기존 장바구니 FIRST LIGHT1개 보존. 추가 계정·환경변수·설정·유료서비스가 필요 없다. master, 최초 커밋 없음; 커밋·푸시·PR·병합·배포 미실행.</p>
+<h2 id="decisions-2026-10-15-상세-본문-재확장과-첨부-영역-삭제">2026-10-15 · 상세 본문 재확장과 첨부 영역 삭제</h2>
+<p><strong>사용자 확정:</strong> 앞선 짧은 상세 결과를 보고 더 긴 구성을 요청했다. 첫 첨부의 ‘체험 전, 알아두세요’ FAQ 전체를6종에서 삭제하고, 둘째 첨부의 공통 푸터 두 안내 문장과 구분선을12개 주소에서 삭제했다. 삭제한 내용을 다른 곳에 대체하지 않는다. 이전 ship 판정을 이번 결과의 사용자 수용으로 해석하지 않는다. FR-16 ↔ D-03 삭제/D-06~D-08/공통 푸터 변경이다.</p>
+<p><strong>완성 구성:</strong> 기존 구매 정보와 향 이야기·향 인상 뒤에 큰 제품 캠페인 사진과 두 고유 문단, 세 가지 일상 장면과 병/라벨 근접 사진, 가까운 향과 비교 및 이동을 추가했다.6종 각각 자기 사진·이야기·일상·비교 대상이 있다. FIRST LIGHT의 기존 생활/재질 구간은 보존했다. 같은1600px 화면에서 측정한 GREEN HOUR의 상세 본문은1374px에서4149px로 약3배, 페이지 전체는4187px에서6395px로 늘었다. 여백만 늘린 수치가 아니며6종 모두 같은 배수라고 주장하지 않는다.</p>
+<p><strong>자료와 변경 파일:</strong> site/catalog.mjs, product-detail.css, 공통 styles.css의 글꼴 주소·Noto100364B,6종 상품 HTML과 공통 푸터를 쓰는 나머지6개 HTML, 새 *-campaign.webp5개와 인접JSON을 갱신했다. 상위work/ants-build-catalog.py, checks/detail-check.mjs, PRODUCT.md·DESIGN.md·ASSETS.md·WIREFRAMES.html·DECISIONS.md·REVIEW.html과 디자인 sidecar도 연결한다. 상세 사진 확대 모듈·장바구니 모듈은 변경하지 않았다. 정확한 이미지 문구/참조/원본은 ASSETS.md 및 상위work/ants-dependencies/product-depth-20261015/에 보존했다. 내장 image_gen을 사용했고 추가 Higgsfield/외부 유료 호출은 없다.</p>
+<p><strong>직접 확인한 검수:</strong> 상세6종/삭제6·12곳/비교 매핑,27추천 조합,장바구니·검색·분류·정렬,영상 논리 PASS.12개 HTML의 로컬 링크·중복id·한글 누락0, 출처20개/누락0, 지정 단색 대비 통과. 같은 생성기를 다시 실행해12개 HTML의 해시가 모두 같아 중복 섹션이나 삭제 문구가 부활하지 않았다. 첫 시각검수 묶음23개를 각각 열었다. 실제 CSS320/390/820/1440/1600px에서 가로 넘침0,6종 PC·모바일 캠페인과 대표 일상/비교/하단 및 전체 흐름을 확인했다. 전체 캡처는 문서 맨 위에서 저장했고 모바일 고정 버튼의 합성 캡처 위치는 기록에 명시했다. 원본 사진1120px·Esc 닫기/선택 복귀·키보드 이야기/상품 선택 이동·실제 비교 링크의 CITRUS AIR 도착을 확인했다. 브라우저 오류/경고0, 기존 FIRST LIGHT1개 장바구니 유지.</p>
+<p><strong>검토 범위:</strong> detector는 이번에1회만 실행했다.26개 경고는 기존 선택 글꼴/글꼴 이름 파싱15개와 이번에 수정하지 않은 공통 styles.css의 기존 크기·색·모서리11개다. 새 상세 스타일 경고는 없었다. 무관한 시스템 변경으로 확대하지 않는다. 사용자 첨부 두 장과 이전 결과에 대한 거절을 포함한 새 독립 전체 검토의 원본은 .impeccable/review/depth-20261015/finish-review.md에 둔다. 이전 단계 판정을 대체 근거로 삼지 않는다.</p>
+<p><strong>남은 범위/직접 할 일:</strong> 실제 휴대폰·Safari·보조기기·느린 회선/FPS·JavaScript를 실제 끈 브라우저는 미검수다. 실제 결제·개인정보·주문·공개 배포는 없다. 새 계정·환경변수·유료 설정 없이 <a href="http://127.0.0.1:62517/product/green-hour/#scent-campaign">GREEN HOUR 상세</a>에서 확인하면 된다. master 최초 커밋 없음, 커밋·푸시·PR·병합·배포 미실행. 파일은 모두 기존 미추적 작업 상태를 보존한다.</p>
+<p><strong>이번 최종 독립 판정:</strong> 사용자 첨부2장과 필수 캡처23장을 각각 확인한 새 전체 검토에서 필수 수정 없음 / disposition: ship을 받았다. 현행100364B 글꼴과 삭제한 D-03 관련 문서 수정도 재확인했다. 별도 수정 판정 단계나 새 화면 캡처는 필요하지 않았다. 판정은 FR-16의 상세 확장과 첨부 영역 삭제 범위이며 실제 기기·운영 판매·사용자 최종 미적 수용을 뜻하지 않는다.</p>
+<h2 id="decisions-2026-10-15-홈-제품-안내-한-줄-삭제">2026-10-15 · 홈 제품 안내 한 줄 삭제</h2>
+<p>사용자 첨부에 따라 홈 영상 후반 제품 정보의 ‘가상의 데모용 제품입니다.’ 문장과 해당 문단을 삭제했다. 범위는 site/index.html의 홈 제품 정보이며 사진·가격·상세 이동과 스크롤 동작은 유지한다. DESIGN.md 현행 홈 명세를 반영했다. 별도 기능·외부 서비스·배포는 추가하지 않는다.</p>
+<h2 id="decisions-2026-10-15-모든-상세의-상품-선택-복귀-링크-삭제">2026-10-15 · 모든 상세의 상품 선택 복귀 링크 삭제</h2>
+<p>사용자 첨부에 따라6종 상세 전체의 ‘상품 선택으로 돌아가기’ 링크와 화살표를 삭제했다. 공통 생성 원본도 함께 수정해 다음 화면 생성 때 다시 생기지 않게 했다. ‘이런 하루에 함께해요’ 본문, 향 이야기 보기·다른 상품 이동·구매·사진 확대는 유지한다. 현행 디자인 명세·sidecar·와이어프레임을 반영했으며 이전 복귀 링크 조작 검수는 당시 이력이다. master, 커밋·푸시·PR·병합·배포 없음.</p>
+<h2 id="decisions-2026-10-15-모든-상세의-가상-향-해석-안내-삭제">2026-10-15 · 모든 상세의 가상 향 해석 안내 삭제</h2>
+<p>사용자 요청으로6종 상세의 ‘실제 원료나 발향 시간을 설명하는 정보가 아닌 가상의 향 해석입니다.’ 문장과 앞 줄바꿈을 삭제했다. ‘향을 떠올리는 세 가지 인상.’ 및 첫인상/중심/여운의 본문은 유지했다. 상품 HTML6개·공통 생성 원본·기존 상세 검사·DESIGN.md·sidecar·REVIEW.html을 갱신했다. 기존 검사의 해당 문장 유지 조건을 삭제 확인 조건으로 바꿨다. 별도 기능·비용·설정·배포는 추가하지 않는다. master, 커밋·푸시·PR·병합·배포 없음.</p>
+<h2 id="decisions-2026-10-15-전12화면-문구배치-마감과-최종-검수">2026-10-15 · 전12화면 문구·배치 마감과 최종 검수</h2>
+<p><strong>확정 범위:</strong> 사용자가 전체 페이지 문구/배치 정리와 PC·모바일 최종 검수를 승인했다. 기존 청백색·청록/두 글꼴/사진·영상/6종·가격·장바구니·모의 주문 구조를 보존했다. 앞선 삭제 요청은 전부 유지했다. 실판매/회원/개인정보/외부 주문/배포는 추가하지 않는다. FR-17과 현재 DESIGN/sidecar를 연결한다.</p>
+<p>**실제 수정:**6종 구매 영역의 반복 데모 안내와 가격의 ‘데모’ 접두어를 제거했다. 향 찾기의 취향 기반 제안/개인정보 없는 선택 처리 문장을 간결하게 바꿨다.5종 장면 캡션과 FIRST LIGHT 재질 설명을 브랜드 문구로 정리했다. 장바구니/주문 요약에는 실제 결제·배송 없는 모의 주문이라는 한 문장을 유지한다. 주문 확인과 완료는 해야 할 행동과 결과를 짧게 전달한다. 위치가 PC/모바일에서 달라지는 ‘아래 버튼’은 실제 버튼 이름으로 바꾸고 빈 화면의 이동 버튼은 ‘전체 향수 보기’로 통일했다. 새 효능·원료·후기·판매 실적을 만들지 않았다.</p>
+<p><strong>배치:</strong> 본문에서 한글 단어를 보존하고 긴 문자열은 컨테이너 안에서 줄바꿈한다. 입력/선택칸은 기존 글꼴과 글자색을 상속한다. 장바구니 상품명은 기존 제목 굵기400으로 맞추고 주문 설명 제목/본문의 간격·줄 간격을 정리했다. 새 토큰 세계·라이브러리·애니메이션은 없다. 추가 문구를 포함한 Noto는99872B, 가변축/라이선스를 보존했다.</p>
+<p><strong>변경 파일:</strong> site/styles.css·commerce.css·글꼴,12개 HTML, 상위work/ants-build-catalog.py, PRODUCT.md·DESIGN.md·ASSETS.md·WIREFRAMES.html·DECISIONS.md·REVIEW.html 및 .impeccable/design.json. 동작 모듈은 변경하지 않았다. 검수/기록 helper와 .impeccable/review/final-20261015/에 근거를 보존했다.</p>
+<p><strong>확인 결과:</strong> 상세6종·27개 추천 조합·6종 도달·수량/금액/삭제·검색/분류/정렬·비정상 저장/메모리 대체·영상 논리의 기존 검사 PASS. 마지막 생성 후 source 검사12주소·깨진 로컬 링크0·중복id0·한글 누락0·지정 단색 대비 통과. 생성기를 다시 실행한12개 HTML의 해시가 모두 같았다. Noto main.js 글자도 추가 확인했다. 출처20개/누락0. detector1회40건은 확정 Instrument15/Noto 파서12/기존 스타일 수치12/전체 폭 히어로1의 문맥 경고로, 현재 시스템 교체나 무관한 드리프트 수정을 하지 않았다.</p>
+<p><strong>브라우저 검수:</strong> 필수 viewport JPEG38개를 각각 열었다.12주소를 PC1440×1000·모바일390×844에서 확인하고320/820/실제2088px도 추가했다. 가로 넘침0·화면 안 미완성 이미지0. 한 차례 전체 확인 후 버튼 위치 문구/빈 화면 CTA를 묶어서 수정하고 해당 화면만 재확인했다. 메뉴 Esc/선택 복귀, 향 분류·정렬, 검색 빈 상태/비누 결과, 추천 미선택 오류/이전 선택 유지/초기화/상품 이동, 수량0 오류/복구/새로고침 유지/개별 삭제, 모의 확인/완료와 빈 장바구니/빈 확인 상태를 실제로 조작했다. PC FL2+GREEN HOUR1은210000원, 모바일 FL2+QUIET WOOD1은213000원이며 완료 수량3개·2종/금액과 일치했다. 사진1120px 원본/Tab·Esc/사진 선택 복귀, 홈 영상 마지막8.008333초에서 시작0.012285초로의 역방향과 PC/모바일 마지막 장면도 확인했다. 일반 검수 탭의 오류/경고0이다.</p>
+<p><strong>데이터/운영:</strong> 같은 파일을 제공하는 임시 로컬62518에서만 시험 담기/완료했다. 사용자의62517 FIRST LIGHT1개는 보존했다. 계정·API키·개인정보·추가 유료 기능은 필요하지 않다. 실휴대폰/Safari/보조기기/브라우저 확대/OS 움직임 설정·실제 JavaScript 비활성/느린 회선/FPS·외부 판매는 미검수다. 최초 viewport의 유효성과 실제 기기 확인을 구분한다. master 최초 커밋 없음·기존 미추적 작업 유지·커밋/푸시/PR/병합/배포 미실행.</p>
+<p><strong>최종 독립 검토:</strong> 새 독립 전체 검토자가 필수38개 JPG를 각각 열고 현행 문구·명세·생성기를 대조해 필수 수정 없음 / disposition: ship으로 판정했다. finish-review.md의5개 계약 섹션을 확인했고 별도 수정 판정 단계는 필요하지 않았다. 판정은 이번 기존 세계의 마감과38개 viewport 근거 범위이며 모든 하단 위치·모든 상태·실기기·전체 운영 판매 인증이나 사용자 최종 미적 수용으로 확대하지 않는다. 검수 탭은 닫고 임시62518 서버도 종료했다. 기본62517을 다시 열어 가격/반복 안내 삭제 및 FIRST LIGHT1개 보존을 확인했다.</p>
+</article></details><div class="next"><p><strong>사진 확대·향 찾기·구매 체험 확인 방법</strong></p><p>상품 상세의 ‘사진 크게 보기’ → ‘원본 크기’ → 사진 영역 안에서 스크롤로 라벨과 유리 질감 확인 → 닫기 순서로 체험할 수 있습니다. 모바일도 같은 기능을 제공합니다.</p><p>데모에서 ‘나의 향 찾기’ → 세 질문에 각각 답하기 → 추천 향 확인 → ‘이 향 자세히 보기’로 연결됩니다. 또는 ‘전체 향수’ → 향 계열 선택 또는 검색 → 원하는 상품 → 수량 선택 → ‘장바구니 담기’ → 다른 상품 추가 → ‘장바구니 보기’ → ‘모의 주문하기’ → ‘모의 주문 완료하기’ 순서로 체험할 수 있습니다. 실제 결제와 개인정보 입력은 없습니다.</p></div><p class="footnote">기한 없음 · 이번 상품 상세 강화의 추가 비용 없음 · 카탈로그 사진 6장 내장 이미지 생성 · 추가 힉스필드 비용 없음 · 연속 영상 1개 14크레딧 진행 승인·생성 완료 · 로컬 검수 · 사이트 실행 중 외부 연결·실제 결제·개인정보 수집·공개 배포 없음</p></main><script>function revealDocument(){const target=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(!target)return;const panel=target.closest('details');if(panel)panel.open=true;requestAnimationFrame(()=>target.scrollIntoView({block:'start'}))}addEventListener('hashchange',revealDocument);revealDocument();</script></body></html>

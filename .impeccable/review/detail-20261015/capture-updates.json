@@ -1,0 +1,1118 @@
+[
+  {
+    "file": "user-detail.jpg",
+    "cart": "1",
+    "dialogOpen": false,
+    "focus": "QUIET WOOD 사진 크게 보기",
+    "image": {
+      "height": 0,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 0
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      4
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 0,
+      "scrollHeight": 0,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 0,
+      "width": 0
+    },
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  {
+    "file": "user-fit.jpg",
+    "cart": "1",
+    "dialogOpen": true,
+    "focus": "사진 확대 닫기",
+    "image": {
+      "height": 497.984375,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 398.390625
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      36
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 498,
+      "scrollHeight": 498,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 1132,
+      "width": 1132
+    },
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  {
+    "file": "desktop-detail.jpg",
+    "cart": "1",
+    "dialogOpen": false,
+    "focus": "QUIET WOOD 사진 크게 보기",
+    "image": {
+      "height": 0,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 0
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      117
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 0,
+      "scrollHeight": 0,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 0,
+      "width": 0
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-fit.jpg",
+    "cart": "1",
+    "dialogOpen": true,
+    "focus": "사진 확대 닫기",
+    "image": {
+      "height": 777.984375,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 622.390625
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      38
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 778,
+      "scrollHeight": 778,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 1132,
+      "width": 1132
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-original.jpg",
+    "cart": "1",
+    "dialogOpen": true,
+    "focus": "확대한 제품 사진",
+    "image": {
+      "height": 1400,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 1120
+    },
+    "original": true,
+    "overflow": false,
+    "scroll": [
+      0,
+      21
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 763,
+      "scrollHeight": 1400,
+      "scrollLeft": 0,
+      "scrollTop": 2,
+      "scrollWidth": 1120,
+      "width": 1117
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-return-focus.jpg",
+    "cart": "1",
+    "dialogOpen": false,
+    "focus": "QUIET WOOD 사진 크게 보기",
+    "image": {
+      "height": 0,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 0
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      21
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 0,
+      "scrollHeight": 0,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 0,
+      "width": 0
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "first-light-detail.jpg",
+    "cart": "1",
+    "dialogOpen": false,
+    "focus": "",
+    "image": {
+      "height": 0,
+      "naturalWidth": 1120,
+      "src": "/assets/images/first-light-studio.webp",
+      "width": 0
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62517/product/first-light/",
+    "viewer": {
+      "height": 0,
+      "scrollHeight": 0,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 0,
+      "width": 0
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "first-light-fit.jpg",
+    "cart": "1",
+    "dialogOpen": true,
+    "focus": "사진 확대 닫기",
+    "image": {
+      "height": 777.984375,
+      "naturalWidth": 1120,
+      "src": "/assets/images/first-light-studio.webp",
+      "width": 622.390625
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      21
+    ],
+    "url": "http://127.0.0.1:62517/product/first-light/",
+    "viewer": {
+      "height": 778,
+      "scrollHeight": 778,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 1132,
+      "width": 1132
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "soft-linen-fit.jpg",
+    "cart": "1",
+    "dialogOpen": true,
+    "focus": "사진 확대 닫기",
+    "image": {
+      "height": 777.984375,
+      "naturalWidth": 1120,
+      "src": "/assets/images/soft-linen-studio.webp",
+      "width": 622.390625
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      21
+    ],
+    "url": "http://127.0.0.1:62517/product/soft-linen/",
+    "viewer": {
+      "height": 778,
+      "scrollHeight": 778,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 1132,
+      "width": 1132
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "citrus-air-fit.jpg",
+    "cart": "1",
+    "dialogOpen": true,
+    "focus": "사진 확대 닫기",
+    "image": {
+      "height": 777.984375,
+      "naturalWidth": 1120,
+      "src": "/assets/images/citrus-air-studio.webp",
+      "width": 622.390625
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      21
+    ],
+    "url": "http://127.0.0.1:62517/product/citrus-air/",
+    "viewer": {
+      "height": 778,
+      "scrollHeight": 778,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 1132,
+      "width": 1132
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "green-hour-fit.jpg",
+    "cart": "1",
+    "dialogOpen": true,
+    "focus": "사진 확대 닫기",
+    "image": {
+      "height": 777.984375,
+      "naturalWidth": 1120,
+      "src": "/assets/images/green-hour-studio.webp",
+      "width": 622.390625
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      21
+    ],
+    "url": "http://127.0.0.1:62517/product/green-hour/",
+    "viewer": {
+      "height": 778,
+      "scrollHeight": 778,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 1132,
+      "width": 1132
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "petal-mist-fit.jpg",
+    "cart": "1",
+    "dialogOpen": true,
+    "focus": "사진 확대 닫기",
+    "image": {
+      "height": 777.984375,
+      "naturalWidth": 1120,
+      "src": "/assets/images/petal-mist-studio.webp",
+      "width": 622.390625
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      21
+    ],
+    "url": "http://127.0.0.1:62517/product/petal-mist/",
+    "viewer": {
+      "height": 778,
+      "scrollHeight": 778,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 1132,
+      "width": 1132
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-detail.jpg",
+    "cart": "1",
+    "dialogOpen": false,
+    "focus": "",
+    "image": {
+      "height": 0,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 0
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 0,
+      "scrollHeight": 0,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 0,
+      "width": 0
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-fit.jpg",
+    "cart": "1",
+    "dialogOpen": true,
+    "focus": "menu-open",
+    "image": {
+      "height": 777.984375,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 622.390625
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      21
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 778,
+      "scrollHeight": 778,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 1132,
+      "width": 1132
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "mobile-detail.jpg",
+    "cart": "1",
+    "dialogOpen": false,
+    "focus": "",
+    "image": {
+      "height": 0,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 0
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 0,
+      "scrollHeight": 0,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 0,
+      "width": 0
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-info.jpg",
+    "cart": "1",
+    "dialogOpen": false,
+    "focus": "수량 늘리기",
+    "image": {
+      "height": 0,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 0
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      30
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 0,
+      "scrollHeight": 0,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 0,
+      "width": 0
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-fit.jpg",
+    "cart": "1",
+    "dialogOpen": true,
+    "focus": "사진 확대 닫기",
+    "image": {
+      "height": 435,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 348
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      82
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 696,
+      "scrollHeight": 696,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 348,
+      "width": 348
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-original.jpg",
+    "cart": "1",
+    "dialogOpen": true,
+    "focus": "lightbox-size",
+    "image": {
+      "height": 1400,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 1120
+    },
+    "original": true,
+    "overflow": false,
+    "scroll": [
+      0,
+      82
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 681,
+      "scrollHeight": 1400,
+      "scrollLeft": 390,
+      "scrollTop": 422,
+      "scrollWidth": 1120,
+      "width": 333
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "narrow-detail.jpg",
+    "cart": "1",
+    "dialogOpen": false,
+    "focus": "",
+    "image": {
+      "height": 0,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 0
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 0,
+      "scrollHeight": 0,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 0,
+      "width": 0
+    },
+    "viewport": [
+      320,
+      800
+    ]
+  },
+  {
+    "file": "narrow-fit.jpg",
+    "cart": "1",
+    "dialogOpen": true,
+    "focus": "사진 확대 닫기",
+    "image": {
+      "height": 347.5,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 278
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 646,
+      "scrollHeight": 646,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 278,
+      "width": 278
+    },
+    "viewport": [
+      320,
+      800
+    ]
+  },
+  {
+    "file": "tablet-detail.jpg",
+    "cart": "1",
+    "dialogOpen": false,
+    "focus": "",
+    "image": {
+      "height": 0,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 0
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 0,
+      "scrollHeight": 0,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 0,
+      "width": 0
+    },
+    "viewport": [
+      820,
+      1000
+    ]
+  },
+  {
+    "file": "tablet-fit.jpg",
+    "cart": "1",
+    "dialogOpen": true,
+    "focus": "사진 확대 닫기",
+    "image": {
+      "height": 777.984375,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 622.390625
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 778,
+      "scrollHeight": 778,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 714,
+      "width": 714
+    },
+    "viewport": [
+      820,
+      1000
+    ]
+  },
+  {
+    "file": "image-error.jpg",
+    "cart": "1",
+    "dialogOpen": false,
+    "focus": "QUIET WOOD 사진 크게 보기",
+    "image": {
+      "height": 0,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 0
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 0,
+      "scrollHeight": 0,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 0,
+      "width": 0
+    },
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  {
+    "file": "image-recovered.jpg",
+    "cart": "1",
+    "dialogOpen": false,
+    "focus": "QUIET WOOD 사진 크게 보기",
+    "image": {
+      "height": 0,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 0
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 0,
+      "scrollHeight": 0,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 0,
+      "width": 0
+    },
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  {
+    "file": "user-detail.jpg",
+    "cart": "1",
+    "dialogOpen": false,
+    "focus": "",
+    "image": {
+      "height": 0,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 0
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 0,
+      "scrollHeight": 0,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 0,
+      "width": 0
+    },
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  {
+    "file": "image-error.jpg",
+    "cart": "0",
+    "dialogOpen": true,
+    "focus": "사진 확대 닫기",
+    "image": {
+      "height": 0,
+      "naturalWidth": 0,
+      "src": "/site/assets/images/missing-detail-test.webp",
+      "width": 0
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      122
+    ],
+    "url": "http://127.0.0.1:60949/checks/detail-image-error.html",
+    "viewer": {
+      "height": 498,
+      "scrollHeight": 498,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 1132,
+      "width": 1132
+    },
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  {
+    "file": "image-recovered.jpg",
+    "cart": "0",
+    "dialogOpen": true,
+    "focus": "menu-open",
+    "image": {
+      "height": 497.984375,
+      "naturalWidth": 1120,
+      "src": "http://127.0.0.1:60949/site/assets/images/quiet-wood-studio.webp",
+      "width": 398.390625
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      122
+    ],
+    "url": "http://127.0.0.1:60949/checks/detail-image-error.html",
+    "viewer": {
+      "height": 498,
+      "scrollHeight": 498,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 1132,
+      "width": 1132
+    },
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  {
+    "file": "mobile-info.jpg",
+    "cart": "1",
+    "dialogOpen": false,
+    "focus": "",
+    "image": {
+      "height": 0,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 0
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      506
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 0,
+      "scrollHeight": 0,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 0,
+      "width": 0
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "user-detail.jpg",
+    "cart": "1",
+    "dialogOpen": false,
+    "focus": "",
+    "image": {
+      "height": 0,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 0
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 0,
+      "scrollHeight": 0,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 0,
+      "width": 0
+    },
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  {
+    "file": "user-fit.jpg",
+    "cart": "1",
+    "dialogOpen": true,
+    "focus": "확대한 제품 사진",
+    "image": {
+      "height": 497.984375,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 398.390625
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      122
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 498,
+      "scrollHeight": 498,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 1132,
+      "width": 1132
+    },
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  {
+    "file": "desktop-fit.jpg",
+    "cart": "1",
+    "dialogOpen": true,
+    "focus": "확대한 제품 사진",
+    "image": {
+      "height": 777.984375,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 622.390625
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      21
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 778,
+      "scrollHeight": 778,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 1132,
+      "width": 1132
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-original.jpg",
+    "cart": "1",
+    "dialogOpen": true,
+    "focus": "확대한 제품 사진",
+    "image": {
+      "height": 1400,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 1120
+    },
+    "original": true,
+    "overflow": false,
+    "scroll": [
+      0,
+      21
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 763,
+      "scrollHeight": 1400,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 1120,
+      "width": 1117
+    },
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "mobile-fit.jpg",
+    "cart": "1",
+    "dialogOpen": true,
+    "focus": "확대한 제품 사진",
+    "image": {
+      "height": 435,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 348
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 696,
+      "scrollHeight": 696,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 348,
+      "width": 348
+    },
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "image-error.jpg",
+    "cart": "0",
+    "dialogOpen": true,
+    "focus": "button",
+    "image": {
+      "height": 0,
+      "naturalWidth": 0,
+      "src": "/site/assets/images/missing-detail-test.webp",
+      "width": 0
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      122
+    ],
+    "url": "http://127.0.0.1:60949/checks/detail-image-error.html",
+    "viewer": {
+      "height": 498,
+      "scrollHeight": 498,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 1132,
+      "width": 1132
+    },
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  {
+    "file": "image-recovered.jpg",
+    "cart": "0",
+    "dialogOpen": true,
+    "focus": "확대한 제품 사진",
+    "image": {
+      "height": 497.984375,
+      "naturalWidth": 1120,
+      "src": "http://127.0.0.1:60949/site/assets/images/quiet-wood-studio.webp",
+      "width": 398.390625
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      122
+    ],
+    "url": "http://127.0.0.1:60949/checks/detail-image-error.html",
+    "viewer": {
+      "height": 498,
+      "scrollHeight": 498,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 1132,
+      "width": 1132
+    },
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  {
+    "file": "user-detail.jpg",
+    "cart": "1",
+    "dialogOpen": false,
+    "focus": "",
+    "image": {
+      "height": 0,
+      "naturalWidth": 1120,
+      "src": "/assets/images/quiet-wood-studio.webp",
+      "width": 0
+    },
+    "original": false,
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/",
+    "viewer": {
+      "height": 0,
+      "scrollHeight": 0,
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 0,
+      "width": 0
+    },
+    "viewport": [
+      1280,
+      720
+    ]
+  }
+]

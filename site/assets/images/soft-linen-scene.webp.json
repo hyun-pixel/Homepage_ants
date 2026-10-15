@@ -1,0 +1,14 @@
+{
+  "origin": "Built-in image_gen original generated editorial scene for fictional ants perfume. No external brand image copied.",
+  "exactSubmittedPrompt": "Use case: photorealistic-natural. Asset type: original photographic editorial scene for the fictional Korean perfume brand ants product detail page. Create one standalone landscape 4:3 high quality photograph, edge to edge, not a website mockup or collage. A softly rumpled white linen shirt resting on a pale cool white chair by an open window, a folded linen edge in the foreground, delicate real linen fibers, blue-white daylight, quiet natural shadows. Intimate close composition with fabric filling most of the frame; no person, no bottle, no lettering. Color world: luminous cool white, very pale blue, deep muted teal or natural subject colors. Real optical depth, physically coherent materials, natural photography, medium format editorial quality. No text, logo, watermark, graphic border, UI, illustration, CGI render or warm beige filter.",
+  "references": [],
+  "sourceCopy": "work\\ants-dependencies\\product-stories-20261015\\soft-linen-scene-master.png",
+  "width": 1448,
+  "height": 1086,
+  "bytes": 154800,
+  "sha256": "077c131a1625ee4f1bd85caae98c61073822f89bf84e1586dd2c867330c11aa2",
+  "use": "Product-specific fictional atmosphere, not an ingredient/formulation/actual customer photograph.",
+  "prompt": "Use case: photorealistic-natural. Asset type: original photographic editorial scene for the fictional Korean perfume brand ants product detail page. Create one standalone landscape 4:3 high quality photograph, edge to edge, not a website mockup or collage. A softly rumpled white linen shirt resting on a pale cool white chair by an open window, a folded linen edge in the foreground, delicate real linen fibers, blue-white daylight, quiet natural shadows. Intimate close composition with fabric filling most of the frame; no person, no bottle, no lettering. Color world: luminous cool white, very pale blue, deep muted teal or natural subject colors. Real optical depth, physically coherent materials, natural photography, medium format editorial quality. No text, logo, watermark, graphic border, UI, illustration, CGI render or warm beige filter.",
+  "schema": "impeccable-image-provenance-v1",
+  "tool": "image_gen"
+}

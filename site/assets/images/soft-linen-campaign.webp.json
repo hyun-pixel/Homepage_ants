@@ -1,0 +1,18 @@
+{
+  "prompt": "Use case: product-mockup. Create a single original photorealistic luxury perfume editorial campaign photograph for fictional ants. Input image is the PRODUCT IDENTITY REFERENCE: preserve the exact rectangular thick clear glass bottle shape, pale liquid tone, white cylindrical cap, ivory paper label and proportions. Label must read exactly 'ants', 'SOFT LINEN', '50 mL'; do not introduce another brand. This is a new natural photographic scene, not a web page or collage. A pale cool-white windowsill, softly folded white linen shirt and natural ash wood tray. The referenced perfume bottle stands on the tray at center-right; linen curves softly at left. Morning window light, tactile real cloth texture, quiet and airy. Landscape 16:9 wide composition, complete bottle cap and base visible, bottle around 60% of frame width horizontally and centered vertically, safe to crop to central portrait on mobile. Bottle label readable, subtle physically accurate reflections, real material depth, camera quality, restrained blue-white/teal world, no warm beige filter. No floating bottle, no artificial huge water droplets, no UI, no extra text, border or watermark.",
+  "createdAt": "2026-10-15T07:03:08.731Z",
+  "exactSubmittedPrompt": "Use case: product-mockup. Create a single original photorealistic luxury perfume editorial campaign photograph for fictional ants. Input image is the PRODUCT IDENTITY REFERENCE: preserve the exact rectangular thick clear glass bottle shape, pale liquid tone, white cylindrical cap, ivory paper label and proportions. Label must read exactly 'ants', 'SOFT LINEN', '50 mL'; do not introduce another brand. This is a new natural photographic scene, not a web page or collage. A pale cool-white windowsill, softly folded white linen shirt and natural ash wood tray. The referenced perfume bottle stands on the tray at center-right; linen curves softly at left. Morning window light, tactile real cloth texture, quiet and airy. Landscape 16:9 wide composition, complete bottle cap and base visible, bottle around 60% of frame width horizontally and centered vertically, safe to crop to central portrait on mobile. Bottle label readable, subtle physically accurate reflections, real material depth, camera quality, restrained blue-white/teal world, no warm beige filter. No floating bottle, no artificial huge water droplets, no UI, no extra text, border or watermark.",
+  "tool": "image_gen",
+  "fictional": true,
+  "reference_images": [
+    "C:/Users/User/Documents/ChatGPT/홈페이지/Homepage_Ants/site/assets/images/soft-linen-studio.webp"
+  ],
+  "reference_role": "Preserve current product bottle/label identity; create new scene.",
+  "original_copy": "work\\ants-dependencies\\product-depth-20261015\\soft-linen-campaign-master.png",
+  "width": 1672,
+  "height": 941,
+  "bytes": 127198,
+  "sha256": "f37afd05ec2d64dfb13e278ee1e66505d175c238a45b30020154d4831fd36237",
+  "output_path": "Homepage_Ants\\site\\assets\\images\\soft-linen-campaign.webp",
+  "use": "Fictional product campaign scene; no manufacturing/ingredients/customer testimony claim."
+}

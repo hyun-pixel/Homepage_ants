@@ -1,0 +1,42 @@
+import assert from 'node:assert/strict';
+import {readFileSync,readdirSync} from 'node:fs';
+import {PRODUCTS,formatMoney} from '../site/catalog.mjs';
+
+for (const product of PRODUCTS) {
+  const page=readFileSync(new URL(`../site/product/${product.id}/index.html`,import.meta.url),'utf8');
+  assert.equal((page.match(/id="product-lightbox"/g)||[]).length,1);
+  assert.ok(page.includes(`href="${product.image}" aria-label="${product.name} 사진 크게 보기"`),`${product.id}: native photo fallback`);
+  const modal=page.slice(page.indexOf('<dialog class="product-lightbox"'));
+  assert.ok(modal.includes(`>${product.name}</h2>`));
+  assert.ok(modal.includes(`src="${product.image}"`));
+  assert.ok(modal.includes('aria-labelledby="lightbox-title"'));
+  assert.ok(modal.includes('data-image-size aria-pressed="false"'));
+  assert.ok(modal.includes('aria-label="사진 확대 닫기"'));
+  assert.ok(modal.includes('data-image-retry'));
+  assert.ok(page.includes(`${product.tags[0]} · ${product.tags[1]}`),`${product.id}: authored impressions`);
+  assert.ok(page.includes(`<dd>${product.scene}</dd>`),`${product.id}: authored scene`);
+  assert.ok(page.includes(formatMoney(product.price)));
+  assert.equal((page.match(/id="scent-story"/g)||[]).length,1,`${product.id}: one story anchor`);
+  assert.ok(page.includes('href="#scent-story"'),`${product.id}: findable story link`);
+  assert.ok(page.includes(product.detail.image),`${product.id}: own scene`);
+  assert.ok(page.includes(product.detail.title),`${product.id}: own scent interpretation`);
+  assert.ok(page.includes(product.detail.moment),`${product.id}: own everyday moment`);
+  for (const impression of product.detail.impressions) for (const copy of impression) assert.ok(page.includes(copy));
+  assert.ok(!page.includes('실제 원료나 발향 시간을 설명하는 정보가 아닌 가상의 향 해석입니다.'));
+  const extended=product.detail.extended;
+  assert.ok(page.includes(extended.image),`${product.id}: matching campaign`);
+  assert.ok(page.includes(extended.headline));
+  for (const copy of extended.paragraphs) assert.ok(page.includes(copy));
+  for (const ritual of extended.ritual) for (const copy of ritual) assert.ok(page.includes(copy));
+  assert.ok(page.includes(extended.bottle));
+  assert.ok(page.includes(extended.compareText));
+  assert.ok(page.includes(`href="/product/${extended.compareId}/"`));
+  for (const id of ['scent-campaign','scent-ritual','scent-compare']) assert.equal((page.match(new RegExp(`id="${id}"`,'g'))||[]).length,1);
+  assert.ok(!page.includes('class="demo-faq'));
+}
+const pages=readdirSync(new URL('../site/',import.meta.url),{recursive:true}).filter(path=>path.endsWith('.html'));
+assert.equal(pages.length,12);
+for (const path of pages) assert.ok(!readFileSync(new URL(`../site/${path.replaceAll('\\','/')}`,import.meta.url),'utf8').includes('class="footer-note"'),`${path}: footer request`);
+const module=readFileSync(new URL('../site/product-detail.mjs',import.meta.url),'utf8');
+assert.ok(!/localStorage|sessionStorage|fetch\(|addItem|cart\.write/.test(module));
+console.log('PASS: all6 existing viewer/facts/prices, individual story/profile/campaign/3rituals/design/comparison; FAQ removed on6 and requested footer-note removed on12; viewer isolated from cart/storage/external requests.');

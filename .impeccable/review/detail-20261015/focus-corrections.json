@@ -1,0 +1,92 @@
+[
+  {
+    "test": "fit-last-Tab-to-first",
+    "class": "lightbox-size",
+    "focusVisible": true,
+    "name": "원본 크기",
+    "open": true,
+    "tag": "BUTTON",
+    "visible": true
+  },
+  {
+    "test": "fit-first-ShiftTab-to-last",
+    "class": "lightbox-viewer",
+    "focusVisible": true,
+    "name": "확대한 제품 사진",
+    "open": true,
+    "tag": "DIV",
+    "visible": true
+  },
+  {
+    "test": "original-last-Tab-to-first",
+    "class": "lightbox-size",
+    "focusVisible": true,
+    "name": "전체 보기",
+    "open": true,
+    "tag": "BUTTON",
+    "visible": true
+  },
+  {
+    "test": "original-first-ShiftTab-to-last",
+    "class": "lightbox-viewer",
+    "focusVisible": true,
+    "name": "확대한 제품 사진",
+    "open": true,
+    "tag": "DIV",
+    "visible": true
+  },
+  {
+    "test": "Escape-return-to-photo",
+    "class": "product-zoom",
+    "focusVisible": true,
+    "name": "QUIET WOOD 사진 크게 보기",
+    "open": false,
+    "tag": "A",
+    "visible": true
+  },
+  {
+    "test": "mobile-fit-last-Tab-to-first",
+    "class": "lightbox-size",
+    "focusVisible": true,
+    "name": "원본 크기",
+    "open": true,
+    "tag": "BUTTON",
+    "visible": true
+  },
+  {
+    "test": "error-last-Tab-to-first-enabled-close",
+    "class": "icon-button",
+    "focusVisible": true,
+    "name": "사진 확대 닫기",
+    "open": true,
+    "tag": "BUTTON",
+    "visible": true
+  },
+  {
+    "test": "error-first-ShiftTab-to-last-retry",
+    "class": "button",
+    "focusVisible": true,
+    "name": "다시 불러오기",
+    "open": true,
+    "tag": "BUTTON",
+    "visible": true
+  },
+  {
+    "test": "retry-loading-persistent-focus",
+    "class": "lightbox-viewer",
+    "focusVisible": true,
+    "name": "확대한 제품 사진",
+    "open": true,
+    "tag": "DIV",
+    "visible": true
+  },
+  {
+    "test": "retry-recovered-persistent-focus",
+    "class": "lightbox-viewer",
+    "focusVisible": true,
+    "name": "확대한 제품 사진",
+    "open": true,
+    "tag": "DIV",
+    "visible": true
+  }
+]

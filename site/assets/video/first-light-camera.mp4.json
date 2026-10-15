@@ -1,0 +1,20 @@
+{
+  "origin": "Higgsfield Kling v3.0 pro image-to-video, start/end frames supplied",
+  "job_id": "d96438cb-5844-4916-9e61-50594d0b1abb",
+  "submitted_prompt": "",
+  "prompt_issue": "Intended prompt was accidentally omitted; supplied images were correct. Actual frames inspected before integration. No second generation.",
+  "planned_prompt_file": "work/ants-dependencies/first-light-camera.prompt.txt",
+  "start_image": "first-light-macro-master.png",
+  "end_image": "first-light-campaign-master.png",
+  "source_video": "work/ants-dependencies/first-light-camera-original.mp4",
+  "quote_credits": 14,
+  "approved": "2026-10-14 user: 다음 진행해 after specific14-credit proposal",
+  "source_bytes": 12606474,
+  "output_bytes": 3177846,
+  "output_width": 1600,
+  "output_height": 902,
+  "fps": 24,
+  "duration_seconds": 8.041667,
+  "silent": true,
+  "encoding": "H264 yuv420p CRF22, keyframe every6frames, faststart; original preserved"
+}

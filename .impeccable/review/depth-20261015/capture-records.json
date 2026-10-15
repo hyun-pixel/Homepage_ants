@@ -1,0 +1,1390 @@
+[
+  {
+    "file": "first-light-desktop-campaign.jpg",
+    "fullPage": false,
+    "campaignTop": 99.671875,
+    "cart": "1",
+    "compareTop": 2287.0625,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 7400,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-ritual.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-macro.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": 1270.546875,
+    "scroll": [
+      0,
+      3404
+    ],
+    "url": "http://127.0.0.1:62517/product/first-light/#scent-campaign",
+    "viewport": [
+      1600,
+      1111
+    ]
+  },
+  {
+    "file": "soft-linen-desktop-campaign.jpg",
+    "fullPage": false,
+    "campaignTop": 100,
+    "cart": "1",
+    "compareTop": 2287.390625,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6395,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": 1270.875,
+    "scroll": [
+      0,
+      2399
+    ],
+    "url": "http://127.0.0.1:62517/product/soft-linen/#scent-campaign",
+    "viewport": [
+      1600,
+      1111
+    ]
+  },
+  {
+    "file": "citrus-air-desktop-campaign.jpg",
+    "fullPage": false,
+    "campaignTop": 100,
+    "cart": "1",
+    "compareTop": 2287.390625,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6395,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": 1270.875,
+    "scroll": [
+      0,
+      2399
+    ],
+    "url": "http://127.0.0.1:62517/product/citrus-air/#scent-campaign",
+    "viewport": [
+      1600,
+      1111
+    ]
+  },
+  {
+    "file": "green-hour-desktop-campaign.jpg",
+    "fullPage": false,
+    "campaignTop": 100,
+    "cart": "1",
+    "compareTop": 2287.390625,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6395,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": 1270.875,
+    "scroll": [
+      0,
+      2399
+    ],
+    "url": "http://127.0.0.1:62517/product/green-hour/#scent-campaign",
+    "viewport": [
+      1600,
+      1111
+    ]
+  },
+  {
+    "file": "petal-mist-desktop-campaign.jpg",
+    "fullPage": false,
+    "campaignTop": 100.28125,
+    "cart": "1",
+    "compareTop": 2287.671875,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6342,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/petal-mist-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/petal-mist-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/petal-mist-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/petal-mist-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/petal-mist-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": 1271.15625,
+    "scroll": [
+      0,
+      2346
+    ],
+    "url": "http://127.0.0.1:62517/product/petal-mist/#scent-campaign",
+    "viewport": [
+      1600,
+      1111
+    ]
+  },
+  {
+    "file": "quiet-wood-desktop-campaign.jpg",
+    "fullPage": false,
+    "campaignTop": 100,
+    "cart": "1",
+    "compareTop": 2287.390625,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6395,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": 1270.875,
+    "scroll": [
+      0,
+      2399
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/#scent-campaign",
+    "viewport": [
+      1600,
+      1111
+    ]
+  },
+  {
+    "file": "green-hour-desktop-ritual.jpg",
+    "fullPage": false,
+    "campaignTop": -1071,
+    "cart": "1",
+    "compareTop": 1116.390625,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6395,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": 99.875,
+    "scroll": [
+      0,
+      3570
+    ],
+    "url": "http://127.0.0.1:62517/product/green-hour/#scent-ritual",
+    "viewport": [
+      1600,
+      1111
+    ]
+  },
+  {
+    "file": "green-hour-desktop-compare.jpg",
+    "fullPage": false,
+    "campaignTop": -2087,
+    "cart": "1",
+    "compareTop": 100.390625,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6395,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": -916.125,
+    "scroll": [
+      0,
+      4586
+    ],
+    "url": "http://127.0.0.1:62517/product/green-hour/#scent-compare",
+    "viewport": [
+      1600,
+      1111
+    ]
+  },
+  {
+    "file": "green-hour-desktop-footer.jpg",
+    "fullPage": false,
+    "campaignTop": -2785,
+    "cart": "1",
+    "compareTop": -597.609375,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6395,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": -1614.125,
+    "scroll": [
+      0,
+      5284
+    ],
+    "url": "http://127.0.0.1:62517/product/green-hour/#scent-compare",
+    "viewport": [
+      1600,
+      1111
+    ]
+  },
+  {
+    "file": "green-hour-desktop-full.jpg",
+    "fullPage": true,
+    "campaignTop": 2499,
+    "cart": "1",
+    "compareTop": 4686.390625,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6395,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": 3669.875,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62517/product/green-hour/#scent-compare",
+    "viewport": [
+      1600,
+      1111
+    ]
+  },
+  {
+    "file": "first-light-mobile-campaign.jpg",
+    "fullPage": false,
+    "campaignTop": 83.53125,
+    "cart": "1",
+    "compareTop": 2123.609375,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 7418,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-ritual.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-macro.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": 960.03125,
+    "scroll": [
+      0,
+      3614
+    ],
+    "url": "http://127.0.0.1:62517/product/first-light/#scent-campaign",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "soft-linen-mobile-campaign.jpg",
+    "fullPage": false,
+    "campaignTop": 83.9375,
+    "cart": "1",
+    "compareTop": 2166.015625,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6840,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": 960.4375,
+    "scroll": [
+      0,
+      3021
+    ],
+    "url": "http://127.0.0.1:62517/product/soft-linen/#scent-campaign",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "citrus-air-mobile-campaign.jpg",
+    "fullPage": false,
+    "campaignTop": 84.34375,
+    "cart": "1",
+    "compareTop": 2151.609375,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6785,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": 960.84375,
+    "scroll": [
+      0,
+      2953
+    ],
+    "url": "http://127.0.0.1:62517/product/citrus-air/#scent-campaign",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "green-hour-mobile-campaign.jpg",
+    "fullPage": false,
+    "campaignTop": 83.53125,
+    "cart": "1",
+    "compareTop": 2205.171875,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6908,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": 987.21875,
+    "scroll": [
+      0,
+      3023
+    ],
+    "url": "http://127.0.0.1:62517/product/green-hour/#scent-campaign",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "petal-mist-mobile-campaign.jpg",
+    "fullPage": false,
+    "campaignTop": 84.125,
+    "cart": "1",
+    "compareTop": 2220.578125,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6907,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/petal-mist-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/petal-mist-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/petal-mist-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/petal-mist-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/petal-mist-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": 960.625,
+    "scroll": [
+      0,
+      3006
+    ],
+    "url": "http://127.0.0.1:62517/product/petal-mist/#scent-campaign",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "quiet-wood-mobile-campaign.jpg",
+    "fullPage": false,
+    "campaignTop": 84.125,
+    "cart": "1",
+    "compareTop": 2178.578125,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6907,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": 960.625,
+    "scroll": [
+      0,
+      3048
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/#scent-campaign",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "green-hour-mobile-ritual.jpg",
+    "fullPage": false,
+    "campaignTop": -819.46875,
+    "cart": "1",
+    "compareTop": 1302.171875,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6908,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": 84.21875,
+    "scroll": [
+      0,
+      3926
+    ],
+    "url": "http://127.0.0.1:62517/product/green-hour/#scent-ritual",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "green-hour-mobile-compare.jpg",
+    "fullPage": false,
+    "campaignTop": -2037.46875,
+    "cart": "1",
+    "compareTop": 84.171875,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6908,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": -1133.78125,
+    "scroll": [
+      0,
+      5144
+    ],
+    "url": "http://127.0.0.1:62517/product/green-hour/#scent-compare",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "green-hour-mobile-footer.jpg",
+    "fullPage": false,
+    "campaignTop": -2957.46875,
+    "cart": "1",
+    "compareTop": -835.828125,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6908,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": -2053.78125,
+    "scroll": [
+      0,
+      6064
+    ],
+    "url": "http://127.0.0.1:62517/product/green-hour/#scent-compare",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "green-hour-mobile-full.jpg",
+    "fullPage": true,
+    "campaignTop": 3106.53125,
+    "cart": "1",
+    "compareTop": 5228.171875,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6908,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": 4010.21875,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62517/product/green-hour/#scent-compare",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "quiet-wood-narrow-compare.jpg",
+    "fullPage": false,
+    "campaignTop": -2012.078125,
+    "cart": "1",
+    "compareTop": 83.625,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6953,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": -1168.703125,
+    "scroll": [
+      0,
+      5063
+    ],
+    "url": "http://127.0.0.1:62517/product/quiet-wood/#scent-compare",
+    "viewport": [
+      320,
+      812
+    ]
+  },
+  {
+    "file": "green-hour-tablet-ritual.jpg",
+    "fullPage": false,
+    "campaignTop": -788.625,
+    "cart": "1",
+    "compareTop": 859.71875,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 5244,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": 84.03125,
+    "scroll": [
+      0,
+      2949
+    ],
+    "url": "http://127.0.0.1:62517/product/green-hour/#scent-ritual",
+    "viewport": [
+      820,
+      1000
+    ]
+  },
+  {
+    "file": "green-hour-desktop-viewer-original.jpg",
+    "fullPage": false,
+    "campaignTop": 2478,
+    "cart": "1",
+    "compareTop": 4585.390625,
+    "dpr": 1,
+    "faq": false,
+    "footerNote": false,
+    "height": 6315,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-scene.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-campaign.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "ritualTop": 3568.875,
+    "scroll": [
+      0,
+      21
+    ],
+    "url": "http://127.0.0.1:62517/product/green-hour/",
+    "viewport": [
+      1440,
+      1000
+    ]
+  }
+]

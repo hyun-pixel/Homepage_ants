@@ -1,0 +1,990 @@
+[
+  {
+    "file": "desktop-home.jpg",
+    "cart": "0",
+    "h1": "하루의 시작에,작은 향을.",
+    "header": 80,
+    "images": [],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-shop.jpg",
+    "cart": "0",
+    "h1": "나의 하루에, 작은 향을.",
+    "header": 80,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/shop/",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-first-light.jpg",
+    "cart": "0",
+    "h1": "FIRST LIGHT",
+    "header": 80,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/product/first-light/",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-soft-linen.jpg",
+    "cart": "2",
+    "h1": "SOFT LINEN",
+    "header": 80,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/product/soft-linen/",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-citrus-air.jpg",
+    "cart": "2",
+    "h1": "CITRUS AIR",
+    "header": 80,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/product/citrus-air/",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-green-hour.jpg",
+    "cart": "2",
+    "h1": "GREEN HOUR",
+    "header": 80,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/product/green-hour/",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-petal-mist.jpg",
+    "cart": "3",
+    "h1": "PETAL MIST",
+    "header": 80,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/petal-mist-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/product/petal-mist/",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-quiet-wood.jpg",
+    "cart": "3",
+    "h1": "QUIET WOOD",
+    "header": 80,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/product/quiet-wood/",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-finder.jpg",
+    "cart": "3",
+    "h1": "좋아하는 기분으로,나의 향 찾기.",
+    "header": 80,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/soap.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/find-your-scent/",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-finder.jpg",
+    "cart": "3",
+    "h1": "좋아하는 기분으로,나의 향 찾기.",
+    "header": 80,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/soap.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      143
+    ],
+    "url": "http://127.0.0.1:62518/find-your-scent/",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-finder-result.jpg",
+    "cart": "3",
+    "h1": "당신의 일상과닮은 향을 찾았어요.",
+    "header": 80,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/find-your-scent/",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-finder.jpg",
+    "cart": "3",
+    "h1": "좋아하는 기분으로,나의 향 찾기.",
+    "header": 80,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/soap.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/find-your-scent/",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-cart.jpg",
+    "cart": "3",
+    "h1": "장바구니",
+    "header": 80,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/cart/",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-checkout.jpg",
+    "cart": "3",
+    "h1": "주문 내용 확인",
+    "header": 80,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/checkout/",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "desktop-complete.jpg",
+    "cart": "0",
+    "h1": "모의 주문을완료했어요.",
+    "header": 80,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/complete/",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "mobile-home.jpg",
+    "cart": "0",
+    "h1": "하루의 시작에,작은 향을.",
+    "header": 64,
+    "images": [],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-menu.jpg",
+    "cart": "0",
+    "h1": "하루의 시작에,작은 향을.",
+    "header": 64,
+    "images": [],
+    "openDialog": "mobile-menu",
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-shop.jpg",
+    "cart": "0",
+    "h1": "나의 하루에, 작은 향을.",
+    "header": 64,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/shop/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-search.jpg",
+    "cart": "0",
+    "h1": "나의 하루에, 작은 향을.",
+    "header": 64,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      }
+    ],
+    "openDialog": "search-dialog",
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/shop/?sort=price-desc",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-first-light.jpg",
+    "cart": "0",
+    "h1": "FIRST LIGHT",
+    "header": 64,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/product/first-light/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-soft-linen.jpg",
+    "cart": "1",
+    "h1": "SOFT LINEN",
+    "header": 64,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/product/soft-linen/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-citrus-air.jpg",
+    "cart": "1",
+    "h1": "CITRUS AIR",
+    "header": 64,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/product/citrus-air/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-green-hour.jpg",
+    "cart": "1",
+    "h1": "GREEN HOUR",
+    "header": 64,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/product/green-hour/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-petal-mist.jpg",
+    "cart": "1",
+    "h1": "PETAL MIST",
+    "header": 64,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/petal-mist-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/product/petal-mist/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-quiet-wood.jpg",
+    "cart": "1",
+    "h1": "QUIET WOOD",
+    "header": 64,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/product/quiet-wood/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-viewer.jpg",
+    "cart": "1",
+    "h1": "QUIET WOOD",
+    "header": 64,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      }
+    ],
+    "openDialog": "product-lightbox",
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/product/quiet-wood/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-finder.jpg",
+    "cart": "2",
+    "h1": "좋아하는 기분으로,나의 향 찾기.",
+    "header": 64,
+    "images": [],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/find-your-scent/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-finder-result.jpg",
+    "cart": "2",
+    "h1": "당신의 일상과닮은 향을 찾았어요.",
+    "header": 64,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/find-your-scent/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-cart.jpg",
+    "cart": "2",
+    "h1": "장바구니",
+    "header": 64,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/cart/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-checkout.jpg",
+    "cart": "3",
+    "h1": "주문 내용 확인",
+    "header": 64,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/checkout/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-checkout-action.jpg",
+    "cart": "3",
+    "h1": "주문 내용 확인",
+    "header": 64,
+    "images": [],
+    "overflow": false,
+    "scroll": [
+      0,
+      665
+    ],
+    "url": "http://127.0.0.1:62518/checkout/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-complete.jpg",
+    "cart": "0",
+    "h1": "모의 주문을완료했어요.",
+    "header": 64,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/complete/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-cart-empty.jpg",
+    "cart": "0",
+    "h1": "장바구니",
+    "header": 64,
+    "images": [],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/cart/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-checkout-empty.jpg",
+    "cart": "0",
+    "h1": "주문 내용 확인",
+    "header": 64,
+    "images": [],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/checkout/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "narrow-shop.jpg",
+    "cart": "0",
+    "h1": "나의 하루에, 작은 향을.",
+    "header": 64,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/shop/",
+    "viewport": [
+      320,
+      812
+    ]
+  },
+  {
+    "file": "narrow-ritual.jpg",
+    "cart": "0",
+    "h1": "GREEN HOUR",
+    "header": 64,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      3649
+    ],
+    "url": "http://127.0.0.1:62518/product/green-hour/#scent-ritual",
+    "viewport": [
+      320,
+      812
+    ]
+  },
+  {
+    "file": "tablet-cart.jpg",
+    "cart": "1",
+    "h1": "장바구니",
+    "header": 64,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/cart/",
+    "viewport": [
+      820,
+      1000
+    ]
+  },
+  {
+    "file": "wide-shop.jpg",
+    "cart": "1",
+    "h1": "나의 하루에, 작은 향을.",
+    "header": 80,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/soft-linen-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/citrus-air-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/green-hour-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/petal-mist-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/shop/",
+    "viewport": [
+      2088,
+      1407
+    ]
+  },
+  {
+    "file": "desktop-home-product.jpg",
+    "cart": "1",
+    "h1": "하루의 시작에,작은 향을.",
+    "header": 80,
+    "images": [],
+    "overflow": false,
+    "scroll": [
+      0,
+      2496
+    ],
+    "url": "http://127.0.0.1:62518/#first-light",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "mobile-home-product.jpg",
+    "cart": "1",
+    "h1": "하루의 시작에,작은 향을.",
+    "header": 64,
+    "images": [],
+    "overflow": false,
+    "scroll": [
+      0,
+      2107
+    ],
+    "url": "http://127.0.0.1:62518/#first-light",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "desktop-checkout.jpg",
+    "cart": "3",
+    "h1": "주문 내용 확인",
+    "header": 80,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/checkout/",
+    "viewport": [
+      1440,
+      1000
+    ]
+  },
+  {
+    "file": "mobile-checkout.jpg",
+    "cart": "3",
+    "h1": "주문 내용 확인",
+    "header": 64,
+    "images": [
+      {
+        "loaded": true,
+        "src": "/assets/images/quiet-wood-studio.webp"
+      },
+      {
+        "loaded": true,
+        "src": "/assets/images/first-light-studio.webp"
+      }
+    ],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/checkout/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-cart-empty.jpg",
+    "cart": "0",
+    "h1": "장바구니",
+    "header": 64,
+    "images": [],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/cart/",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "file": "mobile-checkout-empty.jpg",
+    "cart": "0",
+    "h1": "주문 내용 확인",
+    "header": 64,
+    "images": [],
+    "overflow": false,
+    "scroll": [
+      0,
+      0
+    ],
+    "url": "http://127.0.0.1:62518/checkout/",
+    "viewport": [
+      390,
+      844
+    ]
+  }
+]

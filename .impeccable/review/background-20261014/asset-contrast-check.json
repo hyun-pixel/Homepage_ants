@@ -1,0 +1,52 @@
+{
+  "scope": "sampled background-only bands around desktop intro copy; not all moving pixels",
+  "minimum_sampled_ink_contrast": 7.11,
+  "capture_sizes": {
+    "desktop-product.png": [
+      1430,
+      993
+    ],
+    "desktop-reveal.png": [
+      1430,
+      993
+    ],
+    "desktop-settle.png": [
+      1430,
+      993
+    ],
+    "desktop.png": [
+      1430,
+      993
+    ],
+    "fallback-mobile.png": [
+      380,
+      822
+    ],
+    "mobile-product.png": [
+      380,
+      822
+    ],
+    "mobile-reveal.png": [
+      380,
+      822
+    ],
+    "mobile-settle.png": [
+      380,
+      822
+    ],
+    "mobile.png": [
+      380,
+      822
+    ],
+    "user-1280.png": [
+      1270,
+      714
+    ],
+    "user-2089.png": [
+      2079,
+      1401
+    ]
+  },
+  "shipping_rasters": 3,
+  "missing_origins": 0
+}

@@ -1,0 +1,14 @@
+{
+  "prompt": "Use case: compositing / photorealistic-natural. Asset type: a 4:3 editorial lifestyle photograph for the fictional perfume brand ants website, not a website mockup. Input image 1 is the precise product identity reference: preserve the same thick clear rounded rectangular glass perfume bottle, its internal liquid cavity, softly textured matte white cylindrical cap, small paper label with ants / FIRST LIGHT / 50 mL, and believable proportions. Change only the setting and camera composition. Place this same bottle standing upright on a pale white mineral bathroom shelf next to one neatly folded white cotton towel, a softly translucent window behind, early morning cool daylight from the left. Show the whole bottle and cap centered slightly right, large enough to recognize, with generous breathable space around it. A quiet close editorial still life, honest camera optics, fine towel fibers, natural contact shadow and subtle glass reflections. Bright blue-white, pale sky light, restrained paper warmth only on the label; no green tint, no beige room, no exaggerated bloom. Preserve a clean ordinary morning ritual rather than a glamorous stage. Physically coherent glass and liquid, no floating objects, no giant droplets, no extra bottles, no flowers, no people, no hands, no added captions, no UI, no watermark. The bottle must remain intact in both a wide 4:3 framing and a centered portrait 4:5 crop. Produce a polished photorealistic image, not an illustration or schematic.\n",
+  "createdAt": "2026-10-15T00:31:24.900Z",
+  "tool": "built-in image_gen",
+  "date": "2026-10-15",
+  "fictional": true,
+  "reference": "first-light-campaign.webp",
+  "original": "work/ants-dependencies/first-light-ritual-master.png",
+  "generated_source": "C:\\Users\\User\\.codex\\generated_images\\01a12eec-144d-7152-8719-29326fcc94a9\\exec-273974d7-5618-4c59-ad06-35116c210cb3.png",
+  "width": 1448,
+  "height": 1086,
+  "bytes": 101054,
+  "use": "H04/D02 fictional editorial lifestyle, not a real customer photo"
+}
